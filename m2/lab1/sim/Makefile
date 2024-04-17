@@ -51,3 +51,11 @@ mux21_8bit_tb:
 	vcs -nc -kdb -debug_access+all mux21_8bit_tb
 	./simv -nc -ucli -do scripts/mux21_8bit_tb.tcl
 	# verdi -warning none -ssf mux21_8bit_tb.fsdb
+
+mux21_nbit_tb:
+	vhdlan -nc -kdb ../src/mux21.vhd
+	vhdlan -nc -kdb ../src/mux21_nbit.vhd
+	vhdlan -nc -kdb ../tb/mux21_nbit_tb.vhd
+	vcs -nc -kdb -debug_access+all mux21_nbit_tb
+	./simv -nc -ucli -do scripts/mux21_nbit_tb.tcl
+	# verdi -warning none -ssf mux21_nbit_tb.fsdb

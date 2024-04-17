@@ -21,6 +21,8 @@
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+use IEEE.math_real.all;
+use ieee.numeric_std.all;
 
 -------------------------------------------------------------------------------
 
@@ -33,7 +35,7 @@ END ENTITY mux21_nbit_tb;
 ARCHITECTURE testbench OF mux21_nbit_tb IS
 
   -- component generics
-  CONSTANT DATA_WIDTH : integer := 16;
+  CONSTANT DATA_WIDTH : integer := 8;
   CONSTANT delay : TIME := 10 NS;
 
   -- component ports
@@ -41,6 +43,7 @@ ARCHITECTURE testbench OF mux21_nbit_tb IS
   SIGNAL y_net : STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0);
   SIGNAL s_net : STD_LOGIC;
   SIGNAL m_net : STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0);
+  SIGNAL expected_value : STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0);
 
 BEGIN  -- ARCHITECTURE testbench
 
@@ -57,11 +60,42 @@ BEGIN  -- ARCHITECTURE testbench
   -- waveform generation
   WaveGen_Proc: process
   begin
-    -- insert signal assignments here
-    x_net <= (OTHERS => '0');
-    y_net <= (OTHERS => '0');
-    s_net <= '0';
-    WAIT FOR delay;
+
+    FOR ss IN std_logic RANGE '0' to '1' LOOP
+      FOR xx IN 0 TO 2**DATA_WIDTH LOOP
+        FOR yy IN 0 TO 2**DATA_WIDTH LOOP
+          x_net <= STD_LOGIC_VECTOR(TO_UNSIGNED(xx, DATA_WIDTH));
+          y_net <= STD_LOGIC_VECTOR(TO_UNSIGNED(yy, DATA_WIDTH));
+          s_net <= ss;
+          WAIT FOR delay;
+
+          IF s_net = '0' THEN 
+            ASSERT m_net = x_net  REPORT  "test_vector failed " & 
+                " S = " & std_logic'image(s_net) & 
+                " X = " & integer'image(to_integer(unsigned(x_net)))  & 
+                " Y = " & integer'image(to_integer(unsigned(y_net)))  & 
+                " out = " & integer'image(to_integer(unsigned(m_net)))  & 
+                " expected = " & integer'image(to_integer(unsigned(expected_value)))
+            SEVERITY ERROR;
+
+          ELSE
+            ASSERT m_net = y_net  REPORT  "test_vector failed " & 
+                " S = " & std_logic'image(s_net) & 
+                " X = " & integer'image(to_integer(unsigned(x_net)))  & 
+                " Y = " & integer'image(to_integer(unsigned(y_net)))  & 
+                " out = " & integer'image(to_integer(unsigned(m_net)))  & 
+                " expected = " & integer'image(to_integer(unsigned(expected_value))) 
+              SEVERITY ERROR;
+          END IF;   
+
+        END LOOP;
+      END LOOP;
+    END LOOP;
+
+
+    REPORT "all test passed" SEVERITY NOTE;
+
+
   end process WaveGen_Proc;
 
 END ARCHITECTURE testbench;

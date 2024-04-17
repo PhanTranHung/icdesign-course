@@ -47,10 +47,10 @@ BEGIN  -- ARCHITECTURE df
   mux21_gen: FOR i IN 0 TO DATA_WIDTH-1 GENERATE
     mux21_i: ENTITY work.mux21
       PORT MAP (
-        x => '0',                          -- to be completed
-        y => '0',                          -- to be completed
-        s => '0',                          -- to be completed
-        m => OPEN );                         -- to be completed
+        x => x(i), 
+        y => y(i), 
+        s => s, 
+        m => m(i));
   END GENERATE mux21_gen;
 
 END ARCHITECTURE df;
