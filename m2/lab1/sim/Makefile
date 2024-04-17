@@ -1,12 +1,12 @@
 mux21:
 	vhdlan -nc -kdb ../src/mux21.vhd
-	vcs -nc -kdb -debug_access+all mux21
+	vcs -nc -kdb -debug_access+all work.mux21__df
 	./simv -nc -ucli -do scripts/mux21.tcl
 	verdi -warning none -ssf mux21.fsdb
 mux21_df_nand:
 	vhdlan -nc -kdb ../src/mux21.vhd
 	vcs -nc -kdb -debug_access+all work.mux21__df_nand
-	./simv -nc -ucli -do scripts/mux21.tcl
+	./simv -nc -ucli -do scripts/mux21_df_nand.tcl
 	verdi -warning none -ssf mux21_df_nand.fsdb
 mux21_8bit:
 	vhdlan -nc -kdb ../src/mux21.vhd
@@ -35,14 +35,14 @@ mux21_df_tb:
 	vhdlan -nc -kdb ../tb/mux21_tb.vhd
 	vcs -nc -kdb -debug_access+all mux21_tb__df_tb
 	./simv -nc -ucli -do scripts/mux21_tb.tcl
-	# verdi -warning none -ssf mux21_tb.fsdb
+	verdi -warning none -ssf mux21_tb.fsdb
 
 mux21_df_nand_tb:
 	vhdlan -nc -kdb ../src/mux21.vhd
 	vhdlan -nc -kdb ../tb/mux21_tb.vhd
 	vcs -nc -kdb -debug_access+all mux21_tb__df_nand_tb
 	./simv -nc -ucli -do scripts/mux21_tb.tcl
-	# verdi -warning none -ssf mux21_tb.fsdb
+	verdi -warning none -ssf mux21_tb.fsdb
 
 mux21_8bit_tb:
 	vhdlan -nc -kdb ../src/mux21.vhd

@@ -1,4 +1,4 @@
 dump -file mux21_tb.fsdb -type fsdb
 dump -add / -aggregates
-run -all
+run 100ns
 exit
