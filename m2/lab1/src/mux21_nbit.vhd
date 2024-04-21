@@ -54,3 +54,9 @@ BEGIN  -- ARCHITECTURE df
   END GENERATE mux21_gen;
 
 END ARCHITECTURE df;
+
+
+ARCHITECTURE df_when_else of mux21_nbit IS 
+BEGIN
+  m <= x WHEN s = '0' ELSE y;
+END ARCHITECTURE df_when_else;

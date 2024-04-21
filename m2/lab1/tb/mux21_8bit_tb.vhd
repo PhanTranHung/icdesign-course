@@ -24,23 +24,17 @@ USE ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all;
 
 ENTITY mux21_8bit_tb IS
-
 END ENTITY mux21_8bit_tb;
 
 ARCHITECTURE test OF mux21_8bit_tb IS
-
   -- component ports
   SIGNAL x_net : STD_LOGIC_VECTOR(7 DOWNTO 0);
   SIGNAL y_net : STD_LOGIC_VECTOR(7 DOWNTO 0);
   SIGNAL s_net : STD_LOGIC;
   SIGNAL m_net : STD_LOGIC_VECTOR(7 DOWNTO 0);
-  SIGNAL expected_value : STD_LOGIC_VECTOR(7 DOWNTO 0);
-
-
   CONSTANT delay : TIME := 10 ns;
 
 BEGIN  -- ARCHITECTURE test
-
   -- component instantiation
   DUT : ENTITY work.mux21_8bit
     PORT MAP (
@@ -52,7 +46,6 @@ BEGIN  -- ARCHITECTURE test
   -- waveform generation
   WaveGen_Proc : PROCESS
   BEGIN
-
     FOR ss IN std_logic RANGE '0' to '1' LOOP
     -- FOR ss IN 0 TO 1 LOOP
       FOR xx IN 0 TO 255 LOOP
@@ -61,31 +54,16 @@ BEGIN  -- ARCHITECTURE test
           y_net <= STD_LOGIC_VECTOR(TO_UNSIGNED(yy, y_net'length));
           s_net <= ss;
           WAIT FOR delay;
-
-          IF s_net = '0' THEN 
-            ASSERT m_net = x_net  REPORT  "test_vector failed " & 
-                    " S = " & std_logic'image(s_net) & 
-                    " X = " & integer'image(to_integer(unsigned(x_net)))  & 
-                    " Y = " & integer'image(to_integer(unsigned(y_net)))  & 
-                    " out = " & integer'image(to_integer(unsigned(m_net)))  & 
-                    " expected = " & integer'image(to_integer(unsigned(expected_value)))
-            severity ERROR;
-
-          ELSE
-            ASSERT m_net = y_net  REPORT  "test_vector failed " & 
+          ASSERT (m_net = x_net AND s_net = '0') OR (m_net = y_net AND s_net = '1')  
+          REPORT  "test_vector failed " & 
               " S = " & std_logic'image(s_net) & 
               " X = " & integer'image(to_integer(unsigned(x_net)))  & 
               " Y = " & integer'image(to_integer(unsigned(y_net)))  & 
-              " out = " & integer'image(to_integer(unsigned(m_net)))  & 
-              " expected = " & integer'image(to_integer(unsigned(expected_value))) 
-              severity ERROR;
-
-          END IF;
+              " M = " & integer'image(to_integer(unsigned(m_net)))
+          SEVERITY ERROR;
         END LOOP;
       END LOOP;
     END LOOP;
-
-
     REPORT "all test passed" SEVERITY NOTE;
   END PROCESS WaveGen_Proc;
 END ARCHITECTURE test;
