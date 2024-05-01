@@ -43,7 +43,12 @@ ARCHITECTURE test OF flipflops_tb IS
   SIGNAL Qb_prev  : STD_LOGIC;
   SIGNAL Qc_prev  : STD_LOGIC;
 
-  CONSTANT delay : TIME := 100PS;
+  CONSTANT PERIOD : TIME := 20 NS;
+
+  -- should not change these contants
+  CONSTANT HALF_PERIOD : TIME := PERIOD/2;
+  CONSTANT delay : TIME := PERIOD/5;
+  CONSTANT stability : TIME := PERIOD/20;
 
 BEGIN  -- ARCHITECTURE test
   -- component instantiation
@@ -56,44 +61,56 @@ BEGIN  -- ARCHITECTURE test
       qc  => Qc);
 
   -- clock generation
-  clk <= NOT clk AFTER 10 NS WHEN NOW <= 165 NS ELSE '0';
-
-  FORCE d '1' 3ns;
+  clk <= NOT clk AFTER HALF_PERIOD WHEN NOW <= 20*PERIOD ELSE '0';
 
   -- waveform generation
   WaveGen_Proc : PROCESS
   BEGIN
+
+    d <= '0';
+    WAIT FOR 2*PERIOD + delay;
     -- insert signal assignments here
-    WAIT FOR 3 NS;    d <= '1';
-    WAIT FOR 3 NS;    d <= '0';
-    WAIT FOR 6 NS;    d <= '1';
-    WAIT FOR 4 NS;    d <= '0';
-    WAIT FOR 7 NS;    d <= '1';
-    WAIT FOR 9 NS;    d <= '0';
-    WAIT FOR 5 NS;    d <= '1';
-    WAIT FOR 7 NS;    d <= '0';
-    WAIT FOR 15 NS;   d <= '1';
-    WAIT FOR 8 NS;    d <= '0';
-    WAIT FOR 12 NS;   d <= '1';
-    WAIT FOR 9 NS;    d <= '0';
-    WAIT FOR 3 NS;    d <= '1';
-    WAIT FOR 3 NS;    d <= '0';
-    WAIT FOR 4 NS;    d <= '1';
-    WAIT FOR 6 NS;    d <= '0';
-    WAIT FOR 12 NS;   d <= '1';
-    WAIT FOR 11 NS;   d <= '0';
-    WAIT FOR 17 NS;   d <= '1';
-    WAIT FOR 15 NS;   d <= '0';
-    WAIT FOR 20 NS;   d <= '1';
-    WAIT FOR 6 NS;    d <= '0';
+    -- on clock signals changed, d will be change zero or multiple times
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
+    WAIT FOR delay;     d <= '1';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '0';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '0';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '0';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
+    WAIT FOR delay;     d <= '1';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '0';
+    WAIT FOR delay;     d <= '1';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '0';
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
+    WAIT ON clk;
+    WAIT FOR delay;     d <= '1';
+    WAIT FOR delay;     d <= '0';
   END PROCESS WaveGen_Proc;
 
   QaTest_proc: PROCESS
   BEGIN
 
     WAIT UNTIL clk'event OR d'event;
-    WAIT FOR delay;
-    -- REPORT "clk " & STD_LOGIC'IMAGE(clk) & " d " & STD_LOGIC'IMAGE(d) & " Qa " & STD_LOGIC'IMAGE(Qa) SEVERITY NOTE;
+    WAIT FOR stability;
     IF clk = '1' THEN
       -- When the 'clk' is 1, the 'Qa' should be equal to 'd'
       ASSERT Qa = d 
@@ -113,7 +130,7 @@ BEGIN  -- ARCHITECTURE test
   QbTest_proc: PROCESS
   BEGIN
     WAIT UNTIL clk'event;
-    WAIT FOR delay;
+    WAIT FOR stability;
     IF clk = '1' THEN
       -- At the time the 'clk' is 1, the 'Qb' should be equal to 'd'
       ASSERT Qb = d 
@@ -134,7 +151,7 @@ BEGIN  -- ARCHITECTURE test
   QcTest_proc: PROCESS
   BEGIN
     WAIT UNTIL clk'event;
-    WAIT FOR delay;
+    WAIT FOR stability;
     IF clk = '0' THEN
       -- At the time the 'clk' is 0, the 'Qc' should be equal to 'd'
       ASSERT Qc = d 
