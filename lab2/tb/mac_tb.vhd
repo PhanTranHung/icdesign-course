@@ -91,6 +91,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 1st | Input: 120 * -10, total: 0, so the mac_out must be -1200 and valid_out = 0
+    ASSERT mac_out = to_signed(-1200, mac_out'LENGTH)
     REPORT  "C1: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -105,6 +107,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 2nd | Input: 10 * 10, total: -1200, so the mac_out must be -1100 and valid_out = 0
+    ASSERT mac_out = to_signed(-1100, mac_out'LENGTH)
     REPORT  "C2: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -119,6 +123,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 3th | Input: -15 * -10, total: -1100, so the mac_out must be -950 and valid_out = 0
+    ASSERT mac_out = to_signed(-950, mac_out'LENGTH)
     REPORT  "C3: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -133,6 +139,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 4th | Input: -20 * 20, total: -950, so the mac_out must be -1350 and valid_out = 1
+    ASSERT mac_out = to_signed(-1350, mac_out'LENGTH)
     REPORT  "C4: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -147,6 +155,9 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+	-- Re-count from 1, the total will be reset
+    -- 1st | Input: 50 * 70, total: 0, so the mac_out must be 3500 and valid_out = 0
+    ASSERT mac_out = to_signed(3500, mac_out'LENGTH)
     REPORT  "C5: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -161,6 +172,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 2nd | Input: 70 * 60, total: 3500, so the mac_out must be 8050 and valid_out = 0
+    ASSERT mac_out = to_signed(8050, mac_out'LENGTH)
     REPORT  "C6: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -175,6 +188,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 3th | Input: -50 * -120, total: 8050, so the mac_out must be 14050 and valid_out = 0
+    ASSERT mac_out = to_signed(14050, mac_out'LENGTH)
     REPORT  "C7: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -189,6 +204,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 4th | Input: 120 * 120, total: 14050, so the mac_out must be 28450 and valid_out = 1
+    ASSERT mac_out = to_signed(28450, mac_out'LENGTH)
     REPORT  "C8: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -203,6 +220,9 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '0';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+	-- valid_in is 0, so the order keeps 4th and value doesn't changed
+    -- 4th | Input: 50 * 120, total: 28450, so the mac_out must be 28450 and valid_out = 1
+    ASSERT mac_out = to_signed(28450, mac_out'LENGTH)
     REPORT  "C9: "          &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -217,6 +237,9 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+	-- rst_n is 0, it doesn't care others, all data will be reset
+    -- 1st | Input: 120 * 120, total: 28450, so the mac_out must be 0 and valid_out = 0
+    ASSERT mac_out = to_signed(0, mac_out'LENGTH)
     REPORT  "C10: "         &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -231,6 +254,9 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+	-- rst_n is 1, start calculate the total
+    -- 1st | Input: 120 * 120, total: 0, so the mac_out must be 14400 and valid_out = 0
+    ASSERT mac_out = to_signed(14400, mac_out'LENGTH)
     REPORT  "C11: "         &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &
@@ -245,6 +271,8 @@ BEGIN  -- ARCHITECTURE beh
     valid_in <= '1';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/3;
+    -- 2nd | Input: 120 * 120, total: 14400, so the mac_out must be 28800 and valid_out = 0
+    ASSERT mac_out = to_signed(28800, mac_out'LENGTH)
     REPORT  "C12: "         &
             " valid_in "    & STD_LOGIC'IMAGE(valid_in) &  
             " ai_in "       & INTEGER'IMAGE(to_integer(SIGNED(ai_in))) &

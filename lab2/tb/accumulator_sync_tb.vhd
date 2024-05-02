@@ -66,15 +66,17 @@ BEGIN  -- ARCHITECTURE beh
     enable <= '0';
     WAIT UNTIL rst_n = '1';
 
-    -- insert signal assignments here
-    -- put your single here
-    -- for example
+
+
+
     data_tmp := to_signed(-1, data_in'LENGTH);
     set <= '1';
     data_in <= data_tmp;
     enable <= '0';
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- We set the data_in = -1 so the accumulator_out must be -1
+    ASSERT accumulator_out = to_signed(-1, accumulator_out'LENGTH)
     REPORT  "C1: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -87,6 +89,8 @@ BEGIN  -- ARCHITECTURE beh
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- Add to accumulator 100, so the accumulator_out must be 99
+	ASSERT accumulator_out = to_signed(99, accumulator_out'LENGTH)
     REPORT  "C2: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -101,6 +105,8 @@ BEGIN  -- ARCHITECTURE beh
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- Add to accumulator 100, so the accumulator_out must be 199
+	ASSERT accumulator_out = to_signed(199, accumulator_out'LENGTH)
     REPORT  "C3: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -114,6 +120,8 @@ BEGIN  -- ARCHITECTURE beh
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- Add to accumulator 100, so the accumulator_out must be 299
+	ASSERT accumulator_out = to_signed(299, accumulator_out'LENGTH)
     REPORT  "C4: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -127,6 +135,8 @@ BEGIN  -- ARCHITECTURE beh
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- We don't set or add more to accumulator, so the accumulator_out doesn't change
+	ASSERT accumulator_out = to_signed(299, accumulator_out'LENGTH)
     REPORT  "C5: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -140,6 +150,8 @@ BEGIN  -- ARCHITECTURE beh
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- We set the data_in = 100 so the accumulator_out must be 100
+	ASSERT accumulator_out = to_signed(100, accumulator_out'LENGTH)
     REPORT  "C6: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -147,12 +159,13 @@ BEGIN  -- ARCHITECTURE beh
             " in "      & INTEGER'IMAGE(to_integer(SIGNED(data_in))) &
             " out "     & INTEGER'IMAGE(to_integer(SIGNED(accumulator_out)));
 
-
     set <= '0';
     enable <= '1';
     data_in <= to_signed(-50, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- The accumulator_out must be 0 because the rst_n = 0
+	ASSERT accumulator_out = to_signed(0, accumulator_out'LENGTH)
     REPORT  "C7: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -160,12 +173,13 @@ BEGIN  -- ARCHITECTURE beh
             " in "      & INTEGER'IMAGE(to_integer(SIGNED(data_in))) &
             " out "     & INTEGER'IMAGE(to_integer(SIGNED(accumulator_out)));
 
-
     set <= '1';
     enable <= '1';
     data_in <= to_signed(100, data_in'LENGTH);
     WAIT UNTIL rising_edge(clk);
     WAIT FOR PERIOD/10;
+	-- The accumulator_out must be 0 because the rst_n = 0
+	ASSERT accumulator_out = to_signed(0, accumulator_out'LENGTH)
     REPORT  "C8: "      &
             "set "      & STD_LOGIC'IMAGE(set) &  
             " enable "  & STD_LOGIC'IMAGE(enable) & 
@@ -174,9 +188,6 @@ BEGIN  -- ARCHITECTURE beh
             " out "     & INTEGER'IMAGE(to_integer(SIGNED(accumulator_out)));
     
   END PROCESS WaveGen_Proc;
-
-
-
 END ARCHITECTURE beh;
 
 -------------------------------------------------------------------------------
