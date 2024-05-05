@@ -16,9 +16,11 @@ ARCHITECTURE test OF fsm_101_detector_tb IS
   SIGNAL rst_n                : STD_LOGIC := '0';
   SIGNAL data_in              : STD_LOGIC := '0';
   SIGNAL moore_detect_101_out : STD_LOGIC;
+  SIGNAL mealy_detect_101_out : STD_LOGIC;
 
   CONSTANT PERIOD : TIME := 10 ns;
   CONSTANT delay : TIME := PERIOD/4;
+  CONSTANT delayIn : TIME := PERIOD/10;
   CONSTANT holdtime : TIME := PERIOD/10;
   
   CONSTANT DATA_WIDTH : INTEGER := 8;
@@ -66,6 +68,13 @@ BEGIN  -- ARCHITECTURE test
       data_in        => data_in,
       detect_101_out => moore_detect_101_out);
 
+  MEALY_DUT : ENTITY work.mealy_101_detector
+    PORT MAP (
+      clk            => clk,
+      rst_n          => rst_n,
+      data_in        => data_in,
+      detect_101_out => mealy_detect_101_out);
+
   -- clock & reset generation
   Clk <= NOT Clk AFTER PERIOD / 2;
   rst_n <= '1' AFTER 2*PERIOD + PERIOD / 4;
@@ -83,6 +92,15 @@ BEGIN  -- ARCHITECTURE test
       FOR idx IN test.test_case'range LOOP
         WAIT FOR delay;
         data_in <= test.test_case(idx);
+
+        WAIT FOR delayIn;
+        ASSERT mealy_detect_101_out = test.result(idx)
+        REPORT
+          " rst_n "       & STD_LOGIC'IMAGE(rst_n) & 
+          " data_in "     & STD_LOGIC'IMAGE(data_in) &  
+          " mealy_out "   & STD_LOGIC'IMAGE(mealy_detect_101_out) &
+          " expected "    & STD_LOGIC'IMAGE(test.result(idx));
+          
         WAIT UNTIL rising_edge(clk);
         WAIT FOR holdtime;
         ASSERT moore_detect_101_out = test.result(idx)

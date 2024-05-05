@@ -18,6 +18,7 @@ fsm110cvr: fsm110_alz fsm110_cvr
 
 fsm101_alz:
 	vhdlan -kdb -nc ../src/moore_101_detector.vhd 
+	vhdlan -kdb -nc ../src/mealy_101_detector.vhd 
 	vhdlan -kdb -nc ../tb/fsm_101_detector_tb.vhd 
 fsm101_dbg:
 	vcs -nc -kdb -debug_access+all fsm_101_detector_tb
