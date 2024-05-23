@@ -1,0 +1,150 @@
+<html>
+<body>
+<pre>
+<u>1</u>:	SI analysis is not enabled, so delta delays are unavailable.
+<u>2</u>:	****************************************
+<u>3</u>:	Report : timing
+<u>4</u>:	        -path_type full_clock_expanded
+<u>5</u>:	        -delay_type min
+<u>6</u>:	        -nworst 1
+<u>7</u>:	        -max_paths 1
+<u>8</u>:	        -report_by group
+<u>9</u>:	        -input_pins
+<u>10</u>:	        -nets
+<u>11</u>:	        -include_hierarchical_pins
+<u>12</u>:	        -transition_time
+<u>13</u>:	        -capacitance
+<u>14</u>:	        -crosstalk_delta
+<u>15</u>:	        -derate
+<u>16</u>:	        -attributes
+<u>17</u>:	        -physical
+<u>18</u>:	Design : i2c_master_top
+<u>19</u>:	Version: U-2022.12
+<u>20</u>:	Date   : Wed May 15 20:08:09 2024
+<u>21</u>:	****************************************
+<u>22</u>:	
+<u>23</u>:	<a name=P0>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells wb_ack_o_reg]">wb_ack_o_reg</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>24</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells wb_ack_o_reg]">wb_ack_o_reg</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>25</u>:	  Mode: func
+<u>26</u>:	  Corner: fast
+<u>27</u>:	  Scenario: func_fast
+<u>28</u>:	  Path Group: wb_clk_i
+<u>29</u>:	  Path Type: min
+<u>30</u>:	
+<u>31</u>:	
+<u>32</u>:	Attributes
+<u>33</u>:	    b - black-box (unknown)
+<u>34</u>:	    s - size_only
+<u>35</u>:	    d - dont_touch
+<u>36</u>:	    u - dont_use
+<u>37</u>:	    g - generic
+<u>38</u>:	    h - hierarchical
+<u>39</u>:	    i - ideal
+<u>40</u>:	    n - noncombinational
+<u>41</u>:	    E - extracted timing model
+<u>42</u>:	    Q - Quick timing model
+<u>43</u>:	
+<u>44</u>:	
+<u>45</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>46</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>47</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>48</u>:	  source latency                                                                                       0.0000      0.0000
+<u>49</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>50</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                    4      9.1280                                                                                d
+<u>51</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/A]">ZCTSBUF_3311_65/A</a> (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0003      0.0003 r    (26.17,33.11)
+<u>52</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/X]">ZCTSBUF_3311_65/X</a> (SAEDRVT14_BUF_S_3)                                0.0230      1.0000              0.0211      0.0214 r    (26.49,32.98)
+<u>53</u>:	  <a href="cgi:change_selection [get_nets ZCTSNET_4]">ZCTSNET_4</a> (net)                                  32     20.0073                                                                                d
+<u>54</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0003      0.0217 r    (20.84,41.50)     s, n
+<u>55</u>:	
+<u>56</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0000      0.0217 r    (20.84,41.50)     s, n
+<u>57</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/QN]">wb_ack_o_reg/QN</a> (SAEDRVT14_FDP_V2LP_1)                               0.0038      1.0000              0.0244      0.0461 f    (21.06,41.50)     s, n
+<u>58</u>:	  <a href="cgi:change_selection [get_nets n5]">n5</a> (net)                                          1      0.6070
+<u>59</u>:	  <a href="cgi:change_selection [get_pins clockctmTdsLR_1_1305/A1]">clockctmTdsLR_1_1305/A1</a> (SAEDRVT14_AN2_0P5)                          0.0038      1.0000              0.0000      0.0461 f    (19.66,42.70)
+<u>60</u>:	  <a href="cgi:change_selection [get_pins clockctmTdsLR_1_1305/X]">clockctmTdsLR_1_1305/X</a> (SAEDRVT14_AN2_0P5)                           0.0024      1.0000              0.0084      0.0546 f    (19.88,42.70)
+<u>61</u>:	  <a href="cgi:change_selection [get_nets N15]">N15</a> (net)                                         1      0.4765
+<u>62</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/D]">wb_ack_o_reg/D</a> (SAEDRVT14_FDP_V2LP_1)                                0.0024      1.0000              0.0000      0.0546 f    (19.73,41.50)     s, n
+<u>63</u>:	  data arrival time                                                                                                0.0546
+<u>64</u>:	
+<u>65</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>66</u>:	  source latency                                                                                       0.0000      0.0000
+<u>67</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>68</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                    4      9.1280                                                                                d
+<u>69</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/A]">ZCTSBUF_3311_65/A</a> (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0003      0.0003 r    (26.17,33.11)
+<u>70</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/X]">ZCTSBUF_3311_65/X</a> (SAEDRVT14_BUF_S_3)                                0.0230      1.0000              0.0211      0.0214 r    (26.49,32.98)
+<u>71</u>:	  <a href="cgi:change_selection [get_nets ZCTSNET_4]">ZCTSNET_4</a> (net)                                  32     20.0073                                                                                d
+<u>72</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0003      0.0217 r    (20.84,41.50)     s, n
+<u>73</u>:	
+<u>74</u>:	  library hold time                                                                1.0000              0.0076      0.0294
+<u>75</u>:	  data required time                                                                                               0.0294
+<u>76</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>77</u>:	  data required time                                                                                               0.0294
+<u>78</u>:	  data arrival time                                                                                               -0.0546
+<u>79</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>80</u>:	  slack (MET)                                                                                                      0.0252
+<u>81</u>:	
+<u>82</u>:	
+<u>83</u>:	
+<u>84</u>:	<a name=P1>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells wb_ack_o_reg]">wb_ack_o_reg</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>85</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells wb_ack_o_reg]">wb_ack_o_reg</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>86</u>:	  Mode: func
+<u>87</u>:	  Corner: slow
+<u>88</u>:	  Scenario: func_slow
+<u>89</u>:	  Path Group: wb_clk_i
+<u>90</u>:	  Path Type: min
+<u>91</u>:	
+<u>92</u>:	
+<u>93</u>:	Attributes
+<u>94</u>:	    b - black-box (unknown)
+<u>95</u>:	    s - size_only
+<u>96</u>:	    d - dont_touch
+<u>97</u>:	    u - dont_use
+<u>98</u>:	    g - generic
+<u>99</u>:	    h - hierarchical
+<u>100</u>:	    i - ideal
+<u>101</u>:	    n - noncombinational
+<u>102</u>:	    E - extracted timing model
+<u>103</u>:	    Q - Quick timing model
+<u>104</u>:	
+<u>105</u>:	
+<u>106</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>107</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>108</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>109</u>:	  source latency                                                                                       0.0000      0.0000
+<u>110</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>111</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                    4     10.0397                                                                                d
+<u>112</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/A]">ZCTSBUF_3311_65/A</a> (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0004      0.0004 r    (26.17,33.11)
+<u>113</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/X]">ZCTSBUF_3311_65/X</a> (SAEDRVT14_BUF_S_3)                                0.0243      1.0000              0.0220      0.0224 r    (26.49,32.98)
+<u>114</u>:	  <a href="cgi:change_selection [get_nets ZCTSNET_4]">ZCTSNET_4</a> (net)                                  32     21.1901                                                                                d
+<u>115</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0003      0.0227 r    (20.84,41.50)     s, n
+<u>116</u>:	
+<u>117</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0000      0.0227 r    (20.84,41.50)     s, n
+<u>118</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/QN]">wb_ack_o_reg/QN</a> (SAEDRVT14_FDP_V2LP_1)                               0.0039      1.0000              0.0249      0.0477 f    (21.06,41.50)     s, n
+<u>119</u>:	  <a href="cgi:change_selection [get_nets n5]">n5</a> (net)                                          1      0.6499
+<u>120</u>:	  <a href="cgi:change_selection [get_pins clockctmTdsLR_1_1305/A1]">clockctmTdsLR_1_1305/A1</a> (SAEDRVT14_AN2_0P5)                          0.0039      1.0000              0.0000      0.0477 f    (19.66,42.70)
+<u>121</u>:	  <a href="cgi:change_selection [get_pins clockctmTdsLR_1_1305/X]">clockctmTdsLR_1_1305/X</a> (SAEDRVT14_AN2_0P5)                           0.0025      1.0000              0.0085      0.0562 f    (19.88,42.70)
+<u>122</u>:	  <a href="cgi:change_selection [get_nets N15]">N15</a> (net)                                         1      0.5056
+<u>123</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/D]">wb_ack_o_reg/D</a> (SAEDRVT14_FDP_V2LP_1)                                0.0025      1.0000              0.0000      0.0562 f    (19.73,41.50)     s, n
+<u>124</u>:	  data arrival time                                                                                                0.0562
+<u>125</u>:	
+<u>126</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>127</u>:	  source latency                                                                                       0.0000      0.0000
+<u>128</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>129</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                    4     10.0397                                                                                d
+<u>130</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/A]">ZCTSBUF_3311_65/A</a> (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0004      0.0004 r    (26.17,33.11)
+<u>131</u>:	  <a href="cgi:change_selection [get_pins ZCTSBUF_3311_65/X]">ZCTSBUF_3311_65/X</a> (SAEDRVT14_BUF_S_3)                                0.0243      1.0000              0.0220      0.0224 r    (26.49,32.98)
+<u>132</u>:	  <a href="cgi:change_selection [get_nets ZCTSNET_4]">ZCTSNET_4</a> (net)                                  32     21.1901                                                                                d
+<u>133</u>:	  <a href="cgi:change_selection [get_pins wb_ack_o_reg/CK]">wb_ack_o_reg/CK</a> (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0003      0.0227 r    (20.84,41.50)     s, n
+<u>134</u>:	
+<u>135</u>:	  library hold time                                                                1.0000              0.0078      0.0305
+<u>136</u>:	  data required time                                                                                               0.0305
+<u>137</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>138</u>:	  data required time                                                                                               0.0305
+<u>139</u>:	  data arrival time                                                                                               -0.0562
+<u>140</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>141</u>:	  slack (MET)                                                                                                      0.0257
+<u>142</u>:	
+<u>143</u>:	
+<u>144</u>:	1
+</pre>
+</body>
+</html>

@@ -1,0 +1,320 @@
+<html>
+<body>
+<pre>
+<u>1</u>:	SI analysis is not enabled, so delta delays are unavailable.
+<u>2</u>:	****************************************
+<u>3</u>:	Report : timing
+<u>4</u>:	        -path_type full_clock_expanded
+<u>5</u>:	        -delay_type max
+<u>6</u>:	        -nworst 1
+<u>7</u>:	        -max_paths 1
+<u>8</u>:	        -report_by group
+<u>9</u>:	        -input_pins
+<u>10</u>:	        -nets
+<u>11</u>:	        -include_hierarchical_pins
+<u>12</u>:	        -transition_time
+<u>13</u>:	        -capacitance
+<u>14</u>:	        -crosstalk_delta
+<u>15</u>:	        -derate
+<u>16</u>:	        -attributes
+<u>17</u>:	        -physical
+<u>18</u>:	Design : i2c_master_top
+<u>19</u>:	Version: U-2022.12
+<u>20</u>:	Date   : Wed May 15 19:24:50 2024
+<u>21</u>:	****************************************
+<u>22</u>:	
+<u>23</u>:	<a name=P0>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cnt_reg[0]]">byte_controller/bit_controller/cnt_reg[0]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>24</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cnt_reg[15]]">byte_controller/bit_controller/cnt_reg[15]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>25</u>:	  Mode: func
+<u>26</u>:	  Corner: fast
+<u>27</u>:	  Scenario: func_fast
+<u>28</u>:	  Path Group: wb_clk_i
+<u>29</u>:	  Path Type: max
+<u>30</u>:	
+<u>31</u>:	
+<u>32</u>:	Attributes
+<u>33</u>:	    b - black-box (unknown)
+<u>34</u>:	    s - size_only
+<u>35</u>:	    d - dont_touch
+<u>36</u>:	    u - dont_use
+<u>37</u>:	    g - generic
+<u>38</u>:	    h - hierarchical
+<u>39</u>:	    i - ideal
+<u>40</u>:	    n - noncombinational
+<u>41</u>:	    E - extracted timing model
+<u>42</u>:	    Q - Quick timing model
+<u>43</u>:	
+<u>44</u>:	
+<u>45</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>46</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>47</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>48</u>:	  source latency                                                                                       0.0000      0.0000
+<u>49</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>50</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     83.8763
+<u>51</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>52</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     83.8763
+<u>53</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>54</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     83.8763
+<u>55</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/CK]">byte_controller/bit_controller/cnt_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>56</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (40.22,39.22)     s, n
+<u>57</u>:	
+<u>58</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/CK]">byte_controller/bit_controller/cnt_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>59</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (40.22,39.22)     s, n
+<u>60</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/Q]">byte_controller/bit_controller/cnt_reg[0]/Q</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>61</u>:	                                                                       0.0086      1.0000              0.0620      0.0620 f    (41.27,39.10)     s, n
+<u>62</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/cnt[0]]">byte_controller/bit_controller/cnt[0]</a> (net)       4      1.4439
+<u>63</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/A[0]]">byte_controller/bit_controller/sub_226/A[0]</a> (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+<u>64</u>:	                                                                       0.0086      1.0000              0.0000      0.0620 f    (hierarchical)    h
+<u>65</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/A[0]]">byte_controller/bit_controller/sub_226/A[0]</a> (net)        1.4439
+<u>66</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U2/A2]">byte_controller/bit_controller/sub_226/U2/A2</a> (SAEDRVT14_OR2_1)       0.0086      1.0000              0.0000      0.0620 f    (41.56,39.10)
+<u>67</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U2/X]">byte_controller/bit_controller/sub_226/U2/X</a> (SAEDRVT14_OR2_1)        0.0042      1.0000              0.0132      0.0751 f    (41.86,39.11)
+<u>68</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n11]">byte_controller/bit_controller/sub_226/n11</a> (net)
+<u>69</u>:	                                                    3      1.0554
+<u>70</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U31/A1]">byte_controller/bit_controller/sub_226/U31/A1</a> (SAEDRVT14_OR2_0P5)    0.0042      1.0000              0.0000      0.0751 f    (42.97,38.50)
+<u>71</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U31/X]">byte_controller/bit_controller/sub_226/U31/X</a> (SAEDRVT14_OR2_0P5)     0.0077      1.0000              0.0124      0.0875 f    (43.12,38.49)
+<u>72</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n10]">byte_controller/bit_controller/sub_226/n10</a> (net)
+<u>73</u>:	                                                    3      1.2599
+<u>74</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U30/A1]">byte_controller/bit_controller/sub_226/U30/A1</a> (SAEDRVT14_OR2_0P5)    0.0077      1.0000              0.0000      0.0875 f    (43.93,36.10)
+<u>75</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U30/X]">byte_controller/bit_controller/sub_226/U30/X</a> (SAEDRVT14_OR2_0P5)     0.0077      1.0000              0.0136      0.1011 f    (43.78,36.09)
+<u>76</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n9]">byte_controller/bit_controller/sub_226/n9</a> (net)
+<u>77</u>:	                                                    3      1.2710
+<u>78</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U29/A1]">byte_controller/bit_controller/sub_226/U29/A1</a> (SAEDRVT14_OR2_0P5)    0.0077      1.0000              0.0000      0.1011 f    (41.41,35.50)
+<u>79</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U29/X]">byte_controller/bit_controller/sub_226/U29/X</a> (SAEDRVT14_OR2_0P5)     0.0107      1.0000              0.0160      0.1171 f    (41.56,35.51)
+<u>80</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n8]">byte_controller/bit_controller/sub_226/n8</a> (net)
+<u>81</u>:	                                                    3      1.8780
+<u>82</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U28/A1]">byte_controller/bit_controller/sub_226/U28/A1</a> (SAEDRVT14_OR2_0P5)    0.0107      1.0000              0.0000      0.1171 f    (41.71,28.90)
+<u>83</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U28/X]">byte_controller/bit_controller/sub_226/U28/X</a> (SAEDRVT14_OR2_0P5)     0.0084      1.0000              0.0150      0.1322 f    (41.86,28.89)
+<u>84</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n7]">byte_controller/bit_controller/sub_226/n7</a> (net)
+<u>85</u>:	                                                    3      1.3873
+<u>86</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U27/A1]">byte_controller/bit_controller/sub_226/U27/A1</a> (SAEDRVT14_OR2_0P5)    0.0084      1.0000              0.0000      0.1322 f    (42.97,26.50)
+<u>87</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U27/X]">byte_controller/bit_controller/sub_226/U27/X</a> (SAEDRVT14_OR2_0P5)     0.0073      1.0000              0.0134      0.1456 f    (43.12,26.49)
+<u>88</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n6]">byte_controller/bit_controller/sub_226/n6</a> (net)
+<u>89</u>:	                                                    3      1.1733
+<u>90</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U26/A1]">byte_controller/bit_controller/sub_226/U26/A1</a> (SAEDRVT14_OR2_0P5)    0.0073      1.0000              0.0000      0.1456 f    (43.34,27.10)
+<u>91</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U26/X]">byte_controller/bit_controller/sub_226/U26/X</a> (SAEDRVT14_OR2_0P5)     0.0072      1.0000              0.0131      0.1587 f    (43.48,27.11)
+<u>92</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n5]">byte_controller/bit_controller/sub_226/n5</a> (net)
+<u>93</u>:	                                                    3      1.1670
+<u>94</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U25/A1]">byte_controller/bit_controller/sub_226/U25/A1</a> (SAEDRVT14_OR2_0P5)    0.0072      1.0000              0.0000      0.1587 f    (44.30,27.70)
+<u>95</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U25/X]">byte_controller/bit_controller/sub_226/U25/X</a> (SAEDRVT14_OR2_0P5)     0.0068      1.0000              0.0127      0.1714 f    (44.45,27.69)
+<u>96</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n3]">byte_controller/bit_controller/sub_226/n3</a> (net)
+<u>97</u>:	                                                    3      1.0788
+<u>98</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U24/A1]">byte_controller/bit_controller/sub_226/U24/A1</a> (SAEDRVT14_NR2_MM_0P5)
+<u>99</u>:	                                                                       0.0068      1.0000              0.0000      0.1714 f    (44.74,28.34)
+<u>100</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U24/X]">byte_controller/bit_controller/sub_226/U24/X</a> (SAEDRVT14_NR2_MM_0P5)
+<u>101</u>:	                                                                       0.0112      1.0000              0.0113      0.1826 r    (44.70,28.30)
+<u>102</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n4]">byte_controller/bit_controller/sub_226/n4</a> (net)
+<u>103</u>:	                                                    3      1.3223
+<u>104</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U23/A1]">byte_controller/bit_controller/sub_226/U23/A1</a> (SAEDRVT14_ND2_CDC_1)
+<u>105</u>:	                                                                       0.0112      1.0000              0.0000      0.1826 r    (44.89,29.50)
+<u>106</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U23/X]">byte_controller/bit_controller/sub_226/U23/X</a> (SAEDRVT14_ND2_CDC_1)   0.0077      1.0000              0.0107      0.1933 f    (45.00,29.50)
+<u>107</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n16]">byte_controller/bit_controller/sub_226/n16</a> (net)
+<u>108</u>:	                                                    3      1.2096
+<u>109</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U21/A1]">byte_controller/bit_controller/sub_226/U21/A1</a> (SAEDRVT14_OR2_0P5)    0.0077      1.0000              0.0000      0.1933 f    (44.67,31.30)
+<u>110</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U21/X]">byte_controller/bit_controller/sub_226/U21/X</a> (SAEDRVT14_OR2_0P5)     0.0080      1.0000              0.0138      0.2071 f    (44.82,31.29)
+<u>111</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n15]">byte_controller/bit_controller/sub_226/n15</a> (net)
+<u>112</u>:	                                                    3      1.3134
+<u>113</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U19/A1]">byte_controller/bit_controller/sub_226/U19/A1</a> (SAEDRVT14_OR2_0P5)    0.0080      1.0000              0.0000      0.2071 f    (44.15,33.10)
+<u>114</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U19/X]">byte_controller/bit_controller/sub_226/U19/X</a> (SAEDRVT14_OR2_0P5)     0.0065      1.0000              0.0127      0.2198 f    (44.00,33.11)
+<u>115</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n14]">byte_controller/bit_controller/sub_226/n14</a> (net)
+<u>116</u>:	                                                    3      1.0186
+<u>117</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U17/A1]">byte_controller/bit_controller/sub_226/U17/A1</a> (SAEDRVT14_NR2_MM_0P5)
+<u>118</u>:	                                                                       0.0065      1.0000              0.0000      0.2198 f    (43.71,33.14)
+<u>119</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U17/X]">byte_controller/bit_controller/sub_226/U17/X</a> (SAEDRVT14_NR2_MM_0P5)
+<u>120</u>:	                                                                       0.0099      1.0000              0.0101      0.2299 r    (43.67,33.10)
+<u>121</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n13]">byte_controller/bit_controller/sub_226/n13</a> (net)
+<u>122</u>:	                                                    3      1.1394
+<u>123</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B]">byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B</a> (SAEDRVT14_AN2B_MM_1)
+<u>124</u>:	                                                                       0.0099      1.0000              0.0000      0.2299 r    (43.19,32.50)
+<u>125</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X]">byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X</a> (SAEDRVT14_AN2B_MM_1)
+<u>126</u>:	                                                                       0.0041      1.0000              0.0119      0.2418 r    (43.34,32.52)
+<u>127</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n12]">byte_controller/bit_controller/sub_226/n12</a> (net)
+<u>128</u>:	                                                    1      0.8755
+<u>129</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U13/A2]">byte_controller/bit_controller/sub_226/U13/A2</a> (SAEDRVT14_EO2_V1_0P75)
+<u>130</u>:	                                                                       0.0041      1.0000              0.0000      0.2418 r    (42.49,31.91)
+<u>131</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U13/X]">byte_controller/bit_controller/sub_226/U13/X</a> (SAEDRVT14_EO2_V1_0P75)
+<u>132</u>:	                                                                       0.0065      1.0000              0.0106      0.2524 r    (42.59,31.91)
+<u>133</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/SUM[15]]">byte_controller/bit_controller/sub_226/SUM[15]</a> (net)
+<u>134</u>:	                                                    1      0.5016
+<u>135</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/SUM[15]]">byte_controller/bit_controller/sub_226/SUM[15]</a> (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+<u>136</u>:	                                                                       0.0065      1.0000              0.0000      0.2524 r    (hierarchical)    h
+<u>137</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/N49]">byte_controller/bit_controller/N49</a> (net)                 0.5016
+<u>138</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/placectmTdsLR_2_52/A2]">byte_controller/bit_controller/placectmTdsLR_2_52/A2</a> (SAEDRVT14_AO21_U_0P5)
+<u>139</u>:	                                                                       0.0065      1.0000              0.0000      0.2524 r    (40.67,32.00)
+<u>140</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/placectmTdsLR_2_52/X]">byte_controller/bit_controller/placectmTdsLR_2_52/X</a> (SAEDRVT14_AO21_U_0P5)
+<u>141</u>:	                                                                       0.0054      1.0000              0.0135      0.2659 r    (40.30,31.91)
+<u>142</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/n147]">byte_controller/bit_controller/n147</a> (net)         1      0.5642
+<u>143</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[15]/D]">byte_controller/bit_controller/cnt_reg[15]/D</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>144</u>:	                                                                       0.0054      1.0000              0.0000      0.2659 r    (38.60,31.30)     s, n
+<u>145</u>:	  data arrival time                                                                                                0.2659
+<u>146</u>:	
+<u>147</u>:	  clock wb_clk_i (rise edge)                                                                           2.0000      2.0000
+<u>148</u>:	  source latency                                                                                       0.0000      2.0000
+<u>149</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      2.0000 r    (30.22,0.07)
+<u>150</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     83.8763
+<u>151</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      2.0000 r    (hierarchical)    h
+<u>152</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     83.8763
+<u>153</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      2.0000 r    (hierarchical)    h
+<u>154</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     83.8763
+<u>155</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[15]/CK]">byte_controller/bit_controller/cnt_reg[15]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>156</u>:	                                                                       0.2000      1.0000              0.0000      2.0000 r    (39.11,31.18)     s, n
+<u>157</u>:	
+<u>158</u>:	  clock uncertainty                                                                                   -0.3000      1.7000
+<u>159</u>:	  library setup time                                                               1.0000              0.0032      1.7032
+<u>160</u>:	  data required time                                                                                               1.7032
+<u>161</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>162</u>:	  data required time                                                                                               1.7032
+<u>163</u>:	  data arrival time                                                                                               -0.2659
+<u>164</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>165</u>:	  slack (MET)                                                                                                      1.4373
+<u>166</u>:	
+<u>167</u>:	
+<u>168</u>:	
+<u>169</u>:	<a name=P1>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cnt_reg[0]]">byte_controller/bit_controller/cnt_reg[0]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>170</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cnt_reg[15]]">byte_controller/bit_controller/cnt_reg[15]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>171</u>:	  Mode: func
+<u>172</u>:	  Corner: slow
+<u>173</u>:	  Scenario: func_slow
+<u>174</u>:	  Path Group: wb_clk_i
+<u>175</u>:	  Path Type: max
+<u>176</u>:	
+<u>177</u>:	
+<u>178</u>:	Attributes
+<u>179</u>:	    b - black-box (unknown)
+<u>180</u>:	    s - size_only
+<u>181</u>:	    d - dont_touch
+<u>182</u>:	    u - dont_use
+<u>183</u>:	    g - generic
+<u>184</u>:	    h - hierarchical
+<u>185</u>:	    i - ideal
+<u>186</u>:	    n - noncombinational
+<u>187</u>:	    E - extracted timing model
+<u>188</u>:	    Q - Quick timing model
+<u>189</u>:	
+<u>190</u>:	
+<u>191</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>192</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>193</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>194</u>:	  source latency                                                                                       0.0000      0.0000
+<u>195</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>196</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     87.9211
+<u>197</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>198</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     87.9211
+<u>199</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>200</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     87.9211
+<u>201</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/CK]">byte_controller/bit_controller/cnt_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>202</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (40.22,39.22)     s, n
+<u>203</u>:	
+<u>204</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/CK]">byte_controller/bit_controller/cnt_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>205</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (40.22,39.22)     s, n
+<u>206</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[0]/Q]">byte_controller/bit_controller/cnt_reg[0]/Q</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>207</u>:	                                                                       0.0089      1.0000              0.0622      0.0622 f    (41.27,39.10)     s, n
+<u>208</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/cnt[0]]">byte_controller/bit_controller/cnt[0]</a> (net)       4      1.4918
+<u>209</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/A[0]]">byte_controller/bit_controller/sub_226/A[0]</a> (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+<u>210</u>:	                                                                       0.0089      1.0000              0.0000      0.0622 f    (hierarchical)    h
+<u>211</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/A[0]]">byte_controller/bit_controller/sub_226/A[0]</a> (net)        1.4918
+<u>212</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U2/A2]">byte_controller/bit_controller/sub_226/U2/A2</a> (SAEDRVT14_OR2_1)       0.0089      1.0000              0.0000      0.0622 f    (41.56,39.10)
+<u>213</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U2/X]">byte_controller/bit_controller/sub_226/U2/X</a> (SAEDRVT14_OR2_1)        0.0043      1.0000              0.0134      0.0755 f    (41.86,39.11)
+<u>214</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n11]">byte_controller/bit_controller/sub_226/n11</a> (net)
+<u>215</u>:	                                                    3      1.0915
+<u>216</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U31/A1]">byte_controller/bit_controller/sub_226/U31/A1</a> (SAEDRVT14_OR2_0P5)    0.0043      1.0000              0.0000      0.0755 f    (42.97,38.50)
+<u>217</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U31/X]">byte_controller/bit_controller/sub_226/U31/X</a> (SAEDRVT14_OR2_0P5)     0.0080      1.0000              0.0126      0.0881 f    (43.12,38.49)
+<u>218</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n10]">byte_controller/bit_controller/sub_226/n10</a> (net)
+<u>219</u>:	                                                    3      1.3206
+<u>220</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U30/A1]">byte_controller/bit_controller/sub_226/U30/A1</a> (SAEDRVT14_OR2_0P5)    0.0080      1.0000              0.0000      0.0881 f    (43.93,36.10)
+<u>221</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U30/X]">byte_controller/bit_controller/sub_226/U30/X</a> (SAEDRVT14_OR2_0P5)     0.0081      1.0000              0.0139      0.1021 f    (43.78,36.09)
+<u>222</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n9]">byte_controller/bit_controller/sub_226/n9</a> (net)
+<u>223</u>:	                                                    3      1.3347
+<u>224</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U29/A1]">byte_controller/bit_controller/sub_226/U29/A1</a> (SAEDRVT14_OR2_0P5)    0.0081      1.0000              0.0000      0.1021 f    (41.41,35.50)
+<u>225</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U29/X]">byte_controller/bit_controller/sub_226/U29/X</a> (SAEDRVT14_OR2_0P5)     0.0115      1.0000              0.0167      0.1188 f    (41.56,35.51)
+<u>226</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n8]">byte_controller/bit_controller/sub_226/n8</a> (net)
+<u>227</u>:	                                                    3      2.0317
+<u>228</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U28/A1]">byte_controller/bit_controller/sub_226/U28/A1</a> (SAEDRVT14_OR2_0P5)    0.0115      1.0000              0.0000      0.1188 f    (41.71,28.90)
+<u>229</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U28/X]">byte_controller/bit_controller/sub_226/U28/X</a> (SAEDRVT14_OR2_0P5)     0.0088      1.0000              0.0156      0.1344 f    (41.86,28.89)
+<u>230</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n7]">byte_controller/bit_controller/sub_226/n7</a> (net)
+<u>231</u>:	                                                    3      1.4724
+<u>232</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U27/A1]">byte_controller/bit_controller/sub_226/U27/A1</a> (SAEDRVT14_OR2_0P5)    0.0088      1.0000              0.0000      0.1344 f    (42.97,26.50)
+<u>233</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U27/X]">byte_controller/bit_controller/sub_226/U27/X</a> (SAEDRVT14_OR2_0P5)     0.0076      1.0000              0.0138      0.1482 f    (43.12,26.49)
+<u>234</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n6]">byte_controller/bit_controller/sub_226/n6</a> (net)
+<u>235</u>:	                                                    3      1.2262
+<u>236</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U26/A1]">byte_controller/bit_controller/sub_226/U26/A1</a> (SAEDRVT14_OR2_0P5)    0.0076      1.0000              0.0000      0.1482 f    (43.34,27.10)
+<u>237</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U26/X]">byte_controller/bit_controller/sub_226/U26/X</a> (SAEDRVT14_OR2_0P5)     0.0075      1.0000              0.0134      0.1615 f    (43.48,27.11)
+<u>238</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n5]">byte_controller/bit_controller/sub_226/n5</a> (net)
+<u>239</u>:	                                                    3      1.2190
+<u>240</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U25/A1]">byte_controller/bit_controller/sub_226/U25/A1</a> (SAEDRVT14_OR2_0P5)    0.0075      1.0000              0.0000      0.1615 f    (44.30,27.70)
+<u>241</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U25/X]">byte_controller/bit_controller/sub_226/U25/X</a> (SAEDRVT14_OR2_0P5)     0.0070      1.0000              0.0130      0.1745 f    (44.45,27.69)
+<u>242</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n3]">byte_controller/bit_controller/sub_226/n3</a> (net)
+<u>243</u>:	                                                    3      1.1221
+<u>244</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U24/A1]">byte_controller/bit_controller/sub_226/U24/A1</a> (SAEDRVT14_NR2_MM_0P5)
+<u>245</u>:	                                                                       0.0070      1.0000              0.0000      0.1745 f    (44.74,28.34)
+<u>246</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U24/X]">byte_controller/bit_controller/sub_226/U24/X</a> (SAEDRVT14_NR2_MM_0P5)
+<u>247</u>:	                                                                       0.0116      1.0000              0.0116      0.1861 r    (44.70,28.30)
+<u>248</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n4]">byte_controller/bit_controller/sub_226/n4</a> (net)
+<u>249</u>:	                                                    3      1.3708
+<u>250</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U23/A1]">byte_controller/bit_controller/sub_226/U23/A1</a> (SAEDRVT14_ND2_CDC_1)
+<u>251</u>:	                                                                       0.0116      1.0000              0.0000      0.1861 r    (44.89,29.50)
+<u>252</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U23/X]">byte_controller/bit_controller/sub_226/U23/X</a> (SAEDRVT14_ND2_CDC_1)   0.0080      1.0000              0.0110      0.1971 f    (45.00,29.50)
+<u>253</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n16]">byte_controller/bit_controller/sub_226/n16</a> (net)
+<u>254</u>:	                                                    3      1.2682
+<u>255</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U21/A1]">byte_controller/bit_controller/sub_226/U21/A1</a> (SAEDRVT14_OR2_0P5)    0.0080      1.0000              0.0000      0.1971 f    (44.67,31.30)
+<u>256</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U21/X]">byte_controller/bit_controller/sub_226/U21/X</a> (SAEDRVT14_OR2_0P5)     0.0083      1.0000              0.0141      0.2113 f    (44.82,31.29)
+<u>257</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n15]">byte_controller/bit_controller/sub_226/n15</a> (net)
+<u>258</u>:	                                                    3      1.3851
+<u>259</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U19/A1]">byte_controller/bit_controller/sub_226/U19/A1</a> (SAEDRVT14_OR2_0P5)    0.0083      1.0000              0.0000      0.2113 f    (44.15,33.10)
+<u>260</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U19/X]">byte_controller/bit_controller/sub_226/U19/X</a> (SAEDRVT14_OR2_0P5)     0.0067      1.0000              0.0129      0.2242 f    (44.00,33.11)
+<u>261</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n14]">byte_controller/bit_controller/sub_226/n14</a> (net)
+<u>262</u>:	                                                    3      1.0532
+<u>263</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U17/A1]">byte_controller/bit_controller/sub_226/U17/A1</a> (SAEDRVT14_NR2_MM_0P5)
+<u>264</u>:	                                                                       0.0067      1.0000              0.0000      0.2242 f    (43.71,33.14)
+<u>265</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U17/X]">byte_controller/bit_controller/sub_226/U17/X</a> (SAEDRVT14_NR2_MM_0P5)
+<u>266</u>:	                                                                       0.0102      1.0000              0.0104      0.2346 r    (43.67,33.10)
+<u>267</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n13]">byte_controller/bit_controller/sub_226/n13</a> (net)
+<u>268</u>:	                                                    3      1.1772
+<u>269</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B]">byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B</a> (SAEDRVT14_AN2B_MM_1)
+<u>270</u>:	                                                                       0.0102      1.0000              0.0000      0.2346 r    (43.19,32.50)
+<u>271</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X]">byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X</a> (SAEDRVT14_AN2B_MM_1)
+<u>272</u>:	                                                                       0.0042      1.0000              0.0121      0.2467 r    (43.34,32.52)
+<u>273</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/n12]">byte_controller/bit_controller/sub_226/n12</a> (net)
+<u>274</u>:	                                                    1      0.8997
+<u>275</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U13/A2]">byte_controller/bit_controller/sub_226/U13/A2</a> (SAEDRVT14_EO2_V1_0P75)
+<u>276</u>:	                                                                       0.0042      1.0000              0.0000      0.2467 r    (42.49,31.91)
+<u>277</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/U13/X]">byte_controller/bit_controller/sub_226/U13/X</a> (SAEDRVT14_EO2_V1_0P75)
+<u>278</u>:	                                                                       0.0067      1.0000              0.0108      0.2575 r    (42.59,31.91)
+<u>279</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/sub_226/SUM[15]]">byte_controller/bit_controller/sub_226/SUM[15]</a> (net)
+<u>280</u>:	                                                    1      0.5337
+<u>281</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/sub_226/SUM[15]]">byte_controller/bit_controller/sub_226/SUM[15]</a> (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+<u>282</u>:	                                                                       0.0067      1.0000              0.0000      0.2575 r    (hierarchical)    h
+<u>283</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/N49]">byte_controller/bit_controller/N49</a> (net)                 0.5337
+<u>284</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/placectmTdsLR_2_52/A2]">byte_controller/bit_controller/placectmTdsLR_2_52/A2</a> (SAEDRVT14_AO21_U_0P5)
+<u>285</u>:	                                                                       0.0067      1.0000              0.0000      0.2575 r    (40.67,32.00)
+<u>286</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/placectmTdsLR_2_52/X]">byte_controller/bit_controller/placectmTdsLR_2_52/X</a> (SAEDRVT14_AO21_U_0P5)
+<u>287</u>:	                                                                       0.0057      1.0000              0.0138      0.2713 r    (40.30,31.91)
+<u>288</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/n147]">byte_controller/bit_controller/n147</a> (net)         1      0.6040
+<u>289</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[15]/D]">byte_controller/bit_controller/cnt_reg[15]/D</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>290</u>:	                                                                       0.0057      1.0000              0.0000      0.2713 r    (38.60,31.30)     s, n
+<u>291</u>:	  data arrival time                                                                                                0.2713
+<u>292</u>:	
+<u>293</u>:	  clock wb_clk_i (rise edge)                                                                           2.0000      2.0000
+<u>294</u>:	  source latency                                                                                       0.0000      2.0000
+<u>295</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      2.0000 r    (30.22,0.07)
+<u>296</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     87.9211
+<u>297</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      2.0000 r    (hierarchical)    h
+<u>298</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     87.9211
+<u>299</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      2.0000 r    (hierarchical)    h
+<u>300</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     87.9211
+<u>301</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cnt_reg[15]/CK]">byte_controller/bit_controller/cnt_reg[15]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_0P5)
+<u>302</u>:	                                                                       0.2000      1.0000              0.0000      2.0000 r    (39.11,31.18)     s, n
+<u>303</u>:	
+<u>304</u>:	  clock uncertainty                                                                                   -0.3000      1.7000
+<u>305</u>:	  library setup time                                                               1.0000              0.0032      1.7032
+<u>306</u>:	  data required time                                                                                               1.7032
+<u>307</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>308</u>:	  data required time                                                                                               1.7032
+<u>309</u>:	  data arrival time                                                                                               -0.2713
+<u>310</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>311</u>:	  slack (MET)                                                                                                      1.4319
+<u>312</u>:	
+<u>313</u>:	
+<u>314</u>:	1
+</pre>
+</body>
+</html>

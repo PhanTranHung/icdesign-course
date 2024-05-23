@@ -1,0 +1,534 @@
+****************************************
+Report : cell
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 20:43:14 2024
+****************************************
+
+Attributes
+    b - black-box (unknown)
+    h - hierarchical
+    n - noncombinational
+    u - contains unmapped logic
+    E - extracted timing model
+    Q - Quick timing model
+    U - Unbound (missing)
+    s - user size_only
+    S - implicit size_only
+    d - user dont_touch
+    D - derived dont_touch
+    o - synthetic operator
+
+
+Cell                      Reference       Library          Attributes
+--------------------------------------------------------------------------------
+U100                      SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+U13                       SAEDRVT14_OR3_1 saed14rvt_tt0p8v25c
+U156                      SAEDRVT14_AO33_1
+                                          saed14rvt_tt0p8v25c
+U16                       SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+U162                      SAEDRVT14_ND2B_U_0P5
+                                          saed14rvt_tt0p8v25c
+U165                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U166                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U167                      SAEDRVT14_OAI21_0P5
+                                          saed14rvt_tt0p8v25c
+U168                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U169                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U170                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U171                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U172                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U173                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U174                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U175                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U176                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U177                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U178                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U179                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U180                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U181                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U182                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U183                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U184                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U185                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U186                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U187                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U188                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U189                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U190                      SAEDRVT14_AO21_U_0P5
+                                          saed14rvt_tt0p8v25c
+U191                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U192                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U193                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U194                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U195                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U196                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U197                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U198                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U199                      SAEDRVT14_NR2_MM_0P5
+                                          saed14rvt_tt0p8v25c
+U200                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U201                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U202                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U203                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U204                      SAEDRVT14_AOI21_0P75
+                                          saed14rvt_tt0p8v25c
+U205                      SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+U206                      SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+U207                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U208                      SAEDRVT14_NR2_MM_0P5
+                                          saed14rvt_tt0p8v25c
+U209                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U210                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U211                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U212                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U213                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U214                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U215                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U216                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U217                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U218                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U219                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U220                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U221                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U222                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U223                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U224                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U225                      SAEDRVT14_AN2_0P5
+                                          saed14rvt_tt0p8v25c
+U226                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U227                      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+U228                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U229                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U230                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U231                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U232                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U233                      SAEDRVT14_ND2_CDC_1
+                                          saed14rvt_tt0p8v25c
+U234                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U235                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U236                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U237                      SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+U240                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U241                      SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+U242                      SAEDRVT14_ND2_CDC_1
+                                          saed14rvt_tt0p8v25c
+U243                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U244                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U245                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U246                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U247                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U248                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U249                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U250                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U253                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U254                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U255                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U256                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U257                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U258                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U259                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U260                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U261                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U264                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U266                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U268                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U269                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U270                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U271                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U272                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U273                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U274                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U277                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U278                      SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+U279                      SAEDRVT14_AOI21_0P5
+                                          saed14rvt_tt0p8v25c
+U280                      SAEDRVT14_OAI22_0P5
+                                          saed14rvt_tt0p8v25c
+U281                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U282                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U283                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U284                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U286                      SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+U287                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U288                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U289                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U290                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U291                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U293                      SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+U295                      SAEDRVT14_AN2_0P5
+                                          saed14rvt_tt0p8v25c
+U296                      SAEDRVT14_OR3_0P5
+                                          saed14rvt_tt0p8v25c
+U297                      SAEDRVT14_OR3_0P5
+                                          saed14rvt_tt0p8v25c
+U298                      SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+U300                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U301                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U302                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U303                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U304                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U305                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U306                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U307                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U308                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U309                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U310                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+U95                       SAEDRVT14_OR3_0P5
+                                          saed14rvt_tt0p8v25c
+U96                       SAEDRVT14_OR3_0P5
+                                          saed14rvt_tt0p8v25c
+U98                       SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+ZCTSBUF_2189_66           SAEDRVT14_BUF_S_3
+                                          saed14rvt_tt0p8v25c
+ZCTSBUF_3311_65           SAEDRVT14_BUF_S_3
+                                          saed14rvt_tt0p8v25c
+ZCTSBUF_6085_67           SAEDRVT14_DEL_R2V1_2
+                                          saed14rvt_tt0p8v25c
+al_reg                    SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+byte_controller           i2c_master_byte_ctrl             h
+clockctmTdsLR_1_1305      SAEDRVT14_AN2_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_1_1309      SAEDRVT14_AN3_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_1_1311      SAEDRVT14_OR3_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_1_1318      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_1_1337      SAEDRVT14_ND2_ECO_1
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_2_1306      SAEDRVT14_AN2_MM_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_2_1310      SAEDRVT14_ND2_CDC_1
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_2_1312      SAEDRVT14_AN2_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_2_1319      SAEDRVT14_AOI21_0P75
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_2_1338      SAEDRVT14_AOI21_0P75
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_3_1320      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_3_1339      SAEDRVT14_NR2_MM_0P5
+                                          saed14rvt_tt0p8v25c
+clockctmTdsLR_4_1340      SAEDRVT14_AO22_0P5
+                                          saed14rvt_tt0p8v25c
+clockgre_a_INV_122_inst_1353
+                          SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+clockgre_a_INV_130_inst_1352
+                          SAEDRVT14_INV_0P5
+                                          saed14rvt_tt0p8v25c
+clockoptlc_1348           SAEDRVT14_TIE0_4
+                                          saed14rvt_tt0p8v25c
+clockoptlc_1349           SAEDRVT14_TIE0_4
+                                          saed14rvt_tt0p8v25c
+clockoptlc_1350           SAEDRVT14_TIE0_4
+                                          saed14rvt_tt0p8v25c
+cr_reg_0_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_1_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_2_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_3_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_4_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_5_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_6_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+cr_reg_7_                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctosc_gls_inst_824        SAEDRVT14_BUF_S_6
+                                          saed14rvt_tt0p8v25c
+ctr_reg_0_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_1_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_2_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_3_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_4_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_5_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_6_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+ctr_reg_7_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+irq_flag_reg              SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+placeHFSBUF_192_2         SAEDRVT14_BUF_S_1P5
+                                          saed14rvt_tt0p8v25c
+placeHFSBUF_365_3         SAEDRVT14_BUF_ECO_1
+                                          saed14rvt_tt0p8v25c
+placeHFSBUF_584_1         SAEDRVT14_BUF_ECO_1
+                                          saed14rvt_tt0p8v25c
+placeHFSINV_4568_0        SAEDRVT14_INV_S_0P5
+                                          saed14rvt_tt0p8v25c
+placectmTdsLR_1_33        SAEDRVT14_AOI21_0P75
+                                          saed14rvt_tt0p8v25c
+placectmTdsLR_1_39        SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+placectmTdsLR_1_41        SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+placectmTdsLR_2_34        SAEDRVT14_NR2_MM_0P5
+                                          saed14rvt_tt0p8v25c
+placectmTdsLR_2_42        SAEDRVT14_AO221_0P5
+                                          saed14rvt_tt0p8v25c
+prer_reg_0_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_10_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_11_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_12_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_13_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_14_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_15_              SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_1_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_2_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_3_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_4_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_5_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_6_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_7_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_8_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+prer_reg_9_               SAEDRVT14_FDPSBQ_0P5
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+rxack_reg                 SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+tip_reg                   SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_0_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_1_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_2_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_3_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_4_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_5_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_6_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+txr_reg_7_                SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_ack_o_reg              SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_0_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_1_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_2_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_3_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_4_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_5_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_6_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_dat_o_reg_7_           SAEDRVT14_FDP_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+wb_inta_o_reg             SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_tt0p8v25c
+                                                           n, S
+--------------------------------------------------------------------------------
+Total 226 cells
+
+1

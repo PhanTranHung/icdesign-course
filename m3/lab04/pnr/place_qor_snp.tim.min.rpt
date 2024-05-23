@@ -1,0 +1,158 @@
+SI analysis is not enabled, so delta delays are unavailable.
+****************************************
+Report : timing
+        -path_type full_clock_expanded
+        -delay_type min
+        -nworst 1
+        -max_paths 1
+        -report_by group
+        -input_pins
+        -nets
+        -include_hierarchical_pins
+        -transition_time
+        -capacitance
+        -crosstalk_delta
+        -derate
+        -attributes
+        -physical
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 19:24:50 2024
+****************************************
+
+  Startpoint: byte_controller/bit_controller/cSCL_reg[0] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cSCL_reg[1] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: wb_clk_i
+  Path Type: min
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                  153     83.8763
+  byte_controller/clk (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/clk (net)                       153     83.8763
+  byte_controller/bit_controller/clk (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/bit_controller/clk (net)        153     83.8763
+  byte_controller/bit_controller/cSCL_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+
+  byte_controller/bit_controller/cSCL_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+  byte_controller/bit_controller/cSCL_reg[0]/Q (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.0032      1.0000              0.0583      0.0583 f    (31.72,29.50)     s, n
+  byte_controller/bit_controller/cSCL[0] (net)      1      0.6604
+  byte_controller/bit_controller/U221/A1 (SAEDRVT14_AN2_MM_1)          0.0032      1.0000              0.0000      0.0583 f    (32.24,27.10)
+  byte_controller/bit_controller/U221/X (SAEDRVT14_AN2_MM_1)           0.0020      1.0000              0.0072      0.0654 f    (32.46,27.10)
+  byte_controller/bit_controller/N71 (net)          1      0.3292
+  byte_controller/bit_controller/cSCL_reg[1]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.0020      1.0000              0.0000      0.0654 f    (32.89,27.10)     s, n
+  data arrival time                                                                                                0.0654
+
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                  153     83.8763
+  byte_controller/clk (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/clk (net)                       153     83.8763
+  byte_controller/bit_controller/clk (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/bit_controller/clk (net)        153     83.8763
+  byte_controller/bit_controller/cSCL_reg[1]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (33.41,27.04)     s, n
+
+  library hold time                                                                1.0000              0.0466      0.0466
+  data required time                                                                                               0.0466
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                               0.0466
+  data arrival time                                                                                               -0.0654
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                                      0.0188
+
+
+
+  Startpoint: byte_controller/bit_controller/cSCL_reg[0] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cSCL_reg[1] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: wb_clk_i
+  Path Type: min
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                  153     87.9211
+  byte_controller/clk (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/clk (net)                       153     87.9211
+  byte_controller/bit_controller/clk (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/bit_controller/clk (net)        153     87.9211
+  byte_controller/bit_controller/cSCL_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+
+  byte_controller/bit_controller/cSCL_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+  byte_controller/bit_controller/cSCL_reg[0]/Q (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.0033      1.0000              0.0584      0.0584 f    (31.72,29.50)     s, n
+  byte_controller/bit_controller/cSCL[0] (net)      1      0.7152
+  byte_controller/bit_controller/U221/A1 (SAEDRVT14_AN2_MM_1)          0.0033      1.0000              0.0000      0.0584 f    (32.24,27.10)
+  byte_controller/bit_controller/U221/X (SAEDRVT14_AN2_MM_1)           0.0020      1.0000              0.0073      0.0657 f    (32.46,27.10)
+  byte_controller/bit_controller/N71 (net)          1      0.3375
+  byte_controller/bit_controller/cSCL_reg[1]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.0020      1.0000              0.0000      0.0657 f    (32.89,27.10)     s, n
+  data arrival time                                                                                                0.0657
+
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                  153     87.9211
+  byte_controller/clk (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/clk (net)                       153     87.9211
+  byte_controller/bit_controller/clk (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+  byte_controller/bit_controller/clk (net)        153     87.9211
+  byte_controller/bit_controller/cSCL_reg[1]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                                       0.2000      1.0000              0.0000      0.0000 r    (33.41,27.04)     s, n
+
+  library hold time                                                                1.0000              0.0465      0.0465
+  data required time                                                                                               0.0465
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                               0.0465
+  data arrival time                                                                                               -0.0657
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                                      0.0192
+
+
+1

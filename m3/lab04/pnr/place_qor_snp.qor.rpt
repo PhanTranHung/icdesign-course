@@ -1,0 +1,120 @@
+****************************************
+Report : qor
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 19:24:50 2024
+****************************************
+
+
+Scenario           'func_fast'
+Timing Path Group  'wb_clk_i'
+----------------------------------------
+Levels of Logic:                     16
+Critical Path Length:            0.2659
+Critical Path Slack:             1.4373
+Critical Path Clk Period:        2.0000
+Total Negative Slack:            0.0000
+No. of Violating Paths:               0
+Worst Hold Violation:            0.0000
+Total Hold Violation:            0.0000
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'func_slow'
+Timing Path Group  'wb_clk_i'
+----------------------------------------
+Levels of Logic:                     16
+Critical Path Length:            0.2713
+Critical Path Slack:             1.4319
+Critical Path Clk Period:        2.0000
+Total Negative Slack:            0.0000
+No. of Violating Paths:               0
+Worst Hold Violation:            0.0000
+Total Hold Violation:            0.0000
+No. of Hold Violations:               0
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:              4
+Hierarchical Port Count:            163
+Leaf Cell Count:                    689
+Buf/Inv Cell Count:                 141
+Buf Cell Count:                       3
+Inv Cell Count:                     138
+CT Buf/Inv Cell Count:                0
+Combinational Cell Count:           536
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:              153
+   Integrated Clock-Gating Cell Count:                     0
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       153
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:            155.0004
+Noncombinational Area:         162.9924
+Buf/Inv Area:                   25.3080
+Total Buffer Area:               0.7992
+Total Inverter Area:            24.5088
+Macro/Black Box Area:            0.0000
+Net Area:                             0
+Net XLength:                  1870.4700
+Net YLength:                  2050.3855
+----------------------------------------
+Cell Area (netlist):                          317.9928
+Cell Area (netlist and physical only):        317.9930
+Net Length:                   3920.8555
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:               711
+Nets with Violations:                 0
+Max Trans Violations:                 0
+Max Cap Violations:                   0
+----------------------------------------
+
+1
+****************************************
+Report : qor
+        -summary
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 19:24:50 2024
+****************************************
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+func_fast          (Setup)           1.4373         0.0000              0
+func_slow          (Setup)           1.4319         0.0000              0
+Design             (Setup)           1.4319         0.0000              0
+
+func_fast          (Hold)            0.0188         0.0000              0
+func_slow          (Hold)            0.0192         0.0000              0
+Design             (Hold)            0.0188         0.0000              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                          317.9928
+Cell Area (netlist and physical only):        317.9930
+Nets with DRC Violations:        0
+1

@@ -1,0 +1,144 @@
+SI analysis is not enabled, so delta delays are unavailable.
+****************************************
+Report : timing
+        -path_type full_clock_expanded
+        -delay_type min
+        -nworst 1
+        -max_paths 1
+        -report_by group
+        -input_pins
+        -nets
+        -include_hierarchical_pins
+        -transition_time
+        -capacitance
+        -crosstalk_delta
+        -derate
+        -attributes
+        -physical
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 20:08:09 2024
+****************************************
+
+  Startpoint: wb_ack_o_reg (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: wb_ack_o_reg (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: wb_clk_i
+  Path Type: min
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                    4      9.1280                                                                                d
+  ZCTSBUF_3311_65/A (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0003      0.0003 r    (26.17,33.11)
+  ZCTSBUF_3311_65/X (SAEDRVT14_BUF_S_3)                                0.0230      1.0000              0.0211      0.0214 r    (26.49,32.98)
+  ZCTSNET_4 (net)                                  32     20.0073                                                                                d
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0003      0.0217 r    (20.84,41.50)     s, n
+
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0000      0.0217 r    (20.84,41.50)     s, n
+  wb_ack_o_reg/QN (SAEDRVT14_FDP_V2LP_1)                               0.0038      1.0000              0.0244      0.0461 f    (21.06,41.50)     s, n
+  n5 (net)                                          1      0.6070
+  clockctmTdsLR_1_1305/A1 (SAEDRVT14_AN2_0P5)                          0.0038      1.0000              0.0000      0.0461 f    (19.66,42.70)
+  clockctmTdsLR_1_1305/X (SAEDRVT14_AN2_0P5)                           0.0024      1.0000              0.0084      0.0546 f    (19.88,42.70)
+  N15 (net)                                         1      0.4765
+  wb_ack_o_reg/D (SAEDRVT14_FDP_V2LP_1)                                0.0024      1.0000              0.0000      0.0546 f    (19.73,41.50)     s, n
+  data arrival time                                                                                                0.0546
+
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                    4      9.1280                                                                                d
+  ZCTSBUF_3311_65/A (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0003      0.0003 r    (26.17,33.11)
+  ZCTSBUF_3311_65/X (SAEDRVT14_BUF_S_3)                                0.0230      1.0000              0.0211      0.0214 r    (26.49,32.98)
+  ZCTSNET_4 (net)                                  32     20.0073                                                                                d
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0230      1.0000              0.0003      0.0217 r    (20.84,41.50)     s, n
+
+  library hold time                                                                1.0000              0.0076      0.0294
+  data required time                                                                                               0.0294
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                               0.0294
+  data arrival time                                                                                               -0.0546
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                                      0.0252
+
+
+
+  Startpoint: wb_ack_o_reg (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: wb_ack_o_reg (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: wb_clk_i
+  Path Type: min
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     10.0397                                                                                d
+  ZCTSBUF_3311_65/A (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0004      0.0004 r    (26.17,33.11)
+  ZCTSBUF_3311_65/X (SAEDRVT14_BUF_S_3)                                0.0243      1.0000              0.0220      0.0224 r    (26.49,32.98)
+  ZCTSNET_4 (net)                                  32     21.1901                                                                                d
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0003      0.0227 r    (20.84,41.50)     s, n
+
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0000      0.0227 r    (20.84,41.50)     s, n
+  wb_ack_o_reg/QN (SAEDRVT14_FDP_V2LP_1)                               0.0039      1.0000              0.0249      0.0477 f    (21.06,41.50)     s, n
+  n5 (net)                                          1      0.6499
+  clockctmTdsLR_1_1305/A1 (SAEDRVT14_AN2_0P5)                          0.0039      1.0000              0.0000      0.0477 f    (19.66,42.70)
+  clockctmTdsLR_1_1305/X (SAEDRVT14_AN2_0P5)                           0.0025      1.0000              0.0085      0.0562 f    (19.88,42.70)
+  N15 (net)                                         1      0.5056
+  wb_ack_o_reg/D (SAEDRVT14_FDP_V2LP_1)                                0.0025      1.0000              0.0000      0.0562 f    (19.73,41.50)     s, n
+  data arrival time                                                                                                0.0562
+
+  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+  source latency                                                                                       0.0000      0.0000
+  wb_clk_i (in)                                                        0.0000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     10.0397                                                                                d
+  ZCTSBUF_3311_65/A (SAEDRVT14_BUF_S_3)                                0.0005      1.0000              0.0004      0.0004 r    (26.17,33.11)
+  ZCTSBUF_3311_65/X (SAEDRVT14_BUF_S_3)                                0.0243      1.0000              0.0220      0.0224 r    (26.49,32.98)
+  ZCTSNET_4 (net)                                  32     21.1901                                                                                d
+  wb_ack_o_reg/CK (SAEDRVT14_FDP_V2LP_1)                               0.0243      1.0000              0.0003      0.0227 r    (20.84,41.50)     s, n
+
+  library hold time                                                                1.0000              0.0078      0.0305
+  data required time                                                                                               0.0305
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                               0.0305
+  data arrival time                                                                                               -0.0562
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                                      0.0257
+
+
+1

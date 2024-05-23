@@ -1,0 +1,8 @@
+--- Snapshot Timing Progress ---
+------------------------------------------------------------------------------------------------------------------------ 
+Snapshot                   WNS       TNS      Hold  Cell Cnt      Area   Buf/Inv      Util    CPU(s)   Mem(Mb)      Host 
+------------------------------------------------------------------------------------------------------------------------ 
+place_qor_snp.ss.sum.full     1.4319    0.0000    0.0188       689   317.993       141    0.1966       109      1047 localhost.localdomain 
+clock_pre_route.ss.sum.full       1.44      0.00      0.02       693   319.902       145      0.20       350      1781 localhost.localdomain 
+clock.ss.sum.full       1.3737    0.0000    0.0252       705   324.786       144    0.2008       401      1781 localhost.localdomain 
+route.ss.sum.full       1.3847    0.0000    0.0243       705   324.875       144    0.2008       803      1781 localhost.localdomain 

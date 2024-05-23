@@ -1,0 +1,1556 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid this.
+
+
+
+                              IC Compiler II (TM)
+
+                  Version U-2022.12 for linux64 - Dec 11, 2022
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+ 
+source ../common/common.tcl
+. /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm /home/dkits/synopsys/SAED14nm/tech/milkyway  /home/dkits/synopsys/SAED14nm/tech  /home/dkits/synopsys/SAED14nm/stdcell_rvt/ndm
+                             /home/dkits/synopsys/SAED14nm/tech/star_rc /home/dkits/synopsys/SAED14nm/tech/milkyway/max /home/dkits/synopsys/SAED14nm/tech/milkyway/min  /home/dkits/synopsys/SAED14nm/tech/star_rc/max /home/dkits/synopsys/SAED14nm/tech/star_rc/min
+################################################################################Set_Library
+set link_library          "* $STD_CELL_LIB $RAM_LIB"
+* /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db /home/dkits/synopsys/SAED14nm/sram/logic_synth/dual/saed14sram_tt0p8v25c.db
+set target_library        "$STD_CELL_LIB $RAM_LIB"
+/home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db /home/dkits/synopsys/SAED14nm/sram/logic_synth/dual/saed14sram_tt0p8v25c.db
+################################################################################Open_Lib
+source scripts/step1_data_setup.tcl
+Warning: Pitch 0.074000 for layer M4 is less than sum(0.100000) of minSpacing(0.040000) and minWidth(0.060000).(saed14nm_1p9m_mw.tf line:727) (TECH-223)
+Warning: Pitch 0.600000 for layer MRDL is less than sum(4.000000) of minSpacing(2.000000) and minWidth(2.000000).(saed14nm_1p9m_mw.tf line:1356) (TECH-223)
+Warning: Layer 'M2' is missing the attribute 'maskEndMaxWidthThresholdTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToEndKeepoutLengthTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToSideKeepoutLengthTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToEndMinSpacingTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToSideMinSpacingTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: The value of the pitch attribute of layer M4 is invalid. Attribute pitch should not be less than sum of attribute minWidth and minSpacing. (saed14nm_1p9m_mw.tf line 727) (TECH-050)
+Warning: The value of the pitch attribute of layer MRDL is invalid. Attribute pitch should not be less than sum of attribute minWidth and minSpacing. (saed14nm_1p9m_mw.tf line 1356) (TECH-050)
+Information: ContactCode 'VIA12SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1667) (TECH-084)
+Information: ContactCode 'VIA12BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1685) (TECH-084)
+Information: ContactCode 'VIA12BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1704) (TECH-084)
+Information: ContactCode 'VIA12LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1723) (TECH-084)
+Information: ContactCode 'VIA12SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1742) (TECH-084)
+Information: ContactCode 'VIA12BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1761) (TECH-084)
+Information: ContactCode 'VIA12BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1780) (TECH-084)
+Information: ContactCode 'VIA12LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1799) (TECH-084)
+Information: ContactCode 'VIA1_32SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1818) (TECH-084)
+Information: ContactCode 'VIA1_32BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1837) (TECH-084)
+Information: ContactCode 'VIA1_32BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1856) (TECH-084)
+Information: ContactCode 'VIA1_32LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1875) (TECH-084)
+Information: ContactCode 'VIA1_32SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1894) (TECH-084)
+Information: ContactCode 'VIA1_32BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1913) (TECH-084)
+Information: ContactCode 'VIA1_32BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1932) (TECH-084)
+Information: ContactCode 'VIA1_32LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1951) (TECH-084)
+Information: ContactCode 'VIA12_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1970) (TECH-084)
+Information: ContactCode 'VIA12_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1989) (TECH-084)
+Information: ContactCode 'VIA12_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2008) (TECH-084)
+Information: ContactCode 'VIA12_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2027) (TECH-084)
+Information: ContactCode 'VIA12_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2046) (TECH-084)
+Information: ContactCode 'VIA12_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2065) (TECH-084)
+Information: ContactCode 'VIA12_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2084) (TECH-084)
+Information: ContactCode 'VIA12_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2103) (TECH-084)
+Information: ContactCode 'VIA1_32_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2122) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2141) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2160) (TECH-084)
+Information: ContactCode 'VIA1_32_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2179) (TECH-084)
+Information: ContactCode 'VIA1_32_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2198) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2217) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2236) (TECH-084)
+Information: ContactCode 'VIA1_32_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2255) (TECH-084)
+Information: ContactCode 'VIA23SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2275) (TECH-084)
+Information: ContactCode 'VIA23BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2295) (TECH-084)
+Information: ContactCode 'VIA23BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2314) (TECH-084)
+Information: ContactCode 'VIA23LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2333) (TECH-084)
+Information: ContactCode 'VIA23SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2352) (TECH-084)
+Information: ContactCode 'VIA23BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2371) (TECH-084)
+Information: ContactCode 'VIA23BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2390) (TECH-084)
+Information: ContactCode 'VIA23LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2409) (TECH-084)
+Information: ContactCode 'VIA2_33SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2428) (TECH-084)
+Information: ContactCode 'VIA2_33BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2447) (TECH-084)
+Information: ContactCode 'VIA2_33BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2466) (TECH-084)
+Information: ContactCode 'VIA2_33LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2485) (TECH-084)
+Information: ContactCode 'VIA2_33SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2504) (TECH-084)
+Information: ContactCode 'VIA2_33BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2523) (TECH-084)
+Information: ContactCode 'VIA2_33BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2542) (TECH-084)
+Information: ContactCode 'VIA2_33LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2561) (TECH-084)
+Information: ContactCode 'VIA23_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2580) (TECH-084)
+Information: ContactCode 'VIA23_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2599) (TECH-084)
+Information: ContactCode 'VIA23_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2618) (TECH-084)
+Information: ContactCode 'VIA23_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2637) (TECH-084)
+Information: ContactCode 'VIA23_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2656) (TECH-084)
+Information: ContactCode 'VIA23_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2675) (TECH-084)
+Information: ContactCode 'VIA23_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2694) (TECH-084)
+Information: ContactCode 'VIA23_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2712) (TECH-084)
+Information: ContactCode 'VIA2_33_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2731) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2750) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2769) (TECH-084)
+Information: ContactCode 'VIA2_33_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2788) (TECH-084)
+Information: ContactCode 'VIA2_33_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2807) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2826) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2845) (TECH-084)
+Information: ContactCode 'VIA2_33_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2864) (TECH-084)
+Information: Loading technology file '/home/dkits/synopsys/SAED14nm/tech/milkyway/saed14nm_1p9m_mw.tf' (FILE-007)
+design SRAM2RW128x16 has no physical library.
+design SRAM2RW128x32 has no physical library.
+design SRAM2RW128x4 has no physical library.
+design SRAM2RW128x8 has no physical library.
+design SRAM2RW16x16 has no physical library.
+design SRAM2RW16x32 has no physical library.
+design SRAM2RW16x4 has no physical library.
+design SRAM2RW16x8 has no physical library.
+design SRAM2RW256x128 has no physical library.
+design SRAM2RW256x32 has no physical library.
+design SRAM2RW256x8 has no physical library.
+design SRAM2RW32x16 has no physical library.
+design SRAM2RW32x32 has no physical library.
+design SRAM2RW32x4 has no physical library.
+design SRAM2RW32x8 has no physical library.
+design SRAM2RW4x4 has no physical library.
+design SRAM2RW4x8 has no physical library.
+design SRAM2RW512x128 has no physical library.
+design SRAM2RW512x32 has no physical library.
+design SRAM2RW512x64 has no physical library.
+design SRAM2RW512x8 has no physical library.
+design SRAM2RW64x128 has no physical library.
+design SRAM2RW64x16 has no physical library.
+design SRAM2RW64x32 has no physical library.
+design SRAM2RW64x4 has no physical library.
+design SRAM2RW64x8 has no physical library.
+...Created 4 lib groups
+
+... 3 cell libraries to build.
+
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c.ndm (1/3)
+... checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v25c.ndm under output directory: library not exists
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/3)
+... checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm under output directory: library not exists
+
+... checking whether need to build cell library: EXPLORE_physical_only.ndm (3/3)
+... checking whether can reuse library under output directory
+cannot reuse CLIBs/EXPLORE_physical_only.ndm under output directory: library not exists
+
+... processing cell library: saed14rvt_tt0p8v25c.ndm (1/3)
+... run lm_shell to build the cell library
+...............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+...........................................................................
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v25c.ndm
+
+... processing cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/3)
+... run lm_shell to build the cell library
+.....................
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm
+
+... processing cell library: EXPLORE_physical_only.ndm (3/3)
+... run lm_shell to build the cell library
+...............................................................................
+..............................................................................
+....................
+created new cell library under output directory: CLIBs/EXPLORE_physical_only.ndm
+
+
+Warning: There are 1 db files not used for creating cell libraries: /home/dkits/synopsys/SAED14nm/sram/logic_synth/dual/saed14sram_tt0p8v25c.db. (LIB-083)
+Information: Successfully built 3 reference libraries: saed14rvt_tt0p8v25c.ndm saed14rvt_tt0p8v25c_physical_only.ndm EXPLORE_physical_only.ndm. (LIB-093)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v25c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v25c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+WARNING: Layer mapping file warning. Tech layer 'M1_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M2_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M3_3' mapped in layer mapping file cannot be found in technology section.
+Information: Using technology 'saed14nm_1p9m_mw.tf' to derive design library via region in the frame-views of library 'saed14rvt_tt0p8v25c'. (FRAM-088)
+Via regions for library saed14rvt_tt0p8v25c created successfully
+Information: Using technology 'saed14nm_1p9m_mw.tf' to derive design library via region in the frame-views of library 'saed14rvt_tt0p8v25c_physical_only'. (FRAM-088)
+Via regions for library saed14rvt_tt0p8v25c_physical_only created successfully
+Information: Using technology 'saed14nm_1p9m_mw.tf' to derive design library via region in the frame-views of library 'EXPLORE_physical_only'. (FRAM-088)
+No valid frames for via region creation exist in library EXPLORE_physical_only.
+Finish deriving library override via region
+Loading verilog file '/home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.v'
+Warning: Net name '*Logic0*' is reserved and has been renamed to '*Logic0*1' in module 'i2c_master_bit_ctrl'. (VR-017)
+Information: Reading Verilog into new design 'i2c_master_top' in library 'i2c_master_top.dlib'. (VR-012)
+Number of modules read: 5
+Top level ports: 33
+Total ports in all modules: 179
+Total nets in all modules: 875
+Total instances in all modules: 711
+Elapsed = 00:00:00.01, CPU = 00:00:00.01
+Using libraries: i2c_master_top.dlib saed14rvt_tt0p8v25c saed14rvt_tt0p8v25c_physical_only EXPLORE_physical_only
+Linking block i2c_master_top.dlib:i2c_master_top.design
+Information: User units loaded from library 'saed14rvt_tt0p8v25c' (LNK-040)
+Design 'i2c_master_top' was successfully linked.
+Information: Saving 'i2c_master_top.dlib:i2c_master_top.design' to 'i2c_master_top.dlib:01_i2c_master_top_data_setup.design'. (DES-028)
+Saving library 'i2c_master_top.dlib'
+Closing block 'i2c_master_top.dlib:i2c_master_top.design'
+Closing library 'i2c_master_top.dlib'
+1
+source scripts/step2_floorplan.tcl
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/saed14rvt_tt0p8v25c.ndm' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/EXPLORE_physical_only.ndm' (FILE-007)
+Information: Need to rebuild auto created reference library: link_library setting is different (more or less files, or order changed).
+            current: saed14rvt_tt0p8v25c.db saed14sram_tt0p8v25c.db.
+            saved  : saed14rvt_tt0p8v25c.db. (LIB-085)
+design SRAM2RW128x16 has no physical library.
+design SRAM2RW128x32 has no physical library.
+design SRAM2RW128x4 has no physical library.
+design SRAM2RW128x8 has no physical library.
+design SRAM2RW16x16 has no physical library.
+design SRAM2RW16x32 has no physical library.
+design SRAM2RW16x4 has no physical library.
+design SRAM2RW16x8 has no physical library.
+design SRAM2RW256x128 has no physical library.
+design SRAM2RW256x32 has no physical library.
+design SRAM2RW256x8 has no physical library.
+design SRAM2RW32x16 has no physical library.
+design SRAM2RW32x32 has no physical library.
+design SRAM2RW32x4 has no physical library.
+design SRAM2RW32x8 has no physical library.
+design SRAM2RW4x4 has no physical library.
+design SRAM2RW4x8 has no physical library.
+design SRAM2RW512x128 has no physical library.
+design SRAM2RW512x32 has no physical library.
+design SRAM2RW512x64 has no physical library.
+design SRAM2RW512x8 has no physical library.
+design SRAM2RW64x128 has no physical library.
+design SRAM2RW64x16 has no physical library.
+design SRAM2RW64x32 has no physical library.
+design SRAM2RW64x4 has no physical library.
+design SRAM2RW64x8 has no physical library.
+...Created 4 lib groups
+
+... 3 cell libraries to build.
+
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c.ndm (1/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/saed14rvt_tt0p8v25c.ndm
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm
+
+... checking whether need to build cell library: EXPLORE_physical_only.ndm (3/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/EXPLORE_physical_only.ndm
+
+... 3 cell libraries can be reused.
+
+
+
+Warning: There are 1 db files not used for creating cell libraries: /home/dkits/synopsys/SAED14nm/sram/logic_synth/dual/saed14sram_tt0p8v25c.db. (LIB-083)
+Information: Successfully built 3 reference libraries: saed14rvt_tt0p8v25c.ndm saed14rvt_tt0p8v25c_physical_only.ndm EXPLORE_physical_only.ndm. (LIB-093)
+Information: Rebuild of auto created reference libraries succeeded. (LIB-086)
+Information: Incrementing open_count of block 'i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design' to 2. (DES-021)
+****************************************
+Report : library
+Library: i2c_master_top.dlib
+Version: U-2022.12
+Date   : Wed May 15 18:28:39 2024
+****************************************
+
+Full name: /home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib:i2c_master_top.dlib
+File name: /home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib
+Design count: 3
+No timing data.
+
+
+
+LIC_INFO :: Queue 18:29:39 Waiting for feature: ICCompilerII-8
+LIC_INFO :: Queue 18:31:09 Still waiting for feature: ICCompilerII-8
+LIC_INFO :: Queue 18:32:39 Still waiting for feature: ICCompilerII-8
+LIC_INFO :: Queue 18:34:09 Success waiting for: ICCompilerII-8
+Using libraries: i2c_master_top.dlib saed14rvt_tt0p8v25c saed14rvt_tt0p8v25c_physical_only EXPLORE_physical_only
+Visiting block i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design
+Design 'i2c_master_top' was successfully linked.
+****************************************
+Report : clock
+Design : i2c_master_top
+Mode   : default
+Version: U-2022.12
+Date   : Wed May 15 18:34:09 2024
+****************************************
+
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    U - Unexpanded generated clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+wb_clk_i         2.00   {0 1}                         {wb_clk_i}
+
+****************************************
+Report : clock_skew
+Design : i2c_master_top
+Mode   : default
+Version: U-2022.12
+Date   : Wed May 15 18:34:09 2024
+****************************************
+
+              Min Rise  Min Fall  Max Rise  Max Fall     Hold          Setup        Related
+Object          Delay     Delay     Delay     Delay   Uncertainty   Uncertainty      Clock          Scenario      Origin
+-----------------------------------------------------------------------------------------------------------------------------
+wb_clk_i            -         -         -         -             -          0.30         --          default         user
+
+               Min Rise    Min Fall    Max Rise    Max Fall 
+Object        Transition  Transition  Transition  Transition  Scenario
+----------------------------------------------------------------------
+wb_clk_i            0.20        0.53        0.20        0.53  default
+
+****************************************
+Report : exceptions
+Design : i2c_master_top
+Mode   : default
+Version: U-2022.12
+Date   : Wed May 15 18:34:09 2024
+****************************************
+
+Information: Timer using 1 threads
+****************************************
+Report : disable_timing
+Design : i2c_master_top
+Mode   : default
+Version: U-2022.12
+Date   : Wed May 15 18:34:09 2024
+****************************************
+
+Attributes
+    c - case-analysis
+    C - Conditional arc
+    d - default conditional arc
+    f - false net-arc
+    l - loop breaking
+    L - db inherited loopbreaking
+    m - mode
+    p - propagated constant
+    u - user-defined
+    U - User-defined library arcs
+    n - negative power supply
+
+
+Cell or Port                From    To      Sense           Flag  Reason
+--------------------------------------------------------------------------------
+scl_pad_o                                                         scl_pad_o = 0
+sda_pad_o                                                         sda_pad_o = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      Q       rising_edge     C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      D       setup_clk_rise  p     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      D       hold_clk_rise   p     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      D       setup_clk_rise  p     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      D       hold_clk_rise   p     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      SI      setup_clk_rise  C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      SI      hold_clk_rise   C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      SE      setup_clk_rise  C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      SE      hold_clk_rise   C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      recovery_rise_clk_rise
+                                                            C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      removal_rise_clk_rise
+                                                            C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      recovery_rise_clk_rise
+                                                            C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      removal_rise_clk_rise
+                                                            C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      recovery_rise_clk_rise
+                                                            C     D = 0
+byte_controller/bit_controller/cSDA_reg[1]
+                            CK      RD      removal_rise_clk_rise
+                                                            C     D = 0
+Information: Saving 'i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design' to 'i2c_master_top.dlib:temp_floorplan_init.design'. (DES-028)
+Information: The design specific attribute override for layer 'M1' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M2' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M3' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M4' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M5' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M6' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M7' is set in the current block '02_i2c_master_top_floorplan_start', because the actual library setting may not be overwritten. (ATTR-12)
+Removing existing floorplan objects
+Creating core...
+Core utilization ratio = 20.02%
+Unplacing all cells...
+Creating site array...
+Creating routing tracks...
+Initializing floorplan completed.
+Information: Starting 'place_pins' (FLW-8000)
+Information: Time: 2024-05-15 18:34:09 / Session: 0.10 hr / Command: 0.00 hr / Memory: 531 MB (FLW-8100)
+Information: The command 'place_pins' cleared the undo history. (UNDO-016)
+Load DB...
+Warning: Minimum area is too large or minimum length is too small on layer M3, this can cause large minimum pin length in pin placement. (DPPA-607)
+CPU Time for load db: 00:00:00.00u 00:00:00.00s 00:00:00.00e: 
+
+Min routing layer: M2
+Max routing layer: M7
+
+
+CPU Time for Top Level Pre-Route Processing: 00:00:00.00u 00:00:00.00s 00:00:00.00e: 
+Number of block ports: 33
+Number of block pin locations assigned from router: 0
+CPU Time for Pin Preparation: 00:00:00.00u 00:00:00.00s 00:00:00.00e: 
+Number of PG ports on blocks: 0
+Number of pins created: 33
+CPU Time for Pin Creation: 00:00:00.00u 00:00:00.00s 00:00:00.00e: 
+Total Pin Placement CPU Time: 00:00:00.00u 00:00:00.00s 00:00:00.01e: 
+Information: Ending 'place_pins' (FLW-8001)
+Information: Time: 2024-05-15 18:34:09 / Session: 0.10 hr / Command: 0.00 hr / Memory: 531 MB (FLW-8100)
+Warning: No net objects matched 'VDD' (SEL-004)
+Warning: No net objects matched 'VSS' (SEL-004)
+Information: The command 'check_mv_design' cleared the undo history. (UNDO-016)
+****************************************
+Report : check_mv_design
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 18:34:09 2024
+****************************************
+
+---------- Power domain rule ----------
+No errors or warnings.
+
+---------- Supply set rule ----------
+No errors or warnings.
+
+---------- Supply net rule ----------
+No errors or warnings.
+
+---------- Supply port rule ----------
+No errors or warnings.
+
+---------- Isolation strategy rule ----------
+No errors or warnings.
+
+---------- Level shifter strategy rule ----------
+No errors or warnings.
+
+---------- Retention strategy rule ----------
+No errors or warnings.
+
+---------- Power switch strategy rule ----------
+No errors or warnings.
+
+---------- Repeater rule ----------
+No errors or warnings.
+
+---------- Terminal boundary rule ----------
+No errors or warnings.
+
+---------- Isolation cell rule ----------
+No errors or warnings.
+
+---------- Level shifter cell rule ----------
+No errors or warnings.
+
+---------- Retention cell rule ----------
+No errors or warnings.
+
+---------- Switch cell rule ----------
+No errors or warnings.
+
+---------- PGMUX rule ----------
+No errors or warnings.
+
+---------- Diode cell rule ----------
+No errors or warnings.
+
+---------- Model rule ----------
+No errors or warnings.
+
+---------- Isolation rule ----------
+No errors or warnings.
+
+---------- Voltage shifting rule ----------
+No errors or warnings.
+
+---------- Tie-off connection rule ----------
+No errors or warnings.
+
+---------- Analog net rule ----------
+No errors or warnings.
+
+---------- Physical block pin rule ----------
+No errors or warnings.
+
+---------- PG pin rule ----------
+No errors or warnings.
+
+---------- Signal pin rule ----------
+No errors or warnings.
+
+---------- Summary ----------
+Information: Total 0 error(s) and 0 warning(s) from check_mv_design. (MV-082)
+Information: Saving 'i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design' to 'i2c_master_top.dlib:03_i2c_master_top_floorplan_initialized.design'. (DES-028)
+Information: Starting 'create_placement' (FLW-8000)
+Information: Time: 2024-05-15 18:34:09 / Session: 0.10 hr / Command: 0.00 hr / Memory: 531 MB (FLW-8100)
+Creating appropriate block views (if needed)...
+Multi-Processing Summary
+  Max number of cores for parent process: 1; hostname: localhost
+  No distributed processing
+Command Option Settings Summary
+  -floorplan -effort high
+Information: All hard macros are fixed, no hard macro placement is done. (DPP-416)
+Generating automatic soft blockages for 02_i2c_master_top_floorplan_start, hor/vert channel sizes are 2.4/2.4
+Placing top level std cells.
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+coarse place 0% done.
+coarse place 33% done.
+coarse place 67% done.
+coarse place 100% done.
+Running block placement.
+Running timing driven standard cell placement
+No editable block found.
+Running virtual optimization on full netlist ...
+Cannot create estimated_corner because current_corner is the default corner without user settings.Creating appropriate block views (if needed)...
+Generating automatic soft blockages for 02_i2c_master_top_floorplan_start, hor/vert channel sizes are 2.4/2.4
+Placing top level std cells.
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+coarse place 33% done.
+coarse place 67% done.
+coarse place 100% done.
+Running block placement.
+Floorplan placement done.
+****************************************
+Report : report_placement
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 18:34:10 2024
+****************************************
+  ==================
+  Note: Ignoring violations of fixed cells or between fixed pairs of cells. 
+        To include violations of / between fixed cells, disable -ignore_fixed. 
+  ==================
+
+  Wire length report (all)
+  ==================
+  wire length in design 02_i2c_master_top_floorplan_start: 4307.338 microns.
+  wire length in design 02_i2c_master_top_floorplan_start (see through blk pins): 4307.338 microns.
+  ------------------
+  Total wire length: 4307.338 microns.
+
+  Physical hierarchy violations report
+  ====================================
+  Violations in design 02_i2c_master_top_floorplan_start:
+     0 cells have placement violation.
+  ------------------------------------
+  Total 0 cells have placement violation.
+
+  Voltage area violations report
+  ====================================
+  Voltage area placement violations in design 02_i2c_master_top_floorplan_start:
+     0 cells placed outside the voltage area which they belong to.
+  ------------------------------------
+  Total 0 macro cells placed outside the voltage area which they belong to.
+
+  Hard macro to hard macro overlap report
+  =======================================
+  HM to HM overlaps in design 02_i2c_master_top_floorplan_start: 0
+  ---------------------------------------
+  Total hard macro to hard macro overlaps: 0
+
+Information: Default error view 02_i2c_master_top_floorplan_start_dpplace.err is created in GUI error browser. (DPP-054)
+Information: Elapsed time for create_placement excluding pending time: 00:00:00.49. (DPUI-902)
+Information: CPU time for create_placement : 00:00:00.48. (DPUI-903)
+Information: Peak memory usage for create_placement : 559 MB. (DPUI-904)
+Information: Ending 'create_placement' (FLW-8001)
+Information: Time: 2024-05-15 18:34:10 / Session: 0.10 hr / Command: 0.00 hr / Memory: 560 MB (FLW-8100)
+Information: Starting 'legalize_placement' (FLW-8000)
+Information: Time: 2024-05-15 18:34:10 / Session: 0.10 hr / Command: 0.00 hr / Memory: 560 MB (FLW-8100)
+nplDplc2Placer::setParam(effort,1)
+nplDplc2Placer::setParam(debug,0)
+nplDplc2Placer::setParam(site_check,2)
+nplDplc2Placer::setParam(app_firm_wgt,0)
+Warning: Site master "unit" has neither X-Symmetry nor Y-Symmetry. The "legal orientations" for the standard cells will be limited. (LGL-031)
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer M8 is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer M9 is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer MRDL is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+	place.legalize.enable_prerouted_net_check: 1
+	place.legalize.num_tracks_for_access_check: 1
+	place.legalize.use_eol_spacing_for_access_check: 0
+	place.legalize.allow_touch_track_for_access_check: 1
+	place.legalize.reduce_conservatism_in_eol_check: 0
+	place.legalize.preroute_shape_merge_distance: 0.0
+	place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 0 total shapes.
+Layer M2: cached 0 shapes out of 0 total shapes.
+Cached 0 vias out of 0 total vias.
+
+Legalizing Top Level Design i2c_master_top ... 
+Information: Initializing classic cellmap without advanced rules enabled and without PDC enabled
+Information: The following app options are used in cellmap
+        place.legalize.enable_color_aware_placement : false
+        place.legalize.use_nll_query_cm : false
+        place.legalize.enable_advanced_legalizer : false
+        place.legalize.enable_prerouted_net_check : true
+        place.legalize.enable_advanced_prerouted_net_check : false
+        place.legalize.always_continue : true
+        place.legalize.limit_legality_checks : false
+        place.common.pnet_aware_density : 1.0000
+        place.common.pnet_aware_min_width : 0.0000
+        place.common.pnet_aware_layers : {}
+        place.common.use_placement_model : false
+        place.common.enable_advanced_placement_model : true
+        cts.placement.cell_spacing_rule_style : maximum
+Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Total 0.0700 seconds to build cellmap data
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer M8 is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer M9 is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+Warning: Routing direction of metal layer MRDL is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+=====> Processed 65 ref cells (25 fillers) from library
+
+Bounds/Regions In This Design:
+        Area    Num Cells  Exclusive Name
+ (square um)
+     1615.32          707        Yes DEFAULT_VA
+
+Warning: max_legality_failures=5000 ignored.
+	To use it, set limit_legality_checks to true.
+Warning: max_legality_check_range=500 ignored.
+	To use it, set limit_legality_checks to true.
+Starting legalizer.
+Warning: Exclusive bound 'DEFAULT' has no cells.
+Optimizing Exclusive Bound 'DEFAULT_VA' (2/2)
+    Done Exclusive Bound 'DEFAULT_VA' (2/2) (0 sec)
+Legalization complete (0 total sec)
+
+****************************************
+  Report : Placement Attempts
+  Site   : unit
+****************************************
+
+number of cells:                    707
+number of references:                65
+number of site rows:                 67
+number of locations attempted:    12027
+number of locations failed:           0  (0.0%)
+
+Legality of references at locations:
+0 references had failures.
+
+Legality of references in rows:
+0 references had row failures.
+
+****************************************
+  Report : Cell Displacements
+****************************************
+
+number of cells aggregated:         707 (7282 total sites)
+avg row height over cells:        0.600 um
+rms cell displacement:            0.175 um ( 0.29 row height)
+rms weighted cell displacement:   0.175 um ( 0.29 row height)
+max cell displacement:            0.336 um ( 0.56 row height)
+avg cell displacement:            0.153 um ( 0.25 row height)
+avg weighted cell displacement:   0.153 um ( 0.25 row height)
+number of cells moved:              707
+number of large displacements:        0
+large displacement threshold:     3.000 row height
+
+Displacements of worst 10 cells:
+Cell: U189 (SAEDRVT14_ND2_CDC_1)
+  Input location: (43.7387,31.2954)
+  Legal location: (43.596,31.6)
+  Displacement:   0.336 um ( 0.56 row height)
+Cell: byte_controller/bit_controller/U88 (SAEDRVT14_INV_1)
+  Input location: (27.107,17.5135)
+  Legal location: (26.946,17.8)
+  Displacement:   0.329 um ( 0.55 row height)
+Cell: U170 (SAEDRVT14_INV_1)
+  Input location: (38.9124,32.4567)
+  Legal location: (38.712,32.2)
+  Displacement:   0.326 um ( 0.54 row height)
+Cell: byte_controller/U80 (SAEDRVT14_AOI21_0P5)
+  Input location: (35.41,26.4936)
+  Legal location: (35.53,26.2)
+  Displacement:   0.317 um ( 0.53 row height)
+Cell: U304 (SAEDRVT14_INV_1)
+  Input location: (38.6709,19.2568)
+  Legal location: (38.49,19)
+  Displacement:   0.314 um ( 0.52 row height)
+Cell: U168 (SAEDRVT14_ND2_CDC_1)
+  Input location: (41.5441,30.6619)
+  Legal location: (41.376,30.4)
+  Displacement:   0.311 um ( 0.52 row height)
+Cell: byte_controller/bit_controller/U83 (SAEDRVT14_INV_1)
+  Input location: (28.9666,28.3088)
+  Legal location: (28.944,28)
+  Displacement:   0.310 um ( 0.52 row height)
+Cell: U318 (SAEDRVT14_BUF_S_1)
+  Input location: (39.5706,20.4967)
+  Legal location: (39.6,20.8)
+  Displacement:   0.305 um ( 0.51 row height)
+Cell: byte_controller/bit_controller/U122 (SAEDRVT14_ND2_CDC_1)
+  Input location: (29.1543,31.3084)
+  Legal location: (29.24,31.6)
+  Displacement:   0.304 um ( 0.51 row height)
+Cell: U233 (SAEDRVT14_ND2_CDC_1)
+  Input location: (44.0762,33.1013)
+  Legal location: (44.04,32.8)
+  Displacement:   0.303 um ( 0.51 row height)
+
+Legalization succeeded.
+Total Legalizer CPU: 0.582
+Total Legalizer Wall Time: 0.583
+----------------------------------------------------------------
+Information: Ending 'legalize_placement' (FLW-8001)
+Information: Time: 2024-05-15 18:34:10 / Session: 0.10 hr / Command: 0.00 hr / Memory: 560 MB (FLW-8100)
+Start Global Route ... 
+[Init] Elapsed real time: 0:00:00 
+[Init] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Init] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Init] Total (MB): Used    7  Alloctr    7  Proc 6099 
+Printing options for 'route.common.*'
+
+Printing options for 'route.global.*'
+
+Begin global routing.
+Warning: Layer M8 does not have a preferred direction, assigning to vertical. (ZRT-025)
+Warning: Layer M9 does not have a preferred direction, assigning to horizontal. (ZRT-025)
+Warning: Layer MRDL does not have a preferred direction, assigning to vertical. (ZRT-025)
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Turn off antenna since no rule is specified
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Via on layer (VIA2) needs more than one tracks
+Warning: Layer M2 pitch 0.060 may be too small: wire/via-down 0.060, wire/via-up 0.098. (ZRT-026)
+Wire on layer (M3) needs more than one tracks
+Via on layer (VIA2) needs more than one tracks
+Via on layer (VIA3) needs more than one tracks
+Warning: Layer M3 pitch 0.074 may be too small: wire/via-down 0.098, wire/via-up 0.078. (ZRT-026)
+Wire on layer (M4) needs more than one tracks
+Via on layer (VIA3) needs more than one tracks
+Via on layer (VIA4) needs more than one tracks
+Warning: Layer M4 pitch 0.074 may be too small: wire/via-down 0.105, wire/via-up 0.135. (ZRT-026)
+Via on layer (VIA8) needs more than one tracks
+Warning: Layer M8 pitch 0.120 may be too small: wire/via-down 0.105, wire/via-up 0.135. (ZRT-026)
+Wire on layer (M9) needs more than one tracks
+Via on layer (VIA8) needs more than one tracks
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer M9 pitch 0.120 may be too small: wire/via-down 0.135, wire/via-up 1.570. (ZRT-026)
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer MRDL pitch 0.600 may be too small: wire/via-down 4.500, wire/via-up 0.600. (ZRT-026)
+Transition layer name: M3(2)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 0.98 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 0.98 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+Warning: Standard cell pin SAEDRVT14_EO2_V1_0P75/A1 has no valid via regions. (ZRT-044)
+Current Stage stats:
+[End of Read DB] Elapsed real time: 0:00:00 
+[End of Read DB] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Read DB] Stage (MB): Used   36  Alloctr   37  Proc   15 
+[End of Read DB] Total (MB): Used   43  Alloctr   44  Proc 6115 
+Constructing data structure ...
+Design statistics:
+Design Bounding Box (0.00um,0.00um,60.18um,60.20um)
+Number of routing layers = 10
+layer M1, dir Hor, min width = 0.034um, min space = 0.026um pitch = 0.074um
+layer M2, dir Ver, min width = 0.034um, min space = 0.026um pitch = 0.06um
+layer M3, dir Hor, min width = 0.034um, min space = 0.026um pitch = 0.074um
+layer M4, dir Ver, min width = 0.06um, min space = 0.04um pitch = 0.074um
+layer M5, dir Hor, min width = 0.06um, min space = 0.04um pitch = 0.12um
+layer M6, dir Ver, min width = 0.06um, min space = 0.04um pitch = 0.12um
+layer M7, dir Hor, min width = 0.06um, min space = 0.04um pitch = 0.12um
+layer M8, dir Ver, min width = 0.06um, min space = 0.04um pitch = 0.12um
+layer M9, dir Hor, min width = 0.06um, min space = 0.04um pitch = 0.12um
+layer MRDL, dir Ver, min width = 2um, min space = 2um pitch = 0.6um
+Current Stage stats:
+[End of Build Tech Data] Elapsed real time: 0:00:00 
+[End of Build Tech Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Tech Data] Stage (MB): Used    1  Alloctr    0  Proc    0 
+[End of Build Tech Data] Total (MB): Used   44  Alloctr   45  Proc 6115 
+Net statistics:
+Total number of nets     = 728
+Number of nets to route  = 727
+Number of single or zero port nets = 1
+Net length statistics: 
+Net Count(Ignore Fully Rted) 727, Total Half Perimeter Wire Length (HPWL) 4575 microns
+HPWL   0 ~   50 microns: Net Count      721	Total HPWL         4219 microns
+HPWL  50 ~  100 microns: Net Count        6	Total HPWL          356 microns
+HPWL 100 ~  200 microns: Net Count        0	Total HPWL            0 microns
+HPWL 200 ~  300 microns: Net Count        0	Total HPWL            0 microns
+HPWL 300 ~  400 microns: Net Count        0	Total HPWL            0 microns
+HPWL 400 ~  500 microns: Net Count        0	Total HPWL            0 microns
+HPWL 500 ~  600 microns: Net Count        0	Total HPWL            0 microns
+HPWL 600 ~  700 microns: Net Count        0	Total HPWL            0 microns
+HPWL 700 ~  800 microns: Net Count        0	Total HPWL            0 microns
+HPWL 800 ~  900 microns: Net Count        0	Total HPWL            0 microns
+HPWL 900 ~ 1000 microns: Net Count        0	Total HPWL            0 microns
+HPWL     > 1000 microns: Net Count        0	Total HPWL            0 microns
+Current Stage stats:
+[End of Build All Nets] Elapsed real time: 0:00:00 
+[End of Build All Nets] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build All Nets] Stage (MB): Used    0  Alloctr    0  Proc    3 
+[End of Build All Nets] Total (MB): Used   45  Alloctr   45  Proc 6118 
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+Average gCell capacity  7.03	 on layer (1)	 M1
+Average gCell capacity  9.43	 on layer (2)	 M2
+Average gCell capacity  8.03	 on layer (3)	 M3
+Average gCell capacity  8.04	 on layer (4)	 M4
+Average gCell capacity  4.95	 on layer (5)	 M5
+Average gCell capacity  4.95	 on layer (6)	 M6
+Average gCell capacity  4.95	 on layer (7)	 M7
+Average gCell capacity  4.95	 on layer (8)	 M8
+Average gCell capacity  0.00	 on layer (9)	 M9
+Average gCell capacity  0.00	 on layer (10)	 MRDL
+Average number of tracks per gCell 8.06	 on layer (1)	 M1
+Average number of tracks per gCell 9.94	 on layer (2)	 M2
+Average number of tracks per gCell 8.06	 on layer (3)	 M3
+Average number of tracks per gCell 8.06	 on layer (4)	 M4
+Average number of tracks per gCell 4.98	 on layer (5)	 M5
+Average number of tracks per gCell 4.98	 on layer (6)	 M6
+Average number of tracks per gCell 4.98	 on layer (7)	 M7
+Average number of tracks per gCell 4.98	 on layer (8)	 M8
+Average number of tracks per gCell 4.98	 on layer (9)	 M9
+Average number of tracks per gCell 0.99	 on layer (10)	 MRDL
+Number of gCells = 102010
+Current Stage stats:
+[End of Build Congestion Map] Elapsed real time: 0:00:00 
+[End of Build Congestion Map] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Congestion Map] Stage (MB): Used    1  Alloctr    1  Proc    2 
+[End of Build Congestion Map] Total (MB): Used   46  Alloctr   47  Proc 6121 
+Current Stage stats:
+[End of Add Nets Demand] Elapsed real time: 0:00:00 
+[End of Add Nets Demand] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Add Nets Demand] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Add Nets Demand] Total (MB): Used   46  Alloctr   47  Proc 6121 
+Number of user frozen nets = 0
+Total stats:
+[End of Build Data] Elapsed real time: 0:00:00 
+[End of Build Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Data] Stage (MB): Used    3  Alloctr    3  Proc    6 
+[End of Build Data] Total (MB): Used   46  Alloctr   47  Proc 6121 
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+Current Stage stats:
+[End of Blocked Pin Detection] Elapsed real time: 0:00:00 
+[End of Blocked Pin Detection] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Blocked Pin Detection] Stage (MB): Used  212  Alloctr  212  Proc  215 
+[End of Blocked Pin Detection] Total (MB): Used  258  Alloctr  259  Proc 6336 
+Information: Using 1 threads for routing. (ZRT-444)
+Information: Multiple gcell levels ON
+Information: Buffer distance is estimated to be ~271.0000um (451 gCells)
+
+Start GR phase 0
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+[rtAllBotParts] Elapsed real time: 0:00:00 
+[rtAllBotParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[rtTop] Elapsed real time: 0:00:00 
+[rtTop] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Initial Routing] Elapsed real time: 0:00:00 
+[End of Initial Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Initial Routing] Stage (MB): Used    0  Alloctr    0  Proc    1 
+[End of Initial Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+Initial. Routing result:
+Initial. Both Dirs: Dmd-Cap  =     0 Max = 0 GRCs =     0 (0.00%)
+Initial. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. V routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. Both Dirs: Overflow =    79 Max = 4 GRCs =   108 (0.53%)
+Initial. H routing: Overflow =    19 Max = 3 (GRCs =  1) GRCs =    34 (0.33%)
+Initial. V routing: Overflow =    60 Max = 4 (GRCs =  1) GRCs =    74 (0.73%)
+Initial. M1         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M2         Overflow =    58 Max = 4 (GRCs =  1) GRCs =    70 (0.69%)
+Initial. M3         Overflow =    19 Max = 3 (GRCs =  1) GRCs =    34 (0.33%)
+Initial. M4         Overflow =     1 Max = 2 (GRCs =  1) GRCs =     4 (0.04%)
+Initial. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+Initial. MRDL       Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+Initial. Total Wire Length = 4792.31
+Initial. Layer M1 wire length = 0.00
+Initial. Layer M2 wire length = 1636.33
+Initial. Layer M3 wire length = 2284.94
+Initial. Layer M4 wire length = 865.82
+Initial. Layer M5 wire length = 5.22
+Initial. Layer M6 wire length = 0.00
+Initial. Layer M7 wire length = 0.00
+Initial. Layer M8 wire length = 0.00
+Initial. Layer M9 wire length = 0.00
+Initial. Layer MRDL wire length = 0.00
+Initial. Total Number of Contacts = 4877
+Initial. Via VIA12SQ_C count = 1851
+Initial. Via VIA23SQ_C count = 2558
+Initial. Via VIA34SQ_C count = 466
+Initial. Via VIA45SQ count = 2
+Initial. Via VIA56SQ count = 0
+Initial. Via VIA67SQ_C count = 0
+Initial. Via VIA78SQ_C count = 0
+Initial. Via VIA89_C count = 0
+Initial. Via VIA9RDL count = 0
+Initial. completed.
+
+Start GR phase 1
+Wed May 15 18:34:11 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase1 Routing] Elapsed real time: 0:00:00 
+[End of Phase1 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase1 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase1 Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+phase1. Routing result:
+phase1. Both Dirs: Dmd-Cap  =     0 Max = 0 GRCs =     0 (0.00%)
+phase1. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. V routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. Both Dirs: Overflow =    51 Max = 5 GRCs =    52 (0.25%)
+phase1. H routing: Overflow =     0 Max = 1 (GRCs =  1) GRCs =     1 (0.01%)
+phase1. V routing: Overflow =    51 Max = 5 (GRCs =  1) GRCs =    51 (0.50%)
+phase1. M1         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M2         Overflow =    51 Max = 5 (GRCs =  1) GRCs =    51 (0.50%)
+phase1. M3         Overflow =     0 Max = 1 (GRCs =  1) GRCs =     1 (0.01%)
+phase1. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase1. MRDL       Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase1. Total Wire Length = 4815.49
+phase1. Layer M1 wire length = 0.00
+phase1. Layer M2 wire length = 1611.45
+phase1. Layer M3 wire length = 2285.18
+phase1. Layer M4 wire length = 913.64
+phase1. Layer M5 wire length = 5.22
+phase1. Layer M6 wire length = 0.00
+phase1. Layer M7 wire length = 0.00
+phase1. Layer M8 wire length = 0.00
+phase1. Layer M9 wire length = 0.00
+phase1. Layer MRDL wire length = 0.00
+phase1. Total Number of Contacts = 4918
+phase1. Via VIA12SQ_C count = 1851
+phase1. Via VIA23SQ_C count = 2552
+phase1. Via VIA34SQ_C count = 513
+phase1. Via VIA45SQ count = 2
+phase1. Via VIA56SQ count = 0
+phase1. Via VIA67SQ_C count = 0
+phase1. Via VIA78SQ_C count = 0
+phase1. Via VIA89_C count = 0
+phase1. Via VIA9RDL count = 0
+phase1. completed.
+
+Start GR phase 2
+Wed May 15 18:34:11 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[updNetsDmd] Elapsed real time: 0:00:00 
+[updNetsDmd] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase2 Routing] Elapsed real time: 0:00:00 
+[End of Phase2 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase2 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase2 Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+phase2. Routing result:
+phase2. Both Dirs: Dmd-Cap  =     0 Max = 0 GRCs =     0 (0.00%)
+phase2. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. V routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. Both Dirs: Overflow =    10 Max = 1 GRCs =    13 (0.06%)
+phase2. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. V routing: Overflow =    10 Max = 1 (GRCs = 13) GRCs =    13 (0.13%)
+phase2. M1         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M2         Overflow =    10 Max = 1 (GRCs = 13) GRCs =    13 (0.13%)
+phase2. M3         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. MRDL       Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase2. Total Wire Length = 4820.63
+phase2. Layer M1 wire length = 0.00
+phase2. Layer M2 wire length = 1610.06
+phase2. Layer M3 wire length = 2284.93
+phase2. Layer M4 wire length = 920.42
+phase2. Layer M5 wire length = 5.22
+phase2. Layer M6 wire length = 0.00
+phase2. Layer M7 wire length = 0.00
+phase2. Layer M8 wire length = 0.00
+phase2. Layer M9 wire length = 0.00
+phase2. Layer MRDL wire length = 0.00
+phase2. Total Number of Contacts = 4921
+phase2. Via VIA12SQ_C count = 1851
+phase2. Via VIA23SQ_C count = 2552
+phase2. Via VIA34SQ_C count = 516
+phase2. Via VIA45SQ count = 2
+phase2. Via VIA56SQ count = 0
+phase2. Via VIA67SQ_C count = 0
+phase2. Via VIA78SQ_C count = 0
+phase2. Via VIA89_C count = 0
+phase2. Via VIA9RDL count = 0
+phase2. completed.
+
+Start GR phase 3
+Wed May 15 18:34:11 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[updNetsDmd] Elapsed real time: 0:00:00 
+[updNetsDmd] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase3 Routing] Elapsed real time: 0:00:00 
+[End of Phase3 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase3 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase3 Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+phase3. Routing result:
+phase3. Both Dirs: Dmd-Cap  =     0 Max = 0 GRCs =     0 (0.00%)
+phase3. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. V routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. Both Dirs: Overflow =     9 Max = 1 GRCs =    12 (0.06%)
+phase3. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. V routing: Overflow =     9 Max = 1 (GRCs = 12) GRCs =    12 (0.12%)
+phase3. M1         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M2         Overflow =     9 Max = 1 (GRCs = 12) GRCs =    12 (0.12%)
+phase3. M3         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. MRDL       Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase3. Total Wire Length = 4820.63
+phase3. Layer M1 wire length = 0.00
+phase3. Layer M2 wire length = 1610.06
+phase3. Layer M3 wire length = 2284.93
+phase3. Layer M4 wire length = 920.42
+phase3. Layer M5 wire length = 5.22
+phase3. Layer M6 wire length = 0.00
+phase3. Layer M7 wire length = 0.00
+phase3. Layer M8 wire length = 0.00
+phase3. Layer M9 wire length = 0.00
+phase3. Layer MRDL wire length = 0.00
+phase3. Total Number of Contacts = 4921
+phase3. Via VIA12SQ_C count = 1851
+phase3. Via VIA23SQ_C count = 2552
+phase3. Via VIA34SQ_C count = 516
+phase3. Via VIA45SQ count = 2
+phase3. Via VIA56SQ count = 0
+phase3. Via VIA67SQ_C count = 0
+phase3. Via VIA78SQ_C count = 0
+phase3. Via VIA89_C count = 0
+phase3. Via VIA9RDL count = 0
+phase3. completed.
+
+Start GR phase 4
+Wed May 15 18:34:11 2024
+Number of partitions: 1 (1 x 1)
+Size of partitions: 101 gCells x 101 gCells
+[rtAllParts] Elapsed real time: 0:00:00 
+[rtAllParts] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[updNetsDmd] Elapsed real time: 0:00:00 
+[updNetsDmd] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Current Stage stats:
+[End of Phase4 Routing] Elapsed real time: 0:00:00 
+[End of Phase4 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase4 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase4 Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+phase4. Routing result:
+phase4. Both Dirs: Dmd-Cap  =     0 Max = 0 GRCs =     0 (0.00%)
+phase4. H routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. V routing: Dmd-Cap  =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. Both Dirs: Overflow =     9 Max = 1 GRCs =    12 (0.06%)
+phase4. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. V routing: Overflow =     9 Max = 1 (GRCs = 12) GRCs =    12 (0.12%)
+phase4. M1         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M2         Overflow =     9 Max = 1 (GRCs = 12) GRCs =    12 (0.12%)
+phase4. M3         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M4         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M5         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M6         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M7         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M8         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. M9         Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase4. MRDL       Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase4. Total Wire Length = 4821.23
+phase4. Layer M1 wire length = 0.00
+phase4. Layer M2 wire length = 1610.06
+phase4. Layer M3 wire length = 2285.53
+phase4. Layer M4 wire length = 920.42
+phase4. Layer M5 wire length = 5.22
+phase4. Layer M6 wire length = 0.00
+phase4. Layer M7 wire length = 0.00
+phase4. Layer M8 wire length = 0.00
+phase4. Layer M9 wire length = 0.00
+phase4. Layer MRDL wire length = 0.00
+phase4. Total Number of Contacts = 4923
+phase4. Via VIA12SQ_C count = 1851
+phase4. Via VIA23SQ_C count = 2554
+phase4. Via VIA34SQ_C count = 516
+phase4. Via VIA45SQ count = 2
+phase4. Via VIA56SQ count = 0
+phase4. Via VIA67SQ_C count = 0
+phase4. Via VIA78SQ_C count = 0
+phase4. Via VIA89_C count = 0
+phase4. Via VIA9RDL count = 0
+phase4. completed.
+Total number of nets with coarse-to-detailed routing failures: 0
+[End of Whole Chip Routing] Elapsed real time: 0:00:00 
+[End of Whole Chip Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Whole Chip Routing] Stage (MB): Used  215  Alloctr  215  Proc  222 
+[End of Whole Chip Routing] Total (MB): Used  259  Alloctr  260  Proc 6337 
+
+Congestion utilization per direction:
+Average vertical track utilization   =  2.48 %
+Peak    vertical track utilization   = 46.43 %
+Average horizontal track utilization =  2.26 %
+Peak    horizontal track utilization = 44.44 %
+
+[End of Global Routing] Elapsed real time: 0:00:00 
+[End of Global Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Global Routing] Stage (MB): Used  214  Alloctr  214  Proc  222 
+[End of Global Routing] Total (MB): Used  258  Alloctr  258  Proc 6337 
+Writing out congestion map...
+Updating congestion ...
+Updating congestion ...
+[DBOUT] Elapsed real time: 0:00:00 
+[DBOUT] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[DBOUT] Stage (MB): Used  -36  Alloctr  -36  Proc    0 
+[DBOUT] Total (MB): Used   36  Alloctr   37  Proc 6337 
+[End of dbOut] Elapsed real time: 0:00:00 
+[End of dbOut] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of dbOut] Stage (MB): Used  -36  Alloctr  -36  Proc    0 
+[End of dbOut] Total (MB): Used   36  Alloctr   37  Proc 6337 
+****************************************
+Report : report_placement
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 18:34:11 2024
+****************************************
+  ==================
+  Note: Including violations of fixed cells or between fixed pairs of cells. 
+        To ignore violations of / between fixed cells, enable -ignore_fixed. 
+  ==================
+
+  Wire length report (all)
+  ==================
+  wire length in design 02_i2c_master_top_floorplan_start: 4318.743 microns.
+  wire length in design 02_i2c_master_top_floorplan_start (see through blk pins): 4318.743 microns.
+
+  Physical hierarchy violations report
+  ====================================
+  Violations in design 02_i2c_master_top_floorplan_start:
+     0 cells have placement violation.
+
+  Voltage area violations report
+  ====================================
+  Voltage area placement violations in design 02_i2c_master_top_floorplan_start:
+     0 cells placed outside the voltage area which they belong to.
+
+Information: Default error view 02_i2c_master_top_floorplan_start_dpplace.err is created in GUI error browser. (DPP-054)
+Information: Saving 'i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design' to 'i2c_master_top.dlib:04_i2c_master_top_floorplan_placed.design'. (DES-028)
+Saving library 'i2c_master_top.dlib'
+Information: Decrementing open_count of block 'i2c_master_top.dlib:02_i2c_master_top_floorplan_start.design' to 1. (DES-022)
+Closing library 'i2c_master_top.dlib'
+1
+source scripts/step3_powerplan.tcl
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/saed14rvt_tt0p8v25c.ndm' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/users/hungpt/icdesign/m3/lab04/pnr/CLIBs/EXPLORE_physical_only.ndm' (FILE-007)
+Information: Need to rebuild auto created reference library: link_library setting is different (more or less files, or order changed).
+            current: saed14rvt_tt0p8v25c.db saed14sram_tt0p8v25c.db.
+            saved  : saed14rvt_tt0p8v25c.db. (LIB-085)
+design SRAM2RW128x16 has no physical library.
+design SRAM2RW128x32 has no physical library.
+design SRAM2RW128x4 has no physical library.
+design SRAM2RW128x8 has no physical library.
+design SRAM2RW16x16 has no physical library.
+design SRAM2RW16x32 has no physical library.
+design SRAM2RW16x4 has no physical library.
+design SRAM2RW16x8 has no physical library.
+design SRAM2RW256x128 has no physical library.
+design SRAM2RW256x32 has no physical library.
+design SRAM2RW256x8 has no physical library.
+design SRAM2RW32x16 has no physical library.
+design SRAM2RW32x32 has no physical library.
+design SRAM2RW32x4 has no physical library.
+design SRAM2RW32x8 has no physical library.
+design SRAM2RW4x4 has no physical library.
+design SRAM2RW4x8 has no physical library.
+design SRAM2RW512x128 has no physical library.
+design SRAM2RW512x32 has no physical library.
+design SRAM2RW512x64 has no physical library.
+design SRAM2RW512x8 has no physical library.
+design SRAM2RW64x128 has no physical library.
+design SRAM2RW64x16 has no physical library.
+design SRAM2RW64x32 has no physical library.
+design SRAM2RW64x4 has no physical library.
+design SRAM2RW64x8 has no physical library.
+...Created 4 lib groups
+
+... 3 cell libraries to build.
+
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c.ndm (1/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/saed14rvt_tt0p8v25c.ndm
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm
+
+... checking whether need to build cell library: EXPLORE_physical_only.ndm (3/3)
+... checking whether can reuse library under output directory
+reuse existing cell library under output directory: CLIBs/EXPLORE_physical_only.ndm
+
+... 3 cell libraries can be reused.
+
+
+
+Warning: There are 1 db files not used for creating cell libraries: /home/dkits/synopsys/SAED14nm/sram/logic_synth/dual/saed14sram_tt0p8v25c.db. (LIB-083)
+Information: Successfully built 3 reference libraries: saed14rvt_tt0p8v25c.ndm saed14rvt_tt0p8v25c_physical_only.ndm EXPLORE_physical_only.ndm. (LIB-093)
+Information: Rebuild of auto created reference libraries succeeded. (LIB-086)
+Information: Incrementing open_count of block 'i2c_master_top.dlib:05_i2c_master_top_floorplan_pns_start.design' to 2. (DES-021)
+****************************************
+Report : library
+Library: i2c_master_top.dlib
+Version: U-2022.12
+Date   : Wed May 15 18:34:13 2024
+****************************************
+
+Full name: /home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib:i2c_master_top.dlib
+File name: /home/users/hungpt/icdesign/m3/lab04/results/i2c_master_top.dlib
+Design count: 7
+No timing data.
+
+
+
+Using libraries: i2c_master_top.dlib saed14rvt_tt0p8v25c saed14rvt_tt0p8v25c_physical_only EXPLORE_physical_only
+Visiting block i2c_master_top.dlib:05_i2c_master_top_floorplan_pns_start.design
+Design 'i2c_master_top' was successfully linked.
+Information: The command 'remove_pg_via_master_rules' cleared the undo history. (UNDO-016)
+No via def rule is found.
+No pattern is found.
+All strategies have been removed.
+All strategy via rules have been removed.
+Successfully create standard cell rail pattern M1_rail.
+Successfully set PG strategy M1_rail_strategy_pwr.
+Successfully set PG strategy M1_rail_strategy_gnd.
+Sanity check for inputs.
+No strategy-level via rule is specified, the default rule will be applied.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy M1_rail_strategy_pwr.
+Loading library and design information.
+Number of Standard Cells: 707
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating standard cell rails.
+Creating standard cell rails for strategy M1_rail_strategy_pwr.
+DRC checking and fixing for standard cell rail strategy M1_rail_strategy_pwr.
+Number of threads: 1
+Number of partitions: 4
+Direction of partitions: horizontal
+Number of wires: 34
+Checking DRC for 34 wires:5% 10% 15% 20% 25% 40% 50% 60% 70% 75% 80% 85% 90% 100%
+Creating 34 wires after DRC fixing.
+Wire DRC checking runtime 0.00 seconds.
+Creating via connection between strategies and existing shapes.
+Via DRC checking runtime 0.00 seconds.
+via connection runtime: 0 seconds.
+Removing dangling/floating wire/vias after DRC check.
+Start iteration 1:
+Checking potential dangling/floating power plan wires.
+Finish removing all dangling or floating wires and vias.
+Number of phantom wires: 0 
+Number of phantom vias: 0 
+Commiting wires and vias.
+Committed 34 wires.
+Committing wires takes 0.00 seconds.
+Committed 0 vias.
+Committed 0 wires for via creation.
+Committing vias takes 0.00 seconds.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Sanity check for inputs.
+No strategy-level via rule is specified, the default rule will be applied.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy M1_rail_strategy_gnd.
+Loading library and design information.
+Number of Standard Cells: 707
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating standard cell rails.
+Creating standard cell rails for strategy M1_rail_strategy_gnd.
+DRC checking and fixing for standard cell rail strategy M1_rail_strategy_gnd.
+Number of threads: 1
+Number of partitions: 4
+Direction of partitions: horizontal
+Number of wires: 34
+Checking DRC for 34 wires:5% 10% 15% 20% 25% 35% 40% 45% 50% 55% 60% 75% 80% 85% 90% 100%
+Creating 34 wires after DRC fixing.
+Wire DRC checking runtime 0.00 seconds.
+Creating via connection between strategies and existing shapes.
+Via DRC checking runtime 0.00 seconds.
+via connection runtime: 0 seconds.
+Removing dangling/floating wire/vias after DRC check.
+Start iteration 1:
+Checking potential dangling/floating power plan wires.
+Finish removing all dangling or floating wires and vias.
+Number of phantom wires: 0 
+Number of phantom vias: 0 
+Commiting wires and vias.
+Committed 34 wires.
+Committing wires takes 0.00 seconds.
+Committed 0 vias.
+Committed 0 wires for via creation.
+Committing vias takes 0.00 seconds.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Successfully create mesh pattern TOP_MESH_VERTICAL.
+Successfully set PG strategy VDDVSS_TOP_MESH_VERTICAL.
+Sanity check for inputs.
+No strategy-level via rule is specified, the default rule will be applied.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy VDDVSS_TOP_MESH_VERTICAL.
+Loading library and design information.
+Number of Standard Cells: 707
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating straps and vias in power plan.
+Creating wire shapes for strategies VDDVSS_TOP_MESH_VERTICAL .
+Creating wire shapes runtime: 0 seconds
+Blockage cutting and DRC fixing for wire shapes for strategies VDDVSS_TOP_MESH_VERTICAL .
+Check and fix DRC for 20 wires for strategy VDDVSS_TOP_MESH_VERTICAL.
+Number of threads: 1
+Number of partitions: 2
+Direction of partitions: vertical
+Number of wires: 20
+Checking DRC for 20 wires:10% 30% 50% 65% 80% 85% 100%
+Creating 20 wires after DRC fixing.
+Wire DRC checking runtime 0.00 seconds.
+Creating via shapes for strategies VDDVSS_TOP_MESH_VERTICAL .
+Working on strategy VDDVSS_TOP_MESH_VERTICAL.
+Number of detected intersections: 0
+Total runtime of via shapes creation: 0 seconds
+Creating via connection between strategies and existing shapes.
+via connection runtime: 0 seconds.
+Number of phantom wires: 0 
+Number of phantom vias: 0 
+Commiting wires and vias.
+Committed 60 wires.
+Created 40 pins at design boundary.
+Committing wires takes 0.00 seconds.
+Committed 3400 vias.
+Committed 0 wires for via creation.
+Committing vias takes 0.00 seconds.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Successfully create mesh pattern TOP_MESH_HORIZONTAL.
+Successfully set PG strategy VDDVSS_TOP_MESH_HORIZONTAL.
+Sanity check for inputs.
+No strategy-level via rule is specified, the default rule will be applied.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy VDDVSS_TOP_MESH_HORIZONTAL.
+Loading library and design information.
+Number of Standard Cells: 707
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating straps and vias in power plan.
+Creating wire shapes for strategies VDDVSS_TOP_MESH_HORIZONTAL .
+Creating wire shapes runtime: 0 seconds
+Blockage cutting and DRC fixing for wire shapes for strategies VDDVSS_TOP_MESH_HORIZONTAL .
+Check and fix DRC for 20 wires for strategy VDDVSS_TOP_MESH_HORIZONTAL.
+Number of threads: 1
+Number of partitions: 2
+Direction of partitions: horizontal
+Number of wires: 20
+Checking DRC for 20 wires:10% 30% 40% 50% 60% 65% 85% 100%
+Creating 20 wires after DRC fixing.
+Wire DRC checking runtime 0.00 seconds.
+Creating via shapes for strategies VDDVSS_TOP_MESH_HORIZONTAL .
+Working on strategy VDDVSS_TOP_MESH_HORIZONTAL.
+Number of detected intersections: 0
+Total runtime of via shapes creation: 0 seconds
+Runtime of via DRC checking for strategy VDDVSS_TOP_MESH_HORIZONTAL: 0.00 seconds.
+Creating via connection between strategies and existing shapes.
+Check and fix DRCs for 200 stacked vias.
+Number of threads: 1
+Number of partitions: 2
+Direction of partitions: horizontal
+Number of vias: 200
+Checking DRC for 200 stacked vias:5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%
+Via DRC checking runtime 0.00 seconds.
+via connection runtime: 0 seconds.
+Removing dangling/floating wire/vias after DRC check.
+Start iteration 1:
+Checking potential dangling/floating power plan wires.
+Checking dangling/floating vias between strategies and existing shapes.
+Checking 200 stacked vias:0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Finish removing all dangling or floating wires and vias.
+Number of phantom wires: 0 
+Number of phantom vias: 0 
+Commiting wires and vias.
+Committed 60 wires.
+Created 40 pins at design boundary.
+Committing wires takes 0.00 seconds.
+Committed 200 vias.
+Committed 0 wires for via creation.
+Committing vias takes 0.00 seconds.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Successfully create PG ring pattern ring_pattern.
+Successfully set PG strategy RING.
+Sanity check for inputs.
+No strategy-level via rule is specified, the default rule will be applied.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy RING.
+Loading library and design information.
+Number of Standard Cells: 707
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating rings.
+Creating via connection between strategies and existing shapes.
+Check and fix DRCs for 80 stacked vias.
+Number of threads: 1
+Number of partitions: 2
+Direction of partitions: vertical
+Number of vias: 40
+Checking DRC for 40 stacked vias:5% 10% 15% 20% 25% 30% 40% 50% 55% 60% 65% 75% 80% 85% 90% 100%
+Number of threads: 1
+Number of partitions: 2
+Direction of partitions: horizontal
+Number of vias: 40
+Checking DRC for 40 stacked vias:5% 10% 15% 20% 25% 30% 40% 50% 55% 60% 65% 75% 80% 85% 90% 100%
+Via DRC checking runtime 0.00 seconds.
+via connection runtime: 0 seconds.
+Removing dangling/floating wire/vias after DRC check.
+Start iteration 1:
+Checking potential dangling/floating power plan wires.
+Checking dangling/floating vias inside strategy RING.
+Checking 8 stacked vias:0% 10% 20% 30% 50% 60% 70% 80% 100%
+Checking dangling/floating vias between strategies and existing shapes.
+Checking 80 stacked vias:0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Finish removing all dangling or floating wires and vias.
+Number of phantom wires: 0 
+Number of phantom vias: 0 
+Commiting wires and vias.
+Committed 8 wires.
+Committing wires takes 0.00 seconds.
+Committed 88 vias.
+Committed 0 wires for via creation.
+Committing vias takes 0.00 seconds.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Checking secondary net through power switch is enabled. 
+Secondary net will be checked together from primary net. They will be treated as the same net
+Primary Net : VDD    Secondary Net:
+Primary Net : VSS    Secondary Net:
+Loading cell instances...
+Number of Standard Cells: 707
+Number of Macro Cells: 0
+Number of IO Pad Cells: 0
+Number of Blocks: 0
+Loading P/G wires and vias...
+Number of VDD Wires: 58
+Number of VDD Vias: 1844
+Number of VDD Terminals: 40
+**************Verify net VDD connectivity*****************
+  Number of floating wires: 0
+  Number of floating vias: 0
+  Number of floating std cells: 0
+  Number of floating hard macros: 0
+  Number of floating I/O pads: 0
+  Number of floating terminals: 0
+  Number of floating hierarchical blocks: 0
+************************************************************
+Loading cell instances...
+Loading P/G wires and vias...
+Number of VSS Wires: 58
+Number of VSS Vias: 1844
+Number of VSS Terminals: 40
+**************Verify net VSS connectivity*****************
+  Number of floating wires: 0
+  Number of floating vias: 0
+  Number of floating std cells: 0
+  Number of floating hard macros: 0
+  Number of floating I/O pads: 0
+  Number of floating terminals: 0
+  Number of floating hierarchical blocks: 0
+************************************************************
+Overall runtime: 0 seconds.
+Information: Saving 'i2c_master_top.dlib:05_i2c_master_top_floorplan_pns_start.design' to 'i2c_master_top.dlib:06_i2c_master_top_floorplan_pns_finish.design'. (DES-028)
+Saving library 'i2c_master_top.dlib'
+Information: Decrementing open_count of block 'i2c_master_top.dlib:05_i2c_master_top_floorplan_pns_start.design' to 1. (DES-022)
+Closing library 'i2c_master_top.dlib'
+1
+quit
+Maximum memory usage for this session: 797.38 MB
+Maximum memory usage for this session including child processes: 797.38 MB
+CPU usage for this session:     27 seconds (  0.01 hours)
+Elapsed time for this session:    371 seconds (  0.10 hours)
+Thank you for using IC Compiler II.

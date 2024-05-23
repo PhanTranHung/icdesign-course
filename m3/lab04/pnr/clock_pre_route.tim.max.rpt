@@ -1,0 +1,346 @@
+SI analysis is not enabled, so delta delays are unavailable.
+****************************************
+Report : timing
+        -path_type full_clock_expanded
+        -delay_type max
+        -nworst 1
+        -max_paths 1
+        -report_by group
+        -input_pins
+        -nets
+        -include_hierarchical_pins
+        -transition_time
+        -capacitance
+        -crosstalk_delta
+        -derate
+        -attributes
+        -physical
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Wed May 15 20:03:47 2024
+****************************************
+
+  Startpoint: byte_controller/bit_controller/cnt_reg[0] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cnt_reg[15] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: wb_clk_i
+  Path Type: max
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout    Cap      Trans     Derate   Delta     Incr      Path          Location       Attributes
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                     0.00      0.00
+  source latency                                                                                 0.00      0.00
+  wb_clk_i (in)                                                      0.00      1.00              0.00      0.00 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     10.62                                                                        d
+  ZCTSBUF_6085_67/A (SAEDRVT14_DEL_R2V1_2)                           0.00      1.00              0.00      0.00 r    (37.53,33.10)
+  ZCTSBUF_6085_67/X (SAEDRVT14_DEL_R2V1_2)                           0.03      1.00              0.03      0.03 r    (37.79,33.10)
+  ZCTSNET_6 (net)                                  18     14.64                                                                        d
+  byte_controller/ZCTSNET_5 (i2c_master_byte_ctrl)                   0.03      1.00              0.00      0.03 r    (hierarchical)    h
+  byte_controller/ZCTSNET_5 (net)                  18     14.64                                                                        d
+  byte_controller/bit_controller/ZCTSNET_4 (i2c_master_bit_ctrl)     0.03      1.00              0.00      0.03 r    (hierarchical)    h
+  byte_controller/bit_controller/ZCTSNET_4 (net)   18     14.64                                                                        d
+  byte_controller/bit_controller/cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      0.03 r    (40.22,39.22)     s, n
+
+  byte_controller/bit_controller/cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      0.03 r    (40.22,39.22)     s, n
+  byte_controller/bit_controller/cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      1.00              0.04      0.07 f    (41.27,39.10)     s, n
+  byte_controller/bit_controller/cnt[0] (net)       4      1.45
+  byte_controller/bit_controller/sub_226/A[0] (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+                                                                     0.01      1.00              0.00      0.07 f    (hierarchical)    h
+  byte_controller/bit_controller/sub_226/A[0] (net)        1.45
+  byte_controller/bit_controller/sub_226/U2/A2 (SAEDRVT14_OR2_1)     0.01      1.00              0.00      0.07 f    (41.56,39.10)
+  byte_controller/bit_controller/sub_226/U2/X (SAEDRVT14_OR2_1)      0.00      1.00              0.01      0.08 f    (41.86,39.11)
+  byte_controller/bit_controller/sub_226/n11 (net)
+                                                    3      1.06
+  byte_controller/bit_controller/sub_226/U31/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.00      1.00              0.00      0.08 f    (42.97,38.50)
+  byte_controller/bit_controller/sub_226/U31/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.09 f    (43.12,38.49)
+  byte_controller/bit_controller/sub_226/n10 (net)
+                                                    3      1.24
+  byte_controller/bit_controller/sub_226/U30/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.09 f    (43.93,36.10)
+  byte_controller/bit_controller/sub_226/U30/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.11 f    (43.78,36.09)
+  byte_controller/bit_controller/sub_226/n9 (net)
+                                                    3      1.28
+  byte_controller/bit_controller/sub_226/U29/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.11 f    (41.41,35.50)
+  byte_controller/bit_controller/sub_226/U29/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.02      0.12 f    (41.56,35.51)
+  byte_controller/bit_controller/sub_226/n8 (net)
+                                                    3      1.86
+  byte_controller/bit_controller/sub_226/U28/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.12 f    (41.71,28.90)
+  byte_controller/bit_controller/sub_226/U28/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.02      0.14 f    (41.86,28.89)
+  byte_controller/bit_controller/sub_226/n7 (net)
+                                                    3      1.39
+  byte_controller/bit_controller/sub_226/U27/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.14 f    (42.97,26.50)
+  byte_controller/bit_controller/sub_226/U27/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.15 f    (43.12,26.49)
+  byte_controller/bit_controller/sub_226/n6 (net)
+                                                    3      1.16
+  byte_controller/bit_controller/sub_226/U26/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.15 f    (43.34,27.10)
+  byte_controller/bit_controller/sub_226/U26/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.16 f    (43.48,27.11)
+  byte_controller/bit_controller/sub_226/n5 (net)
+                                                    3      1.16
+  byte_controller/bit_controller/sub_226/U25/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.16 f    (44.30,27.70)
+  byte_controller/bit_controller/sub_226/U25/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.18 f    (44.45,27.69)
+  byte_controller/bit_controller/sub_226/n3 (net)
+                                                    3      1.07
+  byte_controller/bit_controller/sub_226/U24/A1 (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.00      0.18 f    (44.74,28.34)
+  byte_controller/bit_controller/sub_226/U24/X (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.01      0.19 r    (44.70,28.30)
+  byte_controller/bit_controller/sub_226/n4 (net)
+                                                    3      1.31
+  byte_controller/bit_controller/sub_226/U23/A1 (SAEDRVT14_ND2_CDC_1)
+                                                                     0.01      1.00              0.00      0.19 r    (44.89,29.50)
+  byte_controller/bit_controller/sub_226/U23/X (SAEDRVT14_ND2_CDC_1)
+                                                                     0.01      1.00              0.01      0.20 f    (45.00,29.50)
+  byte_controller/bit_controller/sub_226/n16 (net)
+                                                    3      1.20
+  byte_controller/bit_controller/sub_226/U21/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.20 f    (44.67,31.30)
+  byte_controller/bit_controller/sub_226/U21/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.21 f    (44.82,31.29)
+  byte_controller/bit_controller/sub_226/n15 (net)
+                                                    3      1.30
+  byte_controller/bit_controller/sub_226/U19/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.21 f    (44.15,33.10)
+  byte_controller/bit_controller/sub_226/U19/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.22 f    (44.00,33.11)
+  byte_controller/bit_controller/sub_226/n14 (net)
+                                                    3      1.01
+  byte_controller/bit_controller/sub_226/U17/A1 (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.00      0.22 f    (43.71,33.14)
+  byte_controller/bit_controller/sub_226/U17/X (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.01      0.23 r    (43.67,33.10)
+  byte_controller/bit_controller/sub_226/n13 (net)
+                                                    3      1.14
+  byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B (SAEDRVT14_AN2B_MM_1)
+                                                                     0.01      1.00              0.00      0.23 r    (43.19,32.50)
+  byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X (SAEDRVT14_AN2B_MM_1)
+                                                                     0.00      1.00              0.01      0.25 r    (43.34,32.52)
+  byte_controller/bit_controller/sub_226/n12 (net)
+                                                    1      0.87
+  byte_controller/bit_controller/sub_226/U13/A2 (SAEDRVT14_EO2_V1_0P75)
+                                                                     0.00      1.00              0.00      0.25 r    (42.49,31.91)
+  byte_controller/bit_controller/sub_226/U13/X (SAEDRVT14_EO2_V1_0P75)
+                                                                     0.01      1.00              0.01      0.26 r    (42.59,31.91)
+  byte_controller/bit_controller/sub_226/SUM[15] (net)
+                                                    1      0.51
+  byte_controller/bit_controller/sub_226/SUM[15] (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+                                                                     0.01      1.00              0.00      0.26 r    (hierarchical)    h
+  byte_controller/bit_controller/N49 (net)                 0.51
+  byte_controller/bit_controller/placectmTdsLR_2_52/A2 (SAEDRVT14_AO21_U_0P5)
+                                                                     0.01      1.00              0.00      0.26 r    (40.67,32.00)
+  byte_controller/bit_controller/placectmTdsLR_2_52/X (SAEDRVT14_AO21_U_0P5)
+                                                                     0.01      1.00              0.01      0.27 r    (40.30,31.91)
+  byte_controller/bit_controller/n147 (net)         1      0.58
+  byte_controller/bit_controller/cnt_reg[15]/D (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      1.00              0.00      0.27 r    (38.60,31.30)     s, n
+  data arrival time                                                                                        0.27
+
+  clock wb_clk_i (rise edge)                                                                     2.00      2.00
+  source latency                                                                                 0.00      2.00
+  wb_clk_i (in)                                                      0.00      1.00              0.00      2.00 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     10.62                                                                        d
+  ctosc_gls_inst_824/A (SAEDRVT14_BUF_S_8)                           0.00      1.00              0.00      2.00 r    (30.91,10.32)
+  ctosc_gls_inst_824/X (SAEDRVT14_BUF_S_8)                           0.03      1.00              0.02      2.02 r    (31.43,10.18)
+  ctosc_gls_0 (net)                                62     57.11                                                                        d
+  byte_controller/ZCTSNET_6 (i2c_master_byte_ctrl)                   0.03      1.00              0.00      2.02 r    (hierarchical)    h
+  byte_controller/ZCTSNET_6 (net)                  62     57.11                                                                        d
+  byte_controller/bit_controller/ZCTSNET_5 (i2c_master_bit_ctrl)     0.03      1.00              0.00      2.02 r    (hierarchical)    h
+  byte_controller/bit_controller/ZCTSNET_5 (net)   62     57.11                                                                        d
+  byte_controller/bit_controller/cnt_reg[15]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      2.02 r    (39.11,31.18)     s, n
+
+  clock uncertainty                                                                             -0.30      1.72
+  library setup time                                                           1.00             -0.00      1.72
+  data required time                                                                                       1.72
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                       1.72
+  data arrival time                                                                                       -0.27
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                              1.45
+
+
+
+  Startpoint: byte_controller/bit_controller/cnt_reg[0] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: byte_controller/bit_controller/cnt_reg[15] (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: wb_clk_i
+  Path Type: max
+
+
+Attributes
+    b - black-box (unknown)
+    s - size_only
+    d - dont_touch
+    u - dont_use
+    g - generic
+    h - hierarchical
+    i - ideal
+    n - noncombinational
+    E - extracted timing model
+    Q - Quick timing model
+
+
+  Point                                          Fanout    Cap      Trans     Derate   Delta     Incr      Path          Location       Attributes
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock wb_clk_i (rise edge)                                                                     0.00      0.00
+  source latency                                                                                 0.00      0.00
+  wb_clk_i (in)                                                      0.00      1.00              0.00      0.00 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     11.52                                                                        d
+  ZCTSBUF_6085_67/A (SAEDRVT14_DEL_R2V1_2)                           0.00      1.00              0.00      0.00 r    (37.53,33.10)
+  ZCTSBUF_6085_67/X (SAEDRVT14_DEL_R2V1_2)                           0.03      1.00              0.03      0.03 r    (37.79,33.10)
+  ZCTSNET_6 (net)                                  18     15.71                                                                        d
+  byte_controller/ZCTSNET_5 (i2c_master_byte_ctrl)                   0.03      1.00              0.00      0.03 r    (hierarchical)    h
+  byte_controller/ZCTSNET_5 (net)                  18     15.71                                                                        d
+  byte_controller/bit_controller/ZCTSNET_4 (i2c_master_bit_ctrl)     0.03      1.00              0.00      0.03 r    (hierarchical)    h
+  byte_controller/bit_controller/ZCTSNET_4 (net)   18     15.71                                                                        d
+  byte_controller/bit_controller/cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      0.03 r    (40.22,39.22)     s, n
+
+  byte_controller/bit_controller/cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      0.03 r    (40.22,39.22)     s, n
+  byte_controller/bit_controller/cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      1.00              0.04      0.07 f    (41.27,39.10)     s, n
+  byte_controller/bit_controller/cnt[0] (net)       4      1.49
+  byte_controller/bit_controller/sub_226/A[0] (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+                                                                     0.01      1.00              0.00      0.07 f    (hierarchical)    h
+  byte_controller/bit_controller/sub_226/A[0] (net)        1.49
+  byte_controller/bit_controller/sub_226/U2/A2 (SAEDRVT14_OR2_1)     0.01      1.00              0.00      0.07 f    (41.56,39.10)
+  byte_controller/bit_controller/sub_226/U2/X (SAEDRVT14_OR2_1)      0.00      1.00              0.01      0.08 f    (41.86,39.11)
+  byte_controller/bit_controller/sub_226/n11 (net)
+                                                    3      1.10
+  byte_controller/bit_controller/sub_226/U31/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.00      1.00              0.00      0.08 f    (42.97,38.50)
+  byte_controller/bit_controller/sub_226/U31/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.09 f    (43.12,38.49)
+  byte_controller/bit_controller/sub_226/n10 (net)
+                                                    3      1.30
+  byte_controller/bit_controller/sub_226/U30/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.09 f    (43.93,36.10)
+  byte_controller/bit_controller/sub_226/U30/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.11 f    (43.78,36.09)
+  byte_controller/bit_controller/sub_226/n9 (net)
+                                                    3      1.35
+  byte_controller/bit_controller/sub_226/U29/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.11 f    (41.41,35.50)
+  byte_controller/bit_controller/sub_226/U29/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.02      0.12 f    (41.56,35.51)
+  byte_controller/bit_controller/sub_226/n8 (net)
+                                                    3      2.02
+  byte_controller/bit_controller/sub_226/U28/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.12 f    (41.71,28.90)
+  byte_controller/bit_controller/sub_226/U28/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.02      0.14 f    (41.86,28.89)
+  byte_controller/bit_controller/sub_226/n7 (net)
+                                                    3      1.47
+  byte_controller/bit_controller/sub_226/U27/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.14 f    (42.97,26.50)
+  byte_controller/bit_controller/sub_226/U27/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.15 f    (43.12,26.49)
+  byte_controller/bit_controller/sub_226/n6 (net)
+                                                    3      1.22
+  byte_controller/bit_controller/sub_226/U26/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.15 f    (43.34,27.10)
+  byte_controller/bit_controller/sub_226/U26/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.17 f    (43.48,27.11)
+  byte_controller/bit_controller/sub_226/n5 (net)
+                                                    3      1.21
+  byte_controller/bit_controller/sub_226/U25/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.17 f    (44.30,27.70)
+  byte_controller/bit_controller/sub_226/U25/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.18 f    (44.45,27.69)
+  byte_controller/bit_controller/sub_226/n3 (net)
+                                                    3      1.11
+  byte_controller/bit_controller/sub_226/U24/A1 (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.00      0.18 f    (44.74,28.34)
+  byte_controller/bit_controller/sub_226/U24/X (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.01      0.19 r    (44.70,28.30)
+  byte_controller/bit_controller/sub_226/n4 (net)
+                                                    3      1.36
+  byte_controller/bit_controller/sub_226/U23/A1 (SAEDRVT14_ND2_CDC_1)
+                                                                     0.01      1.00              0.00      0.19 r    (44.89,29.50)
+  byte_controller/bit_controller/sub_226/U23/X (SAEDRVT14_ND2_CDC_1)
+                                                                     0.01      1.00              0.01      0.20 f    (45.00,29.50)
+  byte_controller/bit_controller/sub_226/n16 (net)
+                                                    3      1.26
+  byte_controller/bit_controller/sub_226/U21/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.20 f    (44.67,31.30)
+  byte_controller/bit_controller/sub_226/U21/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.22 f    (44.82,31.29)
+  byte_controller/bit_controller/sub_226/n15 (net)
+                                                    3      1.37
+  byte_controller/bit_controller/sub_226/U19/A1 (SAEDRVT14_OR2_0P5)
+                                                                     0.01      1.00              0.00      0.22 f    (44.15,33.10)
+  byte_controller/bit_controller/sub_226/U19/X (SAEDRVT14_OR2_0P5)   0.01      1.00              0.01      0.23 f    (44.00,33.11)
+  byte_controller/bit_controller/sub_226/n14 (net)
+                                                    3      1.05
+  byte_controller/bit_controller/sub_226/U17/A1 (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.00      0.23 f    (43.71,33.14)
+  byte_controller/bit_controller/sub_226/U17/X (SAEDRVT14_NR2_MM_0P5)
+                                                                     0.01      1.00              0.01      0.24 r    (43.67,33.10)
+  byte_controller/bit_controller/sub_226/n13 (net)
+                                                    3      1.17
+  byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/B (SAEDRVT14_AN2B_MM_1)
+                                                                     0.01      1.00              0.00      0.24 r    (43.19,32.50)
+  byte_controller/bit_controller/sub_226/placectmTdsLR_1_45/X (SAEDRVT14_AN2B_MM_1)
+                                                                     0.00      1.00              0.01      0.25 r    (43.34,32.52)
+  byte_controller/bit_controller/sub_226/n12 (net)
+                                                    1      0.90
+  byte_controller/bit_controller/sub_226/U13/A2 (SAEDRVT14_EO2_V1_0P75)
+                                                                     0.00      1.00              0.00      0.25 r    (42.49,31.91)
+  byte_controller/bit_controller/sub_226/U13/X (SAEDRVT14_EO2_V1_0P75)
+                                                                     0.01      1.00              0.01      0.26 r    (42.59,31.91)
+  byte_controller/bit_controller/sub_226/SUM[15] (net)
+                                                    1      0.55
+  byte_controller/bit_controller/sub_226/SUM[15] (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+                                                                     0.01      1.00              0.00      0.26 r    (hierarchical)    h
+  byte_controller/bit_controller/N49 (net)                 0.55
+  byte_controller/bit_controller/placectmTdsLR_2_52/A2 (SAEDRVT14_AO21_U_0P5)
+                                                                     0.01      1.00              0.00      0.26 r    (40.67,32.00)
+  byte_controller/bit_controller/placectmTdsLR_2_52/X (SAEDRVT14_AO21_U_0P5)
+                                                                     0.01      1.00              0.01      0.28 r    (40.30,31.91)
+  byte_controller/bit_controller/n147 (net)         1      0.62
+  byte_controller/bit_controller/cnt_reg[15]/D (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.01      1.00              0.00      0.28 r    (38.60,31.30)     s, n
+  data arrival time                                                                                        0.28
+
+  clock wb_clk_i (rise edge)                                                                     2.00      2.00
+  source latency                                                                                 0.00      2.00
+  wb_clk_i (in)                                                      0.00      1.00              0.00      2.00 r    (30.22,0.07)
+  wb_clk_i (net)                                    4     11.52                                                                        d
+  ctosc_gls_inst_824/A (SAEDRVT14_BUF_S_8)                           0.00      1.00              0.00      2.00 r    (30.91,10.32)
+  ctosc_gls_inst_824/X (SAEDRVT14_BUF_S_8)                           0.03      1.00              0.02      2.02 r    (31.43,10.18)
+  ctosc_gls_0 (net)                                62     61.64                                                                        d
+  byte_controller/ZCTSNET_6 (i2c_master_byte_ctrl)                   0.03      1.00              0.00      2.02 r    (hierarchical)    h
+  byte_controller/ZCTSNET_6 (net)                  62     61.64                                                                        d
+  byte_controller/bit_controller/ZCTSNET_5 (i2c_master_bit_ctrl)     0.03      1.00              0.00      2.02 r    (hierarchical)    h
+  byte_controller/bit_controller/ZCTSNET_5 (net)   62     61.64                                                                        d
+  byte_controller/bit_controller/cnt_reg[15]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                                     0.03      1.00              0.00      2.02 r    (39.11,31.18)     s, n
+
+  clock uncertainty                                                                             -0.30      1.72
+  library setup time                                                           1.00             -0.00      1.72
+  data required time                                                                                       1.72
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                       1.72
+  data arrival time                                                                                       -0.28
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                              1.44
+
+
+1

@@ -1,0 +1,40 @@
+ 
+                              IC Compiler II (TM)
+
+                  Version U-2022.12 for linux64 - Dec 11, 2022
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+source ../common/common.tcl
+Error: could not open script file "../common/common.tcl" (CMD-015)
+Information: script '/home/users/hungpt/icdesign/m3/lab03/syn/scripts/compile.tcl'
+                stopped at line 2 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"source ../common/common.tcl"
+    (file "/home/users/hungpt/icdesign/m3/lab03/syn/scripts/compile.tcl" line 2)
+ -- End Extended Error Info
+icc2_shell> exit
+Maximum memory usage for this session: 312.42 MB
+Maximum memory usage for this session including child processes: 312.42 MB
+CPU usage for this session:     69 seconds (  0.02 hours)
+Elapsed time for this session:   4640 seconds (  1.29 hours)
+Thank you for using IC Compiler II.
+

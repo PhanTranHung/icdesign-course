@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<u>1</u>:	SI analysis is not enabled, so delta delays are unavailable.
+<u>2</u>:	****************************************
+<u>3</u>:	Report : timing
+<u>4</u>:	        -path_type full_clock_expanded
+<u>5</u>:	        -delay_type min
+<u>6</u>:	        -nworst 1
+<u>7</u>:	        -max_paths 1
+<u>8</u>:	        -report_by group
+<u>9</u>:	        -input_pins
+<u>10</u>:	        -nets
+<u>11</u>:	        -include_hierarchical_pins
+<u>12</u>:	        -transition_time
+<u>13</u>:	        -capacitance
+<u>14</u>:	        -crosstalk_delta
+<u>15</u>:	        -derate
+<u>16</u>:	        -attributes
+<u>17</u>:	        -physical
+<u>18</u>:	Design : i2c_master_top
+<u>19</u>:	Version: U-2022.12
+<u>20</u>:	Date   : Wed May 15 19:24:50 2024
+<u>21</u>:	****************************************
+<u>22</u>:	
+<u>23</u>:	<a name=P0>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cSCL_reg[0]]">byte_controller/bit_controller/cSCL_reg[0]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>24</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cSCL_reg[1]]">byte_controller/bit_controller/cSCL_reg[1]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>25</u>:	  Mode: func
+<u>26</u>:	  Corner: fast
+<u>27</u>:	  Scenario: func_fast
+<u>28</u>:	  Path Group: wb_clk_i
+<u>29</u>:	  Path Type: min
+<u>30</u>:	
+<u>31</u>:	
+<u>32</u>:	Attributes
+<u>33</u>:	    b - black-box (unknown)
+<u>34</u>:	    s - size_only
+<u>35</u>:	    d - dont_touch
+<u>36</u>:	    u - dont_use
+<u>37</u>:	    g - generic
+<u>38</u>:	    h - hierarchical
+<u>39</u>:	    i - ideal
+<u>40</u>:	    n - noncombinational
+<u>41</u>:	    E - extracted timing model
+<u>42</u>:	    Q - Quick timing model
+<u>43</u>:	
+<u>44</u>:	
+<u>45</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>46</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>47</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>48</u>:	  source latency                                                                                       0.0000      0.0000
+<u>49</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>50</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     83.8763
+<u>51</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>52</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     83.8763
+<u>53</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>54</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     83.8763
+<u>55</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/CK]">byte_controller/bit_controller/cSCL_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>56</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+<u>57</u>:	
+<u>58</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/CK]">byte_controller/bit_controller/cSCL_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>59</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+<u>60</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/Q]">byte_controller/bit_controller/cSCL_reg[0]/Q</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>61</u>:	                                                                       0.0032      1.0000              0.0583      0.0583 f    (31.72,29.50)     s, n
+<u>62</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/cSCL[0]]">byte_controller/bit_controller/cSCL[0]</a> (net)      1      0.6604
+<u>63</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/U221/A1]">byte_controller/bit_controller/U221/A1</a> (SAEDRVT14_AN2_MM_1)          0.0032      1.0000              0.0000      0.0583 f    (32.24,27.10)
+<u>64</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/U221/X]">byte_controller/bit_controller/U221/X</a> (SAEDRVT14_AN2_MM_1)           0.0020      1.0000              0.0072      0.0654 f    (32.46,27.10)
+<u>65</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/N71]">byte_controller/bit_controller/N71</a> (net)          1      0.3292
+<u>66</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[1]/D]">byte_controller/bit_controller/cSCL_reg[1]/D</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>67</u>:	                                                                       0.0020      1.0000              0.0000      0.0654 f    (32.89,27.10)     s, n
+<u>68</u>:	  data arrival time                                                                                                0.0654
+<u>69</u>:	
+<u>70</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>71</u>:	  source latency                                                                                       0.0000      0.0000
+<u>72</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>73</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     83.8763
+<u>74</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>75</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     83.8763
+<u>76</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>77</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     83.8763
+<u>78</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[1]/CK]">byte_controller/bit_controller/cSCL_reg[1]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>79</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (33.41,27.04)     s, n
+<u>80</u>:	
+<u>81</u>:	  library hold time                                                                1.0000              0.0466      0.0466
+<u>82</u>:	  data required time                                                                                               0.0466
+<u>83</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>84</u>:	  data required time                                                                                               0.0466
+<u>85</u>:	  data arrival time                                                                                               -0.0654
+<u>86</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>87</u>:	  slack (MET)                                                                                                      0.0188
+<u>88</u>:	
+<u>89</u>:	
+<u>90</u>:	
+<u>91</u>:	<a name=P1>  <b>Startpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cSCL_reg[0]]">byte_controller/bit_controller/cSCL_reg[0]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>92</u>:	  <b>Endpoint:</b> <a href="cgi:change_selection [get_cells byte_controller/bit_controller/cSCL_reg[1]]">byte_controller/bit_controller/cSCL_reg[1]</a>  (rising edge-triggered flip-flop clocked by wb_clk_i)
+<u>93</u>:	  Mode: func
+<u>94</u>:	  Corner: slow
+<u>95</u>:	  Scenario: func_slow
+<u>96</u>:	  Path Group: wb_clk_i
+<u>97</u>:	  Path Type: min
+<u>98</u>:	
+<u>99</u>:	
+<u>100</u>:	Attributes
+<u>101</u>:	    b - black-box (unknown)
+<u>102</u>:	    s - size_only
+<u>103</u>:	    d - dont_touch
+<u>104</u>:	    u - dont_use
+<u>105</u>:	    g - generic
+<u>106</u>:	    h - hierarchical
+<u>107</u>:	    i - ideal
+<u>108</u>:	    n - noncombinational
+<u>109</u>:	    E - extracted timing model
+<u>110</u>:	    Q - Quick timing model
+<u>111</u>:	
+<u>112</u>:	
+<u>113</u>:	<b>  Point                                          Fanout     Cap        Trans      Derate    Delta       Incr        Path           Location       Attributes</b>
+<u>114</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>115</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>116</u>:	  source latency                                                                                       0.0000      0.0000
+<u>117</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>118</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     87.9211
+<u>119</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>120</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     87.9211
+<u>121</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>122</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     87.9211
+<u>123</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/CK]">byte_controller/bit_controller/cSCL_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>124</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+<u>125</u>:	
+<u>126</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/CK]">byte_controller/bit_controller/cSCL_reg[0]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>127</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (30.67,29.44)     s, n
+<u>128</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[0]/Q]">byte_controller/bit_controller/cSCL_reg[0]/Q</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>129</u>:	                                                                       0.0033      1.0000              0.0584      0.0584 f    (31.72,29.50)     s, n
+<u>130</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/cSCL[0]]">byte_controller/bit_controller/cSCL[0]</a> (net)      1      0.7152
+<u>131</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/U221/A1]">byte_controller/bit_controller/U221/A1</a> (SAEDRVT14_AN2_MM_1)          0.0033      1.0000              0.0000      0.0584 f    (32.24,27.10)
+<u>132</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/U221/X]">byte_controller/bit_controller/U221/X</a> (SAEDRVT14_AN2_MM_1)           0.0020      1.0000              0.0073      0.0657 f    (32.46,27.10)
+<u>133</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/N71]">byte_controller/bit_controller/N71</a> (net)          1      0.3375
+<u>134</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[1]/D]">byte_controller/bit_controller/cSCL_reg[1]/D</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>135</u>:	                                                                       0.0020      1.0000              0.0000      0.0657 f    (32.89,27.10)     s, n
+<u>136</u>:	  data arrival time                                                                                                0.0657
+<u>137</u>:	
+<u>138</u>:	  clock wb_clk_i (rise edge)                                                                           0.0000      0.0000
+<u>139</u>:	  source latency                                                                                       0.0000      0.0000
+<u>140</u>:	  <a href="cgi:change_selection [get_ports wb_clk_i]">wb_clk_i</a> (in)                                                        0.2000      1.0000              0.0000      0.0000 r    (30.22,0.07)
+<u>141</u>:	  <a href="cgi:change_selection [get_nets wb_clk_i]">wb_clk_i</a> (net)                                  153     87.9211
+<u>142</u>:	  <a href="cgi:change_selection [get_pins byte_controller/clk]">byte_controller/clk</a> (i2c_master_byte_ctrl)                           0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>143</u>:	  <a href="cgi:change_selection [get_nets byte_controller/clk]">byte_controller/clk</a> (net)                       153     87.9211
+<u>144</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (i2c_master_bit_ctrl)             0.2000      1.0000              0.0000      0.0000 r    (hierarchical)    h
+<u>145</u>:	  <a href="cgi:change_selection [get_nets byte_controller/bit_controller/clk]">byte_controller/bit_controller/clk</a> (net)        153     87.9211
+<u>146</u>:	  <a href="cgi:change_selection [get_pins byte_controller/bit_controller/cSCL_reg[1]/CK]">byte_controller/bit_controller/cSCL_reg[1]/CK</a> (SAEDRVT14_FDPRBQ_V2LP_1)
+<u>147</u>:	                                                                       0.2000      1.0000              0.0000      0.0000 r    (33.41,27.04)     s, n
+<u>148</u>:	
+<u>149</u>:	  library hold time                                                                1.0000              0.0465      0.0465
+<u>150</u>:	  data required time                                                                                               0.0465
+<u>151</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>152</u>:	  data required time                                                                                               0.0465
+<u>153</u>:	  data arrival time                                                                                               -0.0657
+<u>154</u>:	  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<u>155</u>:	  slack (MET)                                                                                                      0.0192
+<u>156</u>:	
+<u>157</u>:	
+<u>158</u>:	1
+</pre>
+</body>
+</html>

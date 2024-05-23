@@ -1,0 +1,8 @@
+#@ # 
+#@ # Running icc2_shell Version U-2022.12 for linux64 -- Dec 11, 2022
+#@ # Date:   Fri May 10 19:11:13 2024
+#@ # Run by: hungpt@vku-truongsa
+#@ 
+
+source -echo -verbose ./syn/scripts/compile.tcl
+exit

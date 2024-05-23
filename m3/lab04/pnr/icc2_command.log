@@ -1,0 +1,994 @@
+#@ # 
+#@ # Running icc2_shell Version U-2022.12 for linux64 -- Dec 11, 2022
+#@ # Date:   Wed May 15 19:12:09 2024
+#@ # Run by: hungpt@localhost.localdomain
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+echo ARC_TOP
+echo $ARC_TOP
+open_lib $ARC_TOP
+source ../common/common.tcl
+open_lib $ARC_TOP
+echo $ARC_TOP
+copy_block -from_block 06_${DESIGN_NAME}_floorplan_pns_finish -to 07_${DESIGN_NAME}_place_start
+open_block 07_${DESIGN_NAME}_place_start
+link_block
+report_lib $ARC_TOP
+echo $DESIGN_NAME
+set_app_options -name time.disable_recovery_removal_checks -value false
+set_app_options -name time.disable_case_analysis -value false
+sett_app_options -name place.coarse.continue_on_missing_scandef -value false
+set_app_options -name place.coarse.continue_on_missing_scandef -value false
+set_apps_options -name opt.common.user_instance_name_prefix -value place
+set_app_options -name opt.common.user_instance_name_prefix -value place
+source scripts/mcmm.tcl
+place_opt
+redirect $::sh_dev_null { set_app_options -name opt.internal.current_block_utilization -value [report_utilization] }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+win_set_filter -visible -class cell -filter {clock_margin hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class pseudo_bump -filter {deleted}
+win_set_filter -visible -class pseudo_tsv -filter {deleted}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {array clock_margin hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class pseudo_bump -filter {deleted}
+win_set_filter -class pseudo_tsv -filter {deleted}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {35.573 15.569}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.260 22.127}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.118 22.127}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.119 22.126}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.119 22.173}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.119 22.173}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.119 22.173}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.119 22.173}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.119 22.173}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.117 22.174}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.119 22.175}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.119 22.170}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.130 22.158}
+legalize_placement
+man set_app_option
+man set_app_options
+man set_app_option
+man set_app_option
+man set_app_options -name time.snapshot_storage_location -value "./"
+set_app_options -name time.snapshot_storage_location -value "./"
+create_qor_snapshot name place_qor_snp -significant_digit 4
+create_qor_snapshot -name place_qor_snp -significant_digit 4
+file mkdir reports
+report_qor_snapshot -name place_qor_snp > reports/place.qor_snapshot.rpt
+report_qor > reports/place.qor
+report_constraints -all_violators > reports/place.conn
+report_timing capacitance -transistion_time -input_pins -nets -delay_type max > reports/place.max.tim
+report_timing -capacitance -transistion_time -input_pins -nets -delay_type max > reports/place.max.tim
+report_timing -capacitance -transistion_time -input_pins -nets -delay_type max > reports/place.max.tim
+eport_timing -capacitance -transition_time -input_pins -nets -delay_type max > reports/place.max.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type max > reports/place.max.tim
+report_timing -capacitance -transistion_time -input_pins -nets -delay_type min > reports/place.min.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type min > reports/place.min.tim
+check_legality -verbose > reports/place_report.rpt
+check_legality -verbose
+check_legality -verbose > reports/place_report.rpt
+pwd
+check_legality -verbose > reports/place_report.rpt
+set_ignored_layers -min_routing_layer ${MIN_ROUTING_LAYER} -max_routing_layer ${MAX_ROUTING_LAYER}
+set_app_options -name cts.compile.enable_cell_reocation -value all
+set_app_options -name cts.compile.enable_cell_relocation -value all
+set_app_options -name cts.compile.size_pre_existing_cell_to_cts_references -value true
+set_clock_tree_options -clock [all_clocks] -target_skew 0.1
+set_lib_cell_purpose -include cts {*/SAEDRVT14_INV_1 */SAEDRVT14_INV_2  */SAEDRVT14_INV_4 */SAEDRVT14_INV_8 */SAEDRVT14_INV_16 */SAEDRVT14_INV_20  */SAEDRVT14_BUF_2 */SAEDRVT14_BUF_4 */SAEDRVT14_BUF_6 */SAEDRVT14_BUF_8  */SAEDRVT14_BUF_16 */SAEDRVT14_BUF_20 }
+set_lib_cell_purpose -include cts {*/SAEDRVT14_INV_1 */SAEDRVT14_INV_2  */SAEDRVT14_INV_4 */SAEDRVT14_INV_8 */SAEDRVT14_INV_16 */SAEDRVT14_INV_20  */SAEDRVT14_BUF_2 */SAEDRVT14_BUF_4 */SAEDRVT14_BUF_6 */SAEDRVT14_BUF_8  */SAEDRVT14_BUF_16 */SAEDRVT14_BUF_20 }
+set_lib_cell_purpose -include cts {*/SAEDRVT14_INV_1 */SAEDRVT14_INV_2  */SAEDRVT14_INV_4 */SAEDRVT14_INV_8 */SAEDRVT14_INV_16 */SAEDRVT14_INV_20  */SAEDRVT14_BUF_2 */SAEDRVT14_BUF_4 */SAEDRVT14_BUF_6 */SAEDRVT14_BUF_8  */SAEDRVT14_BUF_16 */SAEDRVT14_BUF_20 }
+set_clock_uncertainty 0.1 [all_clocks]
+create_routing_rule CLK_SPACING -spacings {M2 0.3 M3 0.5 M4 0.7}
+set_clock_routing_rules -rules CLK_SPACING -min_routing_layer M2 -max_routing_layer M4
+sset_clock_settings
+set_clock_settings
+report_clock_settings
+set_app_options -name opt.common.user_instance_name_prefix -value clock
+source scripts/mcmm.tcl
+clock_opt -from build_clock -to build_clock
+route_group -all_clock_nets -reuse_existing_global_route true -stop_after_global_route true
+
+route_group -all_clock_nets -reuse_existing_global_route true -stop_after_global_route true
+redirect $::sh_dev_null { set_app_options -name opt.internal.current_block_utilization -value [report_utilization] }
+
+gui_show_map -window [gui_get_current_window -types Layout -mru] -map {Clock Tree} -show {true}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {34.408 27.161}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {34.456 27.066}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {27.942 23.762}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.396 30.276}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.491 30.370}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.892 30.725}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.786 30.276}
+gui_set_map_option -map {Clock Tree} -option {clock} -value {func:wb_clk_i}
+gui_set_map_option -map {Clock Tree} -option {to_level} -value {2}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.402 27.185}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.425 27.161}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.983 27.445}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.983 27.445}
+gui_set_map_option -map {Clock Tree} -option {to_level} -value {1}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.811 26.288}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.811 26.313}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.811 26.315}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.023 26.765}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.022 26.766}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.153 25.498}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.354 25.195}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.366 25.197}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.111 24.920}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.105 24.922}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.379 24.502}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {5.524 18.444}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.171 32.321}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.842 30.658}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.817 30.680}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.992 29.955}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.969 29.977}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {26.285 32.656}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {26.289 32.653}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {26.294 32.661}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {26.297 32.670}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {26.394 32.783}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {26.398 32.780}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {41.483 32.359}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.897 32.009}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+win_set_filter -visible -class routing_blockage -layer {21}
+win_set_filter -visible -class shape -filter {} -layer {21}
+win_set_filter -visible -class via -filter {} -layer {21}
+win_set_filter -visible -class terminal -filter {}  -layer {21}
+win_set_filter -class routing_blockage -layer {21}
+win_set_filter -class shape -filter {} -layer {21}
+win_set_filter -class via -filter {} -layer {21}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {55.924 37.636}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {55.930 37.606}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {39.048 47.986}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {39.019 47.995}
+win_select_objects -slct_targets global -at {48.460 53.455} -radius 0.0462
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+win_set_filter -visible -class routing_blockage -layer {18 21}
+win_set_filter -visible -class shape -filter {} -layer {18 21}
+win_set_filter -visible -class via -filter {} -layer {18 21}
+win_set_filter -visible -class terminal -filter {}  -layer {18 21}
+win_set_filter -class routing_blockage -layer {18 21}
+win_set_filter -class shape -filter {} -layer {18 21}
+win_set_filter -class via -filter {} -layer {18 21}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.164 49.436}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.316 46.628}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {43.868 45.624}
+win_select_objects -slct_targets global -at {35.378 44.205} -radius 0.023
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value false
+win_set_filter -visible -class routing_blockage -layer {3 18 21}
+win_set_filter -visible -class shape -filter {} -layer {3 18 21}
+win_set_filter -visible -class via -filter {} -layer {3 18 21}
+win_set_filter -visible -class terminal -filter {}  -layer {3 18 21}
+win_set_filter -class routing_blockage -layer {3 18 21}
+win_set_filter -class shape -filter {} -layer {3 18 21}
+win_set_filter -class via -filter {} -layer {3 18 21}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.299 45.035}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.065 42.743}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.039 42.687}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.334 42.976}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.171 40.506}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.190 40.498}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.308 20.733}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.284 20.762}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.261 22.899}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.909 24.895}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.023 24.967}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {39.413 18.043}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.369 69.429}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {26.663 25.684}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.742 26.166}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.367 26.100}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {47.831 21.935}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value false
+win_set_filter -visible -class routing_blockage -layer {3 6-11 18 21 46-47}
+win_set_filter -visible -class shape -filter {} -layer {3 6-11 18 21 46-47}
+win_set_filter -visible -class via -filter {} -layer {3 6-11 18 21 46-47}
+win_set_filter -visible -class terminal -filter {}  -layer {3 6-11 18 21 46-47}
+win_set_filter -class routing_blockage -layer {3 6-11 18 21 46-47}
+win_set_filter -class shape -filter {} -layer {3 6-11 18 21 46-47}
+win_set_filter -class via -filter {} -layer {3 6-11 18 21 46-47}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value false
+win_set_filter -visible -class routing_blockage -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -visible -class shape -filter {} -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -visible -class via -filter {} -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -visible -class terminal -filter {}  -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -class routing_blockage -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -class shape -filter {} -layer {3 6-11 18 20-21 23 46-47}
+win_set_filter -class via -filter {} -layer {3 6-11 18 20-21 23 46-47}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA0 -value false
+win_set_filter -visible -class routing_blockage -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -visible -class shape -filter {} -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -visible -class via -filter {} -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -visible -class terminal -filter {}  -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -class routing_blockage -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -class shape -filter {} -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+win_set_filter -class via -filter {} -layer {3 5-11 14 17-18 20-21 23 26 29 46-47 70}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.224 30.931}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.225 30.930}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.522 30.951}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.659 29.336}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.680 29.337}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.024 28.906}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.415 18.234}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.247 10.204}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.496 10.513}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.472 10.550}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.488 13.614}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.148 15.861}
+set_app_option -name time.snapshot_storage_location -value "./"
+create_qor_snapshot -name clock_pre_route > reports/clock_pre_route.qor_snapshot.rpt
+report_qor > reports/clock_pre_route.qor
+report_constraints -all_violators > reports/clock_pre_route.con
+report_timing -capacitance -transistion_time -input_pins -nets -delay_type min > reports/clock_pre_route.min.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type min > reports/clock_pre_route.min.tim
+set_app_options -name opt.common.user_instance_name_prefix -value clock
+clock_opt -from route_clock -to final_opto
+set_app_options -as_user_default -list {route.global.global_route_topology_style 1}
+route_group -all_clock_nets -reuse_existing_global_route true
+set_app_options -as_user_default -list {route.global.global_route_topology_style 0}
+
+
+redirect $::sh_dev_null { set_app_options -name opt.internal.current_block_utilization -value [report_utilization] }
+
+
+
+
+
+create_routing_rule _snps_autoNdr_power -spacings {M2 {0.052000} M3 {0.052000} M4 {0.080000} M5 {0.080000} }  -spacing_weight_levels {M2 { medium } M3 { medium } M4 { medium } M5 { medium } } -spacing_length_thresholds {M2 { 1.0 } M3 { 1.0 } M4 { 1.0 } M5 { 1.0 } }
+remove_routing_rules _snps_autoNdr_power
+report_clock_qor > reports/clock_tree.rpt
+report_clock_timing -type skew > reports/clock_timing.rpt
+create_qor_snapshot -name clock -significant_digits 4
+report_qor_snapshot -name clock > reports/clock.qor_snapshot.rpt
+report_qor > reports/clock.qo
+report_constraints -all_violators > reports/clock_route.con
+report_timing -capacitance -transition_time -input_pins -nets -delay_type max > reports/clock.max.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type min > reports/clock.min.tim
+check_routeability
+check_routability
+set_ignored_layers -min_routing_layer M2 -max_routing_layer M6
+report_ignored_layers
+route_pot
+route_opt
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {35.031 17.910}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.707 33.260}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.683 33.279}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.939 32.940}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.939 32.937}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.938 32.939}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.938 32.939}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.938 32.939}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.941 32.944}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.940 32.942}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.961 32.939}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.938 32.915}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.959 32.935}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.957 32.933}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA0 -value true
+win_set_filter -visible -class routing_blockage -layer {3}
+win_set_filter -visible -class shape -filter {} -layer {3}
+win_set_filter -visible -class via -filter {} -layer {3}
+win_set_filter -visible -class terminal -filter {}  -layer {3}
+win_set_filter -class routing_blockage -layer {3}
+win_set_filter -class shape -filter {} -layer {3}
+win_set_filter -class via -filter {} -layer {3}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.820 33.354}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.811 33.335}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.708 33.272}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.711 33.273}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.711 33.275}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.709 33.272}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {27.952 34.336}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {16.431 33.201}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {16.418 33.221}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.445 31.312}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.591 31.598}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.271 31.636}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.919 31.894}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.916 31.904}
+win_select_objects -slct_targets global -at {11.708 30.379} -radius 0.0442
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+win_set_filter -visible -class routing_blockage -layer {3 21}
+win_set_filter -visible -class shape -filter {} -layer {3 21}
+win_set_filter -visible -class via -filter {} -layer {3 21}
+win_set_filter -visible -class terminal -filter {}  -layer {3 21}
+win_set_filter -class routing_blockage -layer {3 21}
+win_set_filter -class shape -filter {} -layer {3 21}
+win_set_filter -class via -filter {} -layer {3 21}
+win_select_objects -slct_targets global -at {12.547 33.913} -radius 0.0442
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA0 -value false
+win_set_filter -visible -class routing_blockage -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -visible -class shape -filter {} -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -visible -class via -filter {} -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -visible -class terminal -filter {}  -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -class routing_blockage -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -class shape -filter {} -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_set_filter -class via -filter {} -layer {3 5 8 11 14 17 20-21 23 26 70}
+win_select_objects -slct_targets global -at {12.459 33.427} -radius 0.0442
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+win_set_filter -visible -class routing_blockage -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -visible -class shape -filter {} -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -visible -class via -filter {} -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -visible -class terminal -filter {}  -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -class routing_blockage -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -class shape -filter {} -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+win_set_filter -class via -filter {} -layer {3 5 8 11 14 17-18 20-21 23 26 70}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {27.922 29.097}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {18.409 29.893}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {18.462 29.894}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {18.856 29.882}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {18.854 29.882}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {23.220 29.167}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {23.225 29.167}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {22.000 29.469}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {21.996 29.473}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {21.991 29.474}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {21.975 29.496}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {21.981 29.497}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {18.176 30.461}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {18.470 30.351}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {19.988 29.955}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {27.928 27.093}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {27.907 27.096}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.381 23.280}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {34.015 4.032}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.288 5.294}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.958 9.776}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.329 10.270}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.219 10.242}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.218 10.244}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.144 10.247}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.144 10.248}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.161 10.227}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.184 10.586}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.142 10.597}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.141 10.598}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.801 11.244}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.979 11.299}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.980 11.296}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.789 12.193}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.786 12.186}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {45.867 21.231}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {45.876 21.217}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.223 20.514}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.581 19.791}
+win_select_objects -slct_targets global -at {40.493 18.402} -radius 0.0054
+win_select_objects -slct_targets global -at {40.493 18.402} -radius 0.0054 -index 1
+win_select_objects -slct_targets global -at {40.493 18.402} -radius 0.0054 -index 2
+win_select_objects -slct_targets global -at {40.493 18.402} -radius 0.0054 -index 3
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value false
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape terminal fill_cell placement_blockage }
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.969 18.933}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.021 18.938}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.101 18.958}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.224 18.988}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.396 26.089}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.640 26.200}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.634 26.203}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.119 25.139}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.112 25.132}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.134 25.044}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {38.133 25.039}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {38.133 25.040}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {38.133 25.040}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {35.652 25.603}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.281 25.047}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.487 25.124}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.487 25.124}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.490 25.123}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.492 25.121}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.487 25.120}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.487 25.118}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.488 25.118}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.489 25.118}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.495 25.122}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {37.496 25.123}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.496 25.123}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.497 25.124}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.485 25.121}
+gui_set_preset -category Layout -default
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA0 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+gui_set_preset -category Layout -default
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+win_set_filter -visible -class routing_blockage -layer {}
+win_set_filter -visible -class shape -filter {} -layer {}
+win_set_filter -visible -class via -filter {} -layer {}
+win_set_filter -visible -class terminal -filter {}  -layer {}
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class routing_blockage -layer {}
+win_set_filter -class shape -filter {} -layer {}
+win_set_filter -class via -filter {} -layer {}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {37.511 25.357}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.562 24.871}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.563 24.869}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.771 24.854}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.770 24.855}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.796 24.865}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.796 24.863}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.797 24.864}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.797 24.864}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.797 24.865}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.798 24.868}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value false
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape terminal fill_cell placement_blockage }
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.191 24.521}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.448 24.651}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.449 24.650}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.449 24.650}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.448 24.649}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.450 24.647}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.455 24.651}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.460 24.656}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.455 24.660}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.995 22.191}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {45.003 22.178}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {45.012 22.185}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {45.022 22.191}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.698 23.463}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.706 23.449}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.715 23.455}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.939 24.083}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.938 24.088}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+win_set_filter -visible -class routing_blockage -layer {18 21}
+win_set_filter -visible -class shape -filter {} -layer {18 21}
+win_set_filter -visible -class terminal -filter {}  -layer {18 21}
+win_set_filter -class routing_blockage -layer {18 21}
+win_set_filter -class shape -filter {} -layer {18 21}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {35.568 26.821}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {35.665 26.867}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.010 26.469}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {36.009 26.469}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.009 26.469}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.007 26.467}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.006 26.467}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.011 26.470}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.530 22.038}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {44.539 22.045}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.435 23.754}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.434 23.759}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.361 21.820}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.698 33.513}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.211 31.406}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.350 50.718}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {34.469 48.397}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.770 33.429}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.481 35.773}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.049 33.937}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.046 33.936}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.043 33.935}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.040 33.933}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.038 33.932}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.725 32.743}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.815 32.976}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.879 30.565}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.875 30.566}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.872 30.567}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.867 30.569}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.923 21.355}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.697 20.758}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.796 20.848}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.944 51.408}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.662 32.150}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.782 59.314}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.584 17.060}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.618 34.544}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.633 34.563}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.648 34.583}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.663 34.602}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.749 3.990}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.621 53.309}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {49.241 39.463}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {48.325 36.358}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {48.289 36.375}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {48.294 36.393}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {48.298 36.410}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {39.408 36.866}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.255 19.865}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {41.182 28.776}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {41.192 28.520}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {41.182 28.513}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {41.490 28.060}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {41.489 28.063}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {44.741 25.280}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.080 24.869}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.096 24.855}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.032 24.762}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.949 24.690}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.462 25.389}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.461 25.389}
+win_select_objects -slct_targets global -at {31.085 26.389} -radius 0.0025
+connect_pg_net -net -VDD [get-pins -physical_context */VDD]
+connect_pg_net -net VDD [get-pins -physical_context */VDD]
+connect_pg_net -net VDD [get_pins -physical_context */VDD]
+connect_pg_net -net VSS [get_pins -physical_context */VSS]
+optimize_routes -max_detail_route_iteration 5
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.698 26.014}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.699 26.014}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.450 26.060}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.459 26.054}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {24.755 27.849}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {24.757 27.853}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {24.739 27.582}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {25.402 27.793}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.430 27.032}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {24.369 27.636}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {24.371 27.640}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.287 29.504}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.517 30.270}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.514 30.273}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.584 28.585}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.070 29.222}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.072 29.226}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.079 29.230}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.785 28.845}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.647 27.077}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.520 20.257}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.604 9.832}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {28.738 9.908}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.502 9.790}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.917 10.223}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.950 10.242}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.209 10.257}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.210 10.255}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.198 10.212}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.198 10.212}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.211 10.215}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.212 10.216}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.203 10.253}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.203 10.252}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.204 10.252}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.040 10.278}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.032 10.277}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.441 10.420}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {29.686 7.643}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.126 8.257}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {28.144 8.257}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {27.739 10.023}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {4.300 7.834}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {-3.376 -6.091}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {-1.686 -3.129}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {-1.225 -1.090}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {-0.612 -0.547}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {12.049 1.467}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {12.040 1.454}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.881 35.222}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {38.127 35.202}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.615 31.140}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.612 31.142}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.612 31.144}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.612 31.145}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.612 31.146}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.612 31.147}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.613 31.147}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.612 31.151}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.618 31.143}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.614 31.126}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.120 31.489}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.134 31.472}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.130 31.474}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.126 31.476}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.121 31.478}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.126 31.480}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.127 31.482}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.125 31.485}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.121 31.487}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {32.117 31.488}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.937 31.431}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.936 31.432}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.936 31.432}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.936 31.433}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.937 31.432}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.939 31.436}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.954 31.410}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.950 31.393}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.945 31.395}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.484 33.041}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.480 33.042}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.477 33.043}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.406 33.028}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.406 33.028}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.386 33.026}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.385 33.027}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.384 33.029}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.382 33.032}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.379 33.034}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.211 31.513}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.262 31.812}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.258 31.814}
+gui_set_preset -category Layout -default
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+win_set_filter -visible -class routing_blockage -layer {}
+win_set_filter -visible -class shape -filter {} -layer {}
+win_set_filter -visible -class terminal -filter {}  -layer {}
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class routing_blockage -layer {}
+win_set_filter -class shape -filter {} -layer {}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.984 31.202}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.984 31.201}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.984 31.201}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.984 31.200}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.658 31.769}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.671 31.769}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.673 31.768}
+gui_set_preset -category Layout -default
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.721 31.902}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.891 31.913}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.976 31.898}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {32.951 31.882}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.074 31.977}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.049 31.998}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.062 31.982}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.056 31.984}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.060 31.986}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.060 31.987}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.062 31.987}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {33.061 31.989}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.402 31.461}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.404 31.461}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {33.404 31.457}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.970 30.066}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {29.921 30.188}
+check_lvs -max-errors 2000
+check_lvs -max_errors 2000
+set_app_options -name time.snapshot_storage_location -value "./"
+create_qor_snapshot -name route -significant_digit 4
+report_congestion
+write_verilog -include {pg_netlist} "${DESIGN_NAME}_routed.v"
+report_qor_snapshot > reports/route.qor_snapshot.rpt
+report_qor > reports/route.qor
+report_constraints -all_violators > reports/route.con
+report_timing -capacitance -transition_time -input-pins -nets -delay_type max > reports/route.max.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type max > reports/route.max.tim
+report_timing -capacitance -transition_time -input_pins -nets -delay_type min > reports/route.min.tim
+exit
+save_block i2c_master_top.dlib:07_i2c_master_top_place_start
