@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : qor
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Fri May 24 18:31:04 2024
+****************************************
+
+
+  Timing Path Group 'REGIN'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:          0.17
+  Critical Path Slack:           1.22
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REGOUT'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.02
+  Critical Path Slack:           1.38
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'master_clk'
+  -----------------------------------
+  Levels of Logic:              16.00
+  Critical Path Length:          0.34
+  Critical Path Slack:           1.54
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.07
+  Total Hold Violation:         -7.00
+  No. of Hold Violations:      151.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          4
+  Hierarchical Port Count:        146
+  Leaf Cell Count:                707
+  Buf/Inv Cell Count:             175
+  Buf Cell Count:                  17
+  Inv Cell Count:                 158
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       554
+  Sequential Cell Count:          153
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      162.770399
+  Noncombinational Area:   162.770405
+  Buf/Inv Area:             32.589600
+  Total Buffer Area:             4.53
+  Total Inverter Area:          28.06
+  Macro/Black Box Area:      0.000000
+  Net Area:                486.634127
+  -----------------------------------
+  Cell Area:               325.540803
+  Design Area:             812.174930
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           728
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: vku-truongsa
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.69
+  Logic Optimization:                  3.89
+  Mapping Optimization:                0.74
+  -----------------------------------------
+  Overall Compile Time:               11.15
+  Overall Compile Wall Clock Time:    12.26
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.07  TNS: 7.00  Number of Violating Paths: 151
+
+  --------------------------------------------------------------------
+
+
+1

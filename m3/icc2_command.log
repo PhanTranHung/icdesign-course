@@ -1,7 +1,8 @@
 #@ # 
 #@ # Running icc2_shell Version U-2022.12 for linux64 -- Dec 11, 2022
-#@ # Date:   Fri May 10 19:04:35 2024
+#@ # Date:   Fri May 24 18:27:58 2024
 #@ # Run by: hungpt@vku-truongsa
 #@ 
 
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
 exit

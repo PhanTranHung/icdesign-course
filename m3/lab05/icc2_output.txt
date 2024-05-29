@@ -1,0 +1,65 @@
+ 
+                              IC Compiler II (TM)
+
+                  Version U-2022.12 for linux64 - Dec 11, 2022
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading user preference file /home/users/hungpt/.synopsys_icc2_gui/preferences.tcl
+Load ICV ICCII menu file: /home/tools/synopsys/icvalidator/T-2022.03-SP1/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2452
+
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v25c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v25c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library 'i2c_master_top.dlib'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+icc2_shell> open_block /home/users/hungpt/icdesign/m3/lab05/pnr/i2c_master_top.dlib:11_i2c_master_top_route_finish.design
+Information: User units loaded from library 'saed14rvt_tt0p8v25c' (LNK-040)
+Opening block 'i2c_master_top.dlib:11_i2c_master_top_route_finish.design' in edit mode
+icc2_shell> link_block
+Using libraries: i2c_master_top.dlib saed14rvt_tt0p8v25c saed14rvt_tt0p8v25c_physical_only EXPLORE_physical_only
+Visiting block i2c_master_top.dlib:11_i2c_master_top_route_finish.design
+Design 'i2c_master_top' was successfully linked.
+1
+icc2_shell> write_parasitics -output ../results/i2c_master_top.max.spef -no_name_mapping  -compress -hierarchical -rde_corr -format spef -corner slow
+NEX:ERROR write_parasitics command failed, no directory ../results
+icc2_shell> exit
+Maximum memory usage for this session: 491.02 MB
+Maximum memory usage for this session including child processes: 491.02 MB
+CPU usage for this session:     41 seconds (  0.01 hours)
+Elapsed time for this session:    358 seconds (  0.10 hours)
+Thank you for using IC Compiler II.
+

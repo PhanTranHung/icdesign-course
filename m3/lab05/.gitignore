@@ -1,0 +1,14 @@
+**/custom-scripts/*
+
+!/**/custom-scripts/Makefile
+!/**/custom-scripts/icc2.tcl
+!/**/custom-scripts/pt.tcl
+
+
+**/pnr/*
+!/**/pnr/reports
+!/**/pnr/scripts
+!/**/pnr/Makefile
+
+
+!/**/sim/.synopsys_dc.setup

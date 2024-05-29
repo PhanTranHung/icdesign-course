@@ -2,3 +2,4 @@
 
 !/**/sim/Makefile
 !/**/sim/scripts
+!/**/sim/.synopsys_dc.setup

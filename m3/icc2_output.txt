@@ -21,11 +21,17 @@
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-icc2_shell> 
+Loading user preference file /home/users/hungpt/.synopsys_icc2_gui/preferences.tcl
+Load ICV ICCII menu file: /home/tools/synopsys/icvalidator/T-2022.03-SP1/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE INFO: Found a usable port: 2446
+
 icc2_shell> exit
-Maximum memory usage for this session: 312.39 MB
-Maximum memory usage for this session including child processes: 312.39 MB
-CPU usage for this session:      9 seconds (  0.00 hours)
-Elapsed time for this session:     17 seconds (  0.00 hours)
+Maximum memory usage for this session: 366.61 MB
+Maximum memory usage for this session including child processes: 366.61 MB
+CPU usage for this session:     18 seconds (  0.00 hours)
+Elapsed time for this session:     68 seconds (  0.02 hours)
 Thank you for using IC Compiler II.
 
