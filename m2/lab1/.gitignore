@@ -1,0 +1,6 @@
+/syn/*
+
+!/syn/scripts
+!/syn/results
+!/syn/.synopsys_dc.setup
+!/syn/Makefile

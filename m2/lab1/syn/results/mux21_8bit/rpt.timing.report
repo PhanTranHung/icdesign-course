@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mux21_8bit
+Version: T-2022.03-SP1
+Date   : Thu May 23 22:30:19 2024
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: s (input port clocked by clk)
+  Endpoint: m[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux21_8bit         ForQA                 saed14rvt_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.30       1.30 r
+  s (in)                                   0.00       1.30 r
+  mux21_7/s (mux21_1)                      0.00       1.30 r
+  mux21_7/U2/X (SAEDRVT14_INV_1)           0.03       1.33 f
+  mux21_7/U1/X (SAEDRVT14_AO22_1)          0.02       1.35 f
+  mux21_7/m (mux21_1)                      0.00       1.35 f
+  m[7] (out)                               0.00       1.36 f
+  data arrival time                                   1.36
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
