@@ -2,7 +2,7 @@ VHDLAN_OPTS := -nc -kdb -work WORK
 all: run
 run: simv
 	./simv -ucli -do scripts/dump_waves.tcl
-simv: work_lib
+simvv: work_lib
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_len.vhd
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/icpx_pkg.vhd
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_support.vhd
@@ -28,7 +28,7 @@ wrapper: work_lib
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/dpram_inf.vhd
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_data_switch.vhd
 	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_engine.vhd
-	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_engine_wrapper.vhd
+	vhdlan $(VHDLAN_OPTS) ../src/rtl/fft_engine_wrapper_io.vhd
 	vhdlan $(VHDLAN_OPTS) ../src/tb/fft_engine_wrapper_tb.vhd
 	vcs -kdb -debug_access+all fft_engine_wrapper_tb
 work_lib: synopsys_sim.setup
