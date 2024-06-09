@@ -34,26 +34,26 @@ ENTITY mux21_nbit IS
 
 END ENTITY mux21_nbit;
 
-ARCHITECTURE df OF mux21_nbit IS
-  COMPONENT mux21 IS
-    PORT (
-      x : IN  STD_LOGIC;
-      y : IN  STD_LOGIC;
-      s : IN  STD_LOGIC;
-      m : OUT STD_LOGIC);
-  END COMPONENT mux21;
-BEGIN  -- ARCHITECTURE df
+-- ARCHITECTURE df OF mux21_nbit IS
+--   COMPONENT mux21 IS
+--     PORT (
+--       x : IN  STD_LOGIC;
+--       y : IN  STD_LOGIC;
+--       s : IN  STD_LOGIC;
+--       m : OUT STD_LOGIC);
+--   END COMPONENT mux21;
+-- BEGIN  -- ARCHITECTURE df
 
-  mux21_gen: FOR i IN 0 TO DATA_WIDTH-1 GENERATE
-    mux21_i: ENTITY work.mux21
-      PORT MAP (
-        x => x(i), 
-        y => y(i), 
-        s => s, 
-        m => m(i));
-  END GENERATE mux21_gen;
+--   mux21_gen: FOR i IN 0 TO DATA_WIDTH-1 GENERATE
+--     mux21_i: ENTITY work.mux21
+--       PORT MAP (
+--         x => x(i), 
+--         y => y(i), 
+--         s => s, 
+--         m => m(i));
+--   END GENERATE mux21_gen;
 
-END ARCHITECTURE df;
+-- END ARCHITECTURE df;
 
 
 ARCHITECTURE df_when_else of mux21_nbit IS 

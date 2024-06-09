@@ -1,13 +1,17 @@
 # these can be also set in .synopsys_dc.setup file in working directory
 # always keep the asterisk in link_library
+set search_path ". /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm ../src"
 set target_library  {../ref/db_nldm/saed14rvt_tt0p8v25c.db   }
 set link_library    {* ../ref/db_nldm/saed14rvt_tt0p8v25c.db }
 
 
-analyze -library WORK -format vhdl {../src/mux21.vhd}
-analyze -library WORK -format vhdl {../src/mux21_8bit.vhd}
+analyze -library WORK -format vhdl " \
+    ../src/mux21.vhd \
+    ../src/mux21_8bit.vhd \
+    "
 elaborate mux21_8bit -architecture df -library WORK
 
+current_design mux21_8bit 
 link
 check_design
 

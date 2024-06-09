@@ -3,7 +3,7 @@
 Report : qor
 Design : mux21
 Version: T-2022.03-SP1
-Date   : Thu May 23 22:21:40 2024
+Date   : Sun Jun  2 15:34:03 2024
 ****************************************
 
 
@@ -11,8 +11,8 @@ Date   : Thu May 23 22:21:40 2024
   -----------------------------------
   Levels of Logic:               2.00
   Critical Path Length:          0.04
-  Critical Path Slack:           1.26
-  Critical Path Clk Period:      4.00
+  Critical Path Slack:           1.89
+  Critical Path Clk Period:      2.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -64,11 +64,11 @@ Date   : Thu May 23 22:21:40 2024
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    0.00
-  Logic Optimization:                  3.59
-  Mapping Optimization:                0.67
+  Logic Optimization:                  4.17
+  Mapping Optimization:                0.80
   -----------------------------------------
-  Overall Compile Time:               11.88
-  Overall Compile Wall Clock Time:    13.11
+  Overall Compile Time:               11.23
+  Overall Compile Wall Clock Time:    12.56
 
   --------------------------------------------------------------------
 

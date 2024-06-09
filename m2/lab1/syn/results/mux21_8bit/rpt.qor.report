@@ -3,16 +3,16 @@
 Report : qor
 Design : mux21_8bit
 Version: T-2022.03-SP1
-Date   : Thu May 23 22:30:19 2024
+Date   : Sun Jun  9 14:30:57 2024
 ****************************************
 
 
-  Timing Path Group (none)
+  Timing Path Group 'clk'
   -----------------------------------
   Levels of Logic:               2.00
   Critical Path Length:          0.06
-  Critical Path Slack:         uninit
-  Critical Path Clk Period:       n/a
+  Critical Path Slack:           2.52
+  Critical Path Clk Period:      4.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -64,11 +64,11 @@ Date   : Thu May 23 22:30:19 2024
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    0.00
-  Logic Optimization:                  2.64
-  Mapping Optimization:                0.25
+  Logic Optimization:                  4.49
+  Mapping Optimization:                0.64
   -----------------------------------------
-  Overall Compile Time:                9.74
-  Overall Compile Wall Clock Time:    10.64
+  Overall Compile Time:               13.92
+  Overall Compile Wall Clock Time:    15.33
 
   --------------------------------------------------------------------
 

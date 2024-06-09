@@ -6,15 +6,15 @@ Report : timing
         -max_paths 1
 Design : mux21_8bit
 Version: T-2022.03-SP1
-Date   : Thu May 23 22:30:19 2024
+Date   : Sun Jun  9 14:30:57 2024
 ****************************************
 
 Operating Conditions: tt0p8v25c   Library: saed14rvt_tt0p8v25c
 Wire Load Model Mode: top
 
   Startpoint: s (input port clocked by clk)
-  Endpoint: m[7] (output port)
-  Path Group: (none)
+  Endpoint: m[0] (output port clocked by clk)
+  Path Group: clk
   Path Type: max
 
   Des/Clust/Port     Wire Load Model       Library
@@ -23,16 +23,26 @@ Wire Load Model Mode: top
 
   Point                                    Incr       Path
   -----------------------------------------------------------
-  input external delay                     1.30       1.30 r
-  s (in)                                   0.00       1.30 r
-  mux21_7/s (mux21_1)                      0.00       1.30 r
-  mux21_7/U2/X (SAEDRVT14_INV_1)           0.03       1.33 f
-  mux21_7/U1/X (SAEDRVT14_AO22_1)          0.02       1.35 f
-  mux21_7/m (mux21_1)                      0.00       1.35 f
-  m[7] (out)                               0.00       1.36 f
-  data arrival time                                   1.36
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.02       0.02 r
+  s (in)                                   0.00       0.02 r
+  mux21_0/s (mux21_0)                      0.00       0.02 r
+  mux21_0/U2/X (SAEDRVT14_INV_1)           0.03       0.05 f
+  mux21_0/U1/X (SAEDRVT14_AO22_1)          0.02       0.07 f
+  mux21_0/m (mux21_0)                      0.00       0.07 f
+  m[0] (out)                               0.00       0.08 f
+  data arrival time                                   0.08
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.00       4.00
+  output external delay                   -1.40       2.60
+  data required time                                  2.60
   -----------------------------------------------------------
-  (Path is unconstrained)
+  data required time                                  2.60
+  data arrival time                                  -0.08
+  -----------------------------------------------------------
+  slack (MET)                                         2.52
 
 
 1

@@ -13,15 +13,15 @@ check_design
 read_sdc ../inputs/mux21.sdc
 compile -exact_map
 
-file mkdir results
-report_area -hierarchy > results/rpt.area.report
-report_constraint > results/rpt.constraints.report
-report_timing > results/rpt.timing.report
-report_qor > results/rpt.qor.report
+file mkdir results/mux21
+report_area -hierarchy > results/mux21/rpt.area.report
+report_constraint > results/mux21/rpt.constraints.report
+report_timing > results/mux21/rpt.timing.report
+report_qor > results/mux21/rpt.qor.report
 
 change_names -rule vhdl
-write -hierarchy -format vhdl -output results/mux21_compiled.vhd
-write -hierarchy -format ddc -output results/mux21_compiled.ddc
+write -hierarchy -format vhdl -output results/mux21/mux21_compiled.vhd
+write -hierarchy -format ddc -output results/mux21/mux21_compiled.ddc
 
 # reset_design
 # exit

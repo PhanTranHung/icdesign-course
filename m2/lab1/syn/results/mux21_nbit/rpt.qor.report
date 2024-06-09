@@ -3,16 +3,16 @@
 Report : qor
 Design : mux21_nbit
 Version: T-2022.03-SP1
-Date   : Thu May 23 22:39:33 2024
+Date   : Sun Jun  9 22:11:50 2024
 ****************************************
 
 
-  Timing Path Group (none)
+  Timing Path Group 'clk'
   -----------------------------------
-  Levels of Logic:               1.00
-  Critical Path Length:          0.04
-  Critical Path Slack:         uninit
-  Critical Path Clk Period:       n/a
+  Levels of Logic:               2.00
+  Critical Path Length:          0.11
+  Critical Path Slack:           1.39
+  Critical Path Clk Period:      4.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -23,14 +23,14 @@ Date   : Thu May 23 22:39:33 2024
 
   Cell Count
   -----------------------------------
-  Hierarchical Cell Count:         16
-  Hierarchical Port Count:         64
-  Leaf Cell Count:                 16
-  Buf/Inv Cell Count:               0
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                 17
+  Buf/Inv Cell Count:               1
   Buf Cell Count:                   0
-  Inv Cell Count:                   0
+  Inv Cell Count:                   1
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:        16
+  Combinational Cell Count:        17
   Sequential Cell Count:            0
   Macro Count:                      0
   -----------------------------------
@@ -38,21 +38,21 @@ Date   : Thu May 23 22:39:33 2024
 
   Area
   -----------------------------------
-  Combinational Area:        6.432000
+  Combinational Area:        8.702400
   Noncombinational Area:     0.000000
-  Buf/Inv Area:              0.000000
+  Buf/Inv Area:              0.177600
   Total Buffer Area:             0.00
-  Total Inverter Area:           0.00
+  Total Inverter Area:           0.18
   Macro/Black Box Area:      0.000000
-  Net Area:                  6.516137
+  Net Area:                  9.317227
   -----------------------------------
-  Cell Area:                 6.432000
-  Design Area:              12.948137
+  Cell Area:                 8.702400
+  Design Area:              18.019628
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:            49
+  Total Number of Nets:            50
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -63,12 +63,12 @@ Date   : Thu May 23 22:39:33 2024
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.00
-  Logic Optimization:                  4.91
-  Mapping Optimization:                0.63
+  Resource Sharing:                    0.01
+  Logic Optimization:                  3.36
+  Mapping Optimization:                0.29
   -----------------------------------------
-  Overall Compile Time:               12.04
-  Overall Compile Wall Clock Time:    13.44
+  Overall Compile Time:               18.22
+  Overall Compile Wall Clock Time:    20.02
 
   --------------------------------------------------------------------
 

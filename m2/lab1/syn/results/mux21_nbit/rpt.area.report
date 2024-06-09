@@ -3,31 +3,31 @@
 Report : area
 Design : mux21_nbit
 Version: T-2022.03-SP1
-Date   : Thu May 23 22:39:33 2024
+Date   : Sun Jun  9 22:11:50 2024
 ****************************************
 
 Information: Updating design information... (UID-85)
 Library(s) Used:
 
-    saed14rvt_tt0p8v25c (File: /home/users/hungpt/icdesign/m2/lab1/ref/db_nldm/saed14rvt_tt0p8v25c.db)
+    saed14rvt_tt0p8v25c (File: /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db)
 
-Number of ports:                          113
-Number of nets:                           113
-Number of cells:                           32
-Number of combinational cells:             16
+Number of ports:                           49
+Number of nets:                            50
+Number of cells:                           17
+Number of combinational cells:             17
 Number of sequential cells:                 0
 Number of macros/black boxes:               0
-Number of buf/inv:                          0
-Number of references:                      16
+Number of buf/inv:                          1
+Number of references:                       2
 
-Combinational area:                  6.432000
-Buf/Inv area:                        0.000000
+Combinational area:                  8.702400
+Buf/Inv area:                        0.177600
 Noncombinational area:               0.000000
 Macro/Black Box area:                0.000000
-Net Interconnect area:               6.516137
+Net Interconnect area:               9.317227
 
-Total cell area:                     6.432000
-Total area:                         12.948137
+Total cell area:                     8.702400
+Total area:                         18.019628
 
 Hierarchical area distribution
 ------------------------------
@@ -37,24 +37,8 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
                                   Total      Total    national  national   boxes   Design
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-mux21_nbit                           6.4320    100.0    0.0000     0.0000  0.0000  mux21_nbit
-mux21_i_0                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_0
-mux21_i_1                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_15
-mux21_i_10                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_6
-mux21_i_11                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_5
-mux21_i_12                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_4
-mux21_i_13                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_3
-mux21_i_14                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_2
-mux21_i_15                           0.4020      6.2    0.4020     0.0000  0.0000  mux21_1
-mux21_i_2                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_14
-mux21_i_3                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_13
-mux21_i_4                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_12
-mux21_i_5                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_11
-mux21_i_6                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_10
-mux21_i_7                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_9
-mux21_i_8                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_8
-mux21_i_9                            0.4020      6.2    0.4020     0.0000  0.0000  mux21_7
+mux21_nbit                           8.7024    100.0    8.7024     0.0000  0.0000  mux21_nbit
 --------------------------------  ---------  -------  --------  ---------  ------  ---------
-Total                                                   6.4320     0.0000  0.0000
+Total                                                   8.7024     0.0000  0.0000
 
 1
