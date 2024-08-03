@@ -1,0 +1,15 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "18:50:18 07/03/2024 "
+* "netlist" "voltage_dev.sp "
+* "runtitle" "** voltage divider **"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   4.0000        
++ out =   2.0000        
+***   END: Saved Operating Point ***                     

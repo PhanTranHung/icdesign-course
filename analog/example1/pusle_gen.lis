@@ -1,0 +1,117 @@
+ ****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: voltage_dev.sp                                                    
+  Command line options: /home/tools/synopsys/hspice/T-2022.06/hspice/linux64/hspice -i voltage_dev.sp -o pusle_gen.lis
+  Start time: Wed Jul  3 18:50:18 2024
+ lic:  
+ lic: FLEXlm: SDK_12.10 
+ lic: USER:   hungpt               HOSTNAME: localhost.localdomain 
+ lic: HOSTID: 7f0100               PID:      5840 
+ lic: Using FLEXlm license file: 
+ lic: 27020@192.168.10.99 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 22-jul-2024/2023.12 
+ lic: 1(in_use)/20(total) FLOATING license(s) on SERVER 27020@192.168.10.99 
+ lic:   
+  
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ **info** dc convergence successful at Newton-Raphson method 
+1****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+ ******  
+ ** voltage divider **
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage
+
+ +0:in      =   4.0000  0:out     =   2.0000 
+
+
+ **** voltage sources
+
+ subckt             
+ element  0:v1      
+  volts      4.0000 
+  current   -2.0000m
+  power      8.0000m
+
+     total voltage source power dissipation=    8.0000m       watts
+
+
+
+ **** resistors
+
+ subckt                        
+ element  0:r1       0:r2      
+  r value    1.0000k    1.0000k
+  v drop     2.0000     2.0000 
+  current    2.0000m    2.0000m
+  power      4.0000m    4.0000m
+
+
+          ***** job concluded
+ ******  
+ ** voltage divider **
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) E-2236 CPU @ 3.40GHz
+ cpu MHz	: 4660.266
+ CPU(s)		: 12
+  
+ OS:
+ Linux version 3.10.0-1160.114.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Mar 20 15:54:52 UTC 2024
+
+ System loadavg : 0.09 0.14 0.18 4/681 5929
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    12
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       3 # elements   =       3
+  # resistors   =       2 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       1
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           1
+  readin             0.02
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        491.79 megabytes
+           total cpu time            0.02 seconds
+           total elapsed time        1.07 seconds
+           job started at     18:50:18 07/03/2024
+           job ended   at     18:50:19 07/03/2024
+           job total runtime         1.07 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        1.02(s)

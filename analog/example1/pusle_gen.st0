@@ -1,0 +1,38 @@
+****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+Input File: voltage_dev.sp
+lic:
+lic: FLEXlm: SDK_12.10
+lic: USER:   hungpt               HOSTNAME: localhost.localdomain
+lic: HOSTID: 7f0100               PID:      5840
+lic: Using FLEXlm license file:
+lic: 27020@192.168.10.99
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 22-jul-2024/2023.12
+lic: 1(in_use)/20(total) FLOATING license(s) on SERVER 27020@192.168.10.99
+lic:
+
+ init: begin read circuit files, cpu clock= 1.06E+00
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/ad
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/behave
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/bjt
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/burr_brn
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/comlinear
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/dio
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/fet
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/lin_tech
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/pci
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/signet
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/ti
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/tline
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/xilinx
+ init: end read circuit files, cpu clock= 1.06E+00 peak memory=     491 mb
+ init: begin check errors, cpu clock= 1.06E+00
+ init: end check errors, cpu clock= 1.06E+00 peak memory=     491 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.06E+00
+       establish matrix -- done, cpu clock= 1.06E+00 peak memory=     491 mb
+       re-order matrix -- done, cpu clock= 1.06E+00 peak memory=     491 mb
+ init: end setup matrix, cpu clock= 1.06E+00 peak memory=     491 mb
+ dcop: begin dcop, cpu clock= 1.06E+00
+ dcop: end dcop, cpu clock= 1.07E+00 peak memory=     491 mb tot_iter=       1
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
