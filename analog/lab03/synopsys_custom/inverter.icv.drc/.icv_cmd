@@ -1,0 +1,4 @@
+openaccess layout lab03 inverter icv /home/users/hungpt/icdesign/analog/lab03/lib.defs /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs -vue -oa_view -oa_lib_defs -oa_layer_map -oa_dm6 -lic_apex -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/home/tools/synopsys/icvalidator/U-2022.12
+ICV_INCLUDES=UNSET

@@ -1,0 +1,137 @@
+
+                                 IC Validator 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Time Started: 2024-07-19 16:15:49
+
+-------------
+
+Called as: icv -f openaccess -i lab03 -c inverter -oa_view layout -oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map -s /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp -sf SPICE -stc inverter -I /home/dkits/synopsys/m3a/icv/lvs -lic_apex -oa_dm6 -vue /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+
+-------------
+
+Command Line Summary:
+icv
+-c inverter
+-f openaccess
+-i lab03
+-lic_apex
+-oa_dm6
+-oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map
+-oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs
+-oa_view layout
+-s /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp
+-sf SPICE
+-stc inverter
+-vue
+-I /home/dkits/synopsys/m3a/icv/lvs
+/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+
+-------------
+
+
+WARNING: The environment variable ICV_RSH_COMMAND is deprecated. Please use -host_login.
+Using "ssh" as remote login program
+
+Parsing runset "/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs"
+
+/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:506: warning: ICV LVS device settings currently use append mode. Use command line option '-D ICV_REVERT_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_REVERT_DEVICE_SETTING_APPEND_MODE' to revert LVS device setting back to overwrite mode in this release.
+Loaded runset from cache: /home/users/hungpt/.icvrscache/7943b9d95e3bd13566b4c026d31cc8ff-1FD5992E-8D4A-4FB9-B2BA-350D38B370E1-localhost.localdomain-16224.rscache
+Cached Runset Compile Time=0:00:02 User=2.53 Sys=0.05 Mem=0.744 GB
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.01 Mem=0.744 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	localhost: 2 total cores, maximum 2 commands in parallel.
+Selecting "localhost" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.01 Mem=0.744 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/inverter.sum
+    /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/reference40nm_lvs.dp.log
+
+Running ...
+  [0:00:01][0%]   Total: 2 CPUs on 1 host
+  [0:00:01][1%]   
+  [0:00:01][2%]   
+  [0:00:01][3%]   
+  [0:00:01][4%]   
+  [0:00:01][5%]   Rules: 0/1, Rules with Violations: 0, Total Violations: 0
+  [0:00:01][10%]  
+  [0:00:02][15%]  
+  [0:00:02][20%]  
+  [0:00:02][25%]  
+  [0:00:02][30%]  
+  [0:00:02][35%]  
+  [0:00:02][40%]  
+  [0:00:02][45%]  
+  [0:00:02][50%]  
+  [0:00:02][55%]  
+  [0:00:02][60%]  
+  [0:00:02][65%]  
+  [0:00:02][70%]  
+  [0:00:02][75%]  
+  [0:00:02][80%]  
+  [0:00:03][85%]  
+  [0:00:03][90%]  
+  [0:00:03][95%]  Rules: 1/1, Rules with Violations: 0, Total Violations: 0
+Comparing schematic and layout netlists.
+LVS compare start time    : 2024-07-19 16:16:01
+  ICV_Compare [0:00:00][0%]
+  ICV_Compare [0:00:00][5%]
+  ICV_Compare [0:00:00][10%]
+  ICV_Compare [0:00:00][15%]
+  ICV_Compare [0:00:00][20%]
+  ICV_Compare [0:00:00][25%]
+  ICV_Compare [0:00:00][30%]
+  ICV_Compare [0:00:00][100%]
+LVS compare end time      : 2024-07-19 16:16:01
+Total runtime for LVS compare Time=0:00:00  User=0.03 Sys=0.02 Mem=0.014 GB
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=0.015 GB
+
+  [0:00:09][100%] Rules: 1/1, Rules with Violations: 0, Total Violations: 0
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+IC Validator Run: Time=0:00:12
+
+-------------
+
+IC Validator Machine Memory Report
+localhost    : Average = 4.337 GB, Peak = 4.337 GB
+
+Overall Disk Usage Disk=0.011 GB
+Network Disk Usage Peak=0.010 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:12 Highest command Mem=4.339 GB
+
+Overall Master Mem=0.907 GB
+
+Time Ended: 2024-07-19 16:16:02
+
+IC Validator is done.

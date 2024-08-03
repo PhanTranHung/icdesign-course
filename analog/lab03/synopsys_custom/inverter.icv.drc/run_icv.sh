@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc; exec-oa22.60.047.icv icv -f openaccess -i lab03 -c inverter -oa_view layout -oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map -lic_apex -oa_dm6 -vue /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs > /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/stdout.drc.log 2>&1

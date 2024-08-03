@@ -1,0 +1,1375 @@
+Fri Jul 19 16:12:56 2024
+
+                                  ICV_Engine 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs
+Current Directory ................  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc
+Hostname .........................  localhost.localdomain
+Platform type ....................  LINUX.64
+OPENACCESS lib.defs file .........  /home/users/hungpt/icdesign/analog/lab03/lib.defs
+OPENACCESS input library name ....  lab03
+OPENACCESS block name ............  inverter
+OPENACCESS view name .............  layout
+Run details ......................  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/run_details
+Group file directory .............  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/run_details/group
+Check reference structures .......  yes
+
+library() at /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs:62
+library(library_name = "sampleLIB", format = OPENACCESS, cell = "sampleCell", library_definition_file = "lib.defs")
+
+openaccess_options() at /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs:69
+openaccess_options(view = "layout", layer_mapping_file = "/home/dkits/synopsys/m3a" + "/techfiles/reference40nm_layer.map")
+
+error_options() at /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs:74
+error_options(error_limit_per_check = 2147483647, create_vue_output = true)
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+Initialized OpenAccess libraries successfully
+
+ OpenAccess memory usage: 7.895M
+   Scan Hierarchy Time=0:00:00  User=0.12 Sys=0.01 Mem=0.013 GB
+
+Fri Jul 19 16:12:56 2024
+
+                                  ICV_Engine 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+ML for preprocessing is disabled for small designs.
+Initialized OpenAccess libraries successfully
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.05 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+0 Total errors found.
+Prototype Placement Pass 1
+verbose_is_necessary = VERBOSE_TEXT_FULL_FLOW
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Find duplicate placements in cells
+Total Explode Mega Cells found = 0
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+new number of regions. 
+     Determine Layer Counts Max Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+new number of regions. 
+      Determine Region Height Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Determine Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Prototype Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Determine shadow Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Fracture A-Refs for Regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Determine Region Rows Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.11 Sys=0.02 Mem=0.011 GB
+
+assign() at reference40nm_icv_drc.rs:82
+nwelldLayer = assign({ { == 1 }, { == 0 } })
+  Function: assign
+  Outputs: empty_layer.associated.0001
+No output written.
+Layer "empty_layer.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write binned hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.00 x
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write recipe & record mem in hdb Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Hierarchy Cleanup Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Fri Jul 19 16:12:56 2024
+
+                                  ICV_Engine 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+Initialized OpenAccess libraries successfully
+assign() at reference40nm_icv_drc.rs:88:Layer creation
+contdLayer = assign({ { == 7 }, { == 0 } })
+  Function: assign
+  Inputs: contdLayer.polygonlayer.0001, contdLayer.polygonlayer.0001
+  Outputs: contdLayer.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+31 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.020 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_icv_drc.rs:88:Layer creation
+contdLayer = assign({ { == 7 }, { == 0 } })
+  Function: assign
+  Inputs: contdLayer.polygonlayer.0002, contdLayer.polygonlayer.0002
+  Outputs: contdLayer.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+31 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_icv_drc.rs:88
+contdLayer = assign({ { == 7 }, { == 0 } })
+  Function: assign
+  Inputs: contdLayer.polygonlayer.0003
+  Outputs: contdLayer.polygonlayer.0004
+    Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Scan Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+rectangles() at reference40nm_icv_drc.rs:1590
+gSELECT_CONTS = rectangles(layer1 = gCONT, sides = { == CONT_W_1, == CONT_W_1 }, orientation = ORTHOGONAL)
+  Function: rectangles
+  Inputs: contdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gSELECT_CONTS.polygonlayer.0001, gSELECT_CONTS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Pattern Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+Layer "gSELECT_CONTS.polygonlayer.0002" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not_rectangles() at reference40nm_icv_drc.rs:1618:Merged command, replaced with an internal copy command.
+not_rectangles(gCONT, sides = { == CONT_W_1, == CONT_W_1 }, orientation = ORTHOGONAL)
+  Comment: "cont.R.1 : 45-degree rotated contacts are not allowed"
+  Function: not_rectangles
+  Inputs: gSELECT_CONTS.polygonlayer.0002
+Input layer "gSELECT_CONTS.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+and() at reference40nm_icv_drc.rs:1582
+gCONT_DIFF = gCONT and gDIFF
+  Function: and
+  Inputs: contdLayer.polygonlayer.0004, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gCONT_DIFF.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+30 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not_covered_by() at reference40nm_icv_drc.rs:1612
+not_covered_by(gCONT_DIFF, gDIFF, { { { 0.01, RADIAL }, { 0.03, NONE }, { 0.01, RADIAL }, { 0.03, NONE } }, { { 0.02, INTERSECTION }, { 0.02, INTERSECTION }, { 0.02, INTERSECTION }, { 0.02, INTERSECTION } } }, intersecting = { ACUTE, POINT_TOUCH, TOUCH })
+  Comment: "cont.ex.2 : DIFF Extension over contact on Four sides >= 0.02"
+  Function: not_covered_by
+  Inputs: gCONT_DIFF.polygonlayer.0001, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+for(loop 1 out of 11, i=0) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:CONT: Maximum Width <= 0.06"
+  Function: wide
+  Inputs: contdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Pattern Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 7 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: contdLayer.polygonlayer.0004
+  Outputs: temp.polygonlayer.0003
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 7 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: contdLayer.polygonlayer.0004
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+for(loop 1 out of 19, i=0) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:DIFF: Area < 0.03"
+  Function: area
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+for(loop 2 out of 30, i=1) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:DIFF: Width < 0.07000000000000001"
+  Function: internal1
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 2 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: diffdLayer.polygonlayer.0004
+  Outputs: temp.polygonlayer.0002
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 2 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: diffdLayer.polygonlayer.0004
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at reference40nm_icv_drc.rs:84:Layer creation
+polydLayer = assign({ { == 3 }, { == 0 } })
+  Function: assign
+  Inputs: polydLayer.polygonlayer.0002, polydLayer.polygonlayer.0002
+  Outputs: polydLayer.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_icv_drc.rs:84
+polydLayer = assign({ { == 3 }, { == 0 } })
+  Function: assign
+  Inputs: polydLayer.polygonlayer.0003
+  Outputs: polydLayer.polygonlayer.0004
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not_interacting() at reference40nm_icv_drc.rs:1589
+gDIFF_CONT = gCONT_DIFF not_interacting gPOLY
+  Function: not_interacting
+  Inputs: gCONT_DIFF.polygonlayer.0001, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gDIFF_CONT.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+30 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at reference40nm_icv_drc.rs:1355
+gGATE = layer_names["POLY"] and layer_names["DIFF"]
+  Function: and
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gGATE.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at reference40nm_icv_drc.rs:1592
+gDIFF_NOT_GATE = gDIFF not gGATE
+  Function: not
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001, gGATE.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: gDIFF_NOT_GATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at reference40nm_icv_drc.rs:1593
+gDIFF_MOS = gDIFF_NOT_GATE interacting gGATE
+  Function: interacting
+  Inputs: gDIFF_NOT_GATE.polygonlayer.0001, empty_layer.associated.0001, gGATE.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: gDIFF_MOS.polygonlayer.0001, gDIFF_MOS.associated.0001
+No output written.
+Layer "gDIFF_MOS.associated.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+interacting() at reference40nm_icv_drc.rs:1593
+gDIFF_MOS = gDIFF_NOT_GATE interacting gGATE
+  Function: interacting
+  Inputs: gDIFF_MOS.polygonlayer.0001
+  Outputs: gDIFF_MOS.polygonlayer.0002
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+adjacent_edge() at reference40nm_icv_drc.rs:1594
+gMOS_WID_EDGE = adjacent_edge(layer1 = gDIFF_MOS, length >= 2, angle1 = 90.0)
+  Function: adjacent_edge
+  Inputs: gDIFF_MOS.polygonlayer.0002, gDIFF_MOS.associated.0001
+  Outputs: gMOS_WID_EDGE.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+Layer "gMOS_WID_EDGE.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+edge_size() at reference40nm_icv_drc.rs:1595
+gMOS_WID = edge_size(layer1 = gMOS_WID_EDGE, inside = 0.001)
+  Function: edge_size
+  Inputs: gMOS_WID_EDGE.edgelayer.0001, empty_layer.associated.0001
+  Outputs: gMOS_WID.polygonlayer.0001
+Input layer "gMOS_WID_EDGE.edgelayer.0001" is empty.
+No output written.
+Layer "gMOS_WID.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at reference40nm_icv_drc.rs:1596
+gMOS_WID1 = gDIFF_MOS interacting gMOS_WID
+  Function: interacting
+  Inputs: gDIFF_MOS.polygonlayer.0002, empty_layer.associated.0001, gMOS_WID.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gMOS_WID1.polygonlayer.0001
+Input layer "gMOS_WID.polygonlayer.0001" is empty.
+No output written.
+Layer "gMOS_WID1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at reference40nm_icv_drc.rs:1622
+interacting(layer1 = gMOS_WID1, layer2 = gCONT, count = < 2)
+  Comment: "cont.R.2 : Recommended minimum number of cuts for mosfets (with Width > 2.0 um) >= 2.0"
+  Function: interacting
+  Inputs: gMOS_WID1.polygonlayer.0001, empty_layer.associated.0001, contdLayer.polygonlayer.0004, empty_layer.associated.0001
+Input layer "gMOS_WID1.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at reference40nm_icv_drc.rs:1233
+gPOLYGATE = gPOLY interacting gDIFF
+  Function: interacting
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPOLYGATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+adjacent_edge() at reference40nm_icv_drc.rs:1219
+adjacent_edge(gPOLY, angle1 = == 270, angle2 = == 270, length = < POLY_S_2)
+  Comment: "poly.s.2 : Minimum Poly Notch >= 0.08"
+  Function: adjacent_edge
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+angle_edge() at reference40nm_icv_drc.rs:1167
+gPOLY_EDGE_45 = angle_edge(layer1 = gPOLY, angles = == 45)
+  Function: angle_edge
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPOLY_EDGE_45.edgelayer.0001
+No output written.
+Layer "gPOLY_EDGE_45.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+length_edge() at reference40nm_icv_drc.rs:1254
+length_edge(layer1 = gPOLY_EDGE_45, distance < POLY_L_2)
+  Comment: "poly.l.2 : Minimum length of 45 degree bent poly >= 0.3"
+  Function: length_edge
+  Inputs: gPOLY_EDGE_45.edgelayer.0001, empty_layer.associated.0001
+Input layer "gPOLY_EDGE_45.edgelayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at reference40nm_icv_drc.rs:1022
+gGATE = layer_names["DIFF"] and layer_names["POLY"]
+  Function: and
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gGATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+enclose() at reference40nm_icv_drc.rs:1278:command replaced with an internal copy command.
+enclose(layer1 = gGATE, layer2 = gPOEXT, distance < POLY_EX_1, extension = NONE, direction = VERTICAL)
+  Function: enclose
+  Inputs: gGATE.polygonlayer.0001
+  Outputs: temp.polygonlayer.0007
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+input layer1 is the same as input layer2.
+external2() at reference40nm_icv_drc.rs:1272
+external2(layer2 = gGATE, layer1 = gGATE, distance < POLY_S_3, extension = RADIAL, intersecting = {  })
+  Comment: "poly.s.3 : Minimum gate to gate Space >= 0.14"
+  Function: external2
+  Inputs: gGATE.polygonlayer.0001, empty_layer.associated.0001, gGATE.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+external2() at reference40nm_icv_drc.rs:1266
+external2(layer2 = gGATE, layer1 = gPOLY, distance < POLY_S_1_2, extension = RADIAL, intersecting = {  })
+  Comment: "poly.s.1.2 : Minimum Poly Gate Space >= 0.15"
+  Function: external2
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001, gGATE.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at reference40nm_icv_drc.rs:1236
+gDIFFGATENOT = gDIFFGATE not gGATE
+  Function: not
+  Inputs: gDIFFGATE.polygonlayer.0001, empty_layer.associated.0001, gGATE.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gDIFFGATENOT.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+external2() at reference40nm_icv_drc.rs:1237:command replaced with an internal copy command.
+external2(layer1 = gPOLYGATENOT, layer2 = gDIFFGATENOT, distance < POLY_S_7, extension = NONE, intersecting = {  }, direction = VERTICAL)
+  Function: external2
+  Inputs: gDIFFGATENOT.polygonlayer.0001
+  Outputs: temp.polygonlayer.0008
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at reference40nm_icv_drc.rs:1187:Duplicate command replaced with an internal copy command.
+na_gate = na_diff and na_poly
+  Function: and
+  Inputs: gGATE.polygonlayer.0001
+  Outputs: na_gate.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+enclose() at reference40nm_icv_drc.rs:1107
+enclose(gGATE, gDIFF, < DIFF_EX_1, extension = NONE)
+  Comment: "diff.ex.1 : Diffusion Minimum extension Over Poly >= 0.07000000000000001"
+  Function: enclose
+  Inputs: diffdLayer.polygonlayer.0004, gGATE.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at reference40nm_icv_drc.rs:1023
+gDIFFNOTGATE = layer_names["DIFF"] not gGATE
+  Function: not
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001, gGATE.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gDIFFNOTGATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at reference40nm_icv_drc.rs:1188:Duplicate command replaced with an internal copy command.
+na_sd = na_diff not na_gate
+  Function: not
+  Inputs: gDIFFNOTGATE.polygonlayer.0001
+  Outputs: na_sd.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_touching_edge() at reference40nm_icv_drc.rs:1189
+na_l = na_gate not_touching_edge na_sd
+  Function: not_touching_edge
+  Inputs: na_gate.polygonlayer.0001, empty_layer.associated.0001, na_sd.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: na_l.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not_touching_edge() at reference40nm_icv_drc.rs:1189
+na_l = na_gate not_touching_edge na_sd
+  Function: not_touching_edge
+  Inputs: na_l.edgelayer.0001
+  Outputs: na_l.edgelayer.0002
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_touching_edge() at reference40nm_icv_drc.rs:1200:Duplicate command replaced with an internal copy command.
+na_l = na_gate not_touching_edge na_sd
+  Function: not_touching_edge
+  Inputs: na_l.edgelayer.0002
+  Outputs: na_l.edgelayer.0003
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_touching_edge() at reference40nm_icv_drc.rs:1200:Duplicate command replaced at runtime with an internal copy command.
+na_l = na_gate not_touching_edge na_sd
+  Function: not_touching_edge
+  Inputs: na_l.edgelayer.0002
+  Outputs: na_l.edgelayer.0004
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+length_edge() at reference40nm_icv_drc.rs:1201
+length_edge(na_l, distance > POLY_W_4)
+  Comment: "POLY_W_4 : Maximum Gate Length <= 20.0"
+  Function: length_edge
+  Inputs: na_l.edgelayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at reference40nm_icv_drc.rs:1024:Duplicate command replaced with an internal copy command.
+gDIFFNOTGATE_NOVARMARKER = layer_names["DIFF"] not gGATE not layer_names["VARMARKER"]
+  Function: not
+  Inputs: gDIFFNOTGATE.polygonlayer.0001
+  Outputs: gDIFFNOTGATE_NOVARMARKER.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at reference40nm_icv_drc.rs:1024:command replaced with an internal copy command.
+gDIFFNOTGATE_NOVARMARKER = layer_names["DIFF"] not gGATE not layer_names["VARMARKER"]
+  Function: not
+  Inputs: gDIFFNOTGATE_NOVARMARKER.polygonlayer.0001
+  Outputs: gDIFFNOTGATE_NOVARMARKER.polygonlayer.0002
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+outside_touching_edge() at reference40nm_icv_drc.rs:1044:Duplicate command replaced at runtime with an internal copy command.
+touching_edges = outside_touching_edge(layer1 = gDIFFNOTGATE_NOVARMARKER, layer2 = gGATE, count = 1)
+  Function: outside_touching_edge
+  Inputs: touching_edges.edgelayer.0001
+  Outputs: touching_edges.edgelayer.0003
+4 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+outside_touching_edge() at reference40nm_icv_drc.rs:1044:Duplicate command replaced at runtime with an internal copy command.
+touching_edges = outside_touching_edge(layer1 = gDIFFNOTGATE_NOVARMARKER, layer2 = gGATE, count = 1)
+  Function: outside_touching_edge
+  Inputs: touching_edges.edgelayer.0002
+  Outputs: touching_edges.edgelayer.0004
+4 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+length_edge() at reference40nm_icv_drc.rs:1045
+length_edge(layer1 = touching_edges, distance > DIFF_W_3)
+  Comment: "diff.w.3: Maximum Mosfet Channel width <= 50.0"
+  Function: length_edge
+  Inputs: touching_edges.edgelayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+for(loop 1 out of 3, i=0) at reference40nm_icv_drc.rs:784
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:787
+    external2() at reference40nm_icv_drc.rs:790
+external2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:CONT POLY Spacing < 0.045"
+  Function: external2
+  Inputs: contdLayer.polygonlayer.0004, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+for(loop 17 out of 19, i=16) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:POLY: Area < 0.025"
+  Function: area
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+for(loop 11 out of 11, i=10) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:POLY: Maximum Width <= 20.0"
+  Function: wide
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+for(loop 20 out of 30, i=19) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:POLY: Width < 0.04"
+  Function: internal1
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 3 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: polydLayer.polygonlayer.0004
+  Outputs: temp.polygonlayer.0005
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 3 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: polydLayer.polygonlayer.0004
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+and() at reference40nm_icv_drc.rs:884
+gPPOD = gDIFF and gPPLUS
+  Function: and
+  Inputs: diffdLayer.polygonlayer.0004, empty_layer.associated.0001, pplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPPOD.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_icv_drc.rs:1093
+gPSTP = gPPOD not gNWELL
+  Function: not
+  Inputs: gPPOD.polygonlayer.0001, empty_layer.associated.0001, nwelldLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPSTP.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+external2() at reference40nm_icv_drc.rs:1096
+gPSTP_SPACE = external2(gPSTP, gDIFF, distance < DIFF_S_3, extension = RADIAL, look_thru = ALL, intersecting = {  })
+  Function: external2
+  Inputs: gPSTP.polygonlayer.0001, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPSTP_SPACE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 spacing violations found.
+Layer "gPSTP_SPACE.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+and() at reference40nm_icv_drc.rs:1032
+gPMOSGATE = gDIFFPMOS and layer_names["POLY"]
+  Function: and
+  Inputs: gDIFFPMOS.polygonlayer.0001, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPMOSGATE.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_icv_drc.rs:1033
+gDIFFPMOSNOTGATE = gDIFFPMOS not gPMOSGATE not gHVDIFF1
+  Function: not
+  Inputs: gDIFFPMOS.polygonlayer.0001, empty_layer.associated.0001, gPMOSGATE.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: gDIFFPMOSNOTGATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at reference40nm_icv_drc.rs:1033:command replaced with an internal copy command.
+gDIFFPMOSNOTGATE = gDIFFPMOS not gPMOSGATE not gHVDIFF1
+  Function: not
+  Inputs: gDIFFPMOSNOTGATE.polygonlayer.0001
+  Outputs: gDIFFPMOSNOTGATE.polygonlayer.0002
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+outside_touching_edge() at reference40nm_icv_drc.rs:1050
+touching_edges = outside_touching_edge(layer1 = gDIFFPMOSNOTGATE, layer2 = gPMOSGATE, count = 1)
+  Function: outside_touching_edge
+  Inputs: gDIFFPMOSNOTGATE.polygonlayer.0002, empty_layer.associated.0001, gPMOSGATE.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: touching_edges.edgelayer.0005
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+outside_touching_edge() at reference40nm_icv_drc.rs:1050
+touching_edges = outside_touching_edge(layer1 = gDIFFPMOSNOTGATE, layer2 = gPMOSGATE, count = 1)
+  Function: outside_touching_edge
+  Inputs: touching_edges.edgelayer.0005
+  Outputs: touching_edges.edgelayer.0006
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+length_edge() at reference40nm_icv_drc.rs:1051
+length_edge(layer1 = touching_edges, distance > DIFF_W_4)
+  Comment: "diff.w.4: Maximum Mosfet channel width for core PMOS Device <= 50.0"
+  Function: length_edge
+  Inputs: touching_edges.edgelayer.0006, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+angle_edge() at reference40nm_icv_drc.rs:990:Merged command, replaced with an internal copy command.
+sX1 = angle_edge(sOD_CONVEX_CORNER, == 0)
+  Function: angle_edge
+  Inputs: sX1.edgelayer.0003
+  Outputs: sX1.edgelayer.0005
+8 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+enclose_edge() at reference40nm_icv_drc.rs:992
+sA = enclose_edge(sX1, sX2, < NWELL_EX_3_1, extension = RECTANGLE, intersecting = {  }, output_layer = LAYER1, extension_distance = NWELL_EX_3)
+  Function: enclose_edge
+  Inputs: sX2.edgelayer.0005, sX1.edgelayer.0005, empty_layer.associated.0001, empty_layer.associated.0001
+  Outputs: sA.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 enclose violations found.
+Layer "sA.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+internal2_edge() at reference40nm_icv_drc.rs:996
+internal2_edge(sA, sB, < GRID, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Comment: "nwell.ex.3.1 : Enclosure of P+ ACTIVE [at least one edge at each corner] >= 0.18"
+  Function: internal2_edge
+  Inputs: sA.edgelayer.0001, sB.edgelayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+Input layer "sA.edgelayer.0001" is empty.
+0 inside_edge violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+for(loop 15 out of 16, i=14) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF PPLUS Enclosure < 0.03"
+  Function: enclose
+  Inputs: pplusdLayer.polygonlayer.0004, diffdLayer.polygonlayer.0004, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+for(loop 18 out of 19, i=17) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:PPLUS: Area < 0.08"
+  Function: area
+  Inputs: pplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 4 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: pplusdLayer.polygonlayer.0004
+  Outputs: temp.polygonlayer.0004
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 4 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: pplusdLayer.polygonlayer.0004
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_icv_drc.rs:98:Layer creation
+polydummyLayer = assign({ { == 3 }, { == 127 } })
+  Function: assign
+  Inputs: polydummyLayer.polygonlayer.0002, polydummyLayer.polygonlayer.0002
+  Outputs: polydummyLayer.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 17 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: polydummyLayer.polygonlayer.0003
+  Outputs: temp.polygonlayer.0011
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 17 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: polydummyLayer.polygonlayer.0003
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at reference40nm_icv_drc.rs:1338
+gNPOD = layer_names["NPLUS"] and layer_names["DIFF"]
+  Function: and
+  Inputs: nplusdLayer.polygonlayer.0004, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gNPOD.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at reference40nm_icv_drc.rs:1342
+gNACT = gNPOD not gNWELL
+  Function: not
+  Inputs: gNPOD.polygonlayer.0002, empty_layer.associated.0001, nwelldLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gNACT.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+external2() at reference40nm_icv_drc.rs:1351
+external2(gPPLUS, gNACT, distance < PPLUS_S_4, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "pplus.s.4 : Minimum Space to Strap Diffusion (not abutted) >= 0.03"
+  Function: external2
+  Inputs: pplusdLayer.polygonlayer.0004, empty_layer.associated.0001, gNACT.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+and() at reference40nm_icv_drc.rs:886
+gNPPO = gPOLY and gNPLUS
+  Function: and
+  Inputs: polydLayer.polygonlayer.0004, empty_layer.associated.0001, nplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gNPPO.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at reference40nm_icv_drc.rs:896
+gPOEXTNMOS = gNPPO interacting gDIFF
+  Function: interacting
+  Inputs: gNPPO.polygonlayer.0001, empty_layer.associated.0001, diffdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gPOEXTNMOS.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at reference40nm_icv_drc.rs:928:Duplicate command replaced with an internal copy command.
+tNPOD = layer_names["DIFF"] and layer_names["NPLUS"]
+  Function: and
+  Inputs: gNPOD.polygonlayer.0001
+  Outputs: tNPOD.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+enclose() at reference40nm_icv_drc.rs:1013
+enclose(layer1 = tNPOD, layer2 = tNWELL, distance < NWELL_EX_3_2, extension = NONE)
+  Comment: "nwell.ex.3.2 : Min Extension over Nwell Nplus Strap > = 0.09"
+  Function: enclose
+  Inputs: nwelldLayer.polygonlayer.0004, tNPOD.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+external2() at reference40nm_icv_drc.rs:962
+external2(layer1 = layer_names["NWELL"], layer2 = tNPOD, distance < NWELL_S_3, extension = NONE)
+  Comment: "nwell.s.3: Minimum Space to Nplus Diffusion >= 0.09"
+  Function: external2
+  Inputs: nwelldLayer.polygonlayer.0004, empty_layer.associated.0001, tNPOD.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+interacting() at reference40nm_icv_drc.rs:892
+gSDDIFFNMOS = gNPOD interacting gPOLY
+  Function: interacting
+  Inputs: gNPOD.polygonlayer.0001, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gSDDIFFNMOS.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+and() at reference40nm_icv_drc.rs:888
+gNMOSGATE = gNPOD and gPOLY
+  Function: and
+  Inputs: gNPOD.polygonlayer.0001, empty_layer.associated.0001, polydLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gNMOSGATE.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+not() at reference40nm_icv_drc.rs:893
+gSDDIFFNMOS = gSDDIFFNMOS not gNMOSGATE
+  Function: not
+  Inputs: gSDDIFFNMOS.polygonlayer.0001, empty_layer.associated.0001, gNMOSGATE.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gSDDIFFNMOS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+not() at reference40nm_icv_drc.rs:897
+gPOEXTNMOS = gPOEXTNMOS not gSDDIFFNMOS
+  Function: not
+  Inputs: gPOEXTNMOS.polygonlayer.0001, empty_layer.associated.0001, gSDDIFFNMOS.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: gPOEXTNMOS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No data removed.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+for(loop 13 out of 16, i=12) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF NPLUS Enclosure < 0.03"
+  Function: enclose
+  Inputs: nplusdLayer.polygonlayer.0004, diffdLayer.polygonlayer.0004, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+for(loop 19 out of 31, i=18) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:NPLUS: Spacing < 0.2"
+  Function: external1
+  Inputs: nplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+for(loop 15 out of 19, i=14) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:NPLUS: Area < 0.08"
+  Function: area
+  Inputs: nplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+for(loop 18 out of 30, i=17) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:NPLUS: Width < 0.2"
+  Function: internal1
+  Inputs: nplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727:command replaced with an internal copy command.
+  foreach(loop 5 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719:command replaced with an internal copy command.
+off_grid(Lyr, grid)
+  Function: off_grid
+  Inputs: nplusdLayer.polygonlayer.0004
+  Outputs: temp.polygonlayer.0010
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 5 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+  Inputs: nplusdLayer.polygonlayer.0004
+0 grid violations found.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at reference40nm_icv_drc.rs:166
+gIMPLANT = layer_names["NPLUS"] and layer_names["PPLUS"]
+  Function: and
+  Inputs: nplusdLayer.polygonlayer.0004, empty_layer.associated.0001, pplusdLayer.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: gIMPLANT.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+No output written.
+Layer "gIMPLANT.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+enclose() at reference40nm_icv_drc.rs:1356
+enclose(gGATE, gIMPLANT, distance < PPLUS_S_5, extension = NONE)
+  Function: enclose
+  Inputs: gIMPLANT.polygonlayer.0001, gGATE.polygonlayer.0002, empty_layer.associated.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0012
+Input layer "gIMPLANT.polygonlayer.0001" is empty.
+0 enclose violations found.
+Layer "temp.polygonlayer.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+enclose() at reference40nm_icv_drc.rs:1390:Merged command, replaced with an internal copy command.
+enclose(gGATE, gIMPLANT, distance < NPLUS_S_5, extension = NONE)
+  Comment: "nplus.s.5 : Nplus over diffusion space to Gate >= 0.09"
+  Function: enclose
+  Inputs: temp.polygonlayer.0012
+Input layer "temp.polygonlayer.0012" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+enclose() at reference40nm_icv_drc.rs:1356:Merged command, replaced with an internal copy command.
+enclose(gGATE, gIMPLANT, distance < PPLUS_S_5, extension = NONE)
+  Comment: "pplus.s.5 : PPlus over diffusion space to Gate >= 0.09"
+  Function: enclose
+  Inputs: temp.polygonlayer.0012
+Input layer "temp.polygonlayer.0012" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_icv_drc.rs:102:Layer creation
+metdLayers.push_back(assign({ { == 8 }, { == 0 } }))
+  Function: assign
+  Inputs: temp0.polygonlayer.0002, temp0.polygonlayer.0002
+  Outputs: temp0.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_icv_drc.rs:102
+metdLayers.push_back(assign({ { == 8 }, { == 0 } }))
+  Function: assign
+  Inputs: temp0.polygonlayer.0003
+  Outputs: temp0.polygonlayer.0004
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+adjacent_edge() at reference40nm_icv_drc.rs:1672
+adjacent_edge(gM1, angle1 = == 270, angle2 = == 270, length = < M1_S_2)
+  Comment: "m1.s.2 : Minimum space notch m1-m1 >= 0.08"
+  Function: adjacent_edge
+  Inputs: temp0.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+for(loop 1 out of 10, i=0) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    covered_by() at reference40nm_icv_drc.rs:839
+layer1 = covered_by(layer_names[temp1[j]], layer_names[layers[i]], distances = { { { offset }, { offset_normal }, { offset }, { offset_normal } } })
+  Function: covered_by
+  Inputs: contdLayer.polygonlayer.0004, empty_layer.associated.0001, temp0.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: layer1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+31 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+for(loop 1 out of 10, i=0) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841
+not(layer2, layer1)
+  Comment: "RULE:CONT M1 End of line Enclosure < 0.03 Normal Enclosure < 0.0"
+  Function: not
+  Inputs: layer2.polygonlayer.0002, empty_layer.associated.0001, layer1.polygonlayer.0002, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No output written.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+for(loop 6 out of 19, i=5) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M1: Area < 0.0225"
+  Function: area
+  Inputs: temp0.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+for(loop 2 out of 11, i=1) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Function: wide
+  Inputs: temp0.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0015, temp.polygonlayer.0016, temp.polygonlayer.0017, temp.polygonlayer.0018, temp.polygonlayer.0019, temp.polygonlayer.0020
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+No output written.
+Layer "temp.polygonlayer.0015" is empty.
+4 unique polygons written.
+3 unique polygons written.
+2 unique polygons written.
+No output written.
+Layer "temp.polygonlayer.0019" is empty.
+No output written.
+Layer "temp.polygonlayer.0020" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.016 GB
+
+for(loop 2 out of 11, i=1) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Function: wide
+  Inputs: temp0.polygonlayer.0004, empty_layer.associated.0001, temp.polygonlayer.0018
+  Outputs: temp.polygonlayer.0024
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+wide() at reference40nm_icv_drc.rs:1688:Merged command, replaced with an internal copy command.
+vM1_S5W = wide(gM1, distance > M1_S_5_W)
+  Function: wide
+  Inputs: temp.polygonlayer.0024
+  Outputs: vM1_S5W.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+external2() at reference40nm_icv_drc.rs:1689
+vM1_S5 = external2(vM1_S5W, gM1, distance < M1_S_5, extension = NONE, look_thru = ALL, intersecting = {  })
+  Function: external2
+  Inputs: vM1_S5W.polygonlayer.0001, empty_layer.associated.0001, temp0.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: vM1_S5.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+Layer "vM1_S5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+external2() at reference40nm_icv_drc.rs:1689
+vM1_S5 = external2(vM1_S5W, gM1, distance < M1_S_5, extension = NONE, look_thru = ALL, intersecting = {  })
+  Function: external2
+  Inputs: vM1_S5.polygonlayer.0001
+  Outputs: vM1_S5.polygonlayer.0002
+Input layer "vM1_S5.polygonlayer.0001" is empty.
+No output written.
+Layer "vM1_S5.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+contains() at reference40nm_icv_drc.rs:1690
+contains(vM1_S5, { M1_S_1, M1_S_5_CR }, FORTY_FIVE)
+  Comment: "m1.s.5 : Minimum space m1-m1 (if W > 0.31 and CR > 0.4) >= 0.14"
+  Function: contains
+  Inputs: vM1_S5.polygonlayer.0002, empty_layer.associated.0001
+Input layer "vM1_S5.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+for(loop 2 out of 11, i=1) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Function: wide
+  Inputs: temp0.polygonlayer.0004, empty_layer.associated.0001, temp.polygonlayer.0016
+  Outputs: temp.polygonlayer.0022
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+wide() at reference40nm_icv_drc.rs:1676:Merged command, replaced with an internal copy command.
+vM1_S3W = wide(gM1, distance > M1_S_3_W)
+  Function: wide
+  Inputs: temp.polygonlayer.0022
+  Outputs: vM1_S3W.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+external2() at reference40nm_icv_drc.rs:1677
+vM1_S3 = external2(vM1_S3W, gM1, distance < M1_S_3, extension = NONE, look_thru = ALL, intersecting = {  })
+  Function: external2
+  Inputs: vM1_S3W.polygonlayer.0001, empty_layer.associated.0001, temp0.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: vM1_S3.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+0 spacing violations found.
+Layer "vM1_S3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+external2() at reference40nm_icv_drc.rs:1677
+vM1_S3 = external2(vM1_S3W, gM1, distance < M1_S_3, extension = NONE, look_thru = ALL, intersecting = {  })
+  Function: external2
+  Inputs: vM1_S3.polygonlayer.0001
+  Outputs: vM1_S3.polygonlayer.0002
+Input layer "vM1_S3.polygonlayer.0001" is empty.
+No output written.
+Layer "vM1_S3.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+contains() at reference40nm_icv_drc.rs:1678
+contains(vM1_S3, { M1_S_1, M1_S_3_CR }, FORTY_FIVE)
+  Comment: "m1.s.3 : Minimum space m1-m1 (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+  Inputs: vM1_S3.polygonlayer.0002, empty_layer.associated.0001
+Input layer "vM1_S3.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+

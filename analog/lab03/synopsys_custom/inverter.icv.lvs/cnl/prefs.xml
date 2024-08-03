@@ -1,0 +1,47 @@
+<preferences>
+<preference name="nlCheckDesign" value="timestamp"/>
+<preference name="nlCheckOutdatedDesignsSeverity" value="warning"/>
+<preference name="nlConnDefDefaultsAsGlobals" value="false"/>
+<preference name="nlEnableVirtualTerminals" value="true"/>
+<preference name="nlErrorOnAbsentInstTerm" value="true"/>
+<preference name="nlFilterInstParamsByCDFUse" value="false"/>
+<preference name="nlHSPICEBusStyle" value="&lt;>"/>
+<preference name="nlHSPICECompatiblePortOrder" value="true"/>
+<preference name="nlHSPICEDefaultStringParameters" value="model"/>
+<preference name="nlHSPICEGlobalNets" value="0 gnd! ground gnd"/>
+<preference name="nlHSPICEIgnoreBehavioralModules" value="false"/>
+<preference name="nlHSPICEIgnoreLeavesInAutoSetXPrefix" value="false"/>
+<preference name="nlHSPICEIncludeFiles" value=""/>
+<preference name="nlHSPICEIncludeHSPICEFile" value="true"/>
+<preference name="nlHSPICEIncludeHSPICENetlistFile" value="false"/>
+<preference name="nlHSPICEIsCaseSensitive" value="Lower"/>
+<preference name="nlHSPICEPrependFirstChar" value="auto"/>
+<preference name="nlHSPICERemoveBangs" value="false"/>
+<preference name="nlHSPICEScalarizeBitOrder" value="autoAscending"/>
+<preference name="nlHSPICEShortPropNames" value=""/>
+<preference name="nlHSPICEWriteParamDefaults" value="false"/>
+<preference name="nlIgnoreCDFModuleName" value="false"/>
+<preference name="nlIgnoreCell" value=""/>
+<preference name="nlIgnoreParasiticDevices" value="false"/>
+<preference name="nlLibrariesIgnoringEvalErrors" value="sheets"/>
+<preference name="nlMapParameterCase" value="false"/>
+<preference name="nlMaximumPartialEvaluation" value="false"/>
+<preference name="nlMultiplicationParamName" value="m"/>
+<preference name="nlNanoSimCompatiblePortOrder" value="true"/>
+<preference name="nlNanoSimIncludeNanoSimFile" value="false"/>
+<preference name="nlProcessUnconnectedSymbolPinForVirtual" value="false"/>
+<preference name="nlPromoteTerms" value="true"/>
+<preference name="nlPropagateGlobalToTerminalShorts" value="false"/>
+<preference name="nlRevertOutdatedDesigns" value="false"/>
+<preference name="nlShortExprPropNames" value="lxRemoveDevice lvsRemoveDevice"/>
+<preference name="nlSimulatorAliases" value="{hspiceD hspice} {spectre spectre} {auCdl auCdl} {verilog verilog}"/>
+<preference name="nlStopOnConnectivityImplicitChange" value="false"/>
+<preference name="nlTextViewCheckMethod" value="None"/>
+<preference name="nlUseViewInfoTermOrder" value="true"/>
+<preference name="nlVirtualTerminalsFormat" value="%PREFIX_%NAME_%DEFAULT"/>
+<preference name="nlVirtualTerminalsPrefix" value="vt"/>
+<preference name="xtHSPICEDefaultNetlister" value="HSPICE"/>
+<preference name="xtHSPICEDefaultViewer" value="WaveView"/>
+<preference name="xtHSPICEGlobalSearchList" value="hspice hspiceD cmos.sch cmos_sch schematic veriloga"/>
+<preference name="xtHSPICEGlobalStopList" value="hspice hspiceD veriloga"/>
+</preferences>

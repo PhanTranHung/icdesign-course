@@ -1,0 +1,1886 @@
+/home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs:74: warning: The error_limit_per_check in error_options is set to 2147483647 which is over the tool hard limit of 500000000.  The user setting of 2147483647 will be honored but could result in very large error files and increased amount of time to process if the number of errors in a check is very large.
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 6 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 8 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 9 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 10 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 11 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 12 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 13 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 14 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 15 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 16 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 18 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 19 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 21 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 22 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 23 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 24 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 25 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 26 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 27 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 28 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 29 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 30 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 31 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 32 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 33 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 34 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 35 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+ChkOffGrid() at reference40nm_icv_drc.rs:727
+  foreach(loop 36 out of 36) at reference40nm_icv_drc.rs:718
+    off_grid() at reference40nm_icv_drc.rs:719: Command replaced with an internal function.
+off_grid(Lyr, grid)
+  Comment: "The design grid must be an integer multiple of 0.005"
+  Function: off_grid
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 30, i=2) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:DIFF18: Width < 0.32"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 30, i=3) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:DIFF25: Width < 0.32"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 30, i=4) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:DIFF33: Width < 0.32"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 30, i=5) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:HIGHVTN: Width < 0.2"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 30, i=6) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:HIGHVTP: Width < 0.2"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 30, i=7) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:LOWVTN: Width < 0.2"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 9 out of 30, i=8) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:LOWVTP: Width < 0.2"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 11 out of 30, i=10) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M2: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 12 out of 30, i=11) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M3: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 13 out of 30, i=12) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M4: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 14 out of 30, i=13) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M5: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 15 out of 30, i=14) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M6: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 16 out of 30, i=15) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M7: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 17 out of 30, i=16) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:M8: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 22 out of 30, i=21) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:RPOLY: Width < 0.36"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 23 out of 30, i=22) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V1: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 24 out of 30, i=23) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V2: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 25 out of 30, i=24) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V3: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 26 out of 30, i=25) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V4: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 27 out of 30, i=26) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V5: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 28 out of 30, i=27) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V6: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 29 out of 30, i=28) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V7: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 30 out of 30, i=29) at reference40nm_icv_drc.rs:736
+  internal1() at reference40nm_icv_drc.rs:738: Command replaced with an internal function.
+internal1(layer1 = layer_names[layers[i]], distance < layer_widths[layers[i]], extension = NONE)
+  Comment: "RULE:V8: Width < 0.07000000000000001"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 11, i=2) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M2: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 11, i=3) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M3: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 11, i=4) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M4: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 11, i=5) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M5: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 11, i=6) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M6: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 11, i=7) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M7: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 9 out of 11, i=8) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M8: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 10 out of 11, i=9) at reference40nm_icv_drc.rs:745
+  wide() at reference40nm_icv_drc.rs:747: Command replaced with an internal function.
+wide(layer1 = layer_names[layers[i]], distance > layer_max_widths[layers[i]])
+  Comment: "RULE:M9: Maximum Width <= 5.0"
+  Function: wide
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 19, i=1) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:HIGHVTN: Area < 0.21"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 19, i=2) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:HIGHVTP: Area < 0.21"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 19, i=3) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:LOWVTN: Area < 0.21"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 19, i=4) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:LOWVTP: Area < 0.21"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 19, i=6) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M2: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 19, i=7) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M3: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 9 out of 19, i=8) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M4: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 10 out of 19, i=9) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M5: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 11 out of 19, i=10) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M6: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 12 out of 19, i=11) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M7: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 13 out of 19, i=12) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M8: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 14 out of 19, i=13) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:M9: Area < 0.03"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 19 out of 19, i=18) at reference40nm_icv_drc.rs:754
+  area() at reference40nm_icv_drc.rs:756: Command replaced with an internal function.
+area(layer_names[layers[i]], value < layer_areas[layers[i]])
+  Comment: "RULE:RPOLY: Area < 0.95"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 6, i=2) at reference40nm_icv_drc.rs:763
+  area() at reference40nm_icv_drc.rs:767: Command replaced with an internal function.
+area(hole, value < layer_enclosed_areas[layers[i]])
+  Comment: "RULE:M2: Minimum Enclosed Area >= 0.22"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 6, i=5) at reference40nm_icv_drc.rs:763
+  area() at reference40nm_icv_drc.rs:767: Command replaced with an internal function.
+area(hole, value < layer_enclosed_areas[layers[i]])
+  Comment: "RULE:RPOLY: Minimum Enclosed Area >= 0.95"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 31, i=2) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:DIFF18: Spacing < 0.32"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 31, i=3) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:DIFF25: Spacing < 0.32"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 31, i=4) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:DIFF33: Spacing < 0.32"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 31, i=5) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:HIGHVTN: Spacing < 0.2"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 31, i=6) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:HIGHVTP: Spacing < 0.2"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 31, i=7) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:LOWVTN: Spacing < 0.2"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 9 out of 31, i=8) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:LOWVTP: Spacing < 0.2"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 11 out of 31, i=10) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M2: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 12 out of 31, i=11) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M3: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 13 out of 31, i=12) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M4: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 14 out of 31, i=13) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M5: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 15 out of 31, i=14) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M6: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 16 out of 31, i=15) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M7: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 17 out of 31, i=16) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M8: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 18 out of 31, i=17) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:M9: Spacing < 0.09"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 23 out of 31, i=22) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:RPOLY: Spacing < 0.36"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 24 out of 31, i=23) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V1: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 25 out of 31, i=24) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V2: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 26 out of 31, i=25) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V3: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 27 out of 31, i=26) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V4: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 28 out of 31, i=27) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V5: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 29 out of 31, i=28) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V6: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 30 out of 31, i=29) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V7: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 31 out of 31, i=30) at reference40nm_icv_drc.rs:774
+  external1() at reference40nm_icv_drc.rs:776: Command replaced with an internal function.
+external1(layer_names[layers[i]], distance < layer_spacings[layers[i]], extension = RADIAL)
+  Comment: "RULE:V8: Spacing < 0.08"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 3, i=2) at reference40nm_icv_drc.rs:784
+  for(loop 1 out of 3, j=0) at reference40nm_icv_drc.rs:787
+    external2() at reference40nm_icv_drc.rs:790: Command replaced with an internal function.
+external2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:RPOLY CONT Spacing < 0.2"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 3, i=2) at reference40nm_icv_drc.rs:784
+  for(loop 2 out of 3, j=1) at reference40nm_icv_drc.rs:787
+    external2() at reference40nm_icv_drc.rs:790: Command replaced with an internal function.
+external2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:RPOLY DIFF Spacing < 0.2"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 3, i=2) at reference40nm_icv_drc.rs:784
+  for(loop 3 out of 3, j=2) at reference40nm_icv_drc.rs:787
+    external2() at reference40nm_icv_drc.rs:790: Command replaced with an internal function.
+external2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:RPOLY POLY Spacing < 0.2"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 2, i=0) at reference40nm_icv_drc.rs:799
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:802
+    internal2() at reference40nm_icv_drc.rs:805: Command replaced with an internal function.
+internal2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:NPLUS RPOLY Overlap < 0.05"
+  Function: internal2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 2, i=1) at reference40nm_icv_drc.rs:799
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:802
+    internal2() at reference40nm_icv_drc.rs:805: Command replaced with an internal function.
+internal2(layer_names[layers[i]], layer_names[temp1[j]], distance < offset, extension = NONE)
+  Comment: "RULE:PPLUS RPOLY Overlap < 0.05"
+  Function: internal2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 16, i=0) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821: Command replaced with an internal function.
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF DIFF18 Enclosure < 0.13"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 16, i=1) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821: Command replaced with an internal function.
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF DIFF25 Enclosure < 0.13"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 16, i=2) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821: Command replaced with an internal function.
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF DIFF33 Enclosure < 0.13"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 16 out of 16, i=15) at reference40nm_icv_drc.rs:814
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:817
+    enclose() at reference40nm_icv_drc.rs:821: Command replaced with an internal function.
+enclose(layer_names[temp1[j]], layer_names[layers[i]], distance < offset, extension = NONE)
+  Comment: "RULE:DIFF VARMARKER Enclosure < 0.15"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 10, i=0) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V1 M1 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 10, i=1) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V1 M2 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 10, i=1) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V2 M2 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 10, i=2) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V2 M3 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 10, i=2) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V3 M3 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 10, i=3) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V3 M4 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 10, i=3) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V4 M4 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 10, i=4) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V4 M5 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 10, i=4) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V5 M5 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 10, i=5) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V5 M6 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 10, i=5) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V6 M6 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 10, i=6) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V6 M7 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 10, i=6) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V7 M7 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 10, i=7) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 2, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V7 M8 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 10, i=7) at reference40nm_icv_drc.rs:830
+  for(loop 2 out of 2, j=1) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V8 M8 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 9 out of 10, i=8) at reference40nm_icv_drc.rs:830
+  for(loop 1 out of 1, j=0) at reference40nm_icv_drc.rs:834
+    not() at reference40nm_icv_drc.rs:841: Command replaced with an internal function.
+not(layer2, layer1)
+  Comment: "RULE:V8 M9 End of line Enclosure < 0.04 Normal Enclosure < 0.0"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1058: Command replaced with an internal function.
+length_edge(layer1 = touching_edges, distance < DIFF_W_5)
+  Comment: "diff.w.5: Minimum Mosfet Channel width for thick oxide devices >= 0.3"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1212: Command replaced with an internal function.
+length_edge(na_l, distance < 0.160)
+  Comment: "POLY_W_5: Minimum Gate Length for thick oxide devices >= 0.16"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1325: Command replaced with an internal function.
+enclose(layer1 = gRPOLYgPOLY, layer2 = gRPOLY, distance < RPOLY_EX_1, extension = NONE, direction = HORIZONTAL)
+  Comment: "rpoly.ex.1 : Minimum extension of RPoly over Poly >= 0.2"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1330: Command replaced with an internal function.
+enclose(layer1 = gRPOLYgDIFF, layer2 = gRPOLY, distance < RPOLY_EX_2, extension = NONE, direction = HORIZONTAL)
+  Comment: "rpoly.ex.2 : Minimum extension of RPoly over Diffusion >= 0.2"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1415: Command replaced with an internal function.
+external2(layer1 = gLVTN_PO_EDGE, layer2 = gGATE_NO_LVTN, distance < LOWVTN_S_2, extension = RADIAL, from_layer = LAYER1)
+  Comment: "lowvtn.s.2 : Space to gate in poly endcap direction >= 0.1"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1419: Command replaced with an internal function.
+external2(layer1 = gLVTN_NO_PO_EDGE, layer2 = gGATE_NO_LVTN, distance < LOWVTN_S_3, extension = RADIAL, from_layer = LAYER1)
+  Comment: "lowvtn.s.3 : Space to gate in diffusion S/D direction >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1423: Command replaced with an internal function.
+enclose(layer1 = gGATE_LVTN, layer2 = gLVTN_NO_PO_EDGE, distance < LOWVTN_EX_1, extension = RADIAL)
+  Comment: "lowvtn.ex.1 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1427: Command replaced with an internal function.
+enclose(layer1 = gGATE_LVTN, layer2 = gLVTN_PO_EDGE, distance < LOWVTN_EX_2, extension = RADIAL)
+  Comment: "lowvtn.ex.2 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1446: Command replaced with an internal function.
+external2(layer1 = gLVTP_PO_EDGE, layer2 = gGATE_NO_LVTP, distance < LOWVTP_S_2, extension = RADIAL, from_layer = LAYER1)
+  Comment: "lowvtp.s.2 : Space to gate in poly endcap direction >= 0.1"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1450: Command replaced with an internal function.
+external2(layer1 = gLVTP_NO_PO_EDGE, layer2 = gGATE_NO_LVTP, distance < LOWVTP_S_3, extension = RADIAL, from_layer = LAYER1)
+  Comment: "lowvtp.s.3 : Space to gate in diffusion S/D direction >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1454: Command replaced with an internal function.
+enclose(layer1 = gGATE_LVTP, layer2 = gLVTP_NO_PO_EDGE, distance < LOWVTP_EX_1, extension = RADIAL)
+  Comment: "lowvtp.ex.1 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1458: Command replaced with an internal function.
+enclose(layer1 = gGATE_LVTP, layer2 = gLVTP_PO_EDGE, distance < LOWVTP_EX_2, extension = RADIAL)
+  Comment: "lowvtp.ex.2 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1477: Command replaced with an internal function.
+external2(layer1 = gHVTN_PO_EDGE, layer2 = gGATE_NO_HVTN, distance < HIGHVTN_S_2, extension = RADIAL, from_layer = LAYER1)
+  Comment: "highvtn.s.2 : Space to gate in poly endcap direction >= 0.1"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1481: Command replaced with an internal function.
+external2(layer1 = gHVTN_NO_PO_EDGE, layer2 = gGATE_NO_HVTN, distance < HIGHVTN_S_3, extension = RADIAL, from_layer = LAYER1)
+  Comment: "highvtn.s.3 : Space to gate in diffusion S/D direction >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1485: Command replaced with an internal function.
+enclose(layer1 = gGATE_HVTN, layer2 = gHVTN_NO_PO_EDGE, distance < HIGHVTN_EX_1, extension = RADIAL)
+  Comment: "highvtn.ex.1 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1489: Command replaced with an internal function.
+enclose(layer1 = gGATE_HVTN, layer2 = gHVTN_PO_EDGE, distance < HIGHVTN_EX_2, extension = RADIAL)
+  Comment: "highvtn.ex.2 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1508: Command replaced with an internal function.
+external2(layer1 = gHVTP_PO_EDGE, layer2 = gGATE_NO_HVTP, distance < HIGHVTP_S_2, extension = RADIAL, from_layer = LAYER1)
+  Comment: "highvtp.s.2 : Space to gate in poly endcap direction >= 0.1"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1512: Command replaced with an internal function.
+external2(layer1 = gHVTP_NO_PO_EDGE, layer2 = gGATE_NO_HVTP, distance < HIGHVTP_S_3, extension = RADIAL, from_layer = LAYER1)
+  Comment: "highvtp.s.3 : Space to gate in diffusion S/D direction >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1516: Command replaced with an internal function.
+enclose(layer1 = gGATE_HVTP, layer2 = gHVTP_NO_PO_EDGE, distance < HIGHVTP_EX_1, extension = RADIAL)
+  Comment: "highvtp.ex.1 : Extension over gate in poly endcap direction >= 0.1"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1520: Command replaced with an internal function.
+enclose(layer1 = gGATE_HVTP, layer2 = gHVTP_PO_EDGE, distance < HIGHVTP_EX_2, extension = RADIAL)
+  Comment: "highvtp.ex.2 : Extension over gate in poly endcap direction >= 0.12"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1534: Command replaced with an internal function.
+enclose(layer1 = gGATE, layer2 = gDIFF18, distance < DIFF18_EX_1, extension = NONE)
+  Comment: "diff18.ex.1 : Minimum extension over gate >= 0.35"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1547: Command replaced with an internal function.
+enclose(layer1 = gGATE, layer2 = gDIFF25, distance < DIFF25_EX_1, extension = NONE)
+  Comment: "diff25.ex.1 : Minimum extension over gate >= 0.35"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1559: Command replaced with an internal function.
+enclose(layer1 = gGATE, layer2 = gDIFF33, distance < DIFF33_EX_1, extension = NONE)
+  Comment: "diff33.ex.1 : Minimum extension over gate >= 0.35"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=1) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v1.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=1) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v1.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=1) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v1.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=2) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v2.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=2) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v2.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=2) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v2.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=3) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v3.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=3) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v3.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=3) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v3.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=4) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v4.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=4) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v4.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=4) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v4.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=5) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v5.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=5) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v5.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=5) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v5.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=6) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v6.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=6) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v6.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=6) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v6.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=7) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v7.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=7) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v7.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=7) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v7.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=8) at reference40nm_icv_drc.rs:1734
+  external2() at reference40nm_icv_drc.rs:1745: Command replaced with an internal function.
+external2(gINTERACT_VIAX, gSELECT_VIAX, < VX_S_2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH })
+  Comment: "v8.s.2 : Minimum space with 3 neighboring vias >= 0.11"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=8) at reference40nm_icv_drc.rs:1734
+  external1() at reference40nm_icv_drc.rs:1750: Command replaced with an internal function.
+external1(gVIAX, distance < VX_S_3, extension = RADIAL, connectivity = DIFFERENT_NET, connect_sequence = CONNECT_DB, look_thru = ALL, intersecting = {  })
+  Comment: "v8.s.3 : Minimum space to Vx of different net >= 0.1"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=8) at reference40nm_icv_drc.rs:1734
+  not_rectangles() at reference40nm_icv_drc.rs:1755: Command replaced with an internal function.
+not_rectangles(gVIAX, sides = { == VX_W_1, == VX_W_1 }, orientation = ORTHOGONAL)
+  Comment: "v8.R.1 : 45 degree rotated via is not allowed"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m2.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m2.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m2.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m2.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m2.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 1 out of 8, i=2) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m2.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m3.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m3.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m3.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m3.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m3.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 2 out of 8, i=3) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m3.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m4.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m4.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m4.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m4.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m4.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 3 out of 8, i=4) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m4.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m5.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m5.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m5.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m5.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m5.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 4 out of 8, i=5) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m5.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m6.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m6.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m6.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m6.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m6.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 5 out of 8, i=6) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m6.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m7.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m7.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m7.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m7.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m7.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 6 out of 8, i=7) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m7.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m8.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m8.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m8.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m8.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m8.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 7 out of 8, i=8) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m8.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  adjacent_edge() at reference40nm_icv_drc.rs:1784: Command replaced with an internal function.
+adjacent_edge(gMX, angle1 = == 270, angle2 = == 270, length = < MX_S_2)
+  Comment: "m9.s.2 : Minimum notch space Mx-Mx >= 0.09"
+  Function: adjacent_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1791: Command replaced with an internal function.
+contains(vMX_S3, { MX_S_1, MX_S_3_CR }, FORTY_FIVE)
+  Comment: "m9.s.3 : Minimum space Mx-Mx (if W > 0.17 and CR > 0.27) >= 0.1"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1798: Command replaced with an internal function.
+contains(vMX_S4, { MX_S_1, MX_S_4_CR }, FORTY_FIVE)
+  Comment: "m9.s.4 : Minimum space Mx-Mx (if W > 0.24 and CR > 0.27) >= 0.12"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1805: Command replaced with an internal function.
+contains(vMX_S5, { MX_S_1, MX_S_5_CR }, FORTY_FIVE)
+  Comment: "m9.s.5 : Minimum space Mx-Mx (if W > 0.31 and CR > 0.4) >= 0.15"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1812: Command replaced with an internal function.
+contains(vMX_S6, { MX_S_1, MX_S_6_CR }, FORTY_FIVE)
+  Comment: "m9.s.6 : Minimum space Mx-Mx (if W > 0.62 and CR > 0.62) >= 0.21"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+for(loop 8 out of 8, i=9) at reference40nm_icv_drc.rs:1780
+  contains() at reference40nm_icv_drc.rs:1819: Command replaced with an internal function.
+contains(vMX_S7, { MX_S_1, MX_S_7_CR }, FORTY_FIVE)
+  Comment: "m9.s.7: Minimum space Mx-Mx (if W > 1.5 and CR > 1.5) >= 0.5"
+  Function: contains
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1849: Command replaced with an internal function.
+external2(layer_names["NPLUS"], rPRES, distance <= 0.12, extension = NONE)
+  Comment: "np.s.6 : Space to P-type unsilicided OD/PO resistor >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1852: Command replaced with an internal function.
+enclose(layer_names["NPLUS"], rNRES, distance < 0.13, extension = RADIAL)
+  Comment: "np.ex.5 : Extension of N-type OD/PO resistor >= 0.13"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1855: Command replaced with an internal function.
+length_edge(rWID_PO, distance < 0.45)
+  Comment: "res.w.1 : Width of unsilicided PO resistor >= 0.45"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1858: Command replaced with an internal function.
+length_edge(rWID_OD, distance < 0.5)
+  Comment: "res.w.1 : Width of unsilicided OD resistor >= 0.5"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1861: Command replaced with an internal function.
+length_edge(layer_names["RPOLY"], distance < 0.5)
+  Comment: "res.l.1 : Length of unsilicided OD/PO resistor >=0.5"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1864: Command replaced with an internal function.
+enclose(rPO, layer_names["RMARKER"], distance < 0.18, extension = RADIAL)
+  Comment: "res.ex.1 : Resistor marker enclosure of unsalicided PO resistor >= 0.18"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at reference40nm_icv_drc.rs:1867: Command replaced with an internal function.
+enclose(rOD, layer_names["RMARKER"], distance < 0.18, extension = RADIAL)
+  Comment: "res.ex.1 : Resistor marker enclosure of unsalicided OD resistor >= 0.18"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+net_select() at reference40nm_icv_drc.rs:1895: Command replaced with an internal function.
+net_select(connect_po_res, net_select_ratio, layer_groups = { "w" => PO_RES_W, "l" => PO_RES_L }, connected_to_all = { PO_RES_L, PO_RES_W }, output_from_layers = { PO_RES_L }, group_errors = true)
+  Comment: "res.r.1 : Square (length/width) for OD resistor >=1"
+  Function: net_select
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+net_select() at reference40nm_icv_drc.rs:1900: Command replaced with an internal function.
+net_select(connect_od_res, net_select_ratio, layer_groups = { "w" => OD_RES_W, "l" => OD_RES_L }, connected_to_all = { OD_RES_L, OD_RES_W }, output_from_layers = { OD_RES_L }, group_errors = true)
+  Comment: "res.r.1 : Square (length/width) for PO resistor >=1"
+  Function: net_select
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1926: Command replaced with an internal function.
+length_edge(var_gate_W, distance < 0.18)
+  Comment: "var.w.1 : moscap min channel len >= 0.18"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1929: Command replaced with an internal function.
+length_edge(gCHN_HV, distance < 0.36)
+  Comment: "var.w.2 : high voltage moscap min channel len >= 0.36"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1932: Command replaced with an internal function.
+length_edge(gVar_1, distance < 0.3)
+  Comment: "var.w.3 : moscap min channel width >= 0.3"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+length_edge() at reference40nm_icv_drc.rs:1936: Command replaced with an internal function.
+length_edge(vargate_not_var, distance > 0.0)
+  Comment: "var.r.1 : varmarker layer must be drawn to fully cover varactor"
+  Function: length_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1955: Command replaced with an internal function.
+external2(layer_names["VARMARKER"], ACT_PO, distance < 0.12, extension = NONE)
+  Comment: "var.s.1 : Min Space to Active Region >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at reference40nm_icv_drc.rs:1958: Command replaced with an internal function.
+external2(layer_names["VARMARKER"], ACT_OD, distance < 0.12, extension = NONE)
+  Comment: "var.s.1 : Min Space to Active Region >= 0.12"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+

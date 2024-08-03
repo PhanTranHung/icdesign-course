@@ -1,0 +1,196 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i lab03 -c inverter -oa_view layout -oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map -s /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp -sf SPICE -stc inverter -I /home/dkits/synopsys/m3a/icv/lvs -lic_apex -oa_dm6 -vue /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+
+Command Line Summary:
+icv
+-c inverter
+-f openaccess
+-i lab03
+-lic_apex
+-oa_dm6
+-oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map
+-oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs
+-oa_view layout
+-s /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp
+-sf SPICE
+-stc inverter
+-vue
+-I /home/dkits/synopsys/m3a/icv/lvs
+/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        lab03
+Top cell name:          inverter
+Layout format:          OPENACCESS
+Runset file:            /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+Working directory:      /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs
+Run details directory:  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details
+LVS error file:         inverter.LVS_ERRORS
+Layout error file:      inverter.LAYOUT_ERRORS
+User name:              hungpt
+Time started:           2024/07/19 04:15:50PM
+Time ended:             2024/07/19 04:16:02PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+LVS Device Extraction Error Summary
+
+1 total rule was run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to inverter.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Compare Summary
+
+LVS Compare Result: PASS
+TOP equivalence point: [inverter, inverter]
+
+    blackbox cells checked: 0
+      passed  0
+      failed  0
+
+    equivalence points checked: 1
+      passed  1
+      failed  0
+
+Refer to inverter.LVS_ERRORS for LVS Error Diagnostics
+
+
+    [PASS]  inverter == inverter   (level 0)
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 51
+ Empty Utilized Assign Layers = 42
+ Non-Empty Utilized Assign Layers = 9
+Pruned Assign Layers = 26
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/users/hungpt"
+ICV_HOME_DIR = "/home/tools/synopsys/icvalidator/U-2022.12"
+PATH = "/home/tools/synopsys/icvalidator/U-2022.12/bin/LINUX64_L31el:/home/tools/synopsys/icvalidator/U-2022.12/contrib/bin/LINUX64_L31el:/home/tools/synopsys/customcompiler/T-2022.06/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/bin:/home/tools/synopsys/customcompiler/T-2022.06/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/bin:/home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/bin:/home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/bin:/home/tools/synopsys/icvalidator/U-2022.12/bin:/home/tools/synopsys/hspice/T-2022.06/hspice/bin:/home/tools/synopsys/primewave/T-2022.06/bin:/home/tools/synopsys/wv/T-2022.06/bin:/home/tools/synopsys/customcompiler/T-2022.06/bin:/home/tools/synopsys/txs/T-2022.03-SP5/bin:/home/tools/synopsys/verdi/V-2023.12/bin:/home/tools/synopsys/icc2/U-2022.12/bin:/home/tools/synopsys/lc/U-2022.12-SP5/bin:/home/tools/synopsys/vc_static/T-2022.06/bin:/home/tools/synopsys/icvalidator/U-2022.12/bin/AMD64_L26el:/home/tools/synopsys/syn/T-2022.03-SP1/bin:/home/tools/synopsys/fm/T-2022.03-SP5/bin:/home/tools/synopsys/vcs/T-2022.06-SP2-4/bin:/home/tools/synopsys/prime/U-2022.12-SP2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/users/hungpt/.local/bin:/home/users/hungpt/bin"
+SNPSLMD_LICENSE_FILE = "27020@192.168.10.99"
+USER = "hungpt"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+_ICV_RSH_COMMAND = "ssh"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ localhost (2/12)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) E-2236 CPU @ 3.40GHz
+   CPU:   12 cpu 4800 MHz
+   Cores: 6 HT
+   RAM:   15.359 GB
+   Swap:  8.007 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:12
+Peak Single Command Memory = 4.339 GB
+Peak Disk Usage = 0.011 GB
+Network Disk Usage Peak=0.010 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+
+Distributed Host Memory Usage
+ localhost (2/12)  ....  Average=4.337 GB, Peak=4.337 GB / 15.359 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

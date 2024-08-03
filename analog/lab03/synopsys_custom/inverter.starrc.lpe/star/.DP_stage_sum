@@ -1,0 +1,34 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup        Elp=00:00:02 Cpu=00:00:01 Mem=671.0  | Jul 19 16:16:11 | localhost.localdomain
+CPU_01 |*Layers        Elp=00:00:00 Cpu=00:00:00 Mem=671.1  | Jul 19 16:16:13 | localhost.localdomain
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=671.1  | Jul 19 16:16:13 | localhost.localdomain
+CPU_01 |*HN            Elp=00:00:00 Cpu=00:00:00 Mem=687.1  | Jul 19 16:16:15 | localhost.localdomain
+CPU_01 |*XrefHN        Elp=00:00:00 Cpu=00:00:00 Mem=507.7  | Jul 19 16:16:15 | localhost.localdomain
+CPU_01 |*Cells         Elp=00:00:00 Cpu=00:00:00 Mem=671.1  | Jul 19 16:16:15 | localhost.localdomain
+CPU_01 |*Translate     Elp=00:00:00 Cpu=00:00:00 Mem=671.1  | Jul 19 16:16:15 | localhost.localdomain
+CPU_01 |*BulkLayerHandling Elp=00:00:01 Cpu=00:00:00 Mem=502.7  | Jul 19 16:16:16 | localhost.localdomain
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:16 | localhost.localdomain
+CPU_01 |*GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Mem=671.1  | Jul 19 16:16:18 | localhost.localdomain
+CPU_01 |*GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:20 | localhost.localdomain
+CPU_01 |*GPD_NameMap   Elp=00:00:01 Cpu=00:00:00 Mem=496.8  | Jul 19 16:16:23 | localhost.localdomain
+CPU_01 |*xTract        Elp=00:00:00 Cpu=00:00:00 Mem=500.6  | Jul 19 16:16:25 | localhost.localdomain
+CPU_01 |*GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:27 | localhost.localdomain
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=338.7  | Jul 19 16:16:31 | localhost.localdomain
+CPU_01 |*ReportViolations Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:33 | localhost.localdomain
+CPU_01 |*ReportOpens   Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:36 | localhost.localdomain
+CPU_01 |*GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Mem=496.4  | Jul 19 16:16:38 | localhost.localdomain
+CPU_01 |*GPD_Converter1 Elp=00:00:00 Cpu=00:00:00 Mem=558.9  | Jul 19 16:16:40 | localhost.localdomain
+CPU_01 |*GPD_Converter2 Elp=00:00:00 Cpu=00:00:00 Mem=332.9  | Jul 19 16:16:42 | localhost.localdomain
+CPU_01 |*GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Mem=332.9  | Jul 19 16:16:44 | localhost.localdomain
+CPU_01 |*GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Mem=332.9  | Jul 19 16:16:46 | localhost.localdomain
+----------------------------------------------------------------------------------------------
+Start Time: Fri Jul 19 16:16:11 2024
+End Time: Fri Jul 19 16:16:51 2024
+Total Wall Time: 00:00:34
+Time on PreXtraction:  00:00:14
+Time on Xtraction:     00:00:00
+Time on PostXtraction: 00:00:20
+Time on Spef Output: 00:00:06
+----------------------------------------------------------------------------------------------

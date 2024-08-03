@@ -1,0 +1,10 @@
+-oa2dspf
+-oa_lib_name lab03
+-oa_cell_name inverter
+-oa_view_name starrc
+-o ../starrc.dspf
+-oa_output_file ../starrc.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/lib.defs
+-ground_node_name 0
+-inter_pic_level_connections

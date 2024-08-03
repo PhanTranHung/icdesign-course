@@ -1,0 +1,452 @@
+VENDOR: Synopsys Inc.
+PROGRAM: StarRC
+PROGRAM VERSION: U-2022.12-SP5-2
+PROGRAM DATE: Oct 31 2023 03:19:04
+GPD VERSION: 2.15.1
+GPD DATE: Fri Jul 19 16:16:38 2024
+NETS: 4 (4)
+CELLS: 2 (10)
+PORTS: 4 (4)
+IDEAL NETS: 0 (0)
+IDEAL CELLS: 0 (0)
+IDEAL PORTS: 0 (0)
+UNCONNECTED PORTS: 0 (0)
+UNCONNECTED PINS: 0
+MIN GND CAP: 0
+GPD CONTENTS: DATAP,DATAF,STITCH_EXT,CONV_FILE
+NAME MAP COMPLETE: YES
+GPD DATA COMPLETE: YES
+HAS VIA PILLAR: NO
+RESISTANCE DETAIL NO
+RESISTANCE BOUNDING BOXNO
+INSTANCE SECTION: YES
+SCALE FACTOR: 0.9
+SCALE FACTOR_VERTICAL: 0.9
+COORDINATES SCALED: NO
+RESISTOR PROPERTIES SCALED: NO
+DEVICE PROPERTIES SCALED: NO
+INSTANCE_PORT_LOCATION_CLOSER_TO_DRIVER: NO
+
+NUM_CORNERS: 1
+NUM_CAP_CORNERS: 1
+CORNER 1
+  NAME: 
+  PROCESS: /home/dkits/synopsys/m3a/starrc/reference40_1P10M_typical.nxtgrd
+  TEMPERATURE: 25
+  CAP_INDEX: 0
+
+
+COUPLING_ABS_THRESHOLD: 3
+COUPLING_REL_THRESHOLD: 0.03
+FILTERING_OPERATION: AND
+SMC_AWARE_COUPLING_FILTERING: NO
+
+CAPACITANCE UNIT: 1
+RESISTANCE UNIT: 1
+BUS BIT DELIMITER: []
+PIN DELIMITER: :
+HIERARCHY DELIMITER: /
+NET_SHORTING_CONDUCTANCE: 100
+OPEN_IP_SHORTING_CONDUCTANCE: 10
+NETLIST NODE SECTION: YES
+NETLIST_COMPRESSION: NO
+NETLIST PRECISION: 6
+NETLIST_INPUT_DRIVERS: NO
+NETLIST_NAME_MAP: YES
+NETLIST_INCREMENTAL: NO
+LUMPED_CAP_FORMATTING: NO
+NETLIST_NODENAME_NETNAME: NO
+NETLIST_SUBNODE_SELECTION: NO
+TEMPERATURE_SENSITIVITY: NO
+NETLIST_INTEGRITY_CHECK: GPIO_VIOLATION_TYPE_NONE
+
+Layer 1
+  ID: 0
+  Layer name: SUBSTRATE
+
+Layer 2
+  ID: 1
+  Layer name: metal1
+  ITF Layer name: M1
+  Pic Level: 3
+  Layer Wmin: 0.07
+
+Layer 3
+  ID: 2
+  Layer name: metal2
+  ITF Layer name: M2
+  Pic Level: 4
+  Layer Wmin: 0.07
+
+Layer 4
+  ID: 3
+  Layer name: metal3
+  ITF Layer name: M3
+  Pic Level: 5
+  Layer Wmin: 0.07
+
+Layer 5
+  ID: 4
+  Layer name: metal4
+  ITF Layer name: M4
+  Pic Level: 6
+  Layer Wmin: 0.07
+
+Layer 6
+  ID: 5
+  Layer name: metal5
+  ITF Layer name: M5
+  Pic Level: 7
+  Layer Wmin: 0.07
+
+Layer 7
+  ID: 6
+  Layer name: metal6
+  ITF Layer name: M6
+  Pic Level: 8
+  Layer Wmin: 0.07
+
+Layer 8
+  ID: 7
+  Layer name: metal7
+  ITF Layer name: M7
+  Pic Level: 9
+  Layer Wmin: 0.07
+
+Layer 9
+  ID: 8
+  Layer name: metal8
+  ITF Layer name: M8
+  Pic Level: 10
+  Layer Wmin: 0.07
+
+Layer 10
+  ID: 9
+  Layer name: metal9
+  ITF Layer name: M9
+  Pic Level: 11
+  Layer Wmin: 0.07
+
+Layer 11
+  ID: 10
+  Layer name: metal10
+  ITF Layer name: M10
+  Pic Level: 12
+  Layer Wmin: 0.07
+
+Layer 12
+  ID: 11
+  Layer name: POLY
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 13
+  ID: 12
+  Layer name: subtie
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 14
+  ID: 13
+  Layer name: poly_psub_via
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 15
+  ID: 14
+  Layer name: poly_nw_via
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 16
+  ID: 15
+  Layer name: ndiff
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 17
+  ID: 16
+  Layer name: ndiff_hv
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 18
+  ID: 17
+  Layer name: pdiff
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 19
+  ID: 18
+  Layer name: pdiff_hv
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 20
+  ID: 19
+  Layer name: poly
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 21
+  ID: 20
+  Layer name: ngate
+  ITF Layer name: GATE
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 22
+  ID: 21
+  Layer name: ngate_hv
+  ITF Layer name: GATE
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 23
+  ID: 22
+  Layer name: pgate
+  ITF Layer name: GATE
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 24
+  ID: 23
+  Layer name: pgate_hv
+  ITF Layer name: GATE
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 25
+  ID: 24
+  Layer name: metal1_term1
+  ITF Layer name: M1
+  Pic Level: 3
+  Layer Wmin: 0.07
+
+Layer 26
+  ID: 25
+  Layer name: metal1_term2
+  ITF Layer name: M1
+  Pic Level: 3
+  Layer Wmin: 0.07
+
+Layer 27
+  ID: 26
+  Layer name: rnpoly_body
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 28
+  ID: 27
+  Layer name: rnpoly_term
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 29
+  ID: 28
+  Layer name: welltie
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 30
+  ID: 29
+  Layer name: V1S
+  ITF Layer name: V1
+  from ID: 1
+  to ID: 2
+  Pic Level: 3
+  Table Via Grd Level Index: 8
+
+Layer 31
+  ID: 30
+  Layer name: V2S
+  ITF Layer name: V2
+  from ID: 2
+  to ID: 3
+  Pic Level: 4
+  Table Via Grd Level Index: 7
+
+Layer 32
+  ID: 31
+  Layer name: V3S
+  ITF Layer name: V3
+  from ID: 3
+  to ID: 4
+  Pic Level: 5
+  Table Via Grd Level Index: 6
+
+Layer 33
+  ID: 32
+  Layer name: V4S
+  ITF Layer name: V4
+  from ID: 4
+  to ID: 5
+  Pic Level: 6
+  Table Via Grd Level Index: 5
+
+Layer 34
+  ID: 33
+  Layer name: V5S
+  ITF Layer name: V5
+  from ID: 5
+  to ID: 6
+  Pic Level: 7
+  Table Via Grd Level Index: 4
+
+Layer 35
+  ID: 34
+  Layer name: V6S
+  ITF Layer name: V6
+  from ID: 6
+  to ID: 7
+  Pic Level: 8
+  Table Via Grd Level Index: 3
+
+Layer 36
+  ID: 35
+  Layer name: V7S
+  ITF Layer name: V7
+  from ID: 7
+  to ID: 8
+  Pic Level: 9
+  Table Via Grd Level Index: 2
+
+Layer 37
+  ID: 36
+  Layer name: V8S
+  ITF Layer name: V8
+  from ID: 8
+  to ID: 9
+  Pic Level: 10
+  Table Via Grd Level Index: 1
+
+Layer 38
+  ID: 37
+  Layer name: V9S
+  ITF Layer name: V9
+  from ID: 9
+  to ID: 10
+  Pic Level: 11
+  Table Via Grd Level Index: 0
+
+Layer 39
+  ID: 38
+  Layer name: diffCont
+  ITF Layer name: CS_AA
+  from ID: 51
+  to ID: 1
+  Pic Level: 1
+  Table Via Grd Level Index: 10
+
+Layer 40
+  ID: 39
+  Layer name: polyCont
+  ITF Layer name: CS_GC
+  from ID: 52
+  to ID: 1
+  Pic Level: 2
+  Table Via Grd Level Index: 9
+
+Layer 41
+  ID: 40
+  Layer name: M1PIN
+  ITF Layer name: M1
+  Pic Level: 3
+  Layer Wmin: 0.07
+
+Layer 42
+  ID: 41
+  Layer name: M2PIN
+  ITF Layer name: M2
+  Pic Level: 4
+  Layer Wmin: 0.07
+
+Layer 43
+  ID: 42
+  Layer name: M3PIN
+  ITF Layer name: M3
+  Pic Level: 5
+  Layer Wmin: 0.07
+
+Layer 44
+  ID: 43
+  Layer name: M4PIN
+  ITF Layer name: M4
+  Pic Level: 6
+  Layer Wmin: 0.07
+
+Layer 45
+  ID: 44
+  Layer name: M5PIN
+  ITF Layer name: M5
+  Pic Level: 7
+  Layer Wmin: 0.07
+
+Layer 46
+  ID: 45
+  Layer name: M6PIN
+  ITF Layer name: M6
+  Pic Level: 8
+  Layer Wmin: 0.07
+
+Layer 47
+  ID: 46
+  Layer name: M7PIN
+  ITF Layer name: M7
+  Pic Level: 9
+  Layer Wmin: 0.07
+
+Layer 48
+  ID: 47
+  Layer name: M8PIN
+  ITF Layer name: M8
+  Pic Level: 10
+  Layer Wmin: 0.07
+
+Layer 49
+  ID: 48
+  Layer name: M9PIN
+  ITF Layer name: M9
+  Pic Level: 11
+  Layer Wmin: 0.07
+
+Layer 50
+  ID: 49
+  Layer name: M10PIN
+  ITF Layer name: M10
+  Pic Level: 12
+  Layer Wmin: 0.07
+
+Layer 51
+  ID: 50
+  Layer name: POLY_PIN
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+
+Layer 52
+  ID: 51
+  Layer name: subtie:welltie:pdiff:ndiff:pdiff_hv:ndiff_hv
+  ITF Layer name: ACTIVE
+  Pic Level: 1
+  Layer Wmin: 0.07
+
+Layer 53
+  ID: 52
+  Layer name: rnpoly_term:poly
+  ITF Layer name: POLY
+  Pic Level: 2
+  Layer Wmin: 0.04
+

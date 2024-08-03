@@ -1,0 +1,13 @@
+#!/bin/sh
+ulimit -c 0
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details --exclude=group | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/group | awk '{print $1}'`
+echo $group > /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/group/duse_group.tmp && \
+mv /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/group/duse_group.tmp /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/group/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/duse_manager_res.tmp && \
+mv /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/duse_manager_res.tmp /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/duse_manager_res

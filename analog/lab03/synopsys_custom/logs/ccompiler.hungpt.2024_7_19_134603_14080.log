@@ -1,0 +1,991 @@
+[13:46:05.99] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version T-2022.06 for linux64 - May 24, 2022 
+              /c 
+              /c                     Copyright (c) 2004 - 2022 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 7605079 compiled on Tue May 24 10:56:29 2022 for CentOS64 7.3
+              /c Invocation: /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Jul 19 13:46:03 2024
+              /c Host: localhost.localdomain
+              /c Working directory: /home/users/hungpt/icdesign/analog/lab03
+              /c 
+[13:46:09.87] /w Warning: Reference to undefined environment variable 'PDK_INSTALL_DIR' found while processing '$PDK_INSTALL_DIR/techfiles/reference40nm_layer.map'.
+[13:46:10.04] /r giShowFrameTabs true
+[13:46:10.05] /r giWindowId 1
+[13:46:10.05] /r giWindowGeometry 1040x800
+[13:46:12.71] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:46:12.73] /# 
+[13:46:13.03] /i gi::addWindow [dm::openLibraryManager] -to 1
+[13:46:13.04] /r giWindowId 2
+[13:46:13.04] /r giWindowGeometry 660x600+50+78
+[13:46:14.09] /i gi::setCurrentIndex {libs} -index {lab03} -in [gi::getWindows 2]
+[13:46:14.16] /i gi::setItemSelection {libs} -index {lab03} -in [gi::getWindows 2]
+[13:46:15.79] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[13:46:15.83] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[13:46:17.09] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[13:46:17.10] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[13:46:17.17] /i gi::setSectionSizes {views} -values {181} -in [gi::getWindows 2]
+[13:46:18.45] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[13:46:18.46] /m Information: License 'Basic' checked out. (LICENSE-003)
+[13:46:18.62] /m Information: ###########################################
+[13:46:18.62] /m Information: # PDK Library Name           : reference40nm
+[13:46:18.62] /m Information: # PDK Version                : rev2.09
+[13:46:18.62] /m Information: # Tool Name                  : Custom Compiler
+[13:46:18.62] /m Information: # Qualified for Tool Version : O-2018.09
+[13:46:18.62] /m Information: ###########################################
+[13:46:18.68] /r giWindowId 3
+[13:46:18.69] /r giWindowGeometry 1632x912
+[13:46:19.03] /m Information: License 'Backend' checked out. (LICENSE-003)
+[13:46:19.73] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 290x276
+[13:46:19.74] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x611
+[13:46:19.75] /i db::setAttr dockSize -of [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]] -value 256x313
+[13:46:19.75] /i db::setAttr dockSize -of [gi::getAssistants lxSchematicAssistant -from [gi::getWindows 3]] -value 256x318
+[13:46:19.75] /i db::setAttr dockSize -of [gi::getAssistants lxTemplateBrowser -from [gi::getWindows 3]] -value 290x611
+[13:46:21.23] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[13:46:21.55] /i db::setAttr dockSize -of [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]] -value 256x391
+[13:46:21.55] /i db::setAttr dockSize -of [gi::getAssistants lxSchematicAssistant -from [gi::getWindows 3]] -value 256x397
+[13:46:21.55] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x768
+[13:46:21.63] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x981+5+56
+[13:46:41.93] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 3]
+[13:46:41.93] /i xt::showDRCSetup -job drc -window 3
+[13:46:42.47] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[13:46:43.16] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 676x480+877+374
+[13:46:48.20] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 676x480+593+279
+[13:46:52.36] /i gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[13:46:52.52] /# xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[13:46:52.55] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[13:46:52.82] /r giWindowId 4
+[13:46:52.83] /r giWindowGeometry 800x600
+[13:47:04.64] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_3
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[13:47:04.88] /m Information: IC Validator VUE Server initialized successfully at port 9189.
+[13:47:04.88] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[13:48:43.04] /m Information: Connection closed with 'IC Validator VUE' running on 'localhost'.
+[13:50:09.43] /i gi::setActiveWindow 3
+[13:50:09.43] /i gi::setActiveWindow 3 -raise true
+[13:50:17.37] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[13:50:17.37] /i xt::showLVSSetup -job lvs -window 3
+[13:50:18.04] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+802+370
+[13:52:29.02] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-I\ /home/dkits/synopsys/m3a/icv/lvs\ -oa_layer_map\ /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:52:33.20] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+801+370
+[13:52:33.83] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+686+363
+[13:52:45.94] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-I\ /home/dkits/synopsys/m3a/icv/lvs\ -lic_apex} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:52:48.57] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:52:48.76] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[13:52:48.79] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[13:52:48.80] /m Information: "Starting netlisting for design "lab03/inverter/schematic"..." (NETLISTING-010)
+[13:52:48.81] /o No Design Integrity rule violations found in "lab03/inverter/schematic"
+[13:52:48.89] /m Information: "Netlisting design "lab03/inverter/schematic" finished successfully." (NETLISTING-012)
+[13:52:49.43] /r giWindowId 5
+[13:52:49.44] /r giWindowGeometry 800x600
+[13:53:05.54] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_1
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 0 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[13:53:05.68] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[13:53:07.91] /r giWindowId 6
+[13:53:07.91] /r giWindowGeometry 1632x912
+[13:53:10.75] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:10.75] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.0375 1.23125}
+[13:53:10.79] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:10.79] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.04375 1.21875}
+[13:53:11.14] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:11.14] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.10625 1.16875}
+[13:53:11.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:11.18] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.10625 1.16875}
+[13:53:11.53] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.53] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.1 1.16875}
+[13:53:11.55] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.55] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.1 1.16875}
+[13:53:11.58] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.58] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.1 1.16875}
+[13:53:11.84] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.84] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.10625 1.16875}
+[13:53:11.86] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.86] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.10625 1.16875}
+[13:53:11.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 6]
+[13:53:11.93] /i de::zoom -window [gi::getWindows 6] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.10625 1.16875}
+[13:53:12.22] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:12.22] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.10625 1.16875}
+[13:53:12.27] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 6]
+[13:53:12.27] /i de::zoom -window [gi::getWindows 6] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.10625 1.16875}
+[13:53:13.49] /i gi::setActiveWindow 5
+[13:53:13.49] /i gi::setActiveWindow 5 -raise true
+[13:53:14.43] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[13:53:15.33] /i gi::setActiveWindow 3
+[13:53:15.33] /i gi::setActiveWindow 3 -raise true
+[13:53:19.24] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[13:53:19.24] /i xt::showLVSSetup -job lvs -window 3
+[13:53:19.93] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+686+363
+[13:53:37.45] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:53:58.97] /i gi::setField {/tabGroup/netlistingOptionsTab/schematicNetlister} -value {HSPICE} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:54:03.20] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[13:54:03.32] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[13:54:03.35] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[13:54:03.36] /m Information: "Starting netlisting for design "lab03/inverter/schematic"..." (NETLISTING-010)
+[13:54:03.38] /o No Design Integrity rule violations found in "lab03/inverter/schematic"
+[13:54:03.44] /m Information: "Netlisting design "lab03/inverter/schematic" finished successfully." (NETLISTING-012)
+[13:54:15.74] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_2
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 0 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[13:54:24.63] /i gi::setActiveWindow 3
+[13:54:24.63] /i gi::setActiveWindow 3 -raise true
+[13:54:25.89] /i gi::setCurrentIndex {/lxSdlAllInstances/lxSdlAllInstancesView} -index {M0} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:25.89] /i gi::setItemSelection {/lxSdlAllInstances/lxSdlAllInstancesView} -index {{M0}} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:26.01] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:26.02] /i gi::executeAction {menuPreShow} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:26.02] /r giMenuAccess db::getNext [gi::getMenus lxbrowserlogicalinstmenu]
+[13:54:26.89] /# gi::executeAction {lxSymbolicEditorChaining} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:26.89] /i ilx::symbolicEditor 3 -source schematic -mode chaining
+[13:54:27.01] /r giWindowId 7
+[13:54:27.02] /r giWindowGeometry 1632x912
+[13:54:27.34] /i db::setAttr dockSize -of [gi::getAssistants lxDevicePanelSDC -from [gi::getWindows 7]] -value 294x749
+[13:54:27.53] /i db::setAttr geometry -of [gi::getFrames 2] -value 1632x912+5+56
+[13:54:37.86] /i db::setAttr geometry -of [gi::getFrames 2] -value 1632x912+189+83
+[13:54:38.65] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[13:54:38.73] /i gi::setActiveWindow 3
+[13:54:38.73] /i gi::setActiveWindow 3 -raise true
+[13:54:39.90] /i gi::setCurrentIndex {/lxSdlAllInstances/lxSdlAllInstancesView} -index {M0 , Master} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:40.03] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:40.04] /i gi::executeAction {menuPreShow} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:40.04] /r giMenuAccess db::getNext [gi::getMenus lxbrowserlogicalinstmenu]
+[13:54:41.13] /# gi::executeAction {lxSymbolicEditorChaining} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:41.13] /i ilx::symbolicEditor 3 -source schematic -mode chaining
+[13:54:41.21] /r giWindowId 8
+[13:54:41.22] /r giWindowGeometry 1632x912+189+83
+[13:54:41.54] /i db::setAttr dockSize -of [gi::getAssistants lxDevicePanelSDC -from [gi::getWindows 8]] -value 294x749
+[13:54:43.17] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[13:54:43.22] /i gi::setActiveWindow 3
+[13:54:43.22] /i gi::setActiveWindow 3 -raise true
+[13:54:45.82] /i gi::setCurrentIndex {/lxSdlAllInstances/lxSdlAllInstancesView} -index {M1} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:45.82] /i gi::setItemSelection {/lxSdlAllInstances/lxSdlAllInstancesView} -index {{M1}} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:46.89] /i gi::setCurrentIndex {/lxSdlAllInstances/lxSdlAllInstancesView} -index {M0} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:46.90] /i gi::setItemSelection {/lxSdlAllInstances/lxSdlAllInstancesView} -index {{M0}} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:47.39] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:47.40] /i gi::executeAction {menuPreShow} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:47.40] /r giMenuAccess db::getNext [gi::getMenus lxbrowserlogicalinstmenu]
+[13:54:49.25] /# gi::executeAction {lxPickAndPlace} -in [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]
+[13:54:49.25] /i ilx::pickAndPlace 3
+[13:54:53.74] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[13:54:53.74] /i de::addPoint {4.033 0.91} -context [db::getNext [de::getContexts -window 3]]
+[13:54:55.85] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[13:54:56.09] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 3]
+[13:54:56.09] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 3]]
+[13:54:56.45] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[13:54:57.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:54:57.56] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.92 1.209}
+[13:54:57.61] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:54:57.61] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.933 1.215}
+[13:54:57.65] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:54:57.65] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.938 1.219}
+[13:54:58.12] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:54:58.12] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.946 1.226}
+[13:54:58.17] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:54:58.17] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.947 1.226}
+[13:54:59.09] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:54:59.09] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.953 1.227}
+[13:54:59.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:54:59.91] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.98 1.267}
+[13:55:00.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:55:00.14] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.997 1.287}
+[13:55:00.49] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:55:00.49] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.998 1.288}
+[13:55:00.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:55:00.55] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.999 1.289}
+[13:55:03.35] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[13:55:03.35] /i de::fit -window 3 -fitView true
+[13:55:04.90] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[13:55:04.90] /i de::addPoint {4.114 1.481} -context [db::getNext [de::getContexts -window 3]]
+[13:55:06.63] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[13:55:06.63] /i de::startDrag {4.125 1.72} -context [db::getNext [de::getContexts -window 3]]
+[13:55:07.02] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:07.02] /i de::endDrag {3.577 1.71} -context [db::getNext [de::getContexts -window 3]]
+[13:55:07.53] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[13:55:07.53] /i de::addPoint {4.114 1.704} -context [db::getNext [de::getContexts -window 3]]
+[13:55:09.49] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[13:55:09.49] /i de::startDrag {3.433 2.821} -context [db::getNext [de::getContexts -window 3]]
+[13:55:09.91] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:09.91] /i de::endDrag {5.151 -0.13} -context [db::getNext [de::getContexts -window 3]]
+[13:55:10.46] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[13:55:10.46] /i de::startDrag {5.114 0.194} -context [db::getNext [de::getContexts -window 3]]
+[13:55:10.68] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:10.68] /i de::endDrag {3.465 2.411} -context [db::getNext [de::getContexts -window 3]]
+[13:55:11.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[13:55:11.21] /i de::addPoint {3.401 2.422} -context [db::getNext [de::getContexts -window 3]]
+[13:55:11.58] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[13:55:11.58] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[13:55:11.81] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:12.28] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[13:55:12.28] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {3.305 2.65} 
+[13:55:12.97] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:12.97] /i de::endDrag {5.188 0.114} -context [db::getNext [de::getContexts -window 3]]
+[13:55:13.91] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[13:55:13.91] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {4.146 1.188} -index 0 -intent none] 3
+[13:55:13.91] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {4.145 1.19} 
+[13:55:14.38] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:14.38] /i de::endDrag {3.471 1.359} -context [db::getNext [de::getContexts -window 3]]
+[13:55:15.42] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[13:55:15.42] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {2.99 3.025} 
+[13:55:15.91] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:15.91] /i de::endDrag {5.342 -0.12} -context [db::getNext [de::getContexts -window 3]]
+[13:55:18.87] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[13:55:18.87] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {4.125 1.055} -index 0 -intent none] 3
+[13:55:18.88] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {4.125 1.055} 
+[13:55:19.41] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:19.41] /i de::endDrag {3.816 1.05} -context [db::getNext [de::getContexts -window 3]]
+[13:55:20.22] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:20.41] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:20.59] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:22.35] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[13:55:22.35] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {2.425 2.4} 
+[13:55:22.51] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[13:55:22.51] /i de::endDrag {2.684 1.608} -context [db::getNext [de::getContexts -window 3]]
+[13:55:22.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[13:55:23.14] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[13:55:23.32] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:23.53] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:23.73] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[13:55:38.63] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 290x768
+[13:55:47.68] /# gi::setItemSelection {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:47.68] /# gi::setCurrentIndex {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:47.80] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:47.80] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="poly drawing"}]
+[13:55:59.58] /# gi::setItemSelection {lpps} -index {poly pin} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:59.58] /# gi::setCurrentIndex {lpps} -index {poly pin} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:59.67] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:55:59.67] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="poly pin"}]
+[13:56:14.36] /# gi::setItemSelection {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:14.36] /# gi::setCurrentIndex {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:14.50] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:14.50] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="poly drawing"}]
+[13:56:15.85] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:15.85] /i db::setAttr selectable -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[13:56:15.86] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:16.52] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:16.52] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[13:56:18.09] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:18.09] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[13:56:18.58] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:18.58] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[13:56:19.62] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:19.62] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[13:56:20.06] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:56:20.06] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[13:57:47.38] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[13:57:47.38] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[13:57:47.38] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.188 1.492} -index 0 -intent none]
+[13:57:47.39] /o oa:0x308bf210
+[13:57:50.66] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:50.66] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.986 2.029}
+[13:57:50.69] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:50.69] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.986 2.029}
+[13:57:51.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:51.13] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.987 2.028}
+[13:57:51.17] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:51.17] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.987 2.028}
+[13:57:51.22] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:51.22] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.987 2.028}
+[13:57:51.51] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.51] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.987 2.028}
+[13:57:51.53] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.53] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.986 2.028}
+[13:57:51.56] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.56] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.987 2.027}
+[13:57:51.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.60] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.987 2.027}
+[13:57:51.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.87] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.981 2.027}
+[13:57:51.90] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[13:57:51.90] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {3.981 2.028}
+[13:57:52.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[13:57:52.93] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {3.844 1.975}
+[13:59:41.50] /# gi::setItemSelection {lpps} -index {diff drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:59:41.50] /# gi::setCurrentIndex {lpps} -index {diff drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:59:41.64] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:59:41.64] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="diff drawing"}]
+[13:59:59.16] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:00:00.21] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:00.21] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.584 2.757}
+[14:00:00.26] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:00.26] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.589 2.762}
+[14:00:02.78] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:00:04.03] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:00:04.04] /i le::createRectangle {{0.55 2.505} {0.695 2.745}} -design [ed] -lpp {diff drawing} -net VPWR
+[14:00:04.70] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:00:05.91] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:00:05.91] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:00:07.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:07.12] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.557 2.745}
+[14:00:07.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:07.20] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.557 2.745}
+[14:00:07.53] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:07.53] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.556 2.744}
+[14:00:08.85] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[14:00:08.85] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {0.551 2.749} -index 0 -intent none] 3
+[14:00:08.85] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {0.55 2.75} 
+[14:00:09.22] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:09.22] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.613 2.683}
+[14:00:09.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:09.24] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.612 2.682}
+[14:00:09.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:09.24] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.613 2.682}
+[14:00:09.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:09.26] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.613 2.681}
+[14:00:11.29] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:11.29] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.727 2.122}
+[14:00:11.94] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:11.94] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.731 3.382}
+[14:00:11.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:11.97] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.711 3.371}
+[14:00:12.01] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:12.01] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.668 3.329}
+[14:00:12.66] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:12.66] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.88 1.116}
+[14:00:12.69] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:12.69] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.88 1.116}
+[14:00:12.97] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:12.97] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.827 1.137}
+[14:00:12.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:12.99] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.822 1.137}
+[14:00:13.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:13.04] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.819 1.14}
+[14:00:13.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:13.04] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.816 1.143}
+[14:00:13.85] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:13.85] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.781 1.21}
+[14:00:14.74] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:14.74] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.736 1.514}
+[14:00:14.78] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:14.78] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.736 1.514}
+[14:00:16.33] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:00:16.33] /i de::endDrag {0.749 1.551} -context [db::getNext [de::getContexts -window 3]]
+[14:00:20.81] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:00:22.16] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:00:23.01] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:23.01] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.633 1.571}
+[14:00:23.90] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:23.90] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.628 1.388}
+[14:00:24.41] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:24.41] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.628 1.388}
+[14:00:25.01] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:25.01] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.61 1.433}
+[14:00:25.85] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:25.85] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.674 2.614}
+[14:00:25.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:25.93] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.642 2.638}
+[14:00:27.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:27.45] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.55 2.743}
+[14:00:28.87] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:00:28.87] /i le::createRectangle {{0.55 1.55} {0.75 2.75}} -design [ed] -lpp {diff drawing} -net Z
+[14:00:29.58] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:00:30.94] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:00:35.36] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:00:35.36] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:00:35.36] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {1.21 2.525} -index 0 -intent none]
+[14:00:35.36] /o oa:0x315fd410
+[14:00:35.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:35.97] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.194 2.52}
+[14:00:37.16] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:37.16] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.534 2.188}
+[14:00:42.58] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:42.58] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.206 2.002}
+[14:00:44.75] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:00:44.75] /i de::fit -window 3 -fitView true
+[14:00:45.81] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:45.81] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.615 0.72}
+[14:00:46.03] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:46.03] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.618 0.726}
+[14:00:46.58] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:46.58] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.618 0.726}
+[14:00:47.57] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:47.57] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.604 0.26}
+[14:00:48.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:00:48.01] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.611 0.273}
+[14:00:49.20] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:00:49.20] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.625 0.316}
+[14:00:50.93] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:00:50.93] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="diff drawing"}]
+[14:00:53.21] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[14:00:53.21] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {0.552 0.95} -index 0 -intent none] 3
+[14:00:53.21] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {0.55 0.95} 
+[14:00:56.98] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:00:56.98] /i de::endDrag {0.751 0.349} -context [db::getNext [de::getContexts -window 3]]
+[14:00:58.22] /# gi::executeAction {deDescendRead} -in [gi::getWindows 3]
+[14:00:58.22] /i ide::descend 3 -inPlace false -readOnly true
+[14:00:58.94] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:01:02.29] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:01:02.29] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.552 0.952}
+[14:01:03.29] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:01:03.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:01:03.62] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.64 0.705}
+[14:01:03.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:01:03.66] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.64 0.697}
+[14:01:03.67] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:01:03.67] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.641 0.686}
+[14:01:03.71] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:01:03.71] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.646 0.665}
+[14:01:04.50] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:01:04.50] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.752 0.154}
+[14:01:04.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:01:04.54] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.758 0.17}
+[14:01:04.95] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:01:04.95] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.776 0.305}
+[14:01:04.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:01:04.99] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.776 0.311}
+[14:01:07.14] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:01:07.15] /i le::createRectangle {{0.55 0.35} {0.75 0.95}} -design [ed] -lpp {diff drawing} -net VGND
+[14:01:10.91] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:01:10.91] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:01:13.05] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[14:01:13.88] /# gi::executeAction {deRedo} -in [gi::getWindows 3]
+[14:01:13.88] /i de::redoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:01:14.30] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[14:01:15.50] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:01:15.50] /i de::fit -window 3 -fitView true
+[14:01:20.31] /# gi::setItemSelection {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:20.31] /# gi::setCurrentIndex {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:20.53] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:20.53] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:01:21.41] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:21.41] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:01:21.95] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:21.95] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:01:22.53] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:22.53] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:01:22.96] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:22.96] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:01:23.38] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:23.38] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:01:23.93] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:23.93] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:01:24.66] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:01:24.66] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:01:42.82] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[14:01:42.97] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[14:01:42.97] /i ile::split
+[14:01:47.39] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[14:01:47.39] /i xt::physicalVerification::executeRun lvs 3
+[14:01:47.45] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[14:01:47.50] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[14:01:47.50] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[14:01:47.76] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 649x290+626+350
+[14:01:49.28] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[14:01:49.51] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[14:01:49.54] /m Information: "Starting netlisting for design "lab03/inverter/schematic"..." (NETLISTING-010)
+[14:01:49.66] /o No Design Integrity rule violations found in "lab03/inverter/schematic"
+[14:01:49.86] /m Information: "Netlisting design "lab03/inverter/schematic" finished successfully." (NETLISTING-012)
+[14:02:07.04] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_3
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 1 total rule was run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[14:02:20.96] /i gi::setActiveWindow 3
+[14:02:20.96] /i gi::setActiveWindow 3 -raise true
+[14:03:30.23] /m Information: Connection closed with 'IC Validator VUE' running on 'localhost'.
+[14:03:35.75] /# gi::setItemSelection {sets} -index {Viewport} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.75] /# gi::setCurrentIndex {sets} -index {Viewport} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.86] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.86] /i db::setPrefValue leLPPSet -value "{Viewport}" -scope [de::getContexts -window 3]
+[14:03:35.88] /# gi::setItemSelection {sets} -index {Viewport} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.88] /# gi::setItemSelection {lpps} -index {diff drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.88] /# gi::setItemSelection {lpps} -index {diff drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:35.89] /o oa:0x2d2a99e0
+[14:03:36.29] /# gi::setItemSelection {sets} -index {M1} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.29] /# gi::setCurrentIndex {sets} -index {M1} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.40] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.40] /i db::setPrefValue leLPPSet -value "{M1}" -scope [de::getContexts -window 3]
+[14:03:36.41] /# gi::setItemSelection {sets} -index {M1} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.42] /# gi::setItemSelection {lpps} -index {m1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.42] /# gi::setItemSelection {lpps} -index {m1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:36.42] /o oa:0x30f85ed0
+[14:03:38.20] /# gi::setItemSelection {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.20] /# gi::setCurrentIndex {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.33] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.33] /i db::setPrefValue leLPPSet -value "{Design}" -scope [de::getContexts -window 3]
+[14:03:38.34] /# gi::setItemSelection {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.34] /# gi::setItemSelection {lpps} -index {m1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.34] /# gi::setItemSelection {lpps} -index {m1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:38.35] /o oa:0x31075140
+[14:03:41.16] /# gi::setItemSelection {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:41.16] /# gi::setCurrentIndex {lpps} -index {poly drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:41.32] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:41.32] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:03:42.20] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:42.20] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:03:42.83] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:42.83] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value true
+[14:03:43.28] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:43.28] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "poly drawing"} -from [de::getActiveContext] ] -value false
+[14:03:46.43] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:46.43] /# gi::setCurrentIndex {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:46.53] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:49.46] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:03:50.06] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:03:50.06] /i de::addPoint {3.391 0.731} -context [db::getNext [de::getContexts -window 3]]
+[14:03:51.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:51.12] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.392 0.736}
+[14:03:51.17] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:51.17] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.392 0.736}
+[14:03:51.95] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:51.95] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.65 0.826}
+[14:03:51.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:51.99] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.651 0.827}
+[14:03:53.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:03:53.21] /i de::addPoint {0.677 0.96} -context [db::getNext [de::getContexts -window 3]]
+[14:03:53.24] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[14:03:55.49] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:55.49] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.748 0.909}
+[14:03:55.53] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:55.53] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.748 0.909}
+[14:03:55.59] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:55.59] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.748 0.909}
+[14:03:55.96] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:55.96] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.75 0.909}
+[14:03:56.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:03:56.06] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.75 0.909}
+[14:03:56.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.60] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.75 0.908}
+[14:03:56.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.63] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.75 0.908}
+[14:03:56.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.65] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.75 0.909}
+[14:03:56.91] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.91] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.75 0.908}
+[14:03:56.93] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.93] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.749 0.909}
+[14:03:56.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:03:56.97] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.747 0.908}
+[14:03:57.54] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:03:57.54] /i de::addPoint {0.572 1.041} -context [db::getNext [de::getContexts -window 3]]
+[14:03:58.97] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:03:58.97] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[14:06:32.19] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:06:32.19] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.641 0.71}
+[14:06:43.62] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:46.83] /# gi::setItemSelection {lpps} -index {psub drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:46.83] /# gi::setCurrentIndex {lpps} -index {psub drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:46.97] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:46.97] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="psub drawing"}]
+[14:06:49.07] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:49.07] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:06:49.61] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:49.61] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:06:50.09] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:50.09] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:06:51.85] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:06:51.85] /i de::fit -window 3 -fitView true
+[14:06:53.64] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:53.64] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:06:54.07] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:54.07] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:06:54.45] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:54.45] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:06:54.77] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:54.77] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:06:55.15] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:55.15] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:06:55.57] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:06:55.57] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:06:56.36] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:06:56.97] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[14:06:56.97] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {2.79 2.865} 
+[14:06:57.94] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:06:57.94] /i de::endDrag {4.981 0.401} -context [db::getNext [de::getContexts -window 3]]
+[14:06:58.87] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[14:06:58.91] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[14:07:01.24] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:01.24] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:07:01.78] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:01.78] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:07:02.14] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:02.14] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:07:02.97] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:02.97] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value false
+[14:07:03.55] /# gi::executeAction {leOLPToggleVisible} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:03.55] /i db::setAttr visible -of [de::getLPPs -filter {%lpp == "psub drawing"} -from [de::getActiveContext] ] -value true
+[14:07:15.13] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:15.14] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind lab03 inverter layout] -filter {%lpp =="psub drawing"}]
+[14:07:17.43] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:07:17.43] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:07:17.43] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {1.242 0.348} -index 0 -intent none]
+[14:07:17.43] /o oa:0x3055a5d0
+[14:07:19.01] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:07:19.02] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[14:07:19.02] /o oa:0x2fa386a0
+[14:07:24.02] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:24.02] /# gi::setCurrentIndex {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:24.13] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:07:25.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:07:25.86] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[14:07:25.86] /o oa:0x304949f0
+[14:07:26.05] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[14:07:26.05] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[14:07:31.53] /i gi::setField {attributes} -value {nplus
+              /c drw} -index {LPP,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[14:07:32.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:07:32.86] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:07:32.93] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[14:07:33.23] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+744+513
+[14:07:34.27] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[14:07:39.50] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[14:07:39.50] /i ile::split
+[14:07:43.27] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[14:07:43.27] /i xt::physicalVerification::executeRun lvs 3
+[14:07:43.32] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[14:07:43.37] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[14:07:43.37] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[14:07:43.63] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 649x290+626+350
+[14:07:45.56] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[14:07:45.70] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[14:07:45.71] /m Information: "Starting netlisting for design "lab03/inverter/schematic"..." (NETLISTING-010)
+[14:07:45.74] /o No Design Integrity rule violations found in "lab03/inverter/schematic"
+[14:07:45.78] /m Information: "Netlisting design "lab03/inverter/schematic" finished successfully." (NETLISTING-012)
+[14:07:59.04] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_4
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 1 total rule was run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[14:07:59.16] /m Information: Cannot execute preCmdStr exec-oa22.60.063.icv. CC is using preCmdStr exec-oa22.60.047.icv for execution.
+[14:08:01.18] /r giWindowId 9
+[14:08:01.19] /r giWindowGeometry 1632x912
+[14:08:04.81] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 9]
+[14:08:04.81] /i de::zoom -window [gi::getWindows 9] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.5125 0.79375}
+[14:08:04.98] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 9]
+[14:08:04.98] /i de::zoom -window [gi::getWindows 9] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.49375 0.79375}
+[14:08:05.68] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 9]
+[14:08:05.68] /i de::zoom -window [gi::getWindows 9] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.2875 0.725}
+[14:08:05.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 9]
+[14:08:05.82] /i de::zoom -window [gi::getWindows 9] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.2875 0.725}
+[14:08:06.45] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 9]
+[14:08:06.45] /i de::zoom -window [gi::getWindows 9] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.275 0.725}
+[14:08:08.61] /# gi::executeAction {deSelectActive} -in [gi::getWindows 9]
+[14:08:08.62] /i de::deselectAll [db::getNext [de::getContexts -window 9]]
+[14:08:08.62] /i de::select [de::getActiveFigure [gi::getWindows 9] -point {0.64375 1.075} -index 0 -intent none]
+[14:08:08.62] /o oa:0x30091c80
+[14:08:10.57] /# gi::executeAction {deSelectActive} -in [gi::getWindows 9]
+[14:08:10.57] /i de::deselectAll [db::getNext [de::getContexts -window 9]]
+[14:08:10.57] /i de::select [de::getActiveFigure [gi::getWindows 9] -point {0.625 1.60625} -index 0 -intent none]
+[14:08:10.57] /o oa:0x3136f380
+[14:08:11.65] /i gi::setActiveWindow 5
+[14:08:11.65] /i gi::setActiveWindow 5 -raise true
+[14:09:56.90] /i gi::setActiveWindow 3
+[14:09:56.90] /i gi::setActiveWindow 3 -raise true
+[14:09:58.51] /i gi::setItemSelection {attributes} -index {symmetry,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[14:09:58.51] /i gi::setCurrentIndex {attributes} -index {symmetry,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[14:10:01.95] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:10:01.95] /i de::addPoint {1.248 0.492} -context [db::getNext [de::getContexts -window 3]]
+[14:10:58.33] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:10:58.33] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.498 1.965}
+[14:10:58.36] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:10:58.36] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.498 1.965}
+[14:10:58.41] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:10:58.41] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.497 1.964}
+[14:20:36.42] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:20:36.42] /i de::addPoint {0.657 2.055} -context [db::getNext [de::getContexts -window 3]]
+[14:20:37.02] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:20:37.02] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[14:20:38.49] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:20:38.49] /i de::fit -window 3 -fitView true
+[14:20:39.44] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:20:39.44] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.76 0.322}
+[14:20:39.49] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:20:39.49] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.76 0.34}
+[14:20:40.02] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:34:44.69] /# gi::executeAction {xtLPESetup} -in [gi::getWindows 3]
+[14:34:44.69] /i xt::showLPESetup -job lpe -window 3
+[14:34:45.97] /i gi::setActiveDialog [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:34:46.25] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x647+787+251
+[14:34:48.13] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x647+152+280
+[14:35:12.89] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:35:13.22] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x669+152+280
+[14:35:23.14] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/singleCornerGroup/starrctcadGrdFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:35:25.93] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x669+207+270
+[14:35:31.10] /r giFileDialog reject .
+[14:35:31.89] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:35:40.47] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:35:42.33] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:36:00.60] /r giFileDialog reject synopsys_custom/inverter.icv.lvs/pex_runset_report
+[14:36:11.03] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/singleCornerGroup/starrctcadGrdFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:36:31.82] /r giFileDialog accept ../../../../../dkits/synopsys/m3a/starrc/reference40_1P10M_typical.nxtgrd
+[14:36:44.46] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:36:44.49] /# gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:36:44.50] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:37:04.05] /i gi::pressButton {/tabGroup/lpeOutputOptionsTab/outputGroup/outputGroupScrollArea/scrollArea/scrollAreaInnerWidget/deviceMappingFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:37:20.87] /r giFileDialog accept ../../../../../dkits/synopsys/m3a/starrc/device_map
+[14:37:23.77] /i gi::pressButton {/tabGroup/lpeOutputOptionsTab/outputGroup/outputGroupScrollArea/scrollArea/scrollAreaInnerWidget/layerMappingFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:37:42.89] /r giFileDialog accept ../../../../../dkits/synopsys/m3a/techfiles/reference40nm_layer.map
+[14:38:13.77] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:20.18] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:20.29] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:20.38] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:20.39] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:20.99] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -value {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:21.11] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:26.01] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:26.88] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:27.76] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:28.63] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:32.79] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:34.86] /i gi::pressButton {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTableDeleteButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:34.87] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:34.87] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:50.84] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:52.23] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:56.52] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:57.61] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:58.05] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:38:59.45] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:41:33.21] /i gi::pressButton {/help} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:41:33.21] /o oa:0x339acaf0
+[14:43:04.24] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:04.24] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:05.00] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -value {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:39.94] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -value {NESTLIST_REMOVE_DANGLING_BRANCHES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:40.03] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:42.17] /i gi::setSectionSizes {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -values {416 100} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:43.60] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:43.60] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:47.24] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:47.24] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:47.24] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:47.35] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:48.02] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:43:48.03] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:12.87] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,0} -value {NETLIST_CAPACITANCE_UNIT} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:12.87] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:12.87] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:12.97] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:13.46] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:13.46] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:30.95] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -value {NESTLIST_CONNECT_SECTION} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:30.95] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:30.96] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:31.03] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:32.61] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:32.61] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:46.95] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,0} -value {NETLIST_SUBCKT} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:46.95] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:46.95] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:47.08] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:47.62] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:44:47.63] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:08.55] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,0} -value {NETLIST_PASSIVE_PARAMS} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:08.55] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:08.56] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:08.64] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:09.14] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:09.14] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.03] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,0} -value {OBSERVATION_POINTS} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.03] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.03] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.15] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.63] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:23.63] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:26.79] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,0} -value {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:27.97] /i gi::pressButton {/help} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:45:27.98] /o oa:0x31db4920
+[14:46:31.62] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,0} -value {OA_REMOVE_SPICECARD_PREFIX} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:31.62] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:31.62] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:43.21] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {1,1} -value {1e-12} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:43.21] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:43.22] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:47.36] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:48.30] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:48.30] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:48.86] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,1} -value {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:54.15] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,1} -value {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:54.15] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:54.15] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:54.31] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:56.62] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:56.62] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:56.63] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:58.98] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:58.98] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:46:58.98] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:00.54] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,1} -value {YES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:00.54] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:00.54] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:04.08] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,1} -value {:} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:04.09] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:04.09] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:14.04] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,1} -value {*} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:14.04] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:14.05] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:14.15] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index ClickToAdd -value ClickToAdd -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:15.89] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:15.89] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:29.23] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -value {NESTLIST_DELIMITER} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:29.35] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:32.07] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:32.07] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:34.78] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,1} -value {:} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:34.78] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:34.78] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:41.81] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,1} -value {*} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:41.81] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:41.81] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:45.68] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,1} -value {NO} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:45.81] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:48.54] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:48.87] /w Warning: OA_LAYER_MAPPING_FILE '/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map' will override lpp_map_file specified in '/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report'.
+[14:47:49.14] /r giWindowId 10
+[14:47:49.16] /r giWindowGeometry 800x600
+[14:47:49.17] /e Error: The job 'starrc_lpe_1' started on host 'localhost' with process id 22719 failed to start or complete successfully; the job's return code is 255.
+[14:47:54.75] /i gi::setActiveWindow 3
+[14:47:54.75] /i gi::setActiveWindow 3 -raise true
+[14:47:58.11] /# gi::executeAction {xtLPESetup} -in [gi::getWindows 3]
+[14:47:58.11] /i xt::showLPESetup -job lpe -window 3
+[14:47:59.50] /i gi::setActiveDialog [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:47:59.73] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x669+207+270
+[14:48:01.19] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:04.28] /i gi::setSectionSizes {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -values {365 100} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:04.96] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:04.96] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:06.46] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -value {NESTLIST_DELIMITER} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:06.47] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,1} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:07.29] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,1} -value {:} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:07.41] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:08.08] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:08.08] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:09.08] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -value {NESTLIST_DELIMITER} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.01] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -value {NESTLIST_DELIMITER} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.45] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6-7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.45] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {6,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.73] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5-7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.74] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {5,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.89] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4-7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:10.90] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {4,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:11.01] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3-7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:11.01] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {3,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:11.20] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2-7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:11.20] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:12.03] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -value {NESTLIST_CONNECT_SECTION} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:48:12.09] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:49:00.89] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:49:14.85] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:49:35.07] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:49:57.16] /i gi::setField {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/entryField} -value {/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:49:57.17] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:50:04.44] /i gi::setField {/tabGroup/lpeOutputOptionsTab/outputGroup/outputGroupScrollArea/scrollArea/scrollAreaInnerWidget/starrcOutputRunset/entryField} -value {/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/starrc_cmd.custom_compiler} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:50:25.69] /i gi::pressButton {/tabGroup/lpeOutputOptionsTab/outputGroup/outputGroupScrollArea/scrollArea/scrollAreaInnerWidget/starrcOutputRunset/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:51:10.42] /r giFileDialog accept synopsys_custom/inverter.starrc.lpe/starrc_cmd.custom_compiler
+[14:51:21.36] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:51:34.70] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:51:34.95] /w Warning: OA_LAYER_MAPPING_FILE '/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map' will override lpp_map_file specified in '/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report'.
+[14:51:35.44] /e Error: The job 'starrc_lpe_2' started on host 'localhost' with process id 22988 failed to start or complete successfully; the job's return code is 255.
+[14:51:43.33] /i gi::setActiveWindow 3
+[14:51:43.33] /i gi::setActiveWindow 3 -raise true
+[14:51:46.66] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 3]
+[14:51:46.66] /i xt::showDRCSetup -job drc -window 3
+[14:51:47.17] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[14:51:47.36] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 676x480+593+279
+[14:51:55.79] /i gi::closeWindows [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[14:51:56.06] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:51:59.98] /# gi::executeAction {xtLPESetup} -in [gi::getWindows 3]
+[14:51:59.98] /i xt::showLPESetup -job lpe -window 3
+[14:52:01.29] /i gi::setActiveDialog [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:01.55] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x669+207+270
+[14:52:02.09] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:04.01] /i gi::setSectionSizes {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -values {369 100} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:04.66] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:04.66] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:06.89] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -value {NETLIST_REMOVE_DANGLING_BRANCHES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:07.70] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:08.42] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:08.67] /w Warning: OA_LAYER_MAPPING_FILE '/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map' will override lpp_map_file specified in '/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report'.
+[14:52:08.98] /e Error: The job 'starrc_lpe_3' started on host 'localhost' with process id 23290 failed to start or complete successfully; the job's return code is 255.
+[14:52:11.97] /i gi::setActiveWindow 3
+[14:52:11.97] /i gi::setActiveWindow 3 -raise true
+[14:52:16.45] /# gi::executeAction {xtLPESetup} -in [gi::getWindows 3]
+[14:52:16.45] /i xt::showLPESetup -job lpe -window 3
+[14:52:17.79] /i gi::setActiveDialog [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:18.04] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 746x669+207+270
+[14:52:18.91] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:21.49] /i gi::setSectionSizes {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -values {443 100} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:21.88] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:22.94] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {0,0} -value {NETLIST_REMOVE_DANGLING_BRANCHES} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:22.94] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:22.94] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:25.96] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {2,0} -value {NETLIST_CONNECT_SECTION} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:26.08] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:26.91] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,all} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:26.91] /i gi::setCurrentIndex {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:28.69] /i gi::setField {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {7,0} -value {NETLIST_DELIMITER} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:29.62] /i gi::setItemSelection {/tabGroup/customOptionsTab/lpeCustomOptions/starrcCustomOptions/starrcRunsetOptionsGroup/starrcRunsetOptionsTable} -index {} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:31.57] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[14:52:31.81] /w Warning: OA_LAYER_MAPPING_FILE '/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map' will override lpp_map_file specified in '/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report'.
+[14:53:15.35] /m Information: 
+              /c =============================
+              /c JobID: starrc_lpe_4
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[14:53:15.51] /r giWindowId 11
+[14:53:15.52] /r giWindowGeometry 1632x912
+[15:00:46.83] /m Information: Connection closed with 'IC Validator VUE' running on 'localhost'.
+[15:00:48.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:07:52.74] /# gi::executeAction {leSplit} -in [gi::getWindows 11]
+[15:07:52.74] /i ile::split
+[15:07:56.14] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:07:56.43] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+811+500
+[15:07:57.78] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:07:57.81] /i exit
+[15:07:57.91] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 11]]
+[15:07:58.23] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 11]] -value 419x207+751+450
+[15:08:00.51] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 11]]
+[15:08:01.62] /o Shutdown time: Fri Jul 19 15:08:01 2024
+[15:08:01.62] /o Elapsed session real time: 1 hour 21.93 minutes
+[15:08:01.62] /o Session terminated. Log is at /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/logs/ccompiler.hungpt.2024_7_19_134603_14080.log

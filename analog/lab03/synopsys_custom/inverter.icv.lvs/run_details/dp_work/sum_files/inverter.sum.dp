@@ -1,0 +1,364 @@
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0004, ndiff_hv.polygonlayer.0001, ndiff_hv.polygonlayer.0001, devices_db.polygonlayer.0003
+  Outputs: ngate_hv.polygonlayer.0005, ndiff_hv.polygonlayer.0002, ndiff_hv.polygonlayer.0003, psub.polygonlayer.0003
+Preprocessing device layers for nmos N25 ...
+Input layer "ngate_hv.polygonlayer.0004" is empty.
+No output written.
+Layer "ndiff_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "ndiff_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "ngate_hv.polygonlayer.0005" is empty.
+No output written.
+Layer "psub.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0003, pdiff_hv.polygonlayer.0001, pdiff_hv.polygonlayer.0001, NWELL.polygonlayer.0004
+  Outputs: pgate_hv.polygonlayer.0004, pdiff_hv.polygonlayer.0002, pdiff_hv.polygonlayer.0003, NWELL.polygonlayer.0006
+Preprocessing device layers for pmos P25 ...
+Input layer "pgate_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "NWELL.polygonlayer.0006" is empty.
+No output written.
+Layer "pdiff_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "pdiff_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "pgate_hv.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0003, rnpoly_term.polygonlayer.0001, rnpoly_term.polygonlayer.0001, polyres_bulk.polygonlayer.0002
+  Outputs: rnpoly_body.polygonlayer.0004, rnpoly_term.polygonlayer.0002, rnpoly_term.polygonlayer.0003, polyres_bulk.polygonlayer.0003
+Preprocessing device layers for resistor rnpoly ...
+Input layer "rnpoly_body.polygonlayer.0003" is empty.
+No output written.
+Layer "polyres_bulk.polygonlayer.0003" is empty.
+No output written.
+Layer "rnpoly_body.polygonlayer.0004" is empty.
+No output written.
+Layer "rnpoly_term.polygonlayer.0002" is empty.
+No output written.
+Layer "rnpoly_term.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0001, varn_term1.polygonlayer.0001, varn_term2.polygonlayer.0001
+  Outputs: varn_body_core.polygonlayer.0002, varn_term1.polygonlayer.0002, varn_term2.polygonlayer.0002, ndiff_cap.polygonlayer.0003, varn_gate_body.polygonlayer.0002, varn_nsd.polygonlayer.0002
+Preprocessing device layers for capacitor nmoscap ...
+Input layer "varn_body_core.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiff_cap.polygonlayer.0003" is empty.
+No output written.
+Layer "varn_body_core.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_gate_body.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_nsd.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term1.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0001, varn_term1.polygonlayer.0001, varn_term2.polygonlayer.0001
+  Outputs: varn_body_hv.polygonlayer.0002, varn_term1.polygonlayer.0003, varn_term2.polygonlayer.0003, ndiff_cap_hv.polygonlayer.0002, varn_gate_body_hv.polygonlayer.0002, varn_nsd_hv.polygonlayer.0002
+Preprocessing device layers for capacitor nmoscaph ...
+Input layer "varn_body_hv.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiff_cap_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_body_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_gate_body_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_nsd_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term1.polygonlayer.0003" is empty.
+No output written.
+Layer "varn_term2.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0005
+  Outputs: ngate_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ndiff_hv.polygonlayer.0002, ndiff_hv.polygonlayer.0003
+  Outputs: ndiff_hv.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0004
+  Outputs: pgate_hv.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pdiff_hv.polygonlayer.0002, pdiff_hv.polygonlayer.0003
+  Outputs: pdiff_hv.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0004
+  Outputs: rnpoly_body.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_term.polygonlayer.0002, rnpoly_term.polygonlayer.0003
+  Outputs: rnpoly_term.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: polyres_bulk.polygonlayer.0003
+  Outputs: polyres_bulk.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0002
+  Outputs: varn_body_core.polygonlayer.0003
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term1.polygonlayer.0002, varn_term1.polygonlayer.0003
+  Outputs: varn_term1.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term2.polygonlayer.0002, varn_term2.polygonlayer.0003
+  Outputs: varn_term2.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0002
+  Outputs: varn_body_hv.polygonlayer.0003
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0004, ngate_hv.polygonlayer.0007
+  Outputs: ngate_hv.polygonlayer.0008
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ndiff_hv.polygonlayer.0001, ndiff_hv.polygonlayer.0005
+  Outputs: ndiff_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0003, pgate_hv.polygonlayer.0006
+  Outputs: pgate_hv.polygonlayer.0007
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pdiff_hv.polygonlayer.0001, pdiff_hv.polygonlayer.0005
+  Outputs: pdiff_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0003, rnpoly_body.polygonlayer.0006
+  Outputs: rnpoly_body.polygonlayer.0007
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_term.polygonlayer.0001, rnpoly_term.polygonlayer.0005
+  Outputs: rnpoly_term.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: polyres_bulk.polygonlayer.0002, polyres_bulk.polygonlayer.0005
+  Outputs: polyres_bulk.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0001, varn_body_core.polygonlayer.0004
+  Outputs: varn_body_core.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term1.polygonlayer.0001, varn_term1.polygonlayer.0005
+  Outputs: varn_term1.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term2.polygonlayer.0001, varn_term2.polygonlayer.0005
+  Outputs: varn_term2.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0001, varn_body_hv.polygonlayer.0004
+  Outputs: varn_body_hv.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: resistor
+  Inputs: rnpoly_body.polygonlayer.0007, rnpoly_term.polygonlayer.0006, rnpoly_term.polygonlayer.0006, polyres_bulk.polygonlayer.0006, rnpoly_body.polygonlayer.0004
+resistor(all_devices, \"rnpoly\", rnpoly_body, rnpoly_term, rnpoly_term, { { polyres_bulk } }, resistor_value = 154.0, x_card = true, bulk_relationship = INTERACT, schematic_devices = { { device_name = \"rnpoly\", terminal_a = \"PLUS\", terminal_b = \"MINUS\", optional_pins = { \"BULK\" } } })
+Input layer "rnpoly_body.polygonlayer.0007" is empty.
+Extracted 0 unique 4-terminal "rnpoly" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: capacitor
+  Inputs: varn_body_core.polygonlayer.0005, varn_term1.polygonlayer.0006, varn_term2.polygonlayer.0006, varn_body_core.polygonlayer.0002, ndiff_cap.polygonlayer.0003, varn_gate_body.polygonlayer.0002, varn_nsd.polygonlayer.0002
+capacitor(all_devices, \"nmoscap\", varn_body_core, varn_term1, varn_term2, processing_layer_hash = { \"ndiff_cap\" => { ndiff_cap }, \"varn_gate_body\" => { varn_gate_body }, \"varn_nsd\" => { varn_nsd } }, area_capval = 1.234e-15, x_card = true, properties = { { \"lr\", DOUBLE, MICRO }, { \"wr\", DOUBLE, MICRO }, { \"nrep\", DOUBLE }, { \"nf\", DOUBLE }, { \"cval\", DOUBLE } }, property_function = cap_len_wid_fn, schematic_devices = { { device_name = \"nmoscap\", terminal_a = \"PLUS\", terminal_b = \"MINUS\" } })
+Input layer "varn_body_core.polygonlayer.0005" is empty.
+Extracted 0 unique 3-terminal "nmoscap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: capacitor
+  Inputs: varn_body_hv.polygonlayer.0005, varn_term1.polygonlayer.0006, varn_term2.polygonlayer.0006, varn_body_hv.polygonlayer.0002, ndiff_cap_hv.polygonlayer.0002, varn_gate_body_hv.polygonlayer.0002, varn_nsd_hv.polygonlayer.0002
+capacitor(all_devices, \"nmoscaph\", varn_body_hv, varn_term1, varn_term2, processing_layer_hash = { \"ndiff_cap_hv\" => { ndiff_cap_hv }, \"varn_gate_body_hv\" => { varn_gate_body_hv }, \"varn_nsd_hv\" => { varn_nsd_hv } }, area_capval = 0.623e-15, x_card = true, properties = { { \"lr\", DOUBLE, MICRO }, { \"wr\", DOUBLE, MICRO }, { \"nrep\", DOUBLE }, { \"nf\", DOUBLE }, { \"cval\", DOUBLE } }, property_function = cap_len_wid_fn_hv, schematic_devices = { { device_name = \"nmoscaph\", terminal_a = \"PLUS\", terminal_b = \"MINUS\" } })
+Input layer "varn_body_hv.polygonlayer.0005" is empty.
+Extracted 0 unique 3-terminal "nmoscaph" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: pmos
+  Inputs: pgate_hv.polygonlayer.0007, pdiff_hv.polygonlayer.0006, pdiff_hv.polygonlayer.0006, NWELL.polygonlayer.0009, pgate_hv.polygonlayer.0004
+pmos(matrix = all_devices, device_name = \"P25\", gate = pgate_hv, source = pdiff_hv, drain = pdiff_hv, optional_pins = { { NWELL } }, schematic_devices = { { \"P25\" } })
+Input layer "pgate_hv.polygonlayer.0007" is empty.
+Extracted 0 unique 4-terminal "P25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: nmos
+  Inputs: ngate_hv.polygonlayer.0008, ndiff_hv.polygonlayer.0006, ndiff_hv.polygonlayer.0006, psub.polygonlayer.0006, ngate_hv.polygonlayer.0005
+nmos(matrix = all_devices, device_name = \"N25\", gate = ngate_hv, source = ndiff_hv, drain = ndiff_hv, optional_pins = { { psub } }, property_function = width_length_fn, schematic_devices = { { \"N25\" } })
+Input layer "ngate_hv.polygonlayer.0008" is empty.
+Extracted 0 unique 4-terminal "N25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+

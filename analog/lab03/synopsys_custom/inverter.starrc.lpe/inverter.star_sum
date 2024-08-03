@@ -1,0 +1,263 @@
+
+                                  StarRC (TM)
+
+              Version U-2022.12-SP5-2 for linux64 - Oct 31, 2023 
+
+                    Copyright (c) 1999 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ExecName: /home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/bin/StarXtract
+Version: U-2022.12-SP5-2
+Built on: Oct 31 2023 03:19:07
+Start Time: Fri Jul 19 16:16:09 2024
+
+Host ............ localhost.localdomain
+
+xTractorName: /home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/bin/xTractor
+Version: U-2022.12-SP5-2
+Built on: Oct 31 2023 03:18:49
+
+Called as: StarXtract /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/starrc_cmd.custom_compiler 
+Run Directory: /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_COORDINATES:YES
+         for unshrunk coordinates. (SX-0290)
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting MAGNIFY_DEVICE_PARAMS:NO for
+         unshrunk device properties. (SX-0292)
+All memory statistics reported in the run refers to peak memory used by one core during respective
+stage. (SX-4032)
+
+Block ........... inverter
+Star Directory .. /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/star
+Milkyway DB .....
+ /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/MILKYWAY_OUTPUT
+ Ref Libs Report is skipped.
+WARNING: NETLIST_FORMAT: OA does not support HIERARCHICAL_SEPARATOR: / or HIERARCHICAL_SEPARATOR: .,
+         changing it to |. (SX-0655)
+WARNING: NETLIST_FORMAT: OA does not support HIERARCHICAL_SEPARATOR: / or HIERARCHICAL_SEPARATOR: .,
+         changing it to |. (SX-0655)
+WARNING: NETLIST_FORMAT: OA does not support HIERARCHICAL_SEPARATOR: / or HIERARCHICAL_SEPARATOR: .,
+         changing it to |. (SX-0655)
+  Setup         Elp=00:00:02 Cpu=00:00:01 Usr=1.1    Sys=0.0    Mem=671.0 
+Done
+
+Map Layers:  Fri Jul 19 16:16:11 2024
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+  Warnings: 1    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Done
+
+Create Models:  Fri Jul 19 16:16:13 2024
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Done
+
+Build HN:  Fri Jul 19 16:16:15 2024
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+  Warnings: 1    Errors: 0    (See file summary/hn.sum)
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=687.1 
+Done
+
+Build XrefHN:  Fri Jul 19 16:16:15 2024
+  Warnings: 0    Errors: 0
+  XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=507.7 
+Done
+
+Process Cells:  Fri Jul 19 16:16:15 2024
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+WARNING: DANGLING_NET '6' is removed from netlist. (SX-0726)
+WARNING: DANGLING_NET '7' is removed from netlist. (SX-0726)
+WARNING: Removed 2 FLOATING_NETS from the netlist (see cells.sum/translate.sum). (SX-0727)
+  Warnings: 4    Errors: 0    (See file summary/cells.sum)
+  Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Done
+
+Translate DB:  Fri Jul 19 16:16:15 2024
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+WARNING: DANGLING_NET '6' is removed from netlist. (SX-0726)
+WARNING: DANGLING_NET '7' is removed from netlist. (SX-0726)
+WARNING: Removed 2 FLOATING_NETS from the netlist (see cells.sum/translate.sum). (SX-0727)
+  Warnings: 4    Errors: 0    (See file summary/translate.sum)
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Done
+
+Handle Bulk Layer:  Fri Jul 19 16:16:15 2024
+WARNING: DANGLING_NET '6' is removed from netlist. (SX-0726)
+WARNING: DANGLING_NET '7' is removed from netlist. (SX-0726)
+WARNING: Removed 2 FLOATING_NETS from the netlist (see cells.sum/translate.sum). (SX-0727)
+  Warnings: 3    Errors: 0    (See file summary/bulk_layer.sum)
+  BulkLayerHandling Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=502.7 
+Done
+
+Netlist Setup:  Fri Jul 19 16:16:16 2024
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+GPD XtractSetup:  Fri Jul 19 16:16:18 2024
+  Warnings: 0    Errors: 0
+  GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Done
+
+GPD Instance Setup:  Fri Jul 19 16:16:20 2024
+  Warnings: 0    Errors: 0
+  GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+GPD NameMap:  Fri Jul 19 16:16:22 2024
+  Warnings: 0    Errors: 0
+  GPD_NameMap   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.8 
+Done
+
+xTract DB:  Fri Jul 19 16:16:25 2024
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=500.164
+Completed  75%  Time=00:00:00  RemainingTime=00:00:00  Mem=500.164
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=500.164
+Extracted 37 capacitors, 319 resistors, 194 nodes
+Reduced to 104 nodes,  (46.3918%)
+Reduced to 184 resistors,  (42.3197%)
+  Warnings: 0    Errors: 0
+  xTract        Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=500.6 
+Done
+
+GPD Instance:  Fri Jul 19 16:16:27 2024
+  Warnings: 0    Errors: 0
+  GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+xTract Post Process DB:  Fri Jul 19 16:16:31 2024
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=338.7 
+Done
+
+Report Violations:  Fri Jul 19 16:16:33 2024
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+Report Opens:  Fri Jul 19 16:16:35 2024
+  Warnings: 0    Errors: 0
+  ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+GPD Post Process:  Fri Jul 19 16:16:38 2024
+  Warnings: 0    Errors: 0
+  GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+Done
+
+GPD Converter Part 1:  Fri Jul 19 16:16:40 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter1 Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=558.9 
+Done
+
+GPD Converter Part 2:  Fri Jul 19 16:16:42 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter2 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+Done
+
+GPD Converter Instance :  Fri Jul 19 16:16:44 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+Done
+
+GPD Converter Merge:  Fri Jul 19 16:16:46 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+Done
+  
+Setup                  Elp=00:00:02 Cpu=00:00:01 Usr=1.1    Sys=0.0    Mem=671.0 
+Layers                 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Models                 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+HN                     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=687.1 
+XrefHN                 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=507.7 
+Cells                  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Translate              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+BulkLayerHandling      Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=502.7 
+NetlistSetup           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+GPD_XtractSetup        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+GPD_Instance_Setup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+GPD_NameMap            Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.8 
+xTract                 Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=500.6 
+GPD_Instance           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+xTractPP               Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=338.7 
+ReportViolations       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+ReportOpens            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+GPD_PostProcess        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=496.4 
+GPD_Converter1         Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=558.9 
+GPD_Converter2         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+GPD_Converter_merge    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=332.9 
+  
+Done          Elp=00:00:04 Cpu=00:00:01 Usr=1.4    Sys=0.0    Mem=687.1 
+
+End Time: Fri Jul 19 16:16:51 2024
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:02 Cpu=00:00:01 Mem=671    |Jul 19 16:16:11 |localhost.localdomain
+CPU_01 |*Layers                    Elp=00:00:02 Cpu=00:00:00 Mem=671.1  |Jul 19 16:16:13 |localhost.localdomain
+CPU_01 |*Models                    Elp=00:00:00 Cpu=00:00:00 Mem=671.1  |Jul 19 16:16:13 |localhost.localdomain
+CPU_01 |*Cells                     Elp=00:00:00 Cpu=00:00:00 Mem=671.1  |Jul 19 16:16:15 |localhost.localdomain
+CPU_01 |*XrefHN                    Elp=00:00:00 Cpu=00:00:00 Mem=507.7  |Jul 19 16:16:15 |localhost.localdomain
+CPU_01 |*Translate                 Elp=00:00:00 Cpu=00:00:00 Mem=671.1  |Jul 19 16:16:15 |localhost.localdomain
+CPU_01 |*HN                        Elp=00:00:00 Cpu=00:00:00 Mem=687.1  |Jul 19 16:16:15 |localhost.localdomain
+CPU_01 |*BulkLayerHandling         Elp=00:00:01 Cpu=00:00:00 Mem=502.7  |Jul 19 16:16:16 |localhost.localdomain
+CPU_01 |*NetlistSetup              Elp=00:00:00 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:16 |localhost.localdomain
+CPU_01 |*GPD_XtractSetup           Elp=00:00:00 Cpu=00:00:00 Mem=671.1  |Jul 19 16:16:18 |localhost.localdomain
+CPU_01 |*GPD_Instance_Setup        Elp=00:00:00 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:20 |localhost.localdomain
+CPU_01 |*GPD_NameMap               Elp=00:00:01 Cpu=00:00:00 Mem=496.8  |Jul 19 16:16:23 |localhost.localdomain
+CPU_01 |*xTract                    Elp=00:00:00 Cpu=00:00:00 Mem=500.6  |Jul 19 16:16:25 |localhost.localdomain
+CPU_01 |*GPD_Instance              Elp=00:00:00 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:27 |localhost.localdomain
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=338.7  |Jul 19 16:16:31 |localhost.localdomain
+CPU_01 |*ReportViolations          Elp=00:00:00 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:33 |localhost.localdomain
+CPU_01 |*ReportOpens               Elp=00:00:01 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:36 |localhost.localdomain
+CPU_01 |*GPD_PostProcess           Elp=00:00:00 Cpu=00:00:00 Mem=496.4  |Jul 19 16:16:38 |localhost.localdomain
+CPU_01 |*GPD_Converter_DP          Elp=00:00:02 Cpu=00:00:00 Mem=558.9  |Jul 19 16:16:42 |localhost.localdomain
+CPU_01 |*GPD_Converter_Instance    Elp=00:00:00 Cpu=00:00:00 Mem=332.9  |Jul 19 16:16:44 |localhost.localdomain
+CPU_01 |*GPD_Converter_merge       Elp=00:00:00 Cpu=00:00:00 Mem=332.9  |Jul 19 16:16:46 |localhost.localdomain
+----------------------------------------------------------------------------------------------
+Start Time: Fri Jul 19 16:16:09 2024
+End Time: Fri Jul 19 16:16:38 2024
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:27 Cpu= 00:00:01 Peak_Mem(MB)=687.1
+PreXtraction:    Elp=00:00:16 Cpu= 00:00:01 Peak_Mem(MB)=687.1
+Xtraction:       Elp=00:00:00 Cpu= 00:00:00 Peak_Mem(MB)=0
+PostXtraction:   Elp=00:00:11 Cpu= 00:00:00 Peak_Mem(MB)=496.4
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:06 Cpu= 00:00:00 Peak_Mem(MB)=558.9
+----------------------------------------------------------------------------------------------
+
+
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+SX-0290 (x   1)|Warning      |HALF_NODE_SCALE_FACTOR DETECTED IN NXTGRD FILE, SETTING NETLIST_UNSCALED_COORDINATES:YES FOR UNSHRUNK COORDINATES.
+SX-0291 (x   5)|Warning      |HALF_NODE_SCALE_FACTOR DETECTED IN NXTGRD FILE, SETTING NETLIST_UNSCALED_RES_PROP:YES FOR UNSHRUNK COORDINATES.
+SX-0292 (x   1)|Warning      |HALF_NODE_SCALE_FACTOR DETECTED IN NXTGRD FILE, SETTING MAGNIFY_DEVICE_PARAMS:NO FOR UNSHRUNK DEVICE PROPERTIES.
+SX-0655 (x   3)|Warning      |NETLIST_FORMAT: OA DOES NOT SUPPORT HIERARCHICAL_SEPARATOR: / OR HIERARCHICAL_SEPARATOR: ., CHANGING IT TO |.
+SX-0726 (x   6)|Warning      |DANGLING_NET '()' IS REMOVED FROM NETLIST.
+SX-0727 (x   3)|Warning      |REMOVED () ()_NETS FROM THE NETLIST (SEE CELLS.SUM/TRANSLATE.SUM).
+SX-4032 (x   1)|Information  |ALL MEMORY STATISTICS REPORTED IN THE RUN REFERS TO PEAK MEMORY USED BY ONE CORE DURING RESPECTIVE STAGE.
+

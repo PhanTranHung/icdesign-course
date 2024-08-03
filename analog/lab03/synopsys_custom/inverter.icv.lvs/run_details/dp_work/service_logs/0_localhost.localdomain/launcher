@@ -1,0 +1,33 @@
+[12775:2024-07-19 16:15:49.788] Starting service 'launcher' (Node ID=0, Host Name=localhost.localdomain)
+[12775:2024-07-19 16:15:49.788] Service Launcher starting
+[12775:2024-07-19 16:15:49.788] Starting service mapper
+[12775:2024-07-19 16:15:49.788] Started service mapper with PID 12776
+[12775:2024-07-19 16:15:49.788] Loading service mapper info
+[12775:2024-07-19 16:15:49.841] Starting services
+[12775:2024-07-19 16:15:49.841] Started service license_manager with PID 12782
+[12775:2024-07-19 16:15:49.842] Started service cluster with PID 12783
+[12775:2024-07-19 16:15:49.842] Started service hdb with PID 12784
+[12775:2024-07-19 16:15:49.842] Started service lock_manager with PID 12785
+[12775:2024-07-19 16:15:49.843] Started service log_manager with PID 12786
+[12775:2024-07-19 16:15:49.878] Service 'log_manager' with PID 12786 exited with exit status 33
+[12775:2024-07-19 16:16:02.300] Received signal 15. Shutting down.
+[12775:2024-07-19 16:16:02.301] Shutting down service 'cluster'
+[12775:2024-07-19 16:16:02.301]     Closing die FD
+[12775:2024-07-19 16:16:02.301] Shutting down service 'hdb'
+[12775:2024-07-19 16:16:02.301]     Closing die FD
+[12775:2024-07-19 16:16:02.301] Shutting down service 'license_manager'
+[12775:2024-07-19 16:16:02.301]     Closing die FD
+[12775:2024-07-19 16:16:02.301] Shutting down service 'lock_manager'
+[12775:2024-07-19 16:16:02.301]     Closing die FD
+[12775:2024-07-19 16:16:02.301] Waiting for service shutdown
+[12775:2024-07-19 16:16:02.302] Service 'hdb' with PID 12784 exited with exit status 0
+[12775:2024-07-19 16:16:02.302] Service 'lock_manager' with PID 12785 exited with exit status 0
+[12775:2024-07-19 16:16:02.302] Service 'cluster' with PID 12783 exited with exit status 0
+[12775:2024-07-19 16:16:02.302] Service 'license_manager' with PID 12782 exited with exit status 0
+[12775:2024-07-19 16:16:02.302] Waited 0 seconds on services to shutdown
+[12775:2024-07-19 16:16:02.302] Shutting down service 'mapper'
+[12775:2024-07-19 16:16:02.302]     Sending SIGTERM to PID 12776
+[12775:2024-07-19 16:16:02.302] Waiting for service shutdown
+[12775:2024-07-19 16:16:02.304] Service 'mapper' with PID 12776 exited with exit status 0
+[12775:2024-07-19 16:16:02.304] Waited 0 seconds on services to shutdown
+[12775:2024-07-19 16:16:02.304] Service Launcher exiting

@@ -1,0 +1,27 @@
+<module name="vsl: reference40nm n_4t hspice">
+<scope name="Terminal">
+<forward>
+<mapping dst="b" src="B"/>
+<mapping dst="s" src="S"/>
+<mapping dst="g" src="G"/>
+<mapping dst="d" src="D"/>
+</forward>
+<reverse>
+<mapping dst="B" src="b"/>
+<mapping dst="S" src="s"/>
+<mapping dst="G" src="g"/>
+<mapping dst="D" src="d"/>
+</reverse>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="D G S B" src="&lt;unmappedTermOrder>"/>
+<mapping dst="d g s b" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="D G S B"/>
+<mapping dst="&lt;termOrder>" src="d g s b"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

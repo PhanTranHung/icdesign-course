@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version T-2022.06-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVOptions" value="-I /home/dkits/synopsys/m3a/icv/lvs -lic_apex"/>
+	<pref name="xtLVSLayCell" value="inverter"/>
+	<pref name="xtLVSLayInputNetlist" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.net"/>
+	<pref name="xtLVSLayLCV" value="lab03/inverter/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="inverter"/>
+	<pref name="xtLVSSchInputNetlist" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtLVSSchLCV" value="lab03/inverter/schematic"/>
+	<pref name="xtLVSSchNetlister" value="HSPICE"/>
+	<pref name="xtLVSSchOutputNetlist" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

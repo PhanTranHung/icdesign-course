@@ -1,0 +1,1042 @@
+00400000-1c5ca000 r-xp 00000000 fd:02 89183658                           /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/bin/custom_shell
+1c5ca000-1d304000 r-xp 1c1c9000 fd:02 89183658                           /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/bin/custom_shell
+1d304000-1d507000 rwxp 1cf03000 fd:02 89183658                           /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/bin/custom_shell
+1d507000-22c72000 rwxp 00000000 00:00 0 
+23f7f000-35a0b000 rwxp 00000000 00:00 0                                  [heap]
+7fd188000000-7fd188058000 rwxp 00000000 00:00 0 
+7fd188058000-7fd18c000000 ---p 00000000 00:00 0 
+7fd18ca8d000-7fd18ca97000 r-xp 00000000 fd:02 469357264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7fd18ca97000-7fd18ca98000 r-xp 00009000 fd:02 469357264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7fd18ca98000-7fd18ca99000 rwxp 0000a000 fd:02 469357264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7fd18ca99000-7fd18ca9a000 ---p 00000000 00:00 0 
+7fd18ca9a000-7fd18d29a000 rwxp 00000000 00:00 0 
+7fd18d29a000-7fd18d29f000 r-xp 00000000 fd:02 314006977                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7fd18d29f000-7fd18d2a0000 r-xp 00004000 fd:02 314006977                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7fd18d2a0000-7fd18d2a2000 rwxp 00005000 fd:02 314006977                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7fd18d2a2000-7fd18d2f1000 r-xp 00000000 fd:02 314007288                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7fd18d2f1000-7fd18d2f2000 r-xp 0004e000 fd:02 314007288                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7fd18d2f2000-7fd18d2f7000 rwxp 0004f000 fd:02 314007288                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7fd18d2f7000-7fd18d2f8000 rwxp 00000000 00:00 0 
+7fd18d2f8000-7fd18d387000 r-xp 00000000 fd:02 314007264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7fd18d387000-7fd18d389000 r-xp 0008e000 fd:02 314007264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7fd18d389000-7fd18d38b000 rwxp 00090000 fd:02 314007264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7fd18d38b000-7fd18d430000 r-xp 00000000 fd:02 314007259                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7fd18d430000-7fd18d431000 ---p 000a5000 fd:02 314007259                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7fd18d431000-7fd18d434000 r-xp 000a5000 fd:02 314007259                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7fd18d434000-7fd18d436000 rwxp 000a8000 fd:02 314007259                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7fd18d436000-7fd18d653000 r-xp 00000000 fd:02 187071840                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7fd18d653000-7fd18d654000 ---p 0021d000 fd:02 187071840                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7fd18d654000-7fd18d65c000 r-xp 0021d000 fd:02 187071840                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7fd18d65c000-7fd18d65f000 rwxp 00225000 fd:02 187071840                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7fd18d65f000-7fd18d71d000 r-xp 00000000 fd:02 314007282                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7fd18d71d000-7fd18d71e000 r-xp 000bd000 fd:02 314007282                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7fd18d71e000-7fd18d72d000 rwxp 000be000 fd:02 314007282                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7fd18d72d000-7fd18d731000 rwxp 00000000 00:00 0 
+7fd18d731000-7fd18d738000 r-xp 00000000 fd:02 314007027                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7fd18d738000-7fd18d739000 r-xp 00006000 fd:02 314007027                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7fd18d739000-7fd18d73b000 rwxp 00007000 fd:02 314007027                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7fd18d73b000-7fd18d765000 r-xp 00000000 fd:02 314007257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7fd18d765000-7fd18d766000 ---p 0002a000 fd:02 314007257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7fd18d766000-7fd18d767000 r-xp 0002a000 fd:02 314007257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7fd18d767000-7fd18d768000 rwxp 0002b000 fd:02 314007257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7fd18d768000-7fd18d7e8000 r-xp 00000000 fd:02 314007256                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7fd18d7e8000-7fd18d7e9000 ---p 00080000 fd:02 314007256                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7fd18d7e9000-7fd18d7ea000 r-xp 00080000 fd:02 314007256                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7fd18d7ea000-7fd18d7f2000 rwxp 00081000 fd:02 314007256                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7fd18d7f2000-7fd18d7f4000 rwxp 00000000 00:00 0 
+7fd18d7f4000-7fd18d7f9000 r-xp 00000000 fd:02 314006975                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7fd18d7f9000-7fd18d7fa000 r-xp 00004000 fd:02 314006975                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7fd18d7fa000-7fd18d7fc000 rwxp 00005000 fd:02 314006975                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7fd18d7fc000-7fd18d810000 r-xp 00000000 fd:02 314007019                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7fd18d810000-7fd18d811000 r-xp 00013000 fd:02 314007019                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7fd18d811000-7fd18d812000 rwxp 00014000 fd:02 314007019                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7fd18d812000-7fd18dc52000 r-xp 00000000 fd:02 187071830                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7fd18dc52000-7fd18dc53000 ---p 00440000 fd:02 187071830                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7fd18dc53000-7fd18dc73000 r-xp 00440000 fd:02 187071830                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7fd18dc73000-7fd18dcbf000 rwxp 00460000 fd:02 187071830                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7fd18dcbf000-7fd18dcf0000 rwxp 00000000 00:00 0 
+7fd18dcf0000-7fd18e1c5000 r-xp 00000000 fd:02 314007254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7fd18e1c5000-7fd18e1c6000 ---p 004d5000 fd:02 314007254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7fd18e1c6000-7fd18e1c8000 r-xp 004d5000 fd:02 314007254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7fd18e1c8000-7fd18e21e000 rwxp 004d7000 fd:02 314007254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7fd18e21e000-7fd18e234000 rwxp 00000000 00:00 0 
+7fd18e234000-7fd18e692000 r-xp 00000000 fd:02 187071834                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7fd18e692000-7fd18e694000 r-xp 0045d000 fd:02 187071834                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7fd18e694000-7fd18e754000 rwxp 0045f000 fd:02 187071834                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7fd18e754000-7fd18e81a000 rwxp 00000000 00:00 0 
+7fd18e81a000-7fd18e8cf000 r-xp 00000000 fd:02 314007252                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7fd18e8cf000-7fd18e8d1000 r-xp 000b4000 fd:02 314007252                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7fd18e8d1000-7fd18e8d3000 rwxp 000b6000 fd:02 314007252                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7fd18e8d3000-7fd18e94f000 r-xp 00000000 fd:02 187071841                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7fd18e94f000-7fd18e951000 r-xp 0007b000 fd:02 187071841                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7fd18e951000-7fd18e953000 rwxp 0007d000 fd:02 187071841                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7fd18e953000-7fd18eade000 r-xp 00000000 fd:02 187071827                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7fd18eade000-7fd18eae6000 r-xp 0018a000 fd:02 187071827                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7fd18eae6000-7fd18eae8000 rwxp 00192000 fd:02 187071827                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7fd18eae8000-7fd18eaea000 rwxp 00000000 00:00 0 
+7fd18eaea000-7fd18ece7000 r-xp 00000000 fd:02 187071844                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7fd18ece7000-7fd18eced000 r-xp 001fc000 fd:02 187071844                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7fd18eced000-7fd18ecf0000 rwxp 00202000 fd:02 187071844                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7fd18ecf0000-7fd18ecf1000 rwxp 00000000 00:00 0 
+7fd18ecf1000-7fd18ed0e000 r-xp 00000000 fd:02 187071831                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7fd18ed0e000-7fd18ed0f000 ---p 0001d000 fd:02 187071831                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7fd18ed0f000-7fd18ed10000 r-xp 0001d000 fd:02 187071831                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7fd18ed10000-7fd18ed11000 rwxp 0001e000 fd:02 187071831                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7fd18ed11000-7fd18ef1f000 r-xp 00000000 fd:02 314007280                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7fd18ef1f000-7fd18ef2b000 r-xp 0020d000 fd:02 314007280                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7fd18ef2b000-7fd18ef2f000 rwxp 00219000 fd:02 314007280                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7fd18ef2f000-7fd18ef31000 rwxp 00000000 00:00 0 
+7fd18ef31000-7fd18eff0000 r-xp 00000000 fd:02 187071835                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7fd18eff0000-7fd18eff1000 ---p 000bf000 fd:02 187071835                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7fd18eff1000-7fd18eff4000 r-xp 000bf000 fd:02 187071835                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7fd18eff4000-7fd18eff6000 rwxp 000c2000 fd:02 187071835                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7fd18eff6000-7fd190000000 rwxp 00000000 00:00 0 
+7fd190000000-7fd190021000 rwxp 00000000 00:00 0 
+7fd190021000-7fd194000000 ---p 00000000 00:00 0 
+7fd194000000-7fd194021000 rwxp 00000000 00:00 0 
+7fd194021000-7fd198000000 ---p 00000000 00:00 0 
+7fd198000000-7fd198021000 rwxp 00000000 00:00 0 
+7fd198021000-7fd19c000000 ---p 00000000 00:00 0 
+7fd19c000000-7fd19c021000 rwxp 00000000 00:00 0 
+7fd19c021000-7fd1a0000000 ---p 00000000 00:00 0 
+7fd1a0000000-7fd1a0021000 rwxp 00000000 00:00 0 
+7fd1a0021000-7fd1a4000000 ---p 00000000 00:00 0 
+7fd1a4000000-7fd1a4021000 rwxp 00000000 00:00 0 
+7fd1a4021000-7fd1a8000000 ---p 00000000 00:00 0 
+7fd1a8003000-7fd1a8008000 r-xp 00000000 fd:02 314006970                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7fd1a8008000-7fd1a8009000 r-xp 00004000 fd:02 314006970                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7fd1a8009000-7fd1a800b000 rwxp 00005000 fd:02 314006970                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7fd1a800b000-7fd1a8014000 r-xp 00000000 fd:02 187071829                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7fd1a8014000-7fd1a8015000 ---p 00009000 fd:02 187071829                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7fd1a8015000-7fd1a8016000 r-xp 00009000 fd:02 187071829                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7fd1a8016000-7fd1a8017000 rwxp 0000a000 fd:02 187071829                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7fd1a8017000-7fd1a8036000 r-xp 00000000 fd:02 187071828                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7fd1a8036000-7fd1a8037000 ---p 0001f000 fd:02 187071828                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7fd1a8037000-7fd1a8038000 r-xp 0001f000 fd:02 187071828                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7fd1a8038000-7fd1a8039000 rwxp 00020000 fd:02 187071828                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7fd1a8039000-7fd1a8092000 r-xp 00000000 fd:02 314007262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7fd1a8092000-7fd1a8093000 ---p 00059000 fd:02 314007262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7fd1a8093000-7fd1a8094000 r-xp 00059000 fd:02 314007262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7fd1a8094000-7fd1a8095000 rwxp 0005a000 fd:02 314007262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7fd1a8095000-7fd1a8096000 rwxp 00000000 00:00 0 
+7fd1a8096000-7fd1a80b2000 r-xp 00000000 fd:02 314007286                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7fd1a80b2000-7fd1a80b3000 ---p 0001c000 fd:02 314007286                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7fd1a80b3000-7fd1a80b4000 r-xp 0001c000 fd:02 314007286                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7fd1a80b4000-7fd1a80b5000 rwxp 0001d000 fd:02 314007286                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7fd1a80b5000-7fd1a80b6000 ---p 00000000 00:00 0 
+7fd1a80b6000-7fd1a88b6000 rwxp 00000000 00:00 0 
+7fd1a88b6000-7fd1a88b7000 ---p 00000000 00:00 0 
+7fd1a88b7000-7fd1a90b7000 rwxp 00000000 00:00 0 
+7fd1a90b7000-7fd1a90b8000 ---p 00000000 00:00 0 
+7fd1a90b8000-7fd1a98b8000 rwxp 00000000 00:00 0 
+7fd1a98b8000-7fd1a98b9000 ---p 00000000 00:00 0 
+7fd1a98b9000-7fd1aa0b9000 rwxp 00000000 00:00 0 
+7fd1aa0b9000-7fd1aa0ba000 ---p 00000000 00:00 0 
+7fd1aa0ba000-7fd1aa8ba000 rwxp 00000000 00:00 0 
+7fd1aa8ba000-7fd1aa8bb000 ---p 00000000 00:00 0 
+7fd1aa8bb000-7fd1ab0bb000 rwxp 00000000 00:00 0 
+7fd1ab0bb000-7fd1ab160000 r-xp 00000000 fd:00 134534564                  /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf
+7fd1ab160000-7fd1ab210000 r-xp 00000000 fd:00 134534568                  /usr/share/fonts/dejavu/DejaVuSans.ttf
+7fd1ab210000-7fd1ab36e000 r-xp 00000000 fd:02 468753898                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tclpy/PY2.6.2/tclpy.so
+7fd1ab36e000-7fd1ab36f000 ---p 0015e000 fd:02 468753898                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tclpy/PY2.6.2/tclpy.so
+7fd1ab36f000-7fd1ab373000 r-xp 0015e000 fd:02 468753898                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tclpy/PY2.6.2/tclpy.so
+7fd1ab373000-7fd1ab37a000 rwxp 00162000 fd:02 468753898                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tclpy/PY2.6.2/tclpy.so
+7fd1ab37a000-7fd1ab37b000 rwxp 00000000 00:00 0 
+7fd1ab37b000-7fd1ab3e3000 r-xp 00000000 fd:02 470060150                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/simenv/simenv_tcl.rcc
+7fd1ab3e3000-7fd1ab3e4000 ---p 00000000 00:00 0 
+7fd1ab3e4000-7fd1abbe4000 rwxp 00000000 00:00 0 
+7fd1abbe4000-7fd1abbf6000 r-xp 00000000 fd:00 134294220                  /usr/lib64/libnss_myhostname.so.2
+7fd1abbf6000-7fd1abdf5000 ---p 00012000 fd:00 134294220                  /usr/lib64/libnss_myhostname.so.2
+7fd1abdf5000-7fd1abdf8000 r-xp 00011000 fd:00 134294220                  /usr/lib64/libnss_myhostname.so.2
+7fd1abdf8000-7fd1abdf9000 rwxp 00014000 fd:00 134294220                  /usr/lib64/libnss_myhostname.so.2
+7fd1abdf9000-7fd1abdff000 r-xp 00000000 fd:00 134294169                  /usr/lib64/libnss_dns-2.17.so
+7fd1abdff000-7fd1abffe000 ---p 00006000 fd:00 134294169                  /usr/lib64/libnss_dns-2.17.so
+7fd1abffe000-7fd1abfff000 r-xp 00005000 fd:00 134294169                  /usr/lib64/libnss_dns-2.17.so
+7fd1abfff000-7fd1ac000000 rwxp 00006000 fd:00 134294169                  /usr/lib64/libnss_dns-2.17.so
+7fd1ac000000-7fd1ac54b000 rwxp 00000000 00:00 0 
+7fd1ac54b000-7fd1b0000000 ---p 00000000 00:00 0 
+7fd1b0000000-7fd1b0024000 rwxp 00000000 00:00 0 
+7fd1b0024000-7fd1b4000000 ---p 00000000 00:00 0 
+7fd1b4000000-7fd1b4021000 rwxp 00000000 00:00 0 
+7fd1b4021000-7fd1b8000000 ---p 00000000 00:00 0 
+7fd1b8000000-7fd1b8021000 rwxp 00000000 00:00 0 
+7fd1b8021000-7fd1bc000000 ---p 00000000 00:00 0 
+7fd1bc000000-7fd1bc021000 rwxp 00000000 00:00 0 
+7fd1bc021000-7fd1c0000000 ---p 00000000 00:00 0 
+7fd1c0000000-7fd1c0021000 rwxp 00000000 00:00 0 
+7fd1c0021000-7fd1c4000000 ---p 00000000 00:00 0 
+7fd1c4003000-7fd1c4004000 r-xp 00000000 fd:02 96025529                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/topology_assistant/topology_assistant_tcl.rcc
+7fd1c4004000-7fd1c4006000 r-xp 00000000 fd:02 187372579                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/template/template_tcl.rcc
+7fd1c4006000-7fd1c4007000 r-xp 00000000 fd:02 314329037                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/relative_placement/relative_placement_tcl.rcc
+7fd1c4007000-7fd1c4008000 r-xp 00000000 fd:02 315014491                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/ilt_template_commands/ilt_template_commands_tcl.rcc
+7fd1c4008000-7fd1c400a000 r-xp 00000000 fd:02 315012777                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/flightline/flightline_tcl.rcc
+7fd1c400a000-7fd1c400b000 r-xp 00000000 fd:02 470040235                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/pcell_caching_commands/pcell_caching_commands_tcl.rcc
+7fd1c400b000-7fd1c400e000 r-xp 00000000 fd:02 96025415                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/parameter_gui_commands/parameter_gui_commands_tcl.rcc
+7fd1c400e000-7fd1c400f000 r-xp 00000000 fd:02 187129932                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/parameter_commands/parameter_commands_tcl.rcc
+7fd1c400f000-7fd1c4010000 r-xp 00000000 fd:02 470028167                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/opto_designer_integ/opto_designer_integ_tcl.rcc
+7fd1c4010000-7fd1c401d000 r-xp 00000000 fd:02 314328957                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/helix/helix_tcl.rcc
+7fd1c401d000-7fd1c401e000 r-xp 00000000 fd:02 315012663                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/logical_selection/logical_selection_tcl.rcc
+7fd1c401e000-7fd1c4046000 r-xp 00000000 fd:02 469666288                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/ndm_oa/ndm_oa_tcl.rcc
+7fd1c4046000-7fd1c406b000 r-xp 00000000 fd:02 314328886                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/mwbridge/mwbridge_tcl.rcc
+7fd1c406b000-7fd1c406d000 r-xp 00000000 fd:02 187374000                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/legalizer_cd_commands/legalizer_cd_commands_tcl.rcc
+7fd1c406d000-7fd1c406e000 r-xp 00000000 fd:02 187372715                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/le_create_commands/le_create_commands_tcl.rcc
+7fd1c406e000-7fd1c406f000 r-xp 00000000 fd:02 187129953                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/find_replace_commands/find_replace_commands_tcl.rcc
+7fd1c406f000-7fd1c4070000 r-xp 00000000 fd:02 315007381                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/device_label_editor/device_label_editor_tcl.rcc
+7fd1c4070000-7fd1c4071000 r-xp 00000000 fd:02 187372789                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/design_review/design_review_tcl.rcc
+7fd1c4071000-7fd1c4073000 r-xp 00000000 fd:02 96025707                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/cellview_generation_commands/cellview_generation_commands_tcl.rcc
+7fd1c4073000-7fd1c40ad000 r-xp 00000000 fd:02 187372628                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/DejaVuLGCSansMono.ttf
+7fd1c40ad000-7fd1c40ae000 ---p 00000000 00:00 0 
+7fd1c40ae000-7fd1c48ae000 rwxp 00000000 00:00 0 
+7fd1c48ae000-7fd1c48bd000 r-xp 00000000 fd:02 322054090                  /home/tools/synopsys/primewave/T-2022.06/auxx/auxx_for_cc/sae_results/sae_results_tcl.rcc
+7fd1c48bd000-7fd1c4b7c000 r-xp 00000000 fd:02 322053399                  /home/tools/synopsys/primewave/T-2022.06/auxx/auxx_for_cc/sae/sae_tcl.rcc
+7fd1c4b7c000-7fd1c4b7e000 r-xp 00000000 fd:02 470040241                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/constraint_editor/constraint_editor_tcl.rcc
+7fd1c4b7e000-7fd1c4b7f000 r-xp 00000000 fd:02 96027275                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/on_canvas_property_editor/on_canvas_property_editor_tcl.rcc
+7fd1c4b7f000-7fd1c4b81000 r-xp 00000000 fd:02 314328932                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/tech_manager/tech_manager_tcl.rcc
+7fd1c4b81000-7fd1c4b82000 r-xp 00000000 fd:02 469666222                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/hierarchy_navigator/hierarchy_navigator_tcl.rcc
+7fd1c4b82000-7fd1c4b86000 r-xp 00000000 fd:02 315014095                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/hierarchy_editor/hierarchy_editor_tcl.rcc
+7fd1c4b87000-7fd1c4b88000 ---p 00000000 00:00 0 
+7fd1c4b88000-7fd1c5388000 rwxp 00000000 00:00 0 
+7fd1c5388000-7fd1c539c000 r-xp 00000000 fd:02 475235945                  /home/tools/synopsys/primewave/T-2022.06/auxx/auxx_for_cc/waveform/waveform_tcl.rcc
+7fd1c539c000-7fd1c539d000 r-xp 00000000 fd:02 469666233                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/sbr_pattern_route_assistant/sbr_pattern_route_assistant_tcl.rcc
+7fd1c539d000-7fd1c53bf000 r-xp 00000000 fd:02 96025450                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/sbr/sbr_tcl.rcc
+7fd1c53bf000-7fd1c53c0000 r-xp 00000000 fd:02 470040219                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/vtp/vtp_tcl.rcc
+7fd1c53c0000-7fd1c53c1000 r-xp 00000000 fd:02 96026987                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/voltage_annotation/voltage_annotation_tcl.rcc
+7fd1c53c1000-7fd1c53c2000 r-xp 00000000 fd:02 187372771                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/undo_gui/undo_gui_tcl.rcc
+7fd1c53c2000-7fd1c53c7000 r-xp 00000000 fd:02 96025424                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/udd/udd_tcl.rcc
+7fd1c53c7000-7fd1c53c9000 r-xp 00000000 fd:02 187372695                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/text_viewer/text_viewer_tcl.rcc
+7fd1c53c9000-7fd1c53ca000 r-xp 00000000 fd:02 187372707                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/template_designer_gui/template_designer_gui_tcl.rcc
+7fd1c53ca000-7fd1c53cb000 r-xp 00000000 fd:02 315012814                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/template_designer_commands/template_designer_commands_tcl.rcc
+7fd1c53cb000-7fd1c53d3000 r-xp 00000000 fd:02 187372676                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/symbolic_editor_window/symbolic_editor_window_tcl.rcc
+7fd1c53d3000-7fd1c53d7000 r-xp 00000000 fd:02 469666216                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/design_editor/design_editor_tcl.rcc
+7fd1c53d7000-7fd1c53d9000 r-xp 00000000 fd:02 96025517                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/object_access/object_access_tcl.rcc
+7fd1c53d9000-7fd1c53db000 r-xp 00000000 fd:02 187372721                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/selection_highlighting/selection_highlighting_tcl.rcc
+7fd1c53db000-7fd1c53dc000 ---p 00000000 00:00 0 
+7fd1c53dc000-7fd1c5bdc000 rwxp 00000000 00:00 0 
+7fd1c5bdc000-7fd1c5be4000 r-xp 00000000 fd:02 315012701                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/sdp/sdp_tcl.rcc
+7fd1c5be4000-7fd1c5be8000 r-xp 00000000 fd:02 470002546                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/opal/opal_tcl.rcc
+7fd1c5be8000-7fd1c5be9000 r-xp 00000000 fd:02 315014042                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/hierarchy_commands/hierarchy_commands_tcl.rcc
+7fd1c5be9000-7fd1c5bf1000 r-xp 00000000 fd:02 315012646                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/sdl/sdl_tcl.rcc
+7fd1c5bf1000-7fd1c5c01000 r-xp 00000000 fd:00 134965377                  /usr/lib64/libavahi-client.so.3.2.9
+7fd1c5c01000-7fd1c5e00000 ---p 00010000 fd:00 134965377                  /usr/lib64/libavahi-client.so.3.2.9
+7fd1c5e00000-7fd1c5e01000 r-xp 0000f000 fd:00 134965377                  /usr/lib64/libavahi-client.so.3.2.9
+7fd1c5e01000-7fd1c5e02000 rwxp 00010000 fd:00 134965377                  /usr/lib64/libavahi-client.so.3.2.9
+7fd1c5e02000-7fd1c5e0e000 r-xp 00000000 fd:00 134965379                  /usr/lib64/libavahi-common.so.3.5.3
+7fd1c5e0e000-7fd1c600d000 ---p 0000c000 fd:00 134965379                  /usr/lib64/libavahi-common.so.3.5.3
+7fd1c600d000-7fd1c600e000 r-xp 0000b000 fd:00 134965379                  /usr/lib64/libavahi-common.so.3.5.3
+7fd1c600e000-7fd1c600f000 rwxp 0000c000 fd:00 134965379                  /usr/lib64/libavahi-common.so.3.5.3
+7fd1c600f000-7fd1c6072000 r-xp 00000000 fd:00 134534671                  /usr/lib64/libcups.so.2
+7fd1c6072000-7fd1c6272000 ---p 00063000 fd:00 134534671                  /usr/lib64/libcups.so.2
+7fd1c6272000-7fd1c6276000 r-xp 00063000 fd:00 134534671                  /usr/lib64/libcups.so.2
+7fd1c6276000-7fd1c6277000 rwxp 00067000 fd:00 134534671                  /usr/lib64/libcups.so.2
+7fd1c6277000-7fd1c6278000 rwxp 00000000 00:00 0 
+7fd1c6278000-7fd1c6279000 r-xp 00000000 fd:02 315012804                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/sdl_browser/sdl_browser_tcl.rcc
+7fd1c6279000-7fd1c627b000 r-xp 00000000 fd:02 469666323                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/error_viewer/error_viewer_tcl.rcc
+7fd1c627b000-7fd1c628d000 r-xp 00000000 fd:02 96025524                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/rule_generation/rule_generation_tcl.rcc
+7fd1c628d000-7fd1c628f000 r-xp 00000000 fd:02 470040211                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/python/python_tcl.rcc
+7fd1c628f000-7fd1c62ea000 r-xp 00000000 fd:02 96027334                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/physical_verification/physical_verification_tcl.rcc
+7fd1c62ea000-7fd1c62f1000 r-xp 00000000 fd:02 187372873                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/pattern_generation/pattern_generation_tcl.rcc
+7fd1c62f1000-7fd1c630a000 r-xp 00000000 fd:02 468753879                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tcl-dp/lib/libdp42.so
+7fd1c630a000-7fd1c650a000 ---p 00019000 fd:02 468753879                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tcl-dp/lib/libdp42.so
+7fd1c650a000-7fd1c650b000 r-xp 00019000 fd:02 468753879                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tcl-dp/lib/libdp42.so
+7fd1c650b000-7fd1c650c000 rwxp 0001a000 fd:02 468753879                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/tcl-dp/lib/libdp42.so
+7fd1c650c000-7fd1c650d000 rwxp 00000000 00:00 0 
+7fd1c650d000-7fd1c650e000 r-xp 00000000 fd:02 470002581                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/report_generation/report_generation_tcl.rcc
+7fd1c650e000-7fd1c6510000 r-xp 00000000 fd:02 470002542                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/printing/printing_tcl.rcc
+7fd1c6510000-7fd1c6524000 r-xp 00000000 fd:02 314328964                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/parasitics/parasitics_tcl.rcc
+7fd1c6524000-7fd1c6532000 r-xp 00000000 fd:02 96025626                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/library_manager/library_manager_tcl.rcc
+7fd1c6532000-7fd1c6538000 r-xp 00000000 fd:02 95761823                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/isbr/isbr_tcl.rcc
+7fd1c6538000-7fd1c65a5000 r-xp 00000000 fd:02 187372629                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/DejaVuLGCSans.ttf
+7fd1c65a5000-7fd1c65bd000 r-xs 00000000 fd:00 1335712                    /usr/lib/fontconfig/cache/3d24855f-55fc-4fad-a6c8-a2bd2ebf430c-le64.cache-7
+7fd1c65bd000-7fd1c65be000 ---p 00000000 00:00 0 
+7fd1c65be000-7fd1c6dbe000 rwxp 00000000 00:00 0 
+7fd1c6dbe000-7fd1c6dbf000 ---p 00000000 00:00 0 
+7fd1c6dbf000-7fd1c75bf000 rwxp 00000000 00:00 0 
+7fd1c75bf000-7fd1c75c0000 ---p 00000000 00:00 0 
+7fd1c75c0000-7fd1c7dc0000 rwxp 00000000 00:00 0 
+7fd1c7dc0000-7fd1c7dfc000 r-xp 00000000 fd:00 134549064                  /usr/lib64/libblkid.so.1.1.0
+7fd1c7dfc000-7fd1c7ffb000 ---p 0003c000 fd:00 134549064                  /usr/lib64/libblkid.so.1.1.0
+7fd1c7ffb000-7fd1c7ffe000 r-xp 0003b000 fd:00 134549064                  /usr/lib64/libblkid.so.1.1.0
+7fd1c7ffe000-7fd1c7fff000 rwxp 0003e000 fd:00 134549064                  /usr/lib64/libblkid.so.1.1.0
+7fd1c7fff000-7fd1c8000000 rwxp 00000000 00:00 0 
+7fd1c8000000-7fd1c80f0000 rwxp 00000000 00:00 0 
+7fd1c80f0000-7fd1cc000000 ---p 00000000 00:00 0 
+7fd1cc000000-7fd1cc001000 r-xp 00000000 fd:02 315012780                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/power_device/power_device_tcl.rcc
+7fd1cc001000-7fd1cc003000 r-xp 00000000 fd:02 470060458                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/parameterized_connections_gui/parameterized_connections_gui_tcl.rcc
+7fd1cc003000-7fd1cc005000 r-xp 00000000 fd:02 470002591                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/lde_commands/lde_commands_tcl.rcc
+7fd1cc005000-7fd1cc00a000 r-xp 00000000 fd:02 470002560                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/ipkg_commands/ipkg_commands_tcl.rcc
+7fd1cc00a000-7fd1cc00d000 r-xs 00000000 fd:00 1335745                    /usr/lib/fontconfig/cache/aba70b78-8ddb-48b6-9d4e-ce4b99b75afb-le64.cache-7
+7fd1cc00d000-7fd1cc00f000 r-xs 00000000 fd:00 1335788                    /usr/lib/fontconfig/cache/4d323c9b-e345-4c66-8474-1280756d1020-le64.cache-7
+7fd1cc00f000-7fd1cc011000 r-xs 00000000 fd:00 1335758                    /usr/lib/fontconfig/cache/1b34c766-c8bb-4f57-a9f3-f4c211817649-le64.cache-7
+7fd1cc011000-7fd1cc01c000 r-xs 00000000 fd:00 1335766                    /usr/lib/fontconfig/cache/ccd1fb50-33b3-4ccb-a3a1-c6b9687f37c1-le64.cache-7
+7fd1cc01c000-7fd1cc01e000 r-xs 00000000 fd:00 1335842                    /usr/lib/fontconfig/cache/4b8b7f48-6c4c-433a-a2d8-168f3f4f3b0a-le64.cache-7
+7fd1cc01e000-7fd1cc021000 r-xs 00000000 fd:00 1335736                    /usr/lib/fontconfig/cache/c91a9c6f-6e9c-43e9-a120-beefd9d86961-le64.cache-7
+7fd1cc021000-7fd1cc022000 r-xs 00000000 fd:00 1335717                    /usr/lib/fontconfig/cache/764c07bf-c3a9-450a-847b-b48ff7ac08f9-le64.cache-7
+7fd1cc022000-7fd1cc023000 r-xs 00000000 fd:00 1335851                    /usr/lib/fontconfig/cache/761c8945-bfb4-426a-a919-b5796b4392ce-le64.cache-7
+7fd1cc023000-7fd1cc024000 r-xs 00000000 fd:00 1335846                    /usr/lib/fontconfig/cache/beffd966-c6c1-4110-9ab5-fc72db0a6af5-le64.cache-7
+7fd1cc024000-7fd1cc025000 r-xs 00000000 fd:00 1335821                    /usr/lib/fontconfig/cache/21d1af65-b714-4fb0-a549-2f9af74370b6-le64.cache-7
+7fd1cc025000-7fd1cc028000 r-xs 00000000 fd:00 1335836                    /usr/lib/fontconfig/cache/67ba313a-bce5-452c-834c-722cd61ac2d8-le64.cache-7
+7fd1cc028000-7fd1cc029000 r-xs 00000000 fd:00 1335724                    /usr/lib/fontconfig/cache/3d969b9d-379c-4197-8e08-42e8893c3b78-le64.cache-7
+7fd1cc029000-7fd1cc02d000 r-xs 00000000 fd:00 271459                     /usr/lib/fontconfig/cache/57e1eda1-2bc2-4bc7-a96f-4caa10af4b1b-le64.cache-7
+7fd1cc02d000-7fd1cc031000 r-xs 00000000 fd:00 1335801                    /usr/lib/fontconfig/cache/ad732a01-35f7-48c7-aaae-92f8418e90bc-le64.cache-7
+7fd1cc031000-7fd1cc034000 r-xs 00000000 fd:00 1335816                    /usr/lib/fontconfig/cache/6bffee4a-756d-4afe-b45c-8278164ffad6-le64.cache-7
+7fd1cc034000-7fd1cc035000 r-xs 00000000 fd:00 1335814                    /usr/lib/fontconfig/cache/f6824e4d-90ea-48e6-85d2-bc4dc0a1b067-le64.cache-7
+7fd1cc035000-7fd1cc036000 r-xs 00000000 fd:00 1335781                    /usr/lib/fontconfig/cache/478b003f-be91-4948-a46d-c8edebb426cf-le64.cache-7
+7fd1cc036000-7fd1cc037000 r-xs 00000000 fd:00 1335844                    /usr/lib/fontconfig/cache/ddd679da-ea41-455b-a02e-ac5c24fe818e-le64.cache-7
+7fd1cc037000-7fd1cc038000 r-xs 00000000 fd:00 1335789                    /usr/lib/fontconfig/cache/68b25c32-c9ab-42b3-a2b8-694d161da856-le64.cache-7
+7fd1cc038000-7fd1cc039000 r-xs 00000000 fd:00 1335779                    /usr/lib/fontconfig/cache/9260c810-54d9-4a2e-805f-ff83f06ebe32-le64.cache-7
+7fd1cc039000-7fd1cc03a000 r-xs 00000000 fd:00 1335806                    /usr/lib/fontconfig/cache/d6c727b9-c0d9-486a-b77c-e2e7b9604b52-le64.cache-7
+7fd1cc03a000-7fd1cc03b000 r-xs 00000000 fd:00 1335775                    /usr/lib/fontconfig/cache/79ccc861-f1f6-466e-b5db-3e3a6da802b9-le64.cache-7
+7fd1cc03b000-7fd1cc03c000 r-xs 00000000 fd:00 1335756                    /usr/lib/fontconfig/cache/b034d8a3-62b2-4fed-81ae-12e95c736dc7-le64.cache-7
+7fd1cc03c000-7fd1cc03d000 r-xs 00000000 fd:00 1335810                    /usr/lib/fontconfig/cache/96bcf933-9785-44ea-b9eb-ef78f01bff23-le64.cache-7
+7fd1cc03d000-7fd1cc03e000 r-xs 00000000 fd:00 1335731                    /usr/lib/fontconfig/cache/99d4d90f-b6a0-45e2-a526-301af3fd3831-le64.cache-7
+7fd1cc03e000-7fd1cc03f000 r-xs 00000000 fd:00 1335799                    /usr/lib/fontconfig/cache/bae58ccd-da57-42e8-89cc-5d029b071742-le64.cache-7
+7fd1cc03f000-7fd1cc040000 r-xs 00000000 fd:00 1335726                    /usr/lib/fontconfig/cache/0db32dc1-4990-4b13-8bb0-aba39cae6165-le64.cache-7
+7fd1cc040000-7fd1cc041000 r-xs 00000000 fd:00 1335747                    /usr/lib/fontconfig/cache/5423dbbe-d12a-4608-b229-b762f5aabb25-le64.cache-7
+7fd1cc041000-7fd1cc042000 r-xs 00000000 fd:00 1335764                    /usr/lib/fontconfig/cache/ff59bf8e-b620-4096-8849-7c7bb09cdde8-le64.cache-7
+7fd1cc042000-7fd1cc047000 r-xs 00000000 fd:00 1335719                    /usr/lib/fontconfig/cache/37c1b729-a50c-4586-a5c6-7c6828367e93-le64.cache-7
+7fd1cc047000-7fd1cc049000 r-xs 00000000 fd:00 1335808                    /usr/lib/fontconfig/cache/21d2aadf-5996-49b3-8ad3-b0104d983b0e-le64.cache-7
+7fd1cc049000-7fd1cc04b000 r-xs 00000000 fd:00 1335866                    /usr/lib/fontconfig/cache/ae554c51-fbad-4750-a20e-ef2e1bacd5b6-le64.cache-7
+7fd1cc04b000-7fd1cc04d000 r-xs 00000000 fd:00 1335854                    /usr/lib/fontconfig/cache/b7bfab7a-e9c7-442c-a32d-71458cd9a3fe-le64.cache-7
+7fd1cc04d000-7fd1cc052000 r-xp 00000000 fd:02 187129948                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/base_editor/base_editor_tcl.rcc
+7fd1cc052000-7fd1cc05b000 r-xp 00000000 fd:02 315012674                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/job/job_tcl.rcc
+7fd1cc05b000-7fd1cc09b000 r-xp 00000000 fd:00 134549088                  /usr/lib64/libmount.so.1.1.0
+7fd1cc09b000-7fd1cc29b000 ---p 00040000 fd:00 134549088                  /usr/lib64/libmount.so.1.1.0
+7fd1cc29b000-7fd1cc29c000 r-xp 00040000 fd:00 134549088                  /usr/lib64/libmount.so.1.1.0
+7fd1cc29c000-7fd1cc29d000 rwxp 00041000 fd:00 134549088                  /usr/lib64/libmount.so.1.1.0
+7fd1cc29d000-7fd1cc29e000 rwxp 00000000 00:00 0 
+7fd1cc29e000-7fd1cc2a1000 r-xp 00000000 fd:00 134549097                  /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd1cc2a1000-7fd1cc4a0000 ---p 00003000 fd:00 134549097                  /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd1cc4a0000-7fd1cc4a1000 r-xp 00002000 fd:00 134549097                  /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd1cc4a1000-7fd1cc4a2000 rwxp 00003000 fd:00 134549097                  /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd1cc4a2000-7fd1cc4a9000 r-xp 00000000 fd:00 134294476                  /usr/lib64/libffi.so.6.0.1
+7fd1cc4a9000-7fd1cc6a8000 ---p 00007000 fd:00 134294476                  /usr/lib64/libffi.so.6.0.1
+7fd1cc6a8000-7fd1cc6a9000 r-xp 00006000 fd:00 134294476                  /usr/lib64/libffi.so.6.0.1
+7fd1cc6a9000-7fd1cc6aa000 rwxp 00007000 fd:00 134294476                  /usr/lib64/libffi.so.6.0.1
+7fd1cc6aa000-7fd1cc6f9000 r-xp 00000000 fd:00 134549099                  /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd1cc6f9000-7fd1cc8f9000 ---p 0004f000 fd:00 134549099                  /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd1cc8f9000-7fd1cc8fa000 r-xp 0004f000 fd:00 134549099                  /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd1cc8fa000-7fd1cc8fb000 rwxp 00050000 fd:00 134549099                  /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd1cc8fb000-7fd1cca91000 r-xp 00000000 fd:00 134549089                  /usr/lib64/libgio-2.0.so.0.5600.1
+7fd1cca91000-7fd1ccc91000 ---p 00196000 fd:00 134549089                  /usr/lib64/libgio-2.0.so.0.5600.1
+7fd1ccc91000-7fd1ccc96000 r-xp 00196000 fd:00 134549089                  /usr/lib64/libgio-2.0.so.0.5600.1
+7fd1ccc96000-7fd1ccc99000 rwxp 0019b000 fd:00 134549089                  /usr/lib64/libgio-2.0.so.0.5600.1
+7fd1ccc99000-7fd1ccc9b000 rwxp 00000000 00:00 0 
+7fd1ccc9b000-7fd1cccc1000 r-xp 00000000 fd:00 134965402                  /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd1cccc1000-7fd1ccec1000 ---p 00026000 fd:00 134965402                  /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd1ccec1000-7fd1ccec2000 r-xp 00026000 fd:00 134965402                  /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd1ccec2000-7fd1ccec3000 rwxp 00027000 fd:00 134965402                  /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd1ccec3000-7fd1cced7000 r-xp 00000000 fd:00 134294273                  /usr/lib64/libudev.so.1.6.2
+7fd1cced7000-7fd1cd0d7000 ---p 00014000 fd:00 134294273                  /usr/lib64/libudev.so.1.6.2
+7fd1cd0d7000-7fd1cd0d8000 r-xp 00014000 fd:00 134294273                  /usr/lib64/libudev.so.1.6.2
+7fd1cd0d8000-7fd1cd0d9000 rwxp 00015000 fd:00 134294273                  /usr/lib64/libudev.so.1.6.2
+7fd1cd0d9000-7fd1cd0da000 r-xs 00000000 fd:00 1335834                    /usr/lib/fontconfig/cache/655d754d-406d-4b74-829a-84c9172340b2-le64.cache-7
+7fd1cd0da000-7fd1cd0dc000 r-xs 00000000 fd:00 1335734                    /usr/lib/fontconfig/cache/c6822d45-4b7a-4e8d-b79a-46e5d07f5466-le64.cache-7
+7fd1cd0dc000-7fd1cd0dd000 r-xp 00000000 fd:02 470028170                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/abstract_generator/abstract_generator_tcl.rcc
+7fd1cd0dd000-7fd1cd0ed000 r-xp 00000000 fd:02 470028133                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/constraints/constraints_tcl.rcc
+7fd1cd0ed000-7fd1cd0f0000 r-xp 00000000 fd:02 469666329                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/window/window_tcl.rcc
+7fd1cd0f0000-7fd1cd12d000 r-xp 00000000 fd:02 469357269                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd1cd12d000-7fd1cd12e000 ---p 0003d000 fd:02 469357269                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd1cd12e000-7fd1cd12f000 r-xp 0003d000 fd:02 469357269                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd1cd12f000-7fd1cd130000 rwxp 0003e000 fd:02 469357269                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd1cd130000-7fd1cd131000 rwxp 00000000 00:00 0 
+7fd1cd131000-7fd1cd14d000 r-xp 00000000 fd:02 187372635                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/INFOT_Synopsys.ttf
+7fd1cd14d000-7fd1cd15f000 r-xp 00000000 fd:02 187372626                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/luxisb.ttf
+7fd1cd15f000-7fd1cd170000 r-xp 00000000 fd:02 187372627                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/luxisr.ttf
+7fd1cd170000-7fd1cd17f000 r-xp 00000000 fd:02 187372638                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/INFOL___.TTF
+7fd1cd17f000-7fd1cd191000 r-xp 00000000 fd:02 187372632                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/COUR.ttf
+7fd1cd191000-7fd1cd1a3000 r-xp 00000000 fd:02 187372632                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/COUR.ttf
+7fd1cd1a3000-7fd1cd1b5000 r-xp 00000000 fd:02 187372632                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/COUR.ttf
+7fd1cd1b5000-7fd1cd1d1000 r-xp 00000000 fd:02 187372635                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/INFOT_Synopsys.ttf
+7fd1cd1d1000-7fd1cd1e9000 r-xp 00000000 fd:02 187372630                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/AM196___.TTF
+7fd1cd1e9000-7fd1cd21b000 r-xp 00000000 fd:02 187372621                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/TNR_WG__.ttf
+7fd1cd21b000-7fd1cd227000 r-xp 00000000 fd:02 187372623                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/td______.pfb
+7fd1cd227000-7fd1cd259000 r-xp 00000000 fd:02 187372621                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/TNR_WG__.ttf
+7fd1cd259000-7fd1cd264000 r-xp 00000000 fd:02 187372633                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/fonts/lc______.ttf
+7fd1cd264000-7fd1cd26c000 r-xs 00000000 fd:00 1335857                    /usr/lib/fontconfig/cache/ff1a5a28-effd-4ded-8148-a577098c0b8b-le64.cache-7
+7fd1cd26c000-7fd1cd277000 r-xs 00000000 fd:00 1335829                    /usr/lib/fontconfig/cache/f7833c05-a216-4522-a2d0-d22537a8ef0e-le64.cache-7
+7fd1cd277000-7fd1cd27f000 r-xs 00000000 fd:00 333223                     /usr/lib/fontconfig/cache/675157be-2506-4c60-846a-7ee5ae508dee-le64.cache-7
+7fd1cd27f000-7fd1cd281000 r-xs 00000000 fd:00 271452                     /usr/lib/fontconfig/cache/78582469-3ca0-47df-9540-610a7f9237ac-le64.cache-7
+7fd1cd281000-7fd1cd286000 r-xs 00000000 fd:00 333221                     /usr/lib/fontconfig/cache/68017ebb-8ae0-4918-878a-05f5ffb6b7e6-le64.cache-7
+7fd1cd286000-7fd1cd28a000 r-xp 00000000 fd:02 315012631                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/job_monitor/job_monitor_tcl.rcc
+7fd1cd28a000-7fd1cd28f000 r-xp 00000000 fd:02 187129920                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/pkg_commands/pkg_commands_tcl.rcc
+7fd1cd28f000-7fd1cd290000 r-xp 00000000 fd:02 187372847                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/info_commands/info_commands_tcl.rcc
+7fd1cd290000-7fd1cd292000 r-xp 00000000 fd:02 95761818                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/home/home_tcl.rcc
+7fd1cd292000-7fd1cd295000 r-xp 00000000 fd:02 315014476                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/find_replace/find_replace_tcl.rcc
+7fd1cd295000-7fd1cd298000 r-xp 00000000 fd:02 96025440                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/estimated_parasitics/estimated_parasitics_tcl.rcc
+7fd1cd298000-7fd1cd299000 r-xp 00000000 fd:02 315012637                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/property_editor/property_editor_tcl.rcc
+7fd1cd299000-7fd1cd29b000 r-xp 00000000 fd:02 96025606                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/dtco/dtco_tcl.rcc
+7fd1cd29b000-7fd1cd2ae000 r-xp 00000000 fd:02 187129814                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/data_io/data_io_tcl.rcc
+7fd1cd2ae000-7fd1cd2b5000 r-xp 00000000 fd:02 96025324                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/cellview_generators/cellview_generators_tcl.rcc
+7fd1cd2b5000-7fd1cd2b8000 r-xp 00000000 fd:02 315012742                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/bookmarks/bookmarks_tcl.rcc
+7fd1cd2b8000-7fd1cd2be000 r-xp 00000000 fd:02 470040199                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/text_editor/text_editor_tcl.rcc
+7fd1cd2be000-7fd1cd2c0000 r-xp 00000000 fd:02 315014049                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/design_navigator/design_navigator_tcl.rcc
+7fd1cd2c0000-7fd1cd2c2000 r-xp 00000000 fd:02 315012768                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/display_resources/display_resources_tcl.rcc
+7fd1cd2c2000-7fd1cd2c5000 r-xp 00000000 fd:02 187374003                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/object_layer/object_layer_tcl.rcc
+7fd1cd2c5000-7fd1cd2c9000 r-xp 00000000 fd:02 95761786                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/parameter_editor/parameter_editor_tcl.rcc
+7fd1cd2c9000-7fd1cd2e7000 r-xp 00000000 fd:02 187129883                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/schematic_editor/schematic_editor_tcl.rcc
+7fd1cd2e7000-7fd1cd344000 r-xp 00000000 fd:02 313675037                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwebp.so
+7fd1cd344000-7fd1cd544000 ---p 0005d000 fd:02 313675037                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwebp.so
+7fd1cd544000-7fd1cd545000 r-xp 0005d000 fd:02 313675037                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwebp.so
+7fd1cd545000-7fd1cd546000 rwxp 0005e000 fd:02 313675037                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwebp.so
+7fd1cd546000-7fd1cd54b000 r-xp 00000000 fd:02 313675033                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd1cd54b000-7fd1cd74a000 ---p 00005000 fd:02 313675033                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd1cd74a000-7fd1cd74b000 r-xp 00004000 fd:02 313675033                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd1cd74b000-7fd1cd74c000 rwxp 00005000 fd:02 313675033                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd1cd74c000-7fd1cd751000 r-xp 00000000 fd:02 313675032                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqtga.so
+7fd1cd751000-7fd1cd950000 ---p 00005000 fd:02 313675032                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqtga.so
+7fd1cd950000-7fd1cd951000 r-xp 00004000 fd:02 313675032                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqtga.so
+7fd1cd951000-7fd1cd952000 rwxp 00005000 fd:02 313675032                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqtga.so
+7fd1cd952000-7fd1cd957000 r-xp 00000000 fd:02 313675043                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqsvg.so
+7fd1cd957000-7fd1cdb56000 ---p 00005000 fd:02 313675043                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqsvg.so
+7fd1cdb56000-7fd1cdb57000 r-xp 00004000 fd:02 313675043                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqsvg.so
+7fd1cdb57000-7fd1cdb58000 rwxp 00005000 fd:02 313675043                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqsvg.so
+7fd1cdb58000-7fd1cdbc5000 r-xp 00000000 fd:00 136166823                  /usr/lib64/libmng.so.1.0.0
+7fd1cdbc5000-7fd1cddc5000 ---p 0006d000 fd:00 136166823                  /usr/lib64/libmng.so.1.0.0
+7fd1cddc5000-7fd1cddc8000 r-xp 0006d000 fd:00 136166823                  /usr/lib64/libmng.so.1.0.0
+7fd1cddc8000-7fd1cddca000 rwxp 00070000 fd:00 136166823                  /usr/lib64/libmng.so.1.0.0
+7fd1cddca000-7fd1cddd0000 r-xp 00000000 fd:02 313675039                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqmng.so
+7fd1cddd0000-7fd1cdfcf000 ---p 00006000 fd:02 313675039                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqmng.so
+7fd1cdfcf000-7fd1cdfd0000 r-xp 00005000 fd:02 313675039                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqmng.so
+7fd1cdfd0000-7fd1cdfd1000 rwxp 00006000 fd:02 313675039                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqmng.so
+7fd1cdfd1000-7fd1ce010000 r-xp 00000000 fd:02 313675034                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd1ce010000-7fd1ce20f000 ---p 0003f000 fd:02 313675034                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd1ce20f000-7fd1ce210000 r-xp 0003e000 fd:02 313675034                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd1ce210000-7fd1ce211000 rwxp 0003f000 fd:02 313675034                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd1ce211000-7fd1ce254000 r-xp 00000000 fd:00 134294308                  /usr/lib64/libjpeg.so.62.1.0
+7fd1ce254000-7fd1ce454000 ---p 00043000 fd:00 134294308                  /usr/lib64/libjpeg.so.62.1.0
+7fd1ce454000-7fd1ce455000 r-xp 00043000 fd:00 134294308                  /usr/lib64/libjpeg.so.62.1.0
+7fd1ce455000-7fd1ce456000 rwxp 00044000 fd:00 134294308                  /usr/lib64/libjpeg.so.62.1.0
+7fd1ce456000-7fd1ce466000 rwxp 00000000 00:00 0 
+7fd1ce466000-7fd1ce4b5000 r-xp 00000000 fd:00 134296993                  /usr/lib64/libjasper.so.1.0.0
+7fd1ce4b5000-7fd1ce6b4000 ---p 0004f000 fd:00 134296993                  /usr/lib64/libjasper.so.1.0.0
+7fd1ce6b4000-7fd1ce6b5000 r-xp 0004e000 fd:00 134296993                  /usr/lib64/libjasper.so.1.0.0
+7fd1ce6b5000-7fd1ce6b9000 rwxp 0004f000 fd:00 134296993                  /usr/lib64/libjasper.so.1.0.0
+7fd1ce6b9000-7fd1ce6c0000 rwxp 00000000 00:00 0 
+7fd1ce6c0000-7fd1ce6c1000 r-xp 00000000 fd:02 95761779                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/em_backannotation/em_backannotation_tcl.rcc
+7fd1ce6c1000-7fd1ce6c5000 r-xp 00000000 fd:02 187372594                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/netlist_editor/netlist_editor_tcl.rcc
+7fd1ce6c5000-7fd1ce6d7000 r-xp 00000000 fd:02 96025364                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/layout_editor/layout_editor_tcl.rcc
+7fd1ce6d7000-7fd1ce6df000 r-xp 00000000 fd:02 313675035                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjp2.so
+7fd1ce6df000-7fd1ce8de000 ---p 00008000 fd:02 313675035                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjp2.so
+7fd1ce8de000-7fd1ce8df000 r-xp 00007000 fd:02 313675035                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjp2.so
+7fd1ce8df000-7fd1ce8e0000 rwxp 00008000 fd:02 313675035                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqjp2.so
+7fd1ce8e0000-7fd1ce8e7000 r-xp 00000000 fd:02 313675038                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqico.so
+7fd1ce8e7000-7fd1ceae6000 ---p 00007000 fd:02 313675038                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqico.so
+7fd1ceae6000-7fd1ceae7000 r-xp 00006000 fd:02 313675038                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqico.so
+7fd1ceae7000-7fd1ceae8000 rwxp 00007000 fd:02 313675038                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqico.so
+7fd1ceae8000-7fd1ceaf1000 r-xp 00000000 fd:02 313675040                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqicns.so
+7fd1ceaf1000-7fd1cecf0000 ---p 00009000 fd:02 313675040                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqicns.so
+7fd1cecf0000-7fd1cecf1000 r-xp 00008000 fd:02 313675040                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqicns.so
+7fd1cecf1000-7fd1cecf2000 rwxp 00009000 fd:02 313675040                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqicns.so
+7fd1cecf2000-7fd1cecf9000 r-xp 00000000 fd:02 313675036                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqgif.so
+7fd1cecf9000-7fd1ceef8000 ---p 00007000 fd:02 313675036                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqgif.so
+7fd1ceef8000-7fd1ceef9000 r-xp 00006000 fd:02 313675036                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqgif.so
+7fd1ceef9000-7fd1ceefa000 rwxp 00007000 fd:02 313675036                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqgif.so
+7fd1ceefa000-7fd1cef05000 r-xp 00000000 fd:02 313675042                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqdds.so
+7fd1cef05000-7fd1cf104000 ---p 0000b000 fd:02 313675042                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqdds.so
+7fd1cf104000-7fd1cf105000 r-xp 0000a000 fd:02 313675042                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqdds.so
+7fd1cf105000-7fd1cf106000 rwxp 0000b000 fd:02 313675042                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/imageformats/libqdds.so
+7fd1cf106000-7fd1cf109000 r-xp 00000000 fd:02 314007287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7fd1cf109000-7fd1cf10a000 r-xp 00002000 fd:02 314007287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7fd1cf10a000-7fd1cf10b000 rwxp 00003000 fd:02 314007287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7fd1cf10b000-7fd1cf10e000 r-xp 00000000 fd:02 314007279                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7fd1cf10e000-7fd1cf10f000 r-xp 00002000 fd:02 314007279                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7fd1cf10f000-7fd1cf110000 rwxp 00003000 fd:02 314007279                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7fd1cf111000-7fd1cf76f000 r-xp 00000000 fd:02 187372728                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/images/images.rcc
+7fd1cf76f000-7fd1cfae0000 rwxp 00000000 00:00 0 
+7fd1cfae0000-7fd1cfae1000 ---p 00000000 00:00 0 
+7fd1cfae1000-7fd1d02e1000 rwxp 00000000 00:00 0 
+7fd1d02e1000-7fd1d02fb000 r-xp 00000000 fd:02 186158847                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7fd1d02fb000-7fd1d04fb000 ---p 0001a000 fd:02 186158847                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7fd1d04fb000-7fd1d04fc000 r-xp 0001a000 fd:02 186158847                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7fd1d04fc000-7fd1d04fd000 rwxp 0001b000 fd:02 186158847                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7fd1d04fd000-7fd1d050c000 r-xp 00000000 fd:00 134294329                  /usr/lib64/libbz2.so.1.0.6
+7fd1d050c000-7fd1d070b000 ---p 0000f000 fd:00 134294329                  /usr/lib64/libbz2.so.1.0.6
+7fd1d070b000-7fd1d070c000 r-xp 0000e000 fd:00 134294329                  /usr/lib64/libbz2.so.1.0.6
+7fd1d070c000-7fd1d070d000 rwxp 0000f000 fd:00 134294329                  /usr/lib64/libbz2.so.1.0.6
+7fd1d070d000-7fd1d0724000 r-xp 00000000 fd:00 134294449                  /usr/lib64/libelf-0.176.so
+7fd1d0724000-7fd1d0923000 ---p 00017000 fd:00 134294449                  /usr/lib64/libelf-0.176.so
+7fd1d0923000-7fd1d0924000 r-xp 00016000 fd:00 134294449                  /usr/lib64/libelf-0.176.so
+7fd1d0924000-7fd1d0925000 rwxp 00017000 fd:00 134294449                  /usr/lib64/libelf-0.176.so
+7fd1d0925000-7fd1d0929000 r-xp 00000000 fd:00 134294526                  /usr/lib64/libattr.so.1.1.0
+7fd1d0929000-7fd1d0b28000 ---p 00004000 fd:00 134294526                  /usr/lib64/libattr.so.1.1.0
+7fd1d0b28000-7fd1d0b29000 r-xp 00003000 fd:00 134294526                  /usr/lib64/libattr.so.1.1.0
+7fd1d0b29000-7fd1d0b2a000 rwxp 00004000 fd:00 134294526                  /usr/lib64/libattr.so.1.1.0
+7fd1d0b2a000-7fd1d0b78000 r-xp 00000000 fd:00 134965086                  /usr/lib64/libdw-0.176.so
+7fd1d0b78000-7fd1d0d78000 ---p 0004e000 fd:00 134965086                  /usr/lib64/libdw-0.176.so
+7fd1d0d78000-7fd1d0d7a000 r-xp 0004e000 fd:00 134965086                  /usr/lib64/libdw-0.176.so
+7fd1d0d7a000-7fd1d0d7b000 rwxp 00050000 fd:00 134965086                  /usr/lib64/libdw-0.176.so
+7fd1d0d7b000-7fd1d0d7f000 r-xp 00000000 fd:00 134294381                  /usr/lib64/libgpg-error.so.0.10.0
+7fd1d0d7f000-7fd1d0f7e000 ---p 00004000 fd:00 134294381                  /usr/lib64/libgpg-error.so.0.10.0
+7fd1d0f7e000-7fd1d0f7f000 r-xp 00003000 fd:00 134294381                  /usr/lib64/libgpg-error.so.0.10.0
+7fd1d0f7f000-7fd1d0f80000 rwxp 00004000 fd:00 134294381                  /usr/lib64/libgpg-error.so.0.10.0
+7fd1d0f80000-7fd1d0ffd000 r-xp 00000000 fd:00 134294393                  /usr/lib64/libgcrypt.so.11.8.2
+7fd1d0ffd000-7fd1d11fc000 ---p 0007d000 fd:00 134294393                  /usr/lib64/libgcrypt.so.11.8.2
+7fd1d11fc000-7fd1d11fd000 r-xp 0007c000 fd:00 134294393                  /usr/lib64/libgcrypt.so.11.8.2
+7fd1d11fd000-7fd1d1200000 rwxp 0007d000 fd:00 134294393                  /usr/lib64/libgcrypt.so.11.8.2
+7fd1d1200000-7fd1d1201000 rwxp 00000000 00:00 0 
+7fd1d1201000-7fd1d120f000 r-xp 00000000 fd:00 134294799                  /usr/lib64/liblz4.so.1.8.3
+7fd1d120f000-7fd1d140e000 ---p 0000e000 fd:00 134294799                  /usr/lib64/liblz4.so.1.8.3
+7fd1d140e000-7fd1d140f000 r-xp 0000d000 fd:00 134294799                  /usr/lib64/liblz4.so.1.8.3
+7fd1d140f000-7fd1d1410000 rwxp 0000e000 fd:00 134294799                  /usr/lib64/liblz4.so.1.8.3
+7fd1d1410000-7fd1d1414000 r-xp 00000000 fd:00 134294530                  /usr/lib64/libcap.so.2.22
+7fd1d1414000-7fd1d1613000 ---p 00004000 fd:00 134294530                  /usr/lib64/libcap.so.2.22
+7fd1d1613000-7fd1d1614000 r-xp 00003000 fd:00 134294530                  /usr/lib64/libcap.so.2.22
+7fd1d1614000-7fd1d1615000 rwxp 00004000 fd:00 134294530                  /usr/lib64/libcap.so.2.22
+7fd1d1615000-7fd1d1644000 r-xp 00000000 fd:00 134294271                  /usr/lib64/libsystemd.so.0.6.0
+7fd1d1644000-7fd1d1844000 ---p 0002f000 fd:00 134294271                  /usr/lib64/libsystemd.so.0.6.0
+7fd1d1844000-7fd1d1845000 r-xp 0002f000 fd:00 134294271                  /usr/lib64/libsystemd.so.0.6.0
+7fd1d1845000-7fd1d1846000 rwxp 00030000 fd:00 134294271                  /usr/lib64/libsystemd.so.0.6.0
+7fd1d1846000-7fd1d18ca000 r-xp 00000000 fd:02 313675299                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5DBus.so.5.6.2
+7fd1d18ca000-7fd1d1ac9000 ---p 00084000 fd:02 313675299                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5DBus.so.5.6.2
+7fd1d1ac9000-7fd1d1acb000 r-xp 00083000 fd:02 313675299                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5DBus.so.5.6.2
+7fd1d1acb000-7fd1d1acc000 rwxp 00085000 fd:02 313675299                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5DBus.so.5.6.2
+7fd1d1acc000-7fd1d1acd000 rwxp 00000000 00:00 0 
+7fd1d1acd000-7fd1d1ae7000 r-xp 00000000 fd:02 313675070                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xkb.so.1.0.0
+7fd1d1ae7000-7fd1d1ce7000 ---p 0001a000 fd:02 313675070                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xkb.so.1.0.0
+7fd1d1ce7000-7fd1d1ce8000 rwxp 0001a000 fd:02 313675070                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xkb.so.1.0.0
+7fd1d1ce8000-7fd1d1cea000 r-xp 00000000 fd:02 313675198                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd1d1cea000-7fd1d1ee9000 ---p 00002000 fd:02 313675198                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd1d1ee9000-7fd1d1eea000 rwxp 00001000 fd:02 313675198                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd1d1eea000-7fd1d1eec000 r-xp 00000000 fd:02 313675215                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd1d1eec000-7fd1d20eb000 ---p 00002000 fd:02 313675215                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd1d20eb000-7fd1d20ec000 rwxp 00001000 fd:02 313675215                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd1d20ec000-7fd1d20ee000 r-xp 00000000 fd:02 313675322                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shape.so.0.0.0
+7fd1d20ee000-7fd1d22ee000 ---p 00002000 fd:02 313675322                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shape.so.0.0.0
+7fd1d22ee000-7fd1d22ef000 rwxp 00002000 fd:02 313675322                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shape.so.0.0.0
+7fd1d22ef000-7fd1d5479000 r-xp 00000000 fd:02 471248166                  /home/tools/synopsys/primewave/T-2022.06/linux64/platform/lib/libprimewave.so
+7fd1d5479000-7fd1d547a000 ---p 0318a000 fd:02 471248166                  /home/tools/synopsys/primewave/T-2022.06/linux64/platform/lib/libprimewave.so
+7fd1d547a000-7fd1d567d000 r-xp 0318a000 fd:02 471248166                  /home/tools/synopsys/primewave/T-2022.06/linux64/platform/lib/libprimewave.so
+7fd1d567d000-7fd1d5704000 rwxp 0338d000 fd:02 471248166                  /home/tools/synopsys/primewave/T-2022.06/linux64/platform/lib/libprimewave.so
+7fd1d5704000-7fd1d5abd000 rwxp 00000000 00:00 0 
+7fd1d5abd000-7fd1dc000000 r-xp 00000000 fd:00 2053                       /usr/lib/locale/locale-archive
+7fd1dc000000-7fd1dc021000 rwxp 00000000 00:00 0 
+7fd1dc021000-7fd1e0000000 ---p 00000000 00:00 0 
+7fd1e0000000-7fd1e0015000 r-xp 00000000 fd:02 469357293                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd1e0015000-7fd1e0016000 ---p 00015000 fd:02 469357293                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd1e0016000-7fd1e0017000 r-xp 00015000 fd:02 469357293                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd1e0017000-7fd1e0018000 rwxp 00016000 fd:02 469357293                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd1e0018000-7fd1e007d000 rwxp 00000000 00:00 0 
+7fd1e007d000-7fd1e007e000 ---p 00000000 00:00 0 
+7fd1e007e000-7fd1e0097000 rwxp 00000000 00:00 0 
+7fd1e0097000-7fd1e009b000 r-xp 00000000 fd:02 313675191                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-icccm.so.4.0.0
+7fd1e009b000-7fd1e029a000 ---p 00004000 fd:02 313675191                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-icccm.so.4.0.0
+7fd1e029a000-7fd1e029b000 rwxp 00003000 fd:02 313675191                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-icccm.so.4.0.0
+7fd1e029b000-7fd1e02e9000 r-xp 00000000 fd:00 134965104                  /usr/lib64/libdbus-1.so.3.14.14
+7fd1e02e9000-7fd1e04e8000 ---p 0004e000 fd:00 134965104                  /usr/lib64/libdbus-1.so.3.14.14
+7fd1e04e8000-7fd1e04e9000 r-xp 0004d000 fd:00 134965104                  /usr/lib64/libdbus-1.so.3.14.14
+7fd1e04e9000-7fd1e04ea000 rwxp 0004e000 fd:00 134965104                  /usr/lib64/libdbus-1.so.3.14.14
+7fd1e04ea000-7fd1e04eb000 rwxp 00000000 00:00 0 
+7fd1e04eb000-7fd1e04ee000 r-xp 00000000 fd:02 313675318                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render-util.so.0.0.0
+7fd1e04ee000-7fd1e06ed000 ---p 00003000 fd:02 313675318                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render-util.so.0.0.0
+7fd1e06ed000-7fd1e06ee000 rwxp 00002000 fd:02 313675318                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render-util.so.0.0.0
+7fd1e06ee000-7fd1e06ef000 r-xp 00000000 fd:02 313675610                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11-xcb.so.1.0.0
+7fd1e06ef000-7fd1e08ee000 ---p 00001000 fd:02 313675610                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11-xcb.so.1.0.0
+7fd1e08ee000-7fd1e08ef000 rwxp 00000000 fd:02 313675610                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11-xcb.so.1.0.0
+7fd1e08ef000-7fd1e0a0a000 r-xp 00000000 fd:02 313675165                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd1e0a0a000-7fd1e0c09000 ---p 0011b000 fd:02 313675165                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd1e0c09000-7fd1e0c0e000 r-xp 0011a000 fd:02 313675165                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd1e0c0e000-7fd1e0c11000 rwxp 0011f000 fd:02 313675165                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd1e0c11000-7fd1e0c12000 rwxp 00000000 00:00 0 
+7fd1e0c12000-7fd1e0c14000 r-xp 00000000 fd:02 469357310                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforms/libqxcb.so
+7fd1e0c14000-7fd1e0e14000 ---p 00002000 fd:02 469357310                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforms/libqxcb.so
+7fd1e0e14000-7fd1e0e15000 r-xp 00002000 fd:02 469357310                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforms/libqxcb.so
+7fd1e0e15000-7fd1e0e16000 rwxp 00003000 fd:02 469357310                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/qt/plugins/platforms/libqxcb.so
+7fd1e0e16000-7fd1e0f17000 rwxp 00000000 00:00 0 
+7fd1e0f17000-7fd1e0f3c000 r-xp 00000000 fd:00 134294221                  /usr/lib64/liblzma.so.5.2.2
+7fd1e0f3c000-7fd1e113b000 ---p 00025000 fd:00 134294221                  /usr/lib64/liblzma.so.5.2.2
+7fd1e113b000-7fd1e113c000 r-xp 00024000 fd:00 134294221                  /usr/lib64/liblzma.so.5.2.2
+7fd1e113c000-7fd1e113d000 rwxp 00025000 fd:00 134294221                  /usr/lib64/liblzma.so.5.2.2
+7fd1e113d000-7fd1e129b000 r-xp 00000000 fd:00 134294275                  /usr/lib64/libxml2.so.2.9.1
+7fd1e129b000-7fd1e149b000 ---p 0015e000 fd:00 134294275                  /usr/lib64/libxml2.so.2.9.1
+7fd1e149b000-7fd1e14a3000 r-xp 0015e000 fd:00 134294275                  /usr/lib64/libxml2.so.2.9.1
+7fd1e14a3000-7fd1e14a5000 rwxp 00166000 fd:00 134294275                  /usr/lib64/libxml2.so.2.9.1
+7fd1e14a5000-7fd1e14a7000 rwxp 00000000 00:00 0 
+7fd1e14a7000-7fd1e14a8000 r-xp 00000000 fd:02 315012615                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/device_palette/device_palette_tcl.rcc
+7fd1e14a8000-7fd1e14aa000 r-xp 00000000 fd:02 470002569                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/integrated_tool_help/integrated_tool_help_tcl.rcc
+7fd1e14aa000-7fd1e14b5000 r-xp 00000000 fd:02 469357270                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd1e14b5000-7fd1e14b6000 ---p 0000b000 fd:02 469357270                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd1e14b6000-7fd1e14b7000 r-xp 0000b000 fd:02 469357270                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd1e14b7000-7fd1e14b8000 rwxp 0000c000 fd:02 469357270                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd1e14b8000-7fd1e14be000 r-xp 00000000 fd:02 96025540                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/console/console_tcl.rcc
+7fd1e14be000-7fd1e16ee000 r-xp 00000000 fd:02 313675233                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnsys.so
+7fd1e16ee000-7fd1e16ef000 ---p 00230000 fd:02 313675233                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnsys.so
+7fd1e16ef000-7fd1e16f8000 r-xp 00230000 fd:02 313675233                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnsys.so
+7fd1e16f8000-7fd1e16fc000 rwxp 00239000 fd:02 313675233                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnsys.so
+7fd1e16fc000-7fd1e1710000 rwxp 00000000 00:00 0 
+7fd1e1710000-7fd1e2702000 r-xp 00000000 fd:02 313675118                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnffr.so
+7fd1e2702000-7fd1e276a000 r-xp 00ff1000 fd:02 313675118                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnffr.so
+7fd1e276a000-7fd1e279c000 rwxp 01059000 fd:02 313675118                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnffr.so
+7fd1e279c000-7fd1e32d0000 rwxp 00000000 00:00 0 
+7fd1e32d0000-7fd1e32d1000 ---p 00000000 00:00 0 
+7fd1e32d1000-7fd1e3ad1000 rwxp 00000000 00:00 0 
+7fd1e3ad1000-7fd1e3ad2000 ---p 00000000 00:00 0 
+7fd1e3ad2000-7fd1e4cd3000 rwxp 00000000 00:00 0 
+7fd1e4cd3000-7fd1e55eb000 rwxs 00000000 00:04 1310729                    /SYSVaf25e55c (deleted)
+7fd1e55eb000-7fd1e5808000 rwxp 00000000 00:00 0 
+7fd1e5808000-7fd1e5814000 r-xp 00000000 fd:00 136499015                  /usr/lib64/libnss_ldap.so.2
+7fd1e5814000-7fd1e5a13000 ---p 0000c000 fd:00 136499015                  /usr/lib64/libnss_ldap.so.2
+7fd1e5a13000-7fd1e5a14000 r-xp 0000b000 fd:00 136499015                  /usr/lib64/libnss_ldap.so.2
+7fd1e5a14000-7fd1e5a15000 rwxp 0000c000 fd:00 136499015                  /usr/lib64/libnss_ldap.so.2
+7fd1e5a15000-7fd1e5a1d000 r-xp 00000000 fd:00 134293511                  /usr/lib64/libnss_sss.so.2
+7fd1e5a1d000-7fd1e5c1c000 ---p 00008000 fd:00 134293511                  /usr/lib64/libnss_sss.so.2
+7fd1e5c1c000-7fd1e5c1d000 r-xp 00007000 fd:00 134293511                  /usr/lib64/libnss_sss.so.2
+7fd1e5c1d000-7fd1e5c1e000 rwxp 00008000 fd:00 134293511                  /usr/lib64/libnss_sss.so.2
+7fd1e5c1e000-7fd1e5c2a000 r-xp 00000000 fd:00 134294171                  /usr/lib64/libnss_files-2.17.so
+7fd1e5c2a000-7fd1e5e29000 ---p 0000c000 fd:00 134294171                  /usr/lib64/libnss_files-2.17.so
+7fd1e5e29000-7fd1e5e2a000 r-xp 0000b000 fd:00 134294171                  /usr/lib64/libnss_files-2.17.so
+7fd1e5e2a000-7fd1e5e2b000 rwxp 0000c000 fd:00 134294171                  /usr/lib64/libnss_files-2.17.so
+7fd1e5e2b000-7fd1e5e7e000 rwxp 00000000 00:00 0 
+7fd1e5e7e000-7fd1e5ea2000 r-xp 00000000 fd:00 134294295                  /usr/lib64/libselinux.so.1
+7fd1e5ea2000-7fd1e60a1000 ---p 00024000 fd:00 134294295                  /usr/lib64/libselinux.so.1
+7fd1e60a1000-7fd1e60a2000 r-xp 00023000 fd:00 134294295                  /usr/lib64/libselinux.so.1
+7fd1e60a2000-7fd1e60a3000 rwxp 00024000 fd:00 134294295                  /usr/lib64/libselinux.so.1
+7fd1e60a3000-7fd1e60a6000 rwxp 00000000 00:00 0 
+7fd1e60a6000-7fd1e60bc000 r-xp 00000000 fd:00 134294182                  /usr/lib64/libresolv-2.17.so
+7fd1e60bc000-7fd1e62bc000 ---p 00016000 fd:00 134294182                  /usr/lib64/libresolv-2.17.so
+7fd1e62bc000-7fd1e62bd000 r-xp 00016000 fd:00 134294182                  /usr/lib64/libresolv-2.17.so
+7fd1e62bd000-7fd1e62be000 rwxp 00017000 fd:00 134294182                  /usr/lib64/libresolv-2.17.so
+7fd1e62be000-7fd1e62c0000 rwxp 00000000 00:00 0 
+7fd1e62c0000-7fd1e62c3000 r-xp 00000000 fd:00 134294756                  /usr/lib64/libkeyutils.so.1.5
+7fd1e62c3000-7fd1e64c2000 ---p 00003000 fd:00 134294756                  /usr/lib64/libkeyutils.so.1.5
+7fd1e64c2000-7fd1e64c3000 r-xp 00002000 fd:00 134294756                  /usr/lib64/libkeyutils.so.1.5
+7fd1e64c3000-7fd1e64c4000 rwxp 00003000 fd:00 134294756                  /usr/lib64/libkeyutils.so.1.5
+7fd1e64c4000-7fd1e64d2000 r-xp 00000000 fd:00 134534661                  /usr/lib64/libkrb5support.so.0.1
+7fd1e64d2000-7fd1e66d2000 ---p 0000e000 fd:00 134534661                  /usr/lib64/libkrb5support.so.0.1
+7fd1e66d2000-7fd1e66d3000 r-xp 0000e000 fd:00 134534661                  /usr/lib64/libkrb5support.so.0.1
+7fd1e66d3000-7fd1e66d4000 rwxp 0000f000 fd:00 134534661                  /usr/lib64/libkrb5support.so.0.1
+7fd1e66d4000-7fd1e66d5000 rwxp 00000000 00:00 0 
+7fd1e66d5000-7fd1e66d7000 r-xp 00000000 fd:00 134294189                  /usr/lib64/libutil-2.17.so
+7fd1e66d7000-7fd1e68d6000 ---p 00002000 fd:00 134294189                  /usr/lib64/libutil-2.17.so
+7fd1e68d6000-7fd1e68d7000 r-xp 00001000 fd:00 134294189                  /usr/lib64/libutil-2.17.so
+7fd1e68d7000-7fd1e68d8000 rwxp 00002000 fd:00 134294189                  /usr/lib64/libutil-2.17.so
+7fd1e68d8000-7fd1e68fe000 r-xp 00000000 fd:02 187071833                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd1e68fe000-7fd1e6afd000 ---p 00026000 fd:02 187071833                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd1e6afd000-7fd1e6b00000 rwxp 00025000 fd:02 187071833                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd1e6b00000-7fd1e6b01000 rwxp 00000000 00:00 0 
+7fd1e6b01000-7fd1e6b06000 r-xp 00000000 fd:00 134296790                  /usr/lib64/libXdmcp.so.6.0.0
+7fd1e6b06000-7fd1e6d05000 ---p 00005000 fd:00 134296790                  /usr/lib64/libXdmcp.so.6.0.0
+7fd1e6d05000-7fd1e6d06000 r-xp 00004000 fd:00 134296790                  /usr/lib64/libXdmcp.so.6.0.0
+7fd1e6d06000-7fd1e6d07000 rwxp 00005000 fd:00 134296790                  /usr/lib64/libXdmcp.so.6.0.0
+7fd1e6d07000-7fd1e6d09000 r-xp 00000000 fd:00 134294618                  /usr/lib64/libXau.so.6.0.0
+7fd1e6d09000-7fd1e6f09000 ---p 00002000 fd:00 134294618                  /usr/lib64/libXau.so.6.0.0
+7fd1e6f09000-7fd1e6f0a000 r-xp 00002000 fd:00 134294618                  /usr/lib64/libXau.so.6.0.0
+7fd1e6f0a000-7fd1e6f0b000 rwxp 00003000 fd:00 134294618                  /usr/lib64/libXau.so.6.0.0
+7fd1e6f0b000-7fd1e6f0c000 rwxp 00000000 00:00 0 
+7fd1e6f0c000-7fd1e6f11000 r-xp 00000000 fd:00 134294679                  /usr/lib64/libXfixes.so.3.1.0
+7fd1e6f11000-7fd1e7110000 ---p 00005000 fd:00 134294679                  /usr/lib64/libXfixes.so.3.1.0
+7fd1e7110000-7fd1e7111000 r-xp 00004000 fd:00 134294679                  /usr/lib64/libXfixes.so.3.1.0
+7fd1e7111000-7fd1e7112000 rwxp 00005000 fd:00 134294679                  /usr/lib64/libXfixes.so.3.1.0
+7fd1e7112000-7fd1e7116000 r-xp 00000000 fd:00 134294219                  /usr/lib64/libuuid.so.1.3.0
+7fd1e7116000-7fd1e7315000 ---p 00004000 fd:00 134294219                  /usr/lib64/libuuid.so.1.3.0
+7fd1e7315000-7fd1e7316000 r-xp 00003000 fd:00 134294219                  /usr/lib64/libuuid.so.1.3.0
+7fd1e7316000-7fd1e7317000 rwxp 00004000 fd:00 134294219                  /usr/lib64/libuuid.so.1.3.0
+7fd1e7317000-7fd1e7318000 rwxp 00000000 00:00 0 
+7fd1e7318000-7fd1e7378000 r-xp 00000000 fd:00 134294283                  /usr/lib64/libpcre.so.1.2.0
+7fd1e7378000-7fd1e7578000 ---p 00060000 fd:00 134294283                  /usr/lib64/libpcre.so.1.2.0
+7fd1e7578000-7fd1e7579000 r-xp 00060000 fd:00 134294283                  /usr/lib64/libpcre.so.1.2.0
+7fd1e7579000-7fd1e757a000 rwxp 00061000 fd:00 134294283                  /usr/lib64/libpcre.so.1.2.0
+7fd1e757a000-7fd1e757b000 rwxp 00000000 00:00 0 
+7fd1e757b000-7fd1e757d000 r-xp 00000000 fd:00 134292784                  /usr/lib64/libfreebl3.so
+7fd1e757d000-7fd1e777c000 ---p 00002000 fd:00 134292784                  /usr/lib64/libfreebl3.so
+7fd1e777c000-7fd1e777d000 r-xp 00001000 fd:00 134292784                  /usr/lib64/libfreebl3.so
+7fd1e777d000-7fd1e777e000 rwxp 00002000 fd:00 134292784                  /usr/lib64/libfreebl3.so
+7fd1e777e000-7fd1e777f000 rwxp 00000000 00:00 0 
+7fd1e777f000-7fd1e77b0000 r-xp 00000000 fd:00 134534653                  /usr/lib64/libk5crypto.so.3.1
+7fd1e77b0000-7fd1e79af000 ---p 00031000 fd:00 134534653                  /usr/lib64/libk5crypto.so.3.1
+7fd1e79af000-7fd1e79b1000 r-xp 00030000 fd:00 134534653                  /usr/lib64/libk5crypto.so.3.1
+7fd1e79b1000-7fd1e79b2000 rwxp 00032000 fd:00 134534653                  /usr/lib64/libk5crypto.so.3.1
+7fd1e79b2000-7fd1e79b5000 r-xp 00000000 fd:00 134294300                  /usr/lib64/libcom_err.so.2.1
+7fd1e79b5000-7fd1e7bb4000 ---p 00003000 fd:00 134294300                  /usr/lib64/libcom_err.so.2.1
+7fd1e7bb4000-7fd1e7bb5000 r-xp 00002000 fd:00 134294300                  /usr/lib64/libcom_err.so.2.1
+7fd1e7bb5000-7fd1e7bb6000 rwxp 00003000 fd:00 134294300                  /usr/lib64/libcom_err.so.2.1
+7fd1e7bb6000-7fd1e7bb7000 rwxp 00000000 00:00 0 
+7fd1e7bb7000-7fd1e7c90000 r-xp 00000000 fd:00 134534659                  /usr/lib64/libkrb5.so.3.3
+7fd1e7c90000-7fd1e7e8f000 ---p 000d9000 fd:00 134534659                  /usr/lib64/libkrb5.so.3.3
+7fd1e7e8f000-7fd1e7e9d000 r-xp 000d8000 fd:00 134534659                  /usr/lib64/libkrb5.so.3.3
+7fd1e7e9d000-7fd1e7ea0000 rwxp 000e6000 fd:00 134534659                  /usr/lib64/libkrb5.so.3.3
+7fd1e7ea0000-7fd1e7eea000 r-xp 00000000 fd:00 134534649                  /usr/lib64/libgssapi_krb5.so.2.2
+7fd1e7eea000-7fd1e80ea000 ---p 0004a000 fd:00 134534649                  /usr/lib64/libgssapi_krb5.so.2.2
+7fd1e80ea000-7fd1e80eb000 r-xp 0004a000 fd:00 134534649                  /usr/lib64/libgssapi_krb5.so.2.2
+7fd1e80eb000-7fd1e80ed000 rwxp 0004b000 fd:00 134534649                  /usr/lib64/libgssapi_krb5.so.2.2
+7fd1e80ed000-7fd1e80ee000 rwxp 00000000 00:00 0 
+7fd1e80ee000-7fd1e826f000 r-xp 00000000 fd:02 95758776                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7fd1e826f000-7fd1e8270000 ---p 00181000 fd:02 95758776                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7fd1e8270000-7fd1e8271000 r-xp 00181000 fd:02 95758776                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7fd1e8271000-7fd1e82ab000 rwxp 00182000 fd:02 95758776                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7fd1e82ab000-7fd1e82ba000 rwxp 00000000 00:00 0 
+7fd1e82ba000-7fd1e847e000 r-xp 00000000 fd:00 134292794                  /usr/lib64/libc-2.17.so
+7fd1e847e000-7fd1e867d000 ---p 001c4000 fd:00 134292794                  /usr/lib64/libc-2.17.so
+7fd1e867d000-7fd1e8681000 r-xp 001c3000 fd:00 134292794                  /usr/lib64/libc-2.17.so
+7fd1e8681000-7fd1e8683000 rwxp 001c7000 fd:00 134292794                  /usr/lib64/libc-2.17.so
+7fd1e8683000-7fd1e8688000 rwxp 00000000 00:00 0 
+7fd1e8688000-7fd1e869e000 r-xp 00000000 fd:02 313675335                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgcc_s.so.1
+7fd1e869e000-7fd1e889e000 ---p 00016000 fd:02 313675335                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgcc_s.so.1
+7fd1e889e000-7fd1e889f000 r-xp 00016000 fd:02 313675335                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgcc_s.so.1
+7fd1e889f000-7fd1e88a0000 rwxp 00017000 fd:02 313675335                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgcc_s.so.1
+7fd1e88a0000-7fd1e88a1000 rwxp 00000000 00:00 0 
+7fd1e88a1000-7fd1e88d6000 r-xp 00000000 fd:02 313675059                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgomp.so.1.0.0
+7fd1e88d6000-7fd1e8ad5000 ---p 00035000 fd:02 313675059                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgomp.so.1.0.0
+7fd1e8ad5000-7fd1e8ad6000 r-xp 00034000 fd:02 313675059                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgomp.so.1.0.0
+7fd1e8ad6000-7fd1e8ad7000 rwxp 00035000 fd:02 313675059                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgomp.so.1.0.0
+7fd1e8ad7000-7fd1e8ad9000 r-xp 00000000 fd:00 134292800                  /usr/lib64/libdl-2.17.so
+7fd1e8ad9000-7fd1e8cd9000 ---p 00002000 fd:00 134292800                  /usr/lib64/libdl-2.17.so
+7fd1e8cd9000-7fd1e8cda000 r-xp 00002000 fd:00 134292800                  /usr/lib64/libdl-2.17.so
+7fd1e8cda000-7fd1e8cdb000 rwxp 00003000 fd:00 134292800                  /usr/lib64/libdl-2.17.so
+7fd1e8cdb000-7fd1e9271000 r-xp 00000000 fd:02 95759317                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7fd1e9271000-7fd1e9272000 ---p 00596000 fd:02 95759317                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7fd1e9272000-7fd1e9294000 r-xp 00596000 fd:02 95759317                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7fd1e9294000-7fd1e92e9000 rwxp 005b8000 fd:02 95759317                   /home/tools/synopsys/customcompiler/T-2022.06/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7fd1e92e9000-7fd1e930e000 rwxp 00000000 00:00 0 
+7fd1e930e000-7fd1e9315000 r-xp 00000000 fd:00 134294184                  /usr/lib64/librt-2.17.so
+7fd1e9315000-7fd1e9514000 ---p 00007000 fd:00 134294184                  /usr/lib64/librt-2.17.so
+7fd1e9514000-7fd1e9515000 r-xp 00006000 fd:00 134294184                  /usr/lib64/librt-2.17.so
+7fd1e9515000-7fd1e9516000 rwxp 00007000 fd:00 134294184                  /usr/lib64/librt-2.17.so
+7fd1e9516000-7fd1e9518000 r-xp 00000000 fd:00 136499034                  /usr/lib64/libXss.so.1.0.0
+7fd1e9518000-7fd1e9718000 ---p 00002000 fd:00 136499034                  /usr/lib64/libXss.so.1.0.0
+7fd1e9718000-7fd1e9719000 r-xp 00002000 fd:00 136499034                  /usr/lib64/libXss.so.1.0.0
+7fd1e9719000-7fd1e971a000 rwxp 00003000 fd:00 136499034                  /usr/lib64/libXss.so.1.0.0
+7fd1e971a000-7fd1e972f000 r-xp 00000000 fd:00 134877520                  /usr/lib64/libXft.so.2.3.2
+7fd1e972f000-7fd1e992e000 ---p 00015000 fd:00 134877520                  /usr/lib64/libXft.so.2.3.2
+7fd1e992e000-7fd1e992f000 r-xp 00014000 fd:00 134877520                  /usr/lib64/libXft.so.2.3.2
+7fd1e992f000-7fd1e9930000 rwxp 00015000 fd:00 134877520                  /usr/lib64/libXft.so.2.3.2
+7fd1e9930000-7fd1e994c000 r-xp 00000000 fd:02 313675315                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtktable-O.so
+7fd1e994c000-7fd1e994d000 r-xp 0001b000 fd:02 313675315                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtktable-O.so
+7fd1e994d000-7fd1e9957000 rwxp 0001c000 fd:02 313675315                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtktable-O.so
+7fd1e9957000-7fd1e9a94000 r-xp 00000000 fd:02 313675167                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtk-O.so
+7fd1e9a94000-7fd1e9aaa000 r-xp 0013c000 fd:02 313675167                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtk-O.so
+7fd1e9aaa000-7fd1e9ab4000 rwxp 00152000 fd:02 313675167                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtk-O.so
+7fd1e9ab4000-7fd1e9beb000 r-xp 00000000 fd:02 313675061                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11.so.6.3.0
+7fd1e9beb000-7fd1e9deb000 ---p 00137000 fd:02 313675061                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11.so.6.3.0
+7fd1e9deb000-7fd1e9df1000 rwxp 00137000 fd:02 313675061                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libX11.so.6.3.0
+7fd1e9df1000-7fd1e9e02000 r-xp 00000000 fd:00 134294677                  /usr/lib64/libXext.so.6.4.0
+7fd1e9e02000-7fd1ea001000 ---p 00011000 fd:00 134294677                  /usr/lib64/libXext.so.6.4.0
+7fd1ea001000-7fd1ea002000 r-xp 00010000 fd:00 134294677                  /usr/lib64/libXext.so.6.4.0
+7fd1ea002000-7fd1ea003000 rwxp 00011000 fd:00 134294677                  /usr/lib64/libXext.so.6.4.0
+7fd1ea003000-7fd1ea043000 r-xp 00000000 fd:00 134534676                  /usr/lib64/libfontconfig.so.1.11.1
+7fd1ea043000-7fd1ea242000 ---p 00040000 fd:00 134534676                  /usr/lib64/libfontconfig.so.1.11.1
+7fd1ea242000-7fd1ea244000 r-xp 0003f000 fd:00 134534676                  /usr/lib64/libfontconfig.so.1.11.1
+7fd1ea244000-7fd1ea245000 rwxp 00041000 fd:00 134534676                  /usr/lib64/libfontconfig.so.1.11.1
+7fd1ea245000-7fd1ea249000 r-xp 00000000 fd:02 313675126                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-util.so.1.0.0
+7fd1ea249000-7fd1ea449000 ---p 00004000 fd:02 313675126                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-util.so.1.0.0
+7fd1ea449000-7fd1ea44a000 rwxp 00004000 fd:02 313675126                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-util.so.1.0.0
+7fd1ea44a000-7fd1ea44c000 r-xp 00000000 fd:02 313675628                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shm.so.0.0.0
+7fd1ea44c000-7fd1ea64b000 ---p 00002000 fd:02 313675628                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shm.so.0.0.0
+7fd1ea64b000-7fd1ea64c000 rwxp 00001000 fd:02 313675628                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-shm.so.0.0.0
+7fd1ea64c000-7fd1ea650000 r-xp 00000000 fd:02 313675048                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-image.so.0.0.0
+7fd1ea650000-7fd1ea84f000 ---p 00004000 fd:02 313675048                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-image.so.0.0.0
+7fd1ea84f000-7fd1ea850000 rwxp 00003000 fd:02 313675048                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-image.so.0.0.0
+7fd1ea850000-7fd1ea856000 r-xp 00000000 fd:02 313675057                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd1ea856000-7fd1eaa56000 ---p 00006000 fd:02 313675057                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd1eaa56000-7fd1eaa57000 rwxp 00006000 fd:02 313675057                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd1eaa57000-7fd1eaa5c000 r-xp 00000000 fd:02 313675142                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-sync.so.1.0.0
+7fd1eaa5c000-7fd1eac5c000 ---p 00005000 fd:02 313675142                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-sync.so.1.0.0
+7fd1eac5c000-7fd1eac5d000 rwxp 00005000 fd:02 313675142                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-sync.so.1.0.0
+7fd1eac5d000-7fd1eac68000 r-xp 00000000 fd:02 313675358                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render.so.0.0.0
+7fd1eac68000-7fd1eae68000 ---p 0000b000 fd:02 313675358                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render.so.0.0.0
+7fd1eae68000-7fd1eae69000 rwxp 0000b000 fd:02 313675358                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-render.so.0.0.0
+7fd1eae69000-7fd1eae77000 r-xp 00000000 fd:02 313675264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-randr.so.0.1.0
+7fd1eae77000-7fd1eb077000 ---p 0000e000 fd:02 313675264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-randr.so.0.1.0
+7fd1eb077000-7fd1eb078000 rwxp 0000e000 fd:02 313675264                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb-randr.so.0.1.0
+7fd1eb078000-7fd1eb09c000 r-xp 00000000 fd:02 313675642                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb.so.1.1.0
+7fd1eb09c000-7fd1eb29c000 ---p 00024000 fd:02 313675642                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb.so.1.1.0
+7fd1eb29c000-7fd1eb29d000 rwxp 00024000 fd:02 313675642                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libxcb.so.1.1.0
+7fd1eb29d000-7fd1eb319000 r-xp 00000000 fd:02 469357700                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd1eb319000-7fd1eb518000 ---p 0007c000 fd:02 469357700                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd1eb518000-7fd1eb51e000 rwxp 0007b000 fd:02 469357700                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd1eb51e000-7fd1eb520000 r-xp 00000000 fd:00 134294698                  /usr/lib64/libXinerama.so.1.0.0
+7fd1eb520000-7fd1eb71f000 ---p 00002000 fd:00 134294698                  /usr/lib64/libXinerama.so.1.0.0
+7fd1eb71f000-7fd1eb720000 r-xp 00001000 fd:00 134294698                  /usr/lib64/libXinerama.so.1.0.0
+7fd1eb720000-7fd1eb721000 rwxp 00002000 fd:00 134294698                  /usr/lib64/libXinerama.so.1.0.0
+7fd1eb721000-7fd1eb72a000 r-xp 00000000 fd:00 134294702                  /usr/lib64/libXcursor.so.1.0.2
+7fd1eb72a000-7fd1eb92a000 ---p 00009000 fd:00 134294702                  /usr/lib64/libXcursor.so.1.0.2
+7fd1eb92a000-7fd1eb92b000 r-xp 00009000 fd:00 134294702                  /usr/lib64/libXcursor.so.1.0.2
+7fd1eb92b000-7fd1eb92c000 rwxp 0000a000 fd:00 134294702                  /usr/lib64/libXcursor.so.1.0.2
+7fd1eb92c000-7fd1eb936000 r-xp 00000000 fd:00 134294691                  /usr/lib64/libXrandr.so.2.2.0
+7fd1eb936000-7fd1ebb35000 ---p 0000a000 fd:00 134294691                  /usr/lib64/libXrandr.so.2.2.0
+7fd1ebb35000-7fd1ebb36000 r-xp 00009000 fd:00 134294691                  /usr/lib64/libXrandr.so.2.2.0
+7fd1ebb36000-7fd1ebb37000 rwxp 0000a000 fd:00 134294691                  /usr/lib64/libXrandr.so.2.2.0
+7fd1ebb37000-7fd1ebb40000 r-xp 00000000 fd:00 134294689                  /usr/lib64/libXrender.so.1.3.0
+7fd1ebb40000-7fd1ebd40000 ---p 00009000 fd:00 134294689                  /usr/lib64/libXrender.so.1.3.0
+7fd1ebd40000-7fd1ebd41000 r-xp 00009000 fd:00 134294689                  /usr/lib64/libXrender.so.1.3.0
+7fd1ebd41000-7fd1ebd42000 rwxp 0000a000 fd:00 134294689                  /usr/lib64/libXrender.so.1.3.0
+7fd1ebd42000-7fd1ebd51000 r-xp 00000000 fd:00 134294681                  /usr/lib64/libXi.so.6.1.0
+7fd1ebd51000-7fd1ebf50000 ---p 0000f000 fd:00 134294681                  /usr/lib64/libXi.so.6.1.0
+7fd1ebf50000-7fd1ebf51000 r-xp 0000e000 fd:00 134294681                  /usr/lib64/libXi.so.6.1.0
+7fd1ebf51000-7fd1ebf52000 rwxp 0000f000 fd:00 134294681                  /usr/lib64/libXi.so.6.1.0
+7fd1ebf52000-7fd1ebf69000 r-xp 00000000 fd:00 134294431                  /usr/lib64/libICE.so.6.3.0
+7fd1ebf69000-7fd1ec168000 ---p 00017000 fd:00 134294431                  /usr/lib64/libICE.so.6.3.0
+7fd1ec168000-7fd1ec169000 r-xp 00016000 fd:00 134294431                  /usr/lib64/libICE.so.6.3.0
+7fd1ec169000-7fd1ec16a000 rwxp 00017000 fd:00 134294431                  /usr/lib64/libICE.so.6.3.0
+7fd1ec16a000-7fd1ec16e000 rwxp 00000000 00:00 0 
+7fd1ec16e000-7fd1ec175000 r-xp 00000000 fd:00 134294438                  /usr/lib64/libSM.so.6.0.1
+7fd1ec175000-7fd1ec374000 ---p 00007000 fd:00 134294438                  /usr/lib64/libSM.so.6.0.1
+7fd1ec374000-7fd1ec375000 r-xp 00006000 fd:00 134294438                  /usr/lib64/libSM.so.6.0.1
+7fd1ec375000-7fd1ec376000 rwxp 00007000 fd:00 134294438                  /usr/lib64/libSM.so.6.0.1
+7fd1ec376000-7fd1ec3b5000 r-xp 00000000 fd:02 313675148                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd1ec3b5000-7fd1ec5b4000 ---p 0003f000 fd:02 313675148                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd1ec5b4000-7fd1ec5b7000 r-xp 0003e000 fd:02 313675148                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd1ec5b7000-7fd1ec5b8000 rwxp 00041000 fd:02 313675148                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd1ec5b8000-7fd1ee369000 r-xp 00000000 fd:02 313675193                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKit.so.5.5.1
+7fd1ee369000-7fd1ee569000 ---p 01db1000 fd:02 313675193                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKit.so.5.5.1
+7fd1ee569000-7fd1ee6c4000 r-xp 01db1000 fd:02 313675193                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKit.so.5.5.1
+7fd1ee6c4000-7fd1ee6e4000 rwxp 01f0c000 fd:02 313675193                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5WebKit.so.5.5.1
+7fd1ee6e4000-7fd1ee710000 rwxp 00000000 00:00 0 
+7fd1ee710000-7fd1ee761000 r-xp 00000000 fd:02 313675133                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Svg.so.5.6.2
+7fd1ee761000-7fd1ee961000 ---p 00051000 fd:02 313675133                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Svg.so.5.6.2
+7fd1ee961000-7fd1ee963000 r-xp 00051000 fd:02 313675133                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Svg.so.5.6.2
+7fd1ee963000-7fd1ee964000 rwxp 00053000 fd:02 313675133                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Svg.so.5.6.2
+7fd1ee964000-7fd1ee994000 r-xp 00000000 fd:02 313675622                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Test.so.5.6.2
+7fd1ee994000-7fd1eeb94000 ---p 00030000 fd:02 313675622                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Test.so.5.6.2
+7fd1eeb94000-7fd1eeb95000 r-xp 00030000 fd:02 313675622                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Test.so.5.6.2
+7fd1eeb95000-7fd1eeb96000 rwxp 00031000 fd:02 313675622                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Test.so.5.6.2
+7fd1eeb96000-7fd1eeb9a000 rwxp 00000000 00:00 0 
+7fd1eeb9a000-7fd1eec03000 r-xp 00000000 fd:02 313675123                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd1eec03000-7fd1eee03000 ---p 00069000 fd:02 313675123                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd1eee03000-7fd1eee06000 r-xp 00069000 fd:02 313675123                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd1eee06000-7fd1eee08000 rwxp 0006c000 fd:02 313675123                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd1eee08000-7fd1eee47000 r-xp 00000000 fd:02 313675632                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Positioning.so.5.6.2
+7fd1eee47000-7fd1ef047000 ---p 0003f000 fd:02 313675632                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Positioning.so.5.6.2
+7fd1ef047000-7fd1ef048000 r-xp 0003f000 fd:02 313675632                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Positioning.so.5.6.2
+7fd1ef048000-7fd1ef049000 rwxp 00040000 fd:02 313675632                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Positioning.so.5.6.2
+7fd1ef049000-7fd1ef084000 r-xp 00000000 fd:02 313675393                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sensors.so.5.6.2
+7fd1ef084000-7fd1ef284000 ---p 0003b000 fd:02 313675393                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sensors.so.5.6.2
+7fd1ef284000-7fd1ef287000 r-xp 0003b000 fd:02 313675393                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sensors.so.5.6.2
+7fd1ef287000-7fd1ef288000 rwxp 0003e000 fd:02 313675393                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sensors.so.5.6.2
+7fd1ef288000-7fd1ef28b000 r-xp 00000000 fd:02 313675268                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd1ef28b000-7fd1ef48a000 ---p 00003000 fd:02 313675268                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd1ef48a000-7fd1ef48b000 r-xp 00002000 fd:02 313675268                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd1ef48b000-7fd1ef48c000 rwxp 00003000 fd:02 313675268                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd1ef48c000-7fd1efa4c000 r-xp 00000000 fd:02 313675223                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Widgets.so.5.6.2
+7fd1efa4c000-7fd1efc4c000 ---p 005c0000 fd:02 313675223                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Widgets.so.5.6.2
+7fd1efc4c000-7fd1efc73000 r-xp 005c0000 fd:02 313675223                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Widgets.so.5.6.2
+7fd1efc73000-7fd1efc78000 rwxp 005e7000 fd:02 313675223                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Widgets.so.5.6.2
+7fd1efc78000-7fd1f0164000 r-xp 00000000 fd:02 313675172                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Gui.so.5.6.2
+7fd1f0164000-7fd1f0363000 ---p 004ec000 fd:02 313675172                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Gui.so.5.6.2
+7fd1f0363000-7fd1f0371000 r-xp 004eb000 fd:02 313675172                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Gui.so.5.6.2
+7fd1f0371000-7fd1f0377000 rwxp 004f9000 fd:02 313675172                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Gui.so.5.6.2
+7fd1f0377000-7fd1f037c000 rwxp 00000000 00:00 0 
+7fd1f037c000-7fd1f0439000 r-xp 00000000 fd:02 313675138                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsqlite3.so
+7fd1f0439000-7fd1f0638000 ---p 000bd000 fd:02 313675138                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsqlite3.so
+7fd1f0638000-7fd1f063c000 rwxp 000bc000 fd:02 313675138                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsqlite3.so
+7fd1f063c000-7fd1f063d000 rwxp 00000000 00:00 0 
+7fd1f063d000-7fd1f0751000 r-xp 00000000 fd:00 134549095                  /usr/lib64/libglib-2.0.so.0.5600.1
+7fd1f0751000-7fd1f0950000 ---p 00114000 fd:00 134549095                  /usr/lib64/libglib-2.0.so.0.5600.1
+7fd1f0950000-7fd1f0951000 r-xp 00113000 fd:00 134549095                  /usr/lib64/libglib-2.0.so.0.5600.1
+7fd1f0951000-7fd1f0952000 rwxp 00114000 fd:00 134549095                  /usr/lib64/libglib-2.0.so.0.5600.1
+7fd1f0952000-7fd1f0953000 rwxp 00000000 00:00 0 
+7fd1f0953000-7fd1f0954000 r-xp 00000000 fd:00 134549101                  /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd1f0954000-7fd1f0b53000 ---p 00001000 fd:00 134549101                  /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd1f0b53000-7fd1f0b54000 r-xp 00000000 fd:00 134549101                  /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd1f0b54000-7fd1f0b55000 rwxp 00001000 fd:00 134549101                  /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd1f0b55000-7fd1f237f000 r-xp 00000000 fd:02 313675606                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicudata.so.54.1
+7fd1f237f000-7fd1f257e000 ---p 0182a000 fd:02 313675606                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicudata.so.54.1
+7fd1f257e000-7fd1f257f000 rwxp 01829000 fd:02 313675606                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicudata.so.54.1
+7fd1f257f000-7fd1f2723000 r-xp 00000000 fd:02 313675302                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicuuc.so.54.1
+7fd1f2723000-7fd1f2923000 ---p 001a4000 fd:02 313675302                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicuuc.so.54.1
+7fd1f2923000-7fd1f2934000 rwxp 001a4000 fd:02 313675302                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicuuc.so.54.1
+7fd1f2934000-7fd1f2939000 rwxp 00000000 00:00 0 
+7fd1f2939000-7fd1f2bab000 r-xp 00000000 fd:02 313675111                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicui18n.so.54.1
+7fd1f2bab000-7fd1f2dab000 ---p 00272000 fd:02 313675111                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicui18n.so.54.1
+7fd1f2dab000-7fd1f2dbc000 rwxp 00272000 fd:02 313675111                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libicui18n.so.54.1
+7fd1f2dbc000-7fd1f2dbd000 rwxp 00000000 00:00 0 
+7fd1f2dbd000-7fd1f2e0e000 r-xp 00000000 fd:02 313675258                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sql.so.5.6.2
+7fd1f2e0e000-7fd1f300d000 ---p 00051000 fd:02 313675258                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sql.so.5.6.2
+7fd1f300d000-7fd1f300f000 r-xp 00050000 fd:02 313675258                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sql.so.5.6.2
+7fd1f300f000-7fd1f3010000 rwxp 00052000 fd:02 313675258                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Sql.so.5.6.2
+7fd1f3010000-7fd1f315d000 r-xp 00000000 fd:02 313675130                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Network.so.5.6.2
+7fd1f315d000-7fd1f335d000 ---p 0014d000 fd:02 313675130                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Network.so.5.6.2
+7fd1f335d000-7fd1f3363000 r-xp 0014d000 fd:02 313675130                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Network.so.5.6.2
+7fd1f3363000-7fd1f3365000 rwxp 00153000 fd:02 313675130                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Network.so.5.6.2
+7fd1f3365000-7fd1f3895000 r-xp 00000000 fd:02 313675274                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Core.so.5.6.2
+7fd1f3895000-7fd1f3a94000 ---p 00530000 fd:02 313675274                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Core.so.5.6.2
+7fd1f3a94000-7fd1f3aa0000 r-xp 0052f000 fd:02 313675274                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Core.so.5.6.2
+7fd1f3aa0000-7fd1f3aa1000 rwxp 0053b000 fd:02 313675274                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Core.so.5.6.2
+7fd1f3aa1000-7fd1f3aa5000 rwxp 00000000 00:00 0 
+7fd1f3aa5000-7fd1f3e03000 r-xp 00000000 fd:02 313675127                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd1f3e03000-7fd1f4003000 ---p 0035e000 fd:02 313675127                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd1f4003000-7fd1f4039000 r-xp 0035e000 fd:02 313675127                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd1f4039000-7fd1f403a000 rwxp 00394000 fd:02 313675127                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd1f403a000-7fd1f403b000 rwxp 00000000 00:00 0 
+7fd1f403b000-7fd1f4077000 r-xp 00000000 fd:02 313675309                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Xml.so.5.6.2
+7fd1f4077000-7fd1f4276000 ---p 0003c000 fd:02 313675309                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Xml.so.5.6.2
+7fd1f4276000-7fd1f4278000 r-xp 0003b000 fd:02 313675309                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Xml.so.5.6.2
+7fd1f4278000-7fd1f4279000 rwxp 0003d000 fd:02 313675309                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libQt5Xml.so.5.6.2
+7fd1f4279000-7fd1f4281000 r-xp 00000000 fd:00 134292798                  /usr/lib64/libcrypt-2.17.so
+7fd1f4281000-7fd1f4480000 ---p 00008000 fd:00 134292798                  /usr/lib64/libcrypt-2.17.so
+7fd1f4480000-7fd1f4481000 r-xp 00007000 fd:00 134292798                  /usr/lib64/libcrypt-2.17.so
+7fd1f4481000-7fd1f4482000 rwxp 00008000 fd:00 134292798                  /usr/lib64/libcrypt-2.17.so
+7fd1f4482000-7fd1f44b0000 rwxp 00000000 00:00 0 
+7fd1f44b0000-7fd1f4500000 r-xp 00000000 fd:02 469357296                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd1f4500000-7fd1f4501000 ---p 00050000 fd:02 469357296                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd1f4501000-7fd1f4503000 r-xp 00050000 fd:02 469357296                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd1f4503000-7fd1f4504000 rwxp 00052000 fd:02 469357296                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd1f4504000-7fd1f4508000 rwxp 00000000 00:00 0 
+7fd1f4508000-7fd1f45a8000 r-xp 00000000 fd:02 469357294                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd1f45a8000-7fd1f45af000 r-xp 0009f000 fd:02 469357294                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd1f45af000-7fd1f45b1000 rwxp 000a6000 fd:02 469357294                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd1f45b1000-7fd1f45b2000 rwxp 00000000 00:00 0 
+7fd1f45b2000-7fd1f4bc2000 r-xp 00000000 fd:02 469357275                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd1f4bc2000-7fd1f4bc3000 r-xp 0060f000 fd:02 469357275                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd1f4bc3000-7fd1f4bc4000 rwxp 00610000 fd:02 469357275                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd1f4bc4000-7fd1f4cae000 r-xp 00000000 fd:02 469357278                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd1f4cae000-7fd1f4cb7000 r-xp 000e9000 fd:02 469357278                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd1f4cb7000-7fd1f4cb9000 rwxp 000f2000 fd:02 469357278                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd1f4cb9000-7fd1f4cbb000 rwxp 00000000 00:00 0 
+7fd1f4cbb000-7fd1f4eeb000 r-xp 00000000 fd:02 469357287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd1f4eeb000-7fd1f4eec000 ---p 00230000 fd:02 469357287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd1f4eec000-7fd1f4f06000 r-xp 00230000 fd:02 469357287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd1f4f06000-7fd1f4f0a000 rwxp 0024a000 fd:02 469357287                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd1f4f0a000-7fd1f4f0c000 rwxp 00000000 00:00 0 
+7fd1f4f0c000-7fd1f534b000 r-xp 00000000 fd:02 469357267                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd1f534b000-7fd1f534c000 ---p 0043f000 fd:02 469357267                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd1f534c000-7fd1f5371000 r-xp 0043f000 fd:02 469357267                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd1f5371000-7fd1f5379000 rwxp 00464000 fd:02 469357267                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd1f5379000-7fd1f539e000 rwxp 00000000 00:00 0 
+7fd1f539e000-7fd1f5c4d000 r-xp 00000000 fd:02 469357283                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd1f5c4d000-7fd1f5c9f000 r-xp 008ae000 fd:02 469357283                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd1f5c9f000-7fd1f5cac000 rwxp 00900000 fd:02 469357283                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd1f5cac000-7fd1f5cb2000 rwxp 00000000 00:00 0 
+7fd1f5cb2000-7fd1f5ef2000 r-xp 00000000 fd:02 469357285                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd1f5ef2000-7fd1f5ef3000 ---p 00240000 fd:02 469357285                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd1f5ef3000-7fd1f5f0e000 r-xp 00240000 fd:02 469357285                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd1f5f0e000-7fd1f5f10000 rwxp 0025b000 fd:02 469357285                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd1f5f10000-7fd1f6ea8000 r-xp 00000000 fd:02 469357277                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd1f6ea8000-7fd1f6eb7000 r-xp 00f97000 fd:02 469357277                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd1f6eb7000-7fd1f6ec7000 rwxp 00fa6000 fd:02 469357277                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd1f6ec7000-7fd1f7038000 r-xp 00000000 fd:02 313675225                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/liboasis-O.so
+7fd1f7038000-7fd1f7039000 ---p 00171000 fd:02 313675225                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/liboasis-O.so
+7fd1f7039000-7fd1f703a000 r-xp 00171000 fd:02 313675225                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/liboasis-O.so
+7fd1f703a000-7fd1f703c000 rwxp 00172000 fd:02 313675225                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/liboasis-O.so
+7fd1f703c000-7fd1f703d000 rwxp 00000000 00:00 0 
+7fd1f703d000-7fd1f7062000 r-xp 00000000 fd:00 134294267                  /usr/lib64/libtinfo.so.5.9
+7fd1f7062000-7fd1f7262000 ---p 00025000 fd:00 134294267                  /usr/lib64/libtinfo.so.5.9
+7fd1f7262000-7fd1f7266000 r-xp 00025000 fd:00 134294267                  /usr/lib64/libtinfo.so.5.9
+7fd1f7266000-7fd1f7267000 rwxp 00029000 fd:00 134294267                  /usr/lib64/libtinfo.so.5.9
+7fd1f7267000-7fd1f728d000 r-xp 00000000 fd:00 134294257                  /usr/lib64/libncurses.so.5.9
+7fd1f728d000-7fd1f748c000 ---p 00026000 fd:00 134294257                  /usr/lib64/libncurses.so.5.9
+7fd1f748c000-7fd1f748d000 r-xp 00025000 fd:00 134294257                  /usr/lib64/libncurses.so.5.9
+7fd1f748d000-7fd1f748e000 rwxp 00026000 fd:00 134294257                  /usr/lib64/libncurses.so.5.9
+7fd1f748e000-7fd1f7630000 r-xp 00000000 fd:02 313675188                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtcl-O.so
+7fd1f7630000-7fd1f7631000 ---p 001a2000 fd:02 313675188                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtcl-O.so
+7fd1f7631000-7fd1f763f000 r-xp 001a2000 fd:02 313675188                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtcl-O.so
+7fd1f763f000-7fd1f7641000 rwxp 001b0000 fd:02 313675188                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtcl-O.so
+7fd1f7641000-7fd1f7642000 rwxp 00000000 00:00 0 
+7fd1f7642000-7fd1f77bc000 r-xp 00000000 fd:02 313675045                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsym_datacore-O.so
+7fd1f77bc000-7fd1f79bb000 ---p 0017a000 fd:02 313675045                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsym_datacore-O.so
+7fd1f79bb000-7fd1f79c4000 r-xp 00179000 fd:02 313675045                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsym_datacore-O.so
+7fd1f79c4000-7fd1f79c7000 rwxp 00182000 fd:02 313675045                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsym_datacore-O.so
+7fd1f79c7000-7fd1f79eb000 r-xp 00000000 fd:02 313675319                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libmym_core-O.so
+7fd1f79eb000-7fd1f7bea000 ---p 00024000 fd:02 313675319                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libmym_core-O.so
+7fd1f7bea000-7fd1f7bec000 r-xp 00023000 fd:02 313675319                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libmym_core-O.so
+7fd1f7bec000-7fd1f7bed000 rwxp 00025000 fd:02 313675319                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libmym_core-O.so
+7fd1f7bed000-7fd1f7cd2000 r-xp 00000000 fd:02 313675254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgui_controls-O.so
+7fd1f7cd2000-7fd1f7ed1000 ---p 000e5000 fd:02 313675254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgui_controls-O.so
+7fd1f7ed1000-7fd1f7ed8000 r-xp 000e4000 fd:02 313675254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgui_controls-O.so
+7fd1f7ed8000-7fd1f7eda000 rwxp 000eb000 fd:02 313675254                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libgui_controls-O.so
+7fd1f7eda000-7fd1f836c000 r-xp 00000000 fd:02 313675068                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnpsst-O.so
+7fd1f836c000-7fd1f856c000 ---p 00492000 fd:02 313675068                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnpsst-O.so
+7fd1f856c000-7fd1f8586000 r-xp 00492000 fd:02 313675068                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnpsst-O.so
+7fd1f8586000-7fd1f858f000 rwxp 004ac000 fd:02 313675068                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnpsst-O.so
+7fd1f858f000-7fd1f890a000 r-xp 00000000 fd:02 313675235                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnpiL1.so
+7fd1f890a000-7fd1f890b000 ---p 0037b000 fd:02 313675235                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnpiL1.so
+7fd1f890b000-7fd1f8919000 r-xp 0037b000 fd:02 313675235                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnpiL1.so
+7fd1f8919000-7fd1f8921000 rwxp 00389000 fd:02 313675235                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libnpiL1.so
+7fd1f8921000-7fd1f8929000 rwxp 00000000 00:00 0 
+7fd1f8929000-7fd1fcbd1000 r-xp 00000000 fd:02 313675174                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libNPI.so
+7fd1fcbd1000-7fd1fcbd2000 ---p 042a8000 fd:02 313675174                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libNPI.so
+7fd1fcbd2000-7fd1fd250000 r-xp 042a8000 fd:02 313675174                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libNPI.so
+7fd1fd250000-7fd1fd386000 rwxp 04926000 fd:02 313675174                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libNPI.so
+7fd1fd386000-7fd1fea42000 rwxp 00000000 00:00 0 
+7fd1fea42000-7fd1fec76000 r-xp 00000000 fd:02 313675067                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libcrypto.so.1.0.2k
+7fd1fec76000-7fd1fee76000 ---p 00234000 fd:02 313675067                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libcrypto.so.1.0.2k
+7fd1fee76000-7fd1fee92000 r-xp 00234000 fd:02 313675067                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libcrypto.so.1.0.2k
+7fd1fee92000-7fd1fee9f000 rwxp 00250000 fd:02 313675067                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libcrypto.so.1.0.2k
+7fd1fee9f000-7fd1feea3000 rwxp 00000000 00:00 0 
+7fd1feea3000-7fd1fef0a000 r-xp 00000000 fd:02 313675216                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libssl.so.1.0.2k
+7fd1fef0a000-7fd1ff10a000 ---p 00067000 fd:02 313675216                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libssl.so.1.0.2k
+7fd1ff10a000-7fd1ff10e000 r-xp 00067000 fd:02 313675216                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libssl.so.1.0.2k
+7fd1ff10e000-7fd1ff115000 rwxp 0006b000 fd:02 313675216                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libssl.so.1.0.2k
+7fd1ff115000-7fd1ff12f000 r-xp 00000000 fd:02 313675200                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libz.so.1.2.11
+7fd1ff12f000-7fd1ff32f000 ---p 0001a000 fd:02 313675200                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libz.so.1.2.11
+7fd1ff32f000-7fd1ff330000 rwxp 0001a000 fd:02 313675200                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libz.so.1.2.11
+7fd1ff330000-7fd1ff4ff000 r-xp 00000000 fd:02 313675613                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libstdc++.so.6.0.27
+7fd1ff4ff000-7fd1ff6fe000 ---p 001cf000 fd:02 313675613                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libstdc++.so.6.0.27
+7fd1ff6fe000-7fd1ff709000 r-xp 001ce000 fd:02 313675613                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libstdc++.so.6.0.27
+7fd1ff709000-7fd1ff70c000 rwxp 001d9000 fd:02 313675613                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libstdc++.so.6.0.27
+7fd1ff70c000-7fd1ff70f000 rwxp 00000000 00:00 0 
+7fd1ff70f000-7fd1ff810000 r-xp 00000000 fd:00 134292802                  /usr/lib64/libm-2.17.so
+7fd1ff810000-7fd1ffa0f000 ---p 00101000 fd:00 134292802                  /usr/lib64/libm-2.17.so
+7fd1ffa0f000-7fd1ffa10000 r-xp 00100000 fd:00 134292802                  /usr/lib64/libm-2.17.so
+7fd1ffa10000-7fd1ffa11000 rwxp 00101000 fd:00 134292802                  /usr/lib64/libm-2.17.so
+7fd1ffa11000-7fd1ffa28000 r-xp 00000000 fd:00 134294179                  /usr/lib64/libpthread-2.17.so
+7fd1ffa28000-7fd1ffc27000 ---p 00017000 fd:00 134294179                  /usr/lib64/libpthread-2.17.so
+7fd1ffc27000-7fd1ffc28000 r-xp 00016000 fd:00 134294179                  /usr/lib64/libpthread-2.17.so
+7fd1ffc28000-7fd1ffc29000 rwxp 00017000 fd:00 134294179                  /usr/lib64/libpthread-2.17.so
+7fd1ffc29000-7fd1ffc2d000 rwxp 00000000 00:00 0 
+7fd1ffc2d000-7fd1ffc4f000 r-xp 00000000 fd:00 134292787                  /usr/lib64/ld-2.17.so
+7fd1ffc4f000-7fd1ffc54000 r-xp 00000000 fd:02 313675272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtbcload-O.so
+7fd1ffc54000-7fd1ffc55000 r-xp 00004000 fd:02 313675272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtbcload-O.so
+7fd1ffc55000-7fd1ffc56000 rwxp 00005000 fd:02 313675272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libtbcload-O.so
+7fd1ffc56000-7fd1ffc66000 rwxp 00000000 00:00 0 
+7fd1ffc66000-7fd1ffc6d000 r-xp 00000000 fd:02 469357272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd1ffc6d000-7fd1ffc6e000 r-xp 00006000 fd:02 469357272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd1ffc6e000-7fd1ffc6f000 rwxp 00007000 fd:02 469357272                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd1ffc6f000-7fd1ffcc3000 r-xp 00000000 fd:02 469357262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd1ffcc3000-7fd1ffcc5000 r-xp 00053000 fd:02 469357262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd1ffcc5000-7fd1ffcc6000 rwxp 00055000 fd:02 469357262                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd1ffcc6000-7fd1ffcc8000 rwxp 00000000 00:00 0 
+7fd1ffcc8000-7fd1ffd00000 r-xp 00000000 fd:02 469357291                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd1ffd00000-7fd1ffd02000 r-xp 00037000 fd:02 469357291                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd1ffd02000-7fd1ffd03000 rwxp 00039000 fd:02 469357291                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd1ffd03000-7fd1ffd07000 r-xp 00000000 fd:02 469357260                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd1ffd07000-7fd1ffd08000 r-xp 00003000 fd:02 469357260                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd1ffd08000-7fd1ffd09000 rwxp 00004000 fd:02 469357260                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd1ffd09000-7fd1ffd0a000 rwxp 00000000 00:00 0 
+7fd1ffd0a000-7fd1ffd3b000 r-xp 00000000 fd:02 469357263                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd1ffd3b000-7fd1ffd3c000 r-xp 00030000 fd:02 469357263                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd1ffd3c000-7fd1ffd3d000 rwxp 00031000 fd:02 469357263                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd1ffd3d000-7fd1ffd3f000 rwxp 00000000 00:00 0 
+7fd1ffd3f000-7fd1ffd49000 r-xp 00000000 fd:02 469357281                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd1ffd49000-7fd1ffd4a000 r-xp 00009000 fd:02 469357281                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd1ffd4a000-7fd1ffd4b000 rwxp 0000a000 fd:02 469357281                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd1ffd4b000-7fd1ffd5c000 r-xp 00000000 fd:02 469357284                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd1ffd5c000-7fd1ffd5e000 r-xp 00010000 fd:02 469357284                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd1ffd5e000-7fd1ffd5f000 rwxp 00012000 fd:02 469357284                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd1ffd5f000-7fd1ffd60000 rwxp 00000000 00:00 0 
+7fd1ffd60000-7fd1ffd70000 r-xp 00000000 fd:02 469357273                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd1ffd70000-7fd1ffd71000 ---p 00010000 fd:02 469357273                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd1ffd71000-7fd1ffd72000 r-xp 00010000 fd:02 469357273                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd1ffd72000-7fd1ffd73000 rwxp 00011000 fd:02 469357273                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd1ffd73000-7fd1ffd86000 r-xp 00000000 fd:02 469357271                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd1ffd86000-7fd1ffd87000 r-xp 00012000 fd:02 469357271                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd1ffd87000-7fd1ffd88000 rwxp 00013000 fd:02 469357271                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd1ffd88000-7fd1ffd8c000 rwxp 00000000 00:00 0 
+7fd1ffd8c000-7fd1ffdfd000 r-xp 00000000 fd:02 313675062                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libvfs.so
+7fd1ffdfd000-7fd1ffdfe000 ---p 00071000 fd:02 313675062                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libvfs.so
+7fd1ffdfe000-7fd1ffe01000 r-xp 00071000 fd:02 313675062                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libvfs.so
+7fd1ffe01000-7fd1ffe02000 rwxp 00074000 fd:02 313675062                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libvfs.so
+7fd1ffe02000-7fd1ffe07000 rwxp 00000000 00:00 0 
+7fd1ffe07000-7fd1ffe23000 r-xp 00000000 fd:02 313675257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd1ffe23000-7fd1ffe24000 ---p 0001c000 fd:02 313675257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd1ffe24000-7fd1ffe25000 r-xp 0001c000 fd:02 313675257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd1ffe25000-7fd1ffe26000 rwxp 0001d000 fd:02 313675257                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd1ffe26000-7fd1ffe27000 rwxp 00000000 00:00 0 
+7fd1ffe27000-7fd1ffe28000 r-xp 00000000 fd:02 95761875                   /home/tools/synopsys/customcompiler/T-2022.06/auxx/marker_browser/marker_browser_tcl.rcc
+7fd1ffe28000-7fd1ffe2c000 r-xp 00000000 fd:02 315012842                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/parameter_evaluation/parameter_evaluation_tcl.rcc
+7fd1ffe2c000-7fd1ffe2d000 r-xp 00000000 fd:02 187129961                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/startup/startup_tcl.rcc
+7fd1ffe2d000-7fd1ffe2e000 r-xp 00000000 fd:02 187374300                  /home/tools/synopsys/customcompiler/T-2022.06/auxx/tdk/tdk_tcl.rcc
+7fd1ffe2e000-7fd1ffe35000 r-xs 00000000 fd:00 268678562                  /usr/lib64/gconv/gconv-modules.cache
+7fd1ffe35000-7fd1ffe39000 rwxp 00000000 00:00 0 
+7fd1ffe39000-7fd1ffe3c000 r-xp 00000000 fd:02 185610893                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libsdp_python.so
+7fd1ffe3c000-7fd1ffe3d000 r-xp 00002000 fd:02 185610893                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libsdp_python.so
+7fd1ffe3d000-7fd1ffe3e000 rwxp 00003000 fd:02 185610893                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libsdp_python.so
+7fd1ffe3e000-7fd1ffe4a000 r-xp 00000000 fd:02 185610892                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libudd_python-O.so
+7fd1ffe4a000-7fd1ffe4b000 r-xp 0000b000 fd:02 185610892                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libudd_python-O.so
+7fd1ffe4b000-7fd1ffe4c000 rwxp 0000c000 fd:02 185610892                  /home/tools/synopsys/customcompiler/T-2022.06/linux64/platform/lib/python-2.6/libudd_python-O.so
+7fd1ffe4c000-7fd1ffe4e000 rwxp 00000000 00:00 0 
+7fd1ffe4e000-7fd1ffe4f000 r-xp 00021000 fd:00 134292787                  /usr/lib64/ld-2.17.so
+7fd1ffe4f000-7fd1ffe50000 rwxp 00022000 fd:00 134292787                  /usr/lib64/ld-2.17.so
+7fd1ffe50000-7fd1ffe51000 rwxp 00000000 00:00 0 
+7ffdff4d4000-7ffdff4fb000 rwxp 00000000 00:00 0                          [stack]
+7ffdff5ad000-7ffdff5af000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

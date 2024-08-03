@@ -1,0 +1,57 @@
+Parsing option_file: convert_gpd.tech (EX-304)
+Running Amd_64b    
+$LD_LIBRARY_PATH=/home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/lib:/home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/lib/std_oa/amd64/lib/opt:/home/tools/synopsys/starrc/U-2022.12-SP5-2/linux64_starrc/lib:/home/tools/synopsys/starrc/U-2022.12-SP5-2/linux64_starrc/lib/std_oa/linux64/lib/opt:/usr/lib
+$TCL_LIBRARY=/home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/etc/auxx/tcllib/lib/tcl8.6
+loading /home/tools/synopsys/starrc/U-2022.12-SP5-2/amd64_starrc/lib/liboaStar-O.so
+OA lib version: 22.60.063
+OaOpenLibDefListObserver::onPostOpenLibs:
+Got Lib Def: Logical Library Name = snpsDefTechLib
+Got Lib Def: Logical Library Name = basic
+Got Lib Def: Logical Library Name = snpsDeviceLib
+Got Lib Def: Logical Library Name = analogLib
+Got Lib Def: Logical Library Name = verilogaLib
+Got Lib Def: Logical Library Name = sheets
+Got Lib Def: Logical Library Name = sample
+Got Lib Def: Logical Library Name = parasitics
+Got Lib Def: Logical Library Name = reference40nm
+Got Lib Def: Logical Library Name = analogStarterTemplates
+Got Lib Def: Logical Library Name = analogStarterTemplatesHV
+Got Lib Def: Logical Library Name = lab03
+lib dmSystemName: oaDMFileSys
+lib path: /home/users/hungpt/icdesign/analog/lab03/lab03
+Unable to set references on tech because conflicts would result.
+unitStr: micron  m_gpdDbu: 10 techDbu: 1000 makersize: 100
+done init converter design ... init mappers
+OaParasiticViewWriter initMappers
+Parsing Device Cdf for cell presistor in lib analogLib
+Parsing Device Cdf for cell pcapacitor in lib analogLib
+Parsing Device Cdf for cell n_4t in lib reference40nm
+Parsing Device Cdf for cell p_4t in lib reference40nm
+Parsing Device Cdf for cell nh_4t in lib reference40nm
+Parsing Device Cdf for cell ph_4t in lib reference40nm
+Parsing Device Cdf for cell rnpoly in lib reference40nm
+Parsing Device Cdf for cell nmoscap in lib reference40nm
+Parsing Device Cdf for cell nmoscaph in lib reference40nm
+Writing tech command to OA view...
+Done writing tech command.
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+G2OConverter constructor
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+G2OConverter constructor
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+G2OConverter destructor
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+G2OConverter destructor
+OaParasiticViewWriter destructor
+Merging xin and writting to OA...
+Dumping merged xin to OA
+Done merging xin
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=558.9 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=558.9 
+

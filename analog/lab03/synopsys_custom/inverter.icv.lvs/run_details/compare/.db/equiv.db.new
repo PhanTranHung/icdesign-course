@@ -1,0 +1,8 @@
+Q nmoscap nmoscap M nmoscap.nmoscap.bincdb N
+Q nmoscaph nmoscaph M nmoscaph.nmoscaph.bincdb N
+Q N N M N.N.bincdb N
+Q N25 N25 M N25.N25.bincdb N
+Q P P M P.P.bincdb N
+Q P25 P25 M P25.P25.bincdb N
+Q rnpoly rnpoly M rnpoly.rnpoly.bincdb N
+E inverter inverter M inverter.inverter.bincdb N

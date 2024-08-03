@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version T-2022.06-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLPEEnableLPEJob" value="true"/>
+	<pref name="xtLPEEnableLVSJob" value="false"/>
+	<pref name="xtLPELPEJobName" value="LPE"/>
+	<pref name="xtLPELVSJobName" value="LVS"/>
+	<pref name="xtLPELayLCV" value="lab03/inverter/layout"/>
+	<pref name="xtLPEStarCornerFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/corners_file"/>
+	<pref name="xtLPEStarOACellName" value="inverter"/>
+	<pref name="xtLPEStarOADeviceMappingFile" value="/home/dkits/synopsys/m3a/starrc/device_map"/>
+	<pref name="xtLPEStarOALibName" value="lab03"/>
+	<pref name="xtLPEStarOAPortAnnotationView" value="//"/>
+	<pref name="xtLPEStarOAPropertyAnnotationView" value="//"/>
+	<pref name="xtLPEStarOutputRunset" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.starrc.lpe/starrc_cmd.custom_compiler"/>
+	<pref name="xtLPETool" value="StarRC"/>
+	<pref name="xtStarICVRunsetReportFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/pex_runset_report"/>
+	<pref name="xtStarSpiceSubcktFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtStarTcadGrdFile" value="/home/dkits/synopsys/m3a/starrc/reference40_1P10M_typical.nxtgrd"/>
+</preferences>
+

@@ -1,0 +1,8 @@
+inverter
+	Cell Level Device Counts
+		NMOS[N] = 1
+		PMOS[P] = 1
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = inverter  *******
+		NMOS[N] = 1
+		PMOS[P] = 1

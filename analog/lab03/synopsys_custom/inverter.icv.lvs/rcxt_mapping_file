@@ -1,0 +1,65 @@
+conducting_layers
+
+metal1 M1 
+metal2 M2 
+metal3 M3 
+metal4 M4 
+metal5 M5 
+metal6 M6 
+metal7 M7 
+metal8 M8 
+metal9 M9 
+metal10 M10 
+POLY POLY 
+subtie ACTIVE 
+polyres_bulk POLY 
+poly_psub_via POLY 
+poly_nw_via POLY 
+ndiff ACTIVE 
+ndiff_hv ACTIVE 
+pdiff ACTIVE 
+pdiff_hv ACTIVE 
+poly POLY 
+ngate GATE 
+ngate_hv GATE 
+pgate GATE 
+pgate_hv GATE 
+metal1_term1 M1 
+metal1_term2 M1 
+rnpoly_body POLY 
+rnpoly_term POLY 
+welltie ACTIVE 
+
+via_layers
+
+V1S V1 
+V2S V2 
+V3S V3 
+V4S V4 
+V5S V5 
+V6S V6 
+V7S V7 
+V8S V8 
+V9S V9 
+diffCont CS_AA 
+polyCont CS_GC 
+
+marker_layers
+
+M1PIN 
+M2PIN 
+M3PIN 
+M4PIN 
+M5PIN 
+M6PIN 
+M7PIN 
+M8PIN 
+M9PIN 
+M10PIN 
+POLY_PIN 
+
+remove_layers
+
+psub 
+NWELL 
+

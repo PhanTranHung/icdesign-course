@@ -1,0 +1,7 @@
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=687.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=687.1 

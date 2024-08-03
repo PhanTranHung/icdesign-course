@@ -1,0 +1,123 @@
+-improve_comb_accuracy_on_capacitor_layer
+-abs_cap_threshold_xt 3e-15
+-rel_cap_threshold_xt 0.03
+-disable_skip_pcell_tcap_filter
+-ground_small_net_ccap
+-abutment_merge_mode 3
+-group_grd_layers_in_cleaner 2
+-clean_ctext
+-layer_based_nxtgrd_read 1
+-noncritical_min_area 0.25
+-noncritical_min_length 0.25
+-new_dp_stitching_in_extraction 3
+-local_nodeids
+-new_res_rc
+-new_res_environment 2
+-new_res_optimization 1
+-new_ip_handling
+-process_point_based_ip
+-consistent_open_instance_port
+-new_cap_environment 6
+-extra_area_caps 1
+-new_cap_environment_nondominant 1
+-new_cap_model 1
+-fill_walks 50000
+-new_etch_behavior
+-enhanced_3d_overlap 1
+-new_cap_extract_noncritical
+-high_capacitance_precision_mode
+-thickness_var_threshold 0.0
+-thickness_var_threshold_discard 0.0
+-new_cap_plane_limit -1.0
+-new_cap_simple_via_pad_model 0
+-disable_second_neighbor_pruning
+-envcbycell_second_neighbor_prune_nocap 0
+-no_colored_patterns 1
+-fill_pattern_generation_mode 0
+-new_cap_fill_extract_iterations 0
+-fnr_preserve_node 1
+-use_effective_edge_cap_to_ground
+-use_partition_based_density
+-ignore_reconnected_fill_in_ip_location
+-tight_negative_cap
+-stage_id 1
+-o xout
+-is_xtor_level
+-clean_via
+-gpd_min_cap_threshold
+-netlist_cap_threshold 0
+-handle_45_polygons
+-nonmanhattan_ratio 0.95
+-nonmanhattan_tolerance 5
+-enhanced_via_model_for_via_coverage
+-adjust_rpv_by_via_count
+-fs_assisted
+-num_cores 1
+-ignore_ek_stub_for_ip
+-filter
+-fsd 25
+-dsd 25
+-message_suppression_limit  100
+-i xin
+-tcad_file /home/dkits/synopsys/m3a/starrc/reference40_1P10M_typical.nxtgrd
+-layer_info layer_info
+-GVM_skip 
+-GV_m0_factor 0
+-GV_shielding_ext -1
+-detect_VT 0
+-ignore_cap_mode 0 
+-netlist_res_threshold 0
+-density_based_thickness
+-e 1e-12
+-enable_tall_contact_modeling
+-extraction RC
+-keep_via_nodes 0
+-reduction_high_small_r_rel_threshold 0.9
+-should_reduce_different_layers no
+-rfr 0.99
+-suppress_file xtract.sup
+-extra_geometry_info node
+-vert_parts
+-cut_thickness 1
+-overlap_dist 2
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-trench_contact_virtual_via_segmentation_ratio_for_power 1
+-max_virtual_via_segmentation_number 1000000
+-dont_physically_cut_virtual_via 
+-net_segment_cut_length 20
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-fine_dbu
+-calc_text_count
+-envcbycell 0
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-random_access_xout
+-lateral_cap_scaling_mode 2
+-stitch_overlap_dist 1
+-new_current_direction_for_em
+-em_extraction
+-dont_merge_via_nodes
+-gpd_dir ../inverter.gpd
+-direct_gpd
+-nco_setup_file gpd_connect_open_nets
+-netlist_unscaled_coordinates
+-unmagnification_factor 0.9
+-unscale_open_short_coord
+-netlist_unscaled_res_prop 
+-unmag_res_prop 0.9
+-apply_min_cg_threshold
+-enhanced_via_extraction
+-enhanced_via_extraction_for_fake_via
+-native_nm
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000
+-vertical_gate_resistance
+-persistent_extractor_mode 3
+-enhanced_obs_short_reporting
+-warning_mos_gate_delta_for_via_on_gate 
+-enhanced_evws_resistance_accuracy
+-enhanced_evws_resistance_accuracy_max_coor_size 8
+-prefer_fill_style_pn_over_xin_pn
+-tsmc_sliver_handling 

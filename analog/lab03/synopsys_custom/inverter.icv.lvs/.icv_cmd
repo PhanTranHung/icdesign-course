@@ -1,0 +1,8 @@
+openaccess layout lab03 inverter inverter icv SPICE /home/users/hungpt/icdesign/analog/lab03/lib.defs /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs /home/dkits/synopsys/m3a/icv/lvs -vue -stc -sf -oa_view -oa_lib_defs -oa_layer_map -oa_dm6 -lic_apex -i -f -c -I 
+schematic=/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp
+ICV_HOME_DIR=/home/tools/synopsys/icvalidator/U-2022.12
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp -sp /home/dkits/synopsys/m3a/icv/lvs/empty.subckt -cell inverter -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -quiet -logFile run_details/icv_nettran.log  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron
+inverter
+/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details
+Complete

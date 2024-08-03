@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version T-2022.06-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="dbExportStreamLayerMapFile" value="/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map"/>
+	<pref name="dbViewWordWrap" value="true"/>
+	<pref name="deDescendMode" value="readOnly"/>
+	<pref name="deDescendRead" value="true"/>
+	<pref name="giPromptCloseMultipleTabs" value="true"/>
+	<pref name="leOLPCompactView" value="true"/>
+	<pref name="lxDevicePanelMasterColumnLength" value="174"/>
+	<pref name="xtDRCICVRunsetFile" value="/home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs"/>
+	<pref name="xtLVSICVOptions" value="-I /home/dkits/synopsys/m3a/icv/lvs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map"/>
+	<pref name="xtLVSICVRunsetFile" value="/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs"/>
+	<pref name="xtPDKProcess" value="Reference 40nm PDK"/>
+	<pref name="xtPDKVariant" value="10M"/>
+	<pref name="xtPVLayerMapFile" value="/home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map"/>
+</preferences>
+

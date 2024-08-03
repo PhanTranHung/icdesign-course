@@ -1,0 +1,88 @@
+version 1.2
+
+schematic inverter.sch_out.gz
+compare_directory run_details/compare
+milkyway_database ./MILKYWAY_OUTPUT
+ndb_path run_details/.ndb
+
+
+device NMOS N
+pins {ndiff DRN TERMINAL} {ngate GATE TERMINAL} {ndiff SRC TERMINAL} {psub BULK BULK} 
+x_card FALSE
+schematic_devices {N DRN GATE SRC BULK} 
+
+device PMOS P
+pins {pdiff DRN TERMINAL} {pgate GATE TERMINAL} {pdiff SRC TERMINAL} {NWELL BULK BULK} 
+x_card FALSE
+schematic_devices {P DRN GATE SRC BULK} 
+
+device NMOS N25
+pins {ndiff_hv DRN TERMINAL} {ngate_hv GATE TERMINAL} {ndiff_hv SRC TERMINAL} {psub BULK BULK} 
+x_card FALSE
+schematic_devices {N25 DRN GATE SRC BULK} 
+
+device PMOS P25
+pins {pdiff_hv DRN TERMINAL} {pgate_hv GATE TERMINAL} {pdiff_hv SRC TERMINAL} {NWELL BULK BULK} 
+x_card FALSE
+schematic_devices {P25 DRN GATE SRC BULK} 
+
+device RESISTOR rnpoly
+pins {rnpoly_term A TERMINAL} {rnpoly_term B TERMINAL} {polyres_bulk BULK BULK} 
+body rnpoly_body
+x_card TRUE
+schematic_devices {rnpoly PLUS MINUS BULK} 
+
+device CAPACITOR nmoscap
+pins {metal1_term1 A TERMINAL} {metal1_term2 B TERMINAL} 
+body varn_body_core
+x_card TRUE
+schematic_devices {nmoscap PLUS MINUS} 
+
+device CAPACITOR nmoscaph
+pins {metal1_term1 A TERMINAL} {metal1_term2 B TERMINAL} 
+body varn_body_hv
+x_card TRUE
+schematic_devices {nmoscaph PLUS MINUS} 
+
+connect metal1 by M1PIN
+connect metal2 by M2PIN
+connect metal3 by M3PIN
+connect metal4 by M4PIN
+connect metal5 by M5PIN
+connect metal6 by M6PIN
+connect metal7 by M7PIN
+connect metal8 by M8PIN
+connect metal9 by M9PIN
+connect metal10 by M10PIN
+connect POLY by POLY_PIN
+connect poly by POLY_PIN
+connect metal1 metal2 by V1S
+connect metal2 metal3 by V2S
+connect metal3 metal4 by V3S
+connect metal4 metal5 by V4S
+connect metal5 metal6 by V5S
+connect metal6 metal7 by V6S
+connect metal7 metal8 by V7S
+connect metal8 metal9 by V8S
+connect metal9 metal10 by V9S
+connect metal1 ndiff pdiff welltie subtie by diffCont
+connect ndiff_hv pdiff_hv by diffCont
+connect metal1_term1 by metal1
+connect metal1_term2 by metal1
+connect metal1 poly rnpoly_term by polyCont
+connect ngate pgate ngate_hv pgate_hv by poly
+connect subtie by psub
+connect welltie by NWELL
+connect psub polyres_bulk by poly_psub_via
+connect NWELL polyres_bulk by poly_nw_via
+
+compare
+detect_permutable_ports TRUE
+memory_array_comparison TRUE
+end compare
+
+process_map_file rcxt_mapping_file
+
+lpp_map_file lpp_mapping_file
+
+pex_tagname_required TRUE

@@ -1,0 +1,119 @@
+
+                                 IC Validator 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Time Started: 2024-07-19 16:12:52
+
+-------------
+
+Called as: icv -f openaccess -i lab03 -c inverter -oa_view layout -oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map -lic_apex -oa_dm6 -vue /home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs
+
+-------------
+
+Command Line Summary:
+icv
+-c inverter
+-f openaccess
+-i lab03
+-lic_apex
+-oa_dm6
+-oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map
+-oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs
+-oa_view layout
+-vue
+/home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs
+
+-------------
+
+
+WARNING: The environment variable ICV_RSH_COMMAND is deprecated. Please use -host_login.
+Using "ssh" as remote login program
+
+Parsing runset "/home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs"
+
+Loaded runset from cache: /home/users/hungpt/.icvrscache/7efb91b706519718d952740e3f6279db-C47C2B20-F1D2-441E-9891-AFD5E4FDE1DB-localhost.localdomain-15000.rscache
+Cached Runset Compile Time=0:00:02 User=2.50 Sys=0.07 Mem=0.744 GB
+
+Virtual Machine Init Time=0:00:00 User=0.00 Sys=0.00 Mem=0.744 GB
+
+/home/dkits/synopsys/m3a/icv/drc/reference40nm_icv_drc.rs:74: warning: The error_limit_per_check in error_options is set to 2147483647 which is over the tool hard limit of 500000000.  The user setting of 2147483647 will be honored but could result in very large error files and increased amount of time to process if the number of errors in a check is very large.
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	localhost: 2 total cores, maximum 2 commands in parallel.
+Selecting "localhost" as Primary host
+
+System Startup Time=0:00:00 User=0.00 Sys=0.01 Mem=0.744 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/run_details/inverter.sum
+    /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/run_details/reference40nm_icv_drc.dp.log
+
+Running ...
+  [0:00:00][0%]   Total: 2 CPUs on 1 host
+  [0:00:01][1%]   
+  [0:00:01][2%]   Rules: 0/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:01][3%]   
+  [0:00:01][4%]   
+  [0:00:01][5%]   
+  [0:00:01][10%]  Rules: 205/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][15%]  
+  [0:00:02][20%]  Rules: 210/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][25%]  Rules: 215/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][30%]  Rules: 222/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][35%]  Rules: 225/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][40%]  Rules: 229/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][45%]  Rules: 234/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][50%]  Rules: 237/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][55%]  Rules: 246/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][60%]  Rules: 248/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][65%]  Rules: 252/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][70%]  Rules: 258/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][75%]  Rules: 263/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][80%]  Rules: 266/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][85%]  Rules: 272/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][90%]  Rules: 277/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][95%]  Rules: 280/283, Rules with Violations: 0, Total Violations: 0
+  [0:00:02][100%] Rules: 283/283, Rules with Violations: 0, Total Violations: 0
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+IC Validator Run: Time=0:00:06
+
+-------------
+
+IC Validator Machine Memory Report
+localhost    : Average = 4.336 GB, Peak = 4.336 GB
+
+Overall Disk Usage Disk=0.007 GB
+Network Disk Usage Peak=0.008 GB (no group)
+Group File Disk Usage Peak=0.000 GB
+Overall engine Time=0:00:06 Highest command Mem=4.338 GB
+
+Overall Master Mem=0.907 GB
+
+Time Ended: 2024-07-19 16:12:58
+
+IC Validator is done.

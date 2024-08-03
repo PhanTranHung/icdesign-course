@@ -1,0 +1,2551 @@
+
+                                 IC Validator 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i lab03 -c inverter -oa_view layout -oa_lib_defs /home/users/hungpt/icdesign/analog/lab03/lib.defs -oa_layer_map /home/dkits/synopsys/m3a/techfiles/reference40nm_layer.map -s /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.icv.sp -sf SPICE -stc inverter -I /home/dkits/synopsys/m3a/icv/lvs -lic_apex -oa_dm6 -vue /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+
+Loaded runset from cache: /home/users/hungpt/.icvrscache/7943b9d95e3bd13566b4c026d31cc8ff-1FD5992E-8D4A-4FB9-B2BA-350D38B370E1-localhost.localdomain-16224.rscache
+Cached Runset Compile Time=0:00:02 User=2.53 Sys=0.05 Mem=0.744 GB
+
+/home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:506: warning: ICV LVS device settings currently use append mode. Use command line option '-D ICV_REVERT_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_REVERT_DEVICE_SETTING_APPEND_MODE' to revert LVS device setting back to overwrite mode in this release.
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.01 Mem=0.744 GB
+
+System Startup Time=0:00:01 User=0.00 Sys=0.01 Mem=0.744 GB
+
+Fri Jul 19 16:15:54 2024
+
+                                  ICV_Engine 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs
+Current Directory ................  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs
+Hostname .........................  localhost.localdomain
+Platform type ....................  LINUX.64
+OPENACCESS lib.defs file .........  /home/users/hungpt/icdesign/analog/lab03/lib.defs
+OPENACCESS input library name ....  lab03
+OPENACCESS block name ............  inverter
+OPENACCESS view name .............  layout
+Run details ......................  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details
+Group file directory .............  /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/group
+Check reference structures .......  yes
+
+library() at /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:57
+library(cell = current_cell, format = OPENACCESS, library_definition_file = "lib.defs", library_name = "adder_4bit")
+
+error_options() at /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:64
+error_options(error_limit_per_check = 100000)
+
+openaccess_options() at /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:68
+openaccess_options(view = "layout", layer_mapping_file = ("/home/dkits/synopsys/m3a" + "/techfiles/reference40nm_layer.map"))
+
+schematic() at /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:72
+schematic_netlist = schematic(schematic_file = { { "/home/dkits/synopsys/m3a" + "/icv/lvs/empty.subckt", SPICE } }, schematic_library_file = { { "/home/dkits/synopsys/m3a" + "/icv/lvs/empty.subckt", SPICE } })
+
+text_options() at /home/dkits/synopsys/m3a/icv/lvs/reference40nm_lvs.rs:80
+text_options(colon_text = EQUATE_NETS, semicolon_text = EQUATE_NETS, use_exploded_text = { { cells = { "*" }, text = { "*" } } })
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+Initialized OpenAccess libraries successfully
+
+ OpenAccess memory usage: 7.898M
+   Scan Hierarchy Time=0:00:00  User=0.11 Sys=0.01 Mem=0.013 GB
+
+Shared recipe is disabled for create_layer commands, too few layers in the design.
+Initialized OpenAccess libraries successfully
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT 8;1
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: Could not find layer/purpose names for LDT -1;0
+[liboa] Warning: No Lib/Cell/View map data to write
+
+ OpenAccess memory usage: 4429.992M
+   Read Library Time=0:00:00  User=0.12 Sys=0.02 Mem=4.339 GB
+
+ML for preprocessing is disabled for small designs.
+Initialized OpenAccess libraries successfully
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.05 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+0 Total errors found.
+  Set 1 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+verbose_is_necessary = VERBOSE_TEXT_FULL_FLOW
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Find duplicate placements in cells
+Total Explode Mega Cells found = 0
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Determine Layer Counts Max Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Determine Region Height Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Determine Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Prototype Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Determine shadow Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Fracture A-Refs for Regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Determine Region Rows Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.10 Sys=0.02 Mem=0.012 GB
+
+assign() at reference40nm_lvs.rs:90
+NWELL = assign({ { 1 } })
+  Function: assign
+  Outputs: empty_layer.associated.0001
+No output written.
+Layer "empty_layer.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+No output written.
+Layer "empty_layer.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:90
+NWELL = assign({ { 1 } })
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Initialized OpenAccess libraries successfully
+assign() at reference40nm_lvs.rs:90
+NWELL = assign({ { 1 } })
+  Value of SPACE GRID is 0.51 micron
+   Total RR Count  = 0
+A total of 0 relations are recorded
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Write binned hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+    Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.00 x
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Layer Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+     Write recipe & record mem in hdb Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.01 Sys=0.01 Mem=0.008 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+assign() at reference40nm_lvs.rs:90
+NWELL = assign({ { 1 } })
+A total of 0 relations are recorded
+ref_ref_file error._hier.0001.refref
+PlacementsCountToRelationsCount Ratio : inf
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_lvs.rs:90:Layer creation
+NWELL = assign({ { 1 } })
+  Function: assign
+  Inputs: NWELL.polygonlayer.0001, NWELL.polygonlayer.0001
+  Outputs: NWELL.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.020 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at reference40nm_lvs.rs:90:Layer creation
+NWELL = assign({ { 1 } })
+  Function: assign
+  Inputs: NWELL.polygonlayer.0002, NWELL.polygonlayer.0002
+  Outputs: NWELL.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Performing bulks pulldown ...
+use ancestors in bulks pulldown ...
+1 unique polygon written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+assign() at reference40nm_lvs.rs:91:Layer creation
+DIFF = assign({ { 2 } })
+  Function: assign
+  Inputs: DIFF.polygonlayer.0001, DIFF.polygonlayer.0001
+  Outputs: DIFF.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_lvs.rs:91:Layer creation
+DIFF = assign({ { 2 } })
+  Function: assign
+  Inputs: DIFF.polygonlayer.0002, DIFF.polygonlayer.0002
+  Outputs: DIFF.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at reference40nm_lvs.rs:92:Layer creation
+POLY = assign({ { 3 } })
+  Function: assign
+  Inputs: POLY.polygonlayer.0001, POLY.polygonlayer.0001
+  Outputs: POLY.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+assign() at reference40nm_lvs.rs:92:Layer creation
+POLY = assign({ { 3 } })
+  Function: assign
+  Inputs: POLY.polygonlayer.0002, POLY.polygonlayer.0002
+  Outputs: POLY.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at reference40nm_lvs.rs:93
+POLY_TEXT = assign_text({ { 41, 0 } })
+  Function: assign_text
+  Outputs: POLY_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "POLY_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:94
+POLY_PIN = assign({ { 41, 0 } })
+  Function: assign
+  Outputs: POLY_PIN.polygonlayer.0002
+No output written.
+Layer "POLY_PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:95:Layer creation
+PPLUS = assign({ { 4 } })
+  Function: assign
+  Inputs: PPLUS.polygonlayer.0001, PPLUS.polygonlayer.0001
+  Outputs: PPLUS.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+assign() at reference40nm_lvs.rs:95:Layer creation
+PPLUS = assign({ { 4 } })
+  Function: assign
+  Inputs: PPLUS.polygonlayer.0002, PPLUS.polygonlayer.0002
+  Outputs: PPLUS.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at reference40nm_lvs.rs:96:Layer creation
+NPLUS = assign({ { 5 } })
+  Function: assign
+  Inputs: NPLUS.polygonlayer.0001, NPLUS.polygonlayer.0001
+  Outputs: NPLUS.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+assign() at reference40nm_lvs.rs:96:Layer creation
+NPLUS = assign({ { 5 } })
+  Function: assign
+  Inputs: NPLUS.polygonlayer.0002, NPLUS.polygonlayer.0002
+  Outputs: NPLUS.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at reference40nm_lvs.rs:97
+RPOLY = assign({ { 6 } })
+  Function: assign
+  Outputs: RPOLY.polygonlayer.0002
+No output written.
+Layer "RPOLY.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:98:Layer creation
+CONT = assign({ { 7 } })
+  Function: assign
+  Inputs: CONT.polygonlayer.0001, CONT.polygonlayer.0001
+  Outputs: CONT.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+31 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at reference40nm_lvs.rs:98:Layer creation
+CONT = assign({ { 7 } })
+  Function: assign
+  Inputs: CONT.polygonlayer.0002, CONT.polygonlayer.0002
+  Outputs: CONT.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+31 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_lvs.rs:99:Layer creation
+M1S = assign({ { 8 } })
+  Function: assign
+  Inputs: M1S.polygonlayer.0001, M1S.polygonlayer.0001
+  Outputs: M1S.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.021 GB
+
+assign() at reference40nm_lvs.rs:99:Layer creation
+M1S = assign({ { 8 } })
+  Function: assign
+  Inputs: M1S.polygonlayer.0002, M1S.polygonlayer.0002
+  Outputs: M1S.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign_text() at reference40nm_lvs.rs:100:Layer creation
+M1S_TEXT = assign_text({ { 9, 0 } })
+  Function: assign_text
+  Inputs: M1S_TEXT.textlayer.0001.TEXT, M1S_TEXT.textlayer.0001.TEXT
+  Outputs: M1S_TEXT.textlayer.0002.TEXT, 
+0 non-45 violations found.
+0 non-90 violations found.
+8 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+
+assign_text() at reference40nm_lvs.rs:100:Layer creation
+M1S_TEXT = assign_text({ { 9, 0 } })
+  Function: assign_text
+  Inputs: M1S_TEXT.textlayer.0002.TEXT, M1S_TEXT.textlayer.0002.TEXT
+  Outputs: M1S_TEXT.textlayer.0003.TEXT, 
+0 non-45 violations found.
+0 non-90 violations found.
+8 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at reference40nm_lvs.rs:101:Layer creation
+M1PIN = assign({ { 9, 0 } })
+  Function: assign
+  Inputs: M1PIN.polygonlayer.0001, M1PIN.polygonlayer.0001
+  Outputs: M1PIN.polygonlayer.0002, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.020 GB
+
+assign() at reference40nm_lvs.rs:101:Layer creation
+M1PIN = assign({ { 9, 0 } })
+  Function: assign
+  Inputs: M1PIN.polygonlayer.0002, M1PIN.polygonlayer.0002
+  Outputs: M1PIN.polygonlayer.0003, 
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at reference40nm_lvs.rs:102
+M2S = assign({ { 10 } })
+  Function: assign
+  Outputs: M2S.polygonlayer.0002
+No output written.
+Layer "M2S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:103
+M2S_TEXT = assign_text({ { 11, 0 } })
+  Function: assign_text
+  Outputs: M2S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M2S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:104
+M2PIN = assign({ { 11, 0 } })
+  Function: assign
+  Outputs: M2PIN.polygonlayer.0002
+No output written.
+Layer "M2PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:105
+M3S = assign({ { 12 } })
+  Function: assign
+  Outputs: M3S.polygonlayer.0002
+No output written.
+Layer "M3S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:106
+M3S_TEXT = assign_text({ { 13, 0 } })
+  Function: assign_text
+  Outputs: M3S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M3S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:107
+M3PIN = assign({ { 13, 0 } })
+  Function: assign
+  Outputs: M3PIN.polygonlayer.0002
+No output written.
+Layer "M3PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:108
+M4S = assign({ { 14 } })
+  Function: assign
+  Outputs: M4S.polygonlayer.0002
+No output written.
+Layer "M4S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:109
+M4S_TEXT = assign_text({ { 15, 0 } })
+  Function: assign_text
+  Outputs: M4S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M4S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:110
+M4PIN = assign({ { 15, 0 } })
+  Function: assign
+  Outputs: M4PIN.polygonlayer.0002
+No output written.
+Layer "M4PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:111
+V1S = assign({ { 16 } })
+  Function: assign
+  Outputs: V1S.polygonlayer.0002
+No output written.
+Layer "V1S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:112
+V2S = assign({ { 17 } })
+  Function: assign
+  Outputs: V2S.polygonlayer.0002
+No output written.
+Layer "V2S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:113
+V3S = assign({ { 18 } })
+  Function: assign
+  Outputs: V3S.polygonlayer.0002
+No output written.
+Layer "V3S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:118
+RMARKER = assign({ { 28 } })
+  Function: assign
+  Outputs: RMARKER.polygonlayer.0002
+No output written.
+Layer "RMARKER.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:121
+DIFF25 = assign({ { 27 } })
+  Function: assign
+  Outputs: DIFF25.polygonlayer.0002
+No output written.
+Layer "DIFF25.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:124
+VARMARKER = assign({ { 31 } })
+  Function: assign
+  Outputs: VARMARKER.polygonlayer.0002
+No output written.
+Layer "VARMARKER.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:143
+M5S = assign({ { 70 } })
+  Function: assign
+  Outputs: M5S.polygonlayer.0002
+No output written.
+Layer "M5S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:144
+M5S_TEXT = assign_text({ { 71, 0 } })
+  Function: assign_text
+  Outputs: M5S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M5S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:145
+M5PIN = assign({ { 71, 0 } })
+  Function: assign
+  Outputs: M5PIN.polygonlayer.0002
+No output written.
+Layer "M5PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:146
+M6S = assign({ { 72 } })
+  Function: assign
+  Outputs: M6S.polygonlayer.0002
+No output written.
+Layer "M6S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:147
+M6S_TEXT = assign_text({ { 73, 0 } })
+  Function: assign_text
+  Outputs: M6S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M6S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:148
+M6PIN = assign({ { 73, 0 } })
+  Function: assign
+  Outputs: M6PIN.polygonlayer.0002
+No output written.
+Layer "M6PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:149
+M7S = assign({ { 74 } })
+  Function: assign
+  Outputs: M7S.polygonlayer.0002
+No output written.
+Layer "M7S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:150
+M7S_TEXT = assign_text({ { 75, 0 } })
+  Function: assign_text
+  Outputs: M7S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M7S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:151
+M7PIN = assign({ { 75, 0 } })
+  Function: assign
+  Outputs: M7PIN.polygonlayer.0002
+No output written.
+Layer "M7PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:152
+M8S = assign({ { 76 } })
+  Function: assign
+  Outputs: M8S.polygonlayer.0002
+No output written.
+Layer "M8S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:153
+M8S_TEXT = assign_text({ { 77, 0 } })
+  Function: assign_text
+  Outputs: M8S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M8S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:154
+M8PIN = assign({ { 77, 0 } })
+  Function: assign
+  Outputs: M8PIN.polygonlayer.0002
+No output written.
+Layer "M8PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:155
+M9S = assign({ { 78 } })
+  Function: assign
+  Outputs: M9S.polygonlayer.0002
+No output written.
+Layer "M9S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:156
+M9S_TEXT = assign_text({ { 79, 0 } })
+  Function: assign_text
+  Outputs: M9S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M9S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:157
+M9PIN = assign({ { 79, 0 } })
+  Function: assign
+  Outputs: M9PIN.polygonlayer.0002
+No output written.
+Layer "M9PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:158
+M10S = assign({ { 80 } })
+  Function: assign
+  Outputs: M10S.polygonlayer.0002
+No output written.
+Layer "M10S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at reference40nm_lvs.rs:159
+M10S_TEXT = assign_text({ { 81, 0 } })
+  Function: assign_text
+  Outputs: M10S_TEXT.textlayer.0002.TEXT
+No output written.
+Layer "M10S_TEXT.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_lvs.rs:160
+M10PIN = assign({ { 81, 0 } })
+  Function: assign
+  Outputs: M10PIN.polygonlayer.0002
+No output written.
+Layer "M10PIN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:161
+V4S = assign({ { 82 } })
+  Function: assign
+  Outputs: V4S.polygonlayer.0002
+No output written.
+Layer "V4S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_lvs.rs:162
+V5S = assign({ { 83 } })
+  Function: assign
+  Outputs: V5S.polygonlayer.0002
+No output written.
+Layer "V5S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:163
+V6S = assign({ { 84 } })
+  Function: assign
+  Outputs: V6S.polygonlayer.0002
+No output written.
+Layer "V6S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_lvs.rs:164
+V7S = assign({ { 85 } })
+  Function: assign
+  Outputs: V7S.polygonlayer.0002
+No output written.
+Layer "V7S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at reference40nm_lvs.rs:165
+V8S = assign({ { 86 } })
+  Function: assign
+  Outputs: V8S.polygonlayer.0002
+No output written.
+Layer "V8S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at reference40nm_lvs.rs:166
+V9S = assign({ { 87 } })
+  Function: assign
+  Outputs: V9S.polygonlayer.0002
+No output written.
+Layer "V9S.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+copy() at reference40nm_lvs.rs:168
+metal1 = copy(M1S)
+  Function: copy
+  Inputs: M1S.polygonlayer.0003
+  Outputs: metal1.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at reference40nm_lvs.rs:169
+metal2 = copy(M2S)
+  Function: copy
+  Outputs: metal2.polygonlayer.0001
+No output written.
+Layer "metal2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+copy() at reference40nm_lvs.rs:170
+metal3 = copy(M3S)
+  Function: copy
+  Outputs: metal3.polygonlayer.0001
+No output written.
+Layer "metal3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+copy() at reference40nm_lvs.rs:171
+metal4 = copy(M4S)
+  Function: copy
+  Outputs: metal4.polygonlayer.0001
+No output written.
+Layer "metal4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+copy() at reference40nm_lvs.rs:172
+metal5 = copy(M5S)
+  Function: copy
+  Outputs: metal5.polygonlayer.0001
+No output written.
+Layer "metal5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+copy() at reference40nm_lvs.rs:173
+metal6 = copy(M6S)
+  Function: copy
+  Outputs: metal6.polygonlayer.0001
+No output written.
+Layer "metal6.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+copy() at reference40nm_lvs.rs:174
+metal7 = copy(M7S)
+  Function: copy
+  Outputs: metal7.polygonlayer.0001
+No output written.
+Layer "metal7.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+copy() at reference40nm_lvs.rs:175
+metal8 = copy(M8S)
+  Function: copy
+  Outputs: metal8.polygonlayer.0001
+No output written.
+Layer "metal8.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+copy() at reference40nm_lvs.rs:176
+metal9 = copy(M9S)
+  Function: copy
+  Outputs: metal9.polygonlayer.0001
+No output written.
+Layer "metal9.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+copy() at reference40nm_lvs.rs:177
+metal10 = copy(M10S)
+  Function: copy
+  Outputs: metal10.polygonlayer.0001
+No output written.
+Layer "metal10.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:182
+diffCont = and(DIFF, CONT)
+  Function: and
+  Inputs: DIFF.polygonlayer.0003, empty_layer.associated.0001, CONT.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: diffCont.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+30 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at reference40nm_lvs.rs:183
+polyCont = and(POLY, CONT)
+  Function: and
+  Inputs: POLY.polygonlayer.0003, empty_layer.associated.0001, CONT.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: polyCont.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+buildsub() at reference40nm_lvs.rs:184
+psub = buildsub(NWELL)
+  Function: buildsub
+  Inputs: NWELL.polygonlayer.0004
+  Outputs: psub.polygonlayer.0001
+2 unique polygons written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+and() at reference40nm_lvs.rs:185
+subtie = (DIFF and PPLUS) not NWELL
+  Function: and
+  Inputs: DIFF.polygonlayer.0003, empty_layer.associated.0001, PPLUS.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: subtie.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_lvs.rs:185
+subtie = (DIFF and PPLUS) not NWELL
+  Function: not
+  Inputs: subtie.polygonlayer.0001, empty_layer.associated.0001, NWELL.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: subtie.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at reference40nm_lvs.rs:186
+welltie = DIFF and NPLUS and NWELL
+  Function: and
+  Inputs: DIFF.polygonlayer.0003, empty_layer.associated.0001, NPLUS.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: welltie.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at reference40nm_lvs.rs:186
+welltie = DIFF and NPLUS and NWELL
+  Function: and
+  Inputs: welltie.polygonlayer.0001, empty_layer.associated.0001, NWELL.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: welltie.polygonlayer.0002
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+and() at reference40nm_lvs.rs:188
+gate = and(POLY, DIFF)
+  Function: and
+  Inputs: POLY.polygonlayer.0003, empty_layer.associated.0001, DIFF.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: gate.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at reference40nm_lvs.rs:189
+ngate = gate and NPLUS not NWELL not VARMARKER not DIFF25
+  Function: and
+  Inputs: gate.polygonlayer.0001, empty_layer.associated.0001, NPLUS.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: ngate.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_lvs.rs:189:command replaced with an internal copy command.
+ngate = gate and NPLUS not NWELL not VARMARKER not DIFF25
+  Function: not
+  Inputs: NWELL.polygonlayer.0004
+  Outputs: ngate.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at reference40nm_lvs.rs:189
+ngate = gate and NPLUS not NWELL not VARMARKER not DIFF25
+  Function: not
+  Inputs: ngate.polygonlayer.0002, empty_layer.associated.0001, ngate.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ngate.polygonlayer.0003
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No data removed.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Performing device layer pulldown ...
+1 unique polygon written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+and() at reference40nm_lvs.rs:190
+pgate = gate and PPLUS and NWELL not VARMARKER not DIFF25
+  Function: and
+  Inputs: gate.polygonlayer.0001, empty_layer.associated.0001, PPLUS.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: pgate.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at reference40nm_lvs.rs:190
+pgate = gate and PPLUS and NWELL not VARMARKER not DIFF25
+  Function: and
+  Inputs: pgate.polygonlayer.0002, empty_layer.associated.0001, NWELL.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: pgate.polygonlayer.0003
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+Alias layer1 as the output
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at reference40nm_lvs.rs:190
+pgate = gate and PPLUS and NWELL not VARMARKER not DIFF25
+  Function: not
+  Outputs: pgate.polygonlayer.0001
+No output written.
+Layer "pgate.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at reference40nm_lvs.rs:190:command replaced with an internal copy command.
+pgate = gate and PPLUS and NWELL not VARMARKER not DIFF25
+  Function: not
+  Inputs: pgate.polygonlayer.0003
+  Outputs: pgate.polygonlayer.0004
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Performing device layer pulldown ...
+1 unique polygon written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+
+and() at reference40nm_lvs.rs:191
+ndiff_cap = DIFF and NPLUS and VARMARKER not DIFF25
+  Function: and
+  Outputs: ndiff_cap.polygonlayer.0001
+No output written.
+Layer "ndiff_cap.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:191
+ndiff_cap = DIFF and NPLUS and VARMARKER not DIFF25
+  Function: not
+  Outputs: ndiff_cap.polygonlayer.0002
+No output written.
+Layer "ndiff_cap.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+and() at reference40nm_lvs.rs:192
+ndiff_cap_hv = DIFF and NPLUS and VARMARKER and DIFF25
+  Function: and
+  Outputs: ndiff_cap_hv.polygonlayer.0001
+No output written.
+Layer "ndiff_cap_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:193
+ndiff1 = DIFF and NPLUS not NWELL not POLY
+  Function: not
+  Inputs: NWELL.polygonlayer.0004, POLY.polygonlayer.0003, NWELL.polygonlayer.0004, POLY.polygonlayer.0003
+  Outputs: ndiff1.polygonlayer.0001
+[C]ENV CHILD_RUNSET_DP = 0
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_lvs.rs:193
+ndiff1 = DIFF and NPLUS not NWELL not POLY
+  Function: not
+  Inputs: welltie.polygonlayer.0001, empty_layer.associated.0001, ndiff1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ndiff1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at reference40nm_lvs.rs:194
+ndiff = ndiff1 interacting ngate
+  Function: interacting
+  Inputs: ndiff1.polygonlayer.0002, empty_layer.associated.0001, ngate.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: ndiff.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+Pulling down the select result(Quasi).
+2 unique polygons written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at reference40nm_lvs.rs:195
+pdiff1 = DIFF and PPLUS and NWELL not POLY
+  Function: and
+  Inputs: subtie.polygonlayer.0001, empty_layer.associated.0001, NWELL.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: pdiff1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_lvs.rs:195
+pdiff1 = DIFF and PPLUS and NWELL not POLY
+  Function: not
+  Inputs: pdiff1.polygonlayer.0001, empty_layer.associated.0001, POLY.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: pdiff1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+
+interacting() at reference40nm_lvs.rs:196
+pdiff = pdiff1 interacting pgate
+  Function: interacting
+  Inputs: pdiff1.polygonlayer.0002, empty_layer.associated.0001, pgate.polygonlayer.0005, empty_layer.associated.0001
+  Outputs: pdiff.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+Pulling down the select result(Quasi).
+2 unique polygons written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at reference40nm_lvs.rs:199:command replaced with an internal copy command.
+ngate_hv = gate and NPLUS not NWELL not VARMARKER and DIFF25
+  Function: not
+  Inputs: NWELL.polygonlayer.0004
+  Outputs: ngate_hv.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at reference40nm_lvs.rs:199:Duplicate command replaced at runtime with an internal copy command.
+ngate_hv = gate and NPLUS not NWELL not VARMARKER and DIFF25
+  Function: not
+  Inputs: ngate.polygonlayer.0003
+  Outputs: ngate_hv.polygonlayer.0003
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at reference40nm_lvs.rs:199
+ngate_hv = gate and NPLUS not NWELL not VARMARKER and DIFF25
+  Function: and
+  Outputs: ngate_hv.polygonlayer.0001
+No output written.
+Layer "ngate_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Performing device layer pulldown ...
+No output written.
+Layer "ngate_hv.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at reference40nm_lvs.rs:200:command replaced with an internal copy command.
+pgate_hv = gate and PPLUS and NWELL not VARMARKER and DIFF25
+  Function: not
+  Inputs: pgate.polygonlayer.0003
+  Outputs: pgate_hv.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+and() at reference40nm_lvs.rs:200
+pgate_hv = gate and PPLUS and NWELL not VARMARKER and DIFF25
+  Function: and
+  Outputs: pgate_hv.polygonlayer.0001
+No output written.
+Layer "pgate_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Performing device layer pulldown ...
+No output written.
+Layer "pgate_hv.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at reference40nm_lvs.rs:201
+ndiff_hv = ndiff1 interacting ngate_hv
+  Function: interacting
+  Inputs: ndiff1.polygonlayer.0002, empty_layer.associated.0001, ngate_hv.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: ndiff_hv.polygonlayer.0001
+Input layer "ngate_hv.polygonlayer.0004" is empty.
+No output written.
+Layer "ndiff_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+interacting() at reference40nm_lvs.rs:202
+pdiff_hv = pdiff1 interacting pgate_hv
+  Function: interacting
+  Inputs: pdiff1.polygonlayer.0002, empty_layer.associated.0001, pgate_hv.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: pdiff_hv.polygonlayer.0001
+Input layer "pgate_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "pdiff_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at reference40nm_lvs.rs:205:command replaced with an internal copy command.
+poly = poly1 not RMARKER
+  Function: not
+  Inputs: gate.polygonlayer.0001
+  Outputs: poly.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at reference40nm_lvs.rs:205
+poly = poly1 not RMARKER
+  Function: not
+  Inputs: POLY.polygonlayer.0003, empty_layer.associated.0001, poly.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: poly.polygonlayer.0002
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+3 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+and() at reference40nm_lvs.rs:206
+rnpoly_body = POLY and RMARKER and RPOLY and NPLUS
+  Function: and
+  Outputs: rnpoly_body.polygonlayer.0001
+No output written.
+Layer "rnpoly_body.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:206
+rnpoly_body = POLY and RMARKER and RPOLY and NPLUS
+  Function: and
+  Outputs: rnpoly_body.polygonlayer.0002
+No output written.
+Layer "rnpoly_body.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:206
+rnpoly_body = POLY and RMARKER and RPOLY and NPLUS
+  Function: and
+  Outputs: rnpoly_body.polygonlayer.0003
+No output written.
+Layer "rnpoly_body.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:207:command replaced with an internal copy command.
+rnpoly_poly = POLY not rnpoly_body
+  Function: not
+  Inputs: POLY.polygonlayer.0003
+  Outputs: rnpoly_poly.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at reference40nm_lvs.rs:208
+rnpoly_term = rnpoly_poly interacting rnpoly_body
+  Function: interacting
+  Outputs: rnpoly_term.polygonlayer.0001
+No output written.
+Layer "rnpoly_term.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+size() at reference40nm_lvs.rs:211
+rnpoly_body_expanded = size(layer1 = rnpoly_body, distance = 0.005)
+  Function: size
+  Outputs: rnpoly_body_expanded.polygonlayer.0001
+No output written.
+Layer "rnpoly_body_expanded.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:212
+polyres_bulk = rnpoly_body_expanded not rnpoly_body
+  Function: not
+  Outputs: polyres_bulk.polygonlayer.0001
+No output written.
+Layer "polyres_bulk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+No output written.
+Layer "polyres_bulk.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:214
+poly_nw_via = polyres_bulk and NWELL
+  Function: and
+  Outputs: poly_nw_via.polygonlayer.0001
+No output written.
+Layer "poly_nw_via.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:215
+poly_psub_via = polyres_bulk and psub
+  Function: and
+  Outputs: poly_psub_via.polygonlayer.0001
+No output written.
+Layer "poly_psub_via.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+copy() at reference40nm_lvs.rs:219
+varn_body = copy(VARMARKER)
+  Function: copy
+  Outputs: varn_body.polygonlayer.0001
+No output written.
+Layer "varn_body.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:220
+varn_body_core = varn_body not DIFF25
+  Function: not
+  Outputs: varn_body_core.polygonlayer.0001
+No output written.
+Layer "varn_body_core.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:221
+varn_body_hv = varn_body and DIFF25
+  Function: and
+  Outputs: varn_body_hv.polygonlayer.0001
+No output written.
+Layer "varn_body_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:222
+varn_term = metal1 and VARMARKER
+  Function: and
+  Outputs: varn_term.polygonlayer.0001
+No output written.
+Layer "varn_term.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:223
+varn_gate_body = POLY and ndiff_cap
+  Function: and
+  Outputs: varn_gate_body.polygonlayer.0001
+No output written.
+Layer "varn_gate_body.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:224
+varn_nsd = ndiff_cap not varn_gate_body
+  Function: not
+  Outputs: varn_nsd.polygonlayer.0001
+No output written.
+Layer "varn_nsd.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+interacting() at reference40nm_lvs.rs:225
+varn_term1 = varn_term interacting polyCont
+  Function: interacting
+  Outputs: varn_term1.polygonlayer.0001
+No output written.
+Layer "varn_term1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:226
+varn_term2 = varn_term not varn_term1
+  Function: not
+  Outputs: varn_term2.polygonlayer.0001
+No output written.
+Layer "varn_term2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+and() at reference40nm_lvs.rs:229
+varn_gate_body_hv = POLY and ndiff_cap_hv
+  Function: and
+  Outputs: varn_gate_body_hv.polygonlayer.0001
+No output written.
+Layer "varn_gate_body_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at reference40nm_lvs.rs:230
+varn_nsd_hv = ndiff_cap_hv not varn_gate_body_hv
+  Function: not
+  Outputs: varn_nsd_hv.polygonlayer.0001
+No output written.
+Layer "varn_nsd_hv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+connect() at reference40nm_lvs.rs:236:Combined with subsequent incremental_connect.
+GBL_cdb = connect({ { { metal1, ndiff, pdiff, welltie, subtie }, diffCont }, { { ndiff_hv, pdiff_hv }, diffCont }, { { varn_term1 }, metal1 }, { { varn_term2 }, metal1 }, { { metal1, poly, rnpoly_term }, polyCont }, { { ngate, pgate, ngate_hv, pgate_hv }, poly }, { { subtie }, psub }, { { welltie }, NWELL }, { { psub, polyres_bulk }, poly_psub_via }, { { NWELL, polyres_bulk }, poly_nw_via } })
+  Function: connect
+  Outputs: GBL_cdb.connect_database.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at reference40nm_lvs.rs:251:Combined with subsequent incremental_connect.
+GBL_cdb = incremental_connect(GBL_cdb, { { { metal1, metal2 }, by_layer = V1S }, { { metal2, metal3 }, by_layer = V2S }, { { metal3, metal4 }, by_layer = V3S }, { { metal4, metal5 }, by_layer = V4S }, { { metal5, metal6 }, by_layer = V5S }, { { metal6, metal7 }, by_layer = V6S }, { { metal7, metal8 }, by_layer = V7S }, { { metal8, metal9 }, by_layer = V8S }, { { metal9, metal10 }, by_layer = V9S } })
+  Function: incremental_connect
+  Outputs: GBL_cdb.connect_database.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at reference40nm_lvs.rs:256
+GBL_cdb = incremental_connect(GBL_cdb, { { { metal1 }, M1PIN }, { { metal2 }, M2PIN }, { { metal3 }, M3PIN }, { { metal4 }, M4PIN }, { { metal5 }, M5PIN }, { { metal6 }, M6PIN }, { { metal7 }, M7PIN }, { { metal8 }, M8PIN }, { { metal9 }, M9PIN }, { { metal10 }, M10PIN }, { { POLY }, POLY_PIN }, { { poly }, POLY_PIN } })
+  Function: incremental_connect
+  Outputs: GBL_cdb.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "metal2.polygonlayer.0001" is empty.
+Layer "M2PIN.polygonlayer.0002" is empty.
+Layer "metal3.polygonlayer.0001" is empty.
+Layer "M3PIN.polygonlayer.0002" is empty.
+Layer "metal4.polygonlayer.0001" is empty.
+Layer "M4PIN.polygonlayer.0002" is empty.
+Layer "metal5.polygonlayer.0001" is empty.
+Layer "M5PIN.polygonlayer.0002" is empty.
+Layer "metal6.polygonlayer.0001" is empty.
+Layer "M6PIN.polygonlayer.0002" is empty.
+Layer "metal7.polygonlayer.0001" is empty.
+Layer "M7PIN.polygonlayer.0002" is empty.
+Layer "metal8.polygonlayer.0001" is empty.
+Layer "M8PIN.polygonlayer.0002" is empty.
+Layer "metal9.polygonlayer.0001" is empty.
+Layer "M9PIN.polygonlayer.0002" is empty.
+Layer "metal10.polygonlayer.0001" is empty.
+Layer "M10PIN.polygonlayer.0002" is empty.
+Layer "POLY_PIN.polygonlayer.0002" is empty.
+Layer "V1S.polygonlayer.0002" is empty.
+Layer "V2S.polygonlayer.0002" is empty.
+Layer "V3S.polygonlayer.0002" is empty.
+Layer "V4S.polygonlayer.0002" is empty.
+Layer "V5S.polygonlayer.0002" is empty.
+Layer "V6S.polygonlayer.0002" is empty.
+Layer "V7S.polygonlayer.0002" is empty.
+Layer "V8S.polygonlayer.0002" is empty.
+Layer "V9S.polygonlayer.0002" is empty.
+Layer "ndiff_hv.polygonlayer.0001" is empty.
+Layer "pdiff_hv.polygonlayer.0001" is empty.
+Layer "varn_term1.polygonlayer.0001" is empty.
+Layer "varn_term2.polygonlayer.0001" is empty.
+Layer "rnpoly_term.polygonlayer.0001" is empty.
+Layer "ngate_hv.polygonlayer.0004" is empty.
+Layer "pgate_hv.polygonlayer.0003" is empty.
+Layer "poly_psub_via.polygonlayer.0001" is empty.
+Layer "polyres_bulk.polygonlayer.0002" is empty.
+Layer "poly_nw_via.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.032 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.038 GB
+   Check Time=0:00:00  User=0.02 Sys=0.04 Mem=0.042 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal1.polygonlayer.0001, M1S_TEXT.textlayer.0003.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0011, GBL_cdb_text_temp.textlayer.0011.TEXT
+WARNING - 8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal2.polygonlayer.0001, M2S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0009, GBL_cdb_text_temp.textlayer.0009.TEXT
+Input layer "metal2.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0009" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal3.polygonlayer.0001, M3S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0008, GBL_cdb_text_temp.textlayer.0008.TEXT
+Input layer "metal3.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal4.polygonlayer.0001, M4S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0007, GBL_cdb_text_temp.textlayer.0007.TEXT
+Input layer "metal4.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal5.polygonlayer.0001, M5S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0006, GBL_cdb_text_temp.textlayer.0006.TEXT
+Input layer "metal5.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal6.polygonlayer.0001, M6S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0005, GBL_cdb_text_temp.textlayer.0005.TEXT
+Input layer "metal6.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal7.polygonlayer.0001, M7S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0004, GBL_cdb_text_temp.textlayer.0004.TEXT
+Input layer "metal7.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal8.polygonlayer.0001, M8S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0003, GBL_cdb_text_temp.textlayer.0003.TEXT
+Input layer "metal8.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal9.polygonlayer.0001, M9S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0002, GBL_cdb_text_temp.textlayer.0002.TEXT
+Input layer "metal9.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Initialized OpenAccess libraries successfully
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: metal10.polygonlayer.0001, M10S_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0001, GBL_cdb_text_temp.textlayer.0001.TEXT
+Input layer "metal10.polygonlayer.0001" is empty.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: poly.polygonlayer.0002, POLY_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0012, GBL_cdb_text_temp.textlayer.0012.TEXT
+ Text file "POLY_TEXT.textlayer.0002.TEXT" doesn't exist.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Function: text_net
+  Inputs: POLY.polygonlayer.0003, POLY_TEXT.textlayer.0002.TEXT
+  Outputs: GBL_cdb_text_temp.polygonlayer.0010, GBL_cdb_text_temp.textlayer.0010.TEXT
+ Text file "POLY_TEXT.textlayer.0002.TEXT" doesn't exist.
+No output written.
+Layer "GBL_cdb_text_temp.polygonlayer.0010" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+text_net() at reference40nm_lvs.rs:270
+GBL_cdb_text_temp = text_net(connect_sequence = GBL_cdb, text_layer_items = { { metal1, M1S_TEXT }, { metal2, M2S_TEXT }, { metal3, M3S_TEXT }, { metal4, M4S_TEXT }, { metal5, M5S_TEXT }, { metal6, M6S_TEXT }, { metal7, M7S_TEXT }, { metal8, M8S_TEXT }, { metal9, M9S_TEXT }, { metal10, M10S_TEXT }, { poly, POLY_TEXT }, { POLY, POLY_TEXT } }, use_text = ALL, attach_text = ALL, opens = IGNORE)
+  Reassign Short Comment: "Violation"
+  Short Comment: "Violation"
+  Unused Comment: "Violation"
+  Function: text_net
+  Inputs: GBL_cdb.connect_database.0001
+  Outputs: GBL_cdb_text_temp.connect_database.0001
+  Inputs: GBL_cdb_text_temp.polygonlayer.0011, GBL_cdb_text_temp.polygonlayer.0009, GBL_cdb_text_temp.polygonlayer.0008, GBL_cdb_text_temp.polygonlayer.0007, GBL_cdb_text_temp.polygonlayer.0006, GBL_cdb_text_temp.polygonlayer.0005, GBL_cdb_text_temp.polygonlayer.0004, GBL_cdb_text_temp.polygonlayer.0003, GBL_cdb_text_temp.polygonlayer.0002, GBL_cdb_text_temp.polygonlayer.0001, GBL_cdb_text_temp.polygonlayer.0012, GBL_cdb_text_temp.polygonlayer.0010, GBL_cdb_text_temp.textlayer.0011.TEXT, GBL_cdb_text_temp.textlayer.0009.TEXT, GBL_cdb_text_temp.textlayer.0008.TEXT, GBL_cdb_text_temp.textlayer.0007.TEXT, GBL_cdb_text_temp.textlayer.0006.TEXT, GBL_cdb_text_temp.textlayer.0005.TEXT, GBL_cdb_text_temp.textlayer.0004.TEXT, GBL_cdb_text_temp.textlayer.0003.TEXT, GBL_cdb_text_temp.textlayer.0002.TEXT, GBL_cdb_text_temp.textlayer.0001.TEXT, GBL_cdb_text_temp.textlayer.0012.TEXT, GBL_cdb_text_temp.textlayer.0010.TEXT
+    connect_by_name = IGNORE 
+  ## Texting 12 pairs, skipping 0 pair, doing opens.
+Input layer "metal10.polygonlayer.0001" is empty.
+     Text metal10 by M10S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+
+     Text metal1 by M1S_TEXT Time=0:00:00  User=0.01 Sys=0.01 Mem=0.020 GB
+
+Input layer "metal2.polygonlayer.0001" is empty.
+     Text metal2 by M2S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+
+Input layer "metal3.polygonlayer.0001" is empty.
+     Text metal3 by M3S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+Input layer "metal4.polygonlayer.0001" is empty.
+     Text metal4 by M4S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+Input layer "metal5.polygonlayer.0001" is empty.
+     Text metal5 by M5S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+Input layer "metal6.polygonlayer.0001" is empty.
+     Text metal6 by M6S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+Input layer "metal7.polygonlayer.0001" is empty.
+     Text metal7 by M7S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Input layer "metal8.polygonlayer.0001" is empty.
+     Text metal8 by M8S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Input layer "metal9.polygonlayer.0001" is empty.
+     Text metal9 by M9S_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+
+Input layer "GBL_cdb_text_temp.polygonlayer.0012" is empty.
+     Text poly by POLY_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "GBL_cdb_text_temp.polygonlayer.0010" is empty.
+     Text POLY by POLY_TEXT Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+     sn_process_all_text_pair Time=0:00:00  User=0.01 Sys=0.01 Mem=0.024 GB
+
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.033 GB
+
+create_ports() at reference40nm_lvs.rs:290
+GBL_cdb_text = create_ports(GBL_cdb_text_temp, { { metal1, M1PIN }, { metal2, M2PIN }, { metal3, M3PIN }, { metal4, M4PIN }, { metal5, M5PIN }, { metal6, M6PIN }, { metal7, M7PIN }, { metal8, M8PIN }, { metal9, M9PIN }, { metal10, M10PIN }, { POLY, POLY_PIN }, { poly, POLY_PIN } }, report = {  })
+  Function: create_ports
+  Inputs: GBL_cdb_text_temp.connect_database.0001
+  Outputs: GBL_cdb_text.connect_database.0002
+Input layer "metal2.polygonlayer.0001" is empty.
+Input layer "metal3.polygonlayer.0001" is empty.
+Input layer "metal4.polygonlayer.0001" is empty.
+Input layer "metal5.polygonlayer.0001" is empty.
+Input layer "metal6.polygonlayer.0001" is empty.
+Input layer "metal7.polygonlayer.0001" is empty.
+Input layer "metal8.polygonlayer.0001" is empty.
+Input layer "metal9.polygonlayer.0001" is empty.
+Input layer "metal10.polygonlayer.0001" is empty.
+    Load connect database Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+Input layer "POLY_PIN.polygonlayer.0002" is empty.
+Input layer "POLY_PIN.polygonlayer.0002" is empty.
+    Process all port items Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+    4 new ports are created. 
+     Store connect database Time=0:00:00  User=0.00 Sys=0.02 Mem=0.027 GB
+
+    Postprocessing  Time=0:00:00  User=0.00 Sys=0.02 Mem=0.027 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.027 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging gate layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Preprocessing device layers for nmos N ...
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Preprocessing device layers for pmos P ...
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0004, ndiff_hv.polygonlayer.0001, ndiff_hv.polygonlayer.0001, devices_db.polygonlayer.0003
+  Outputs: ngate_hv.polygonlayer.0005, ndiff_hv.polygonlayer.0002, ndiff_hv.polygonlayer.0003, psub.polygonlayer.0003
+Preprocessing device layers for nmos N25 ...
+Input layer "ngate_hv.polygonlayer.0004" is empty.
+No output written.
+Layer "ndiff_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "ndiff_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "ngate_hv.polygonlayer.0005" is empty.
+No output written.
+Layer "psub.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0003, pdiff_hv.polygonlayer.0001, pdiff_hv.polygonlayer.0001, NWELL.polygonlayer.0004
+  Outputs: pgate_hv.polygonlayer.0004, pdiff_hv.polygonlayer.0002, pdiff_hv.polygonlayer.0003, NWELL.polygonlayer.0006
+Preprocessing device layers for pmos P25 ...
+Input layer "pgate_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "NWELL.polygonlayer.0006" is empty.
+No output written.
+Layer "pdiff_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "pdiff_hv.polygonlayer.0003" is empty.
+No output written.
+Layer "pgate_hv.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0003, rnpoly_term.polygonlayer.0001, rnpoly_term.polygonlayer.0001, polyres_bulk.polygonlayer.0002
+  Outputs: rnpoly_body.polygonlayer.0004, rnpoly_term.polygonlayer.0002, rnpoly_term.polygonlayer.0003, polyres_bulk.polygonlayer.0003
+Preprocessing device layers for resistor rnpoly ...
+Input layer "rnpoly_body.polygonlayer.0003" is empty.
+No output written.
+Layer "polyres_bulk.polygonlayer.0003" is empty.
+No output written.
+Layer "rnpoly_body.polygonlayer.0004" is empty.
+No output written.
+Layer "rnpoly_term.polygonlayer.0002" is empty.
+No output written.
+Layer "rnpoly_term.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0001, varn_term1.polygonlayer.0001, varn_term2.polygonlayer.0001
+  Outputs: varn_body_core.polygonlayer.0002, varn_term1.polygonlayer.0002, varn_term2.polygonlayer.0002, ndiff_cap.polygonlayer.0003, varn_gate_body.polygonlayer.0002, varn_nsd.polygonlayer.0002
+Preprocessing device layers for capacitor nmoscap ...
+Input layer "varn_body_core.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiff_cap.polygonlayer.0003" is empty.
+No output written.
+Layer "varn_body_core.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_gate_body.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_nsd.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term1.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0001, varn_term1.polygonlayer.0001, varn_term2.polygonlayer.0001
+  Outputs: varn_body_hv.polygonlayer.0002, varn_term1.polygonlayer.0003, varn_term2.polygonlayer.0003, ndiff_cap_hv.polygonlayer.0002, varn_gate_body_hv.polygonlayer.0002, varn_nsd_hv.polygonlayer.0002
+Preprocessing device layers for capacitor nmoscaph ...
+Input layer "varn_body_hv.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiff_cap_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_body_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_gate_body_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_nsd_hv.polygonlayer.0002" is empty.
+No output written.
+Layer "varn_term1.polygonlayer.0003" is empty.
+No output written.
+Layer "varn_term2.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "ngate.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "ndiff.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.021 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.018 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "pgate.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.021 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "pdiff.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "NWELL.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0005
+  Outputs: ngate_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "ngate_hv.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ndiff_hv.polygonlayer.0002, ndiff_hv.polygonlayer.0003
+  Outputs: ndiff_hv.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "ndiff_hv.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0004
+  Outputs: pgate_hv.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "pgate_hv.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pdiff_hv.polygonlayer.0002, pdiff_hv.polygonlayer.0003
+  Outputs: pdiff_hv.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "pdiff_hv.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0004
+  Outputs: rnpoly_body.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "rnpoly_body.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_term.polygonlayer.0002, rnpoly_term.polygonlayer.0003
+  Outputs: rnpoly_term.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "rnpoly_term.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: polyres_bulk.polygonlayer.0003
+  Outputs: polyres_bulk.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "polyres_bulk.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0002
+  Outputs: varn_body_core.polygonlayer.0003
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "varn_body_core.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term1.polygonlayer.0002, varn_term1.polygonlayer.0003
+  Outputs: varn_term1.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "varn_term1.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term2.polygonlayer.0002, varn_term2.polygonlayer.0003
+  Outputs: varn_term2.polygonlayer.0004
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "varn_term2.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0002
+  Outputs: varn_body_hv.polygonlayer.0003
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Selecting preprocessed polygons ...
+No output written.
+Layer "varn_body_hv.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: GBL_cdb_text.connect_database.0002
+  Outputs: devices_db.connect_database.0004
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+reconnecting (quasi connect) device layers ...
+Layer "ngate.polygonlayer.0007" is empty.
+Layer "ndiff.polygonlayer.0005" is empty.
+Layer "pgate.polygonlayer.0008" is empty.
+Layer "pdiff.polygonlayer.0005" is empty.
+Layer "NWELL.polygonlayer.0008" is empty.
+Layer "ngate_hv.polygonlayer.0004" is empty.
+Layer "ngate_hv.polygonlayer.0007" is empty.
+Layer "ndiff_hv.polygonlayer.0001" is empty.
+Layer "ndiff_hv.polygonlayer.0005" is empty.
+Layer "pgate_hv.polygonlayer.0003" is empty.
+Layer "pgate_hv.polygonlayer.0006" is empty.
+Layer "pdiff_hv.polygonlayer.0001" is empty.
+Layer "pdiff_hv.polygonlayer.0005" is empty.
+Layer "rnpoly_term.polygonlayer.0001" is empty.
+Layer "rnpoly_term.polygonlayer.0005" is empty.
+Layer "polyres_bulk.polygonlayer.0002" is empty.
+Layer "polyres_bulk.polygonlayer.0005" is empty.
+Layer "varn_term1.polygonlayer.0001" is empty.
+Layer "varn_term1.polygonlayer.0005" is empty.
+Layer "varn_term2.polygonlayer.0001" is empty.
+Layer "varn_term2.polygonlayer.0005" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.019 GB
+   Check Time=0:00:00  User=0.02 Sys=0.05 Mem=0.026 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+Creating netlisting connect database ...
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.023 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.030 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.025 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate_hv.polygonlayer.0004, ngate_hv.polygonlayer.0007
+  Outputs: ngate_hv.polygonlayer.0008
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ndiff_hv.polygonlayer.0001, ndiff_hv.polygonlayer.0005
+  Outputs: ndiff_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate_hv.polygonlayer.0003, pgate_hv.polygonlayer.0006
+  Outputs: pgate_hv.polygonlayer.0007
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pdiff_hv.polygonlayer.0001, pdiff_hv.polygonlayer.0005
+  Outputs: pdiff_hv.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_body.polygonlayer.0003, rnpoly_body.polygonlayer.0006
+  Outputs: rnpoly_body.polygonlayer.0007
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: rnpoly_term.polygonlayer.0001, rnpoly_term.polygonlayer.0005
+  Outputs: rnpoly_term.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: polyres_bulk.polygonlayer.0002, polyres_bulk.polygonlayer.0005
+  Outputs: polyres_bulk.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_core.polygonlayer.0001, varn_body_core.polygonlayer.0004
+  Outputs: varn_body_core.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term1.polygonlayer.0001, varn_term1.polygonlayer.0005
+  Outputs: varn_term1.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_term2.polygonlayer.0001, varn_term2.polygonlayer.0005
+  Outputs: varn_term2.polygonlayer.0006
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: varn_body_hv.polygonlayer.0001, varn_body_hv.polygonlayer.0004
+  Outputs: varn_body_hv.polygonlayer.0005
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Registering layers to connect database ...
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.035 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: ngate.polygonlayer.0008, ndiff.polygonlayer.0006, ndiff.polygonlayer.0006, psub.polygonlayer.0006, ngate.polygonlayer.0005
+nmos(matrix = all_devices, device_name = \"N\", gate = ngate, source = ndiff, drain = ndiff, optional_pins = { { psub, \"BULK\" } }, property_function = width_length_fn, schematic_devices = { { device_name = \"N\", optional_pins = { \"BULK\" }, ignore_pins = { \"BULK\" } } })
+Extracted 1 unique 4-terminal "N" devices.
+   Check Time=0:00:00  User=0.04 Sys=0.01 Mem=0.028 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+  Inputs: pgate.polygonlayer.0009, pdiff.polygonlayer.0006, pdiff.polygonlayer.0006, NWELL.polygonlayer.0009, pgate.polygonlayer.0006
+pmos(matrix = all_devices, device_name = \"P\", gate = pgate, source = pdiff, drain = pdiff, optional_pins = { { NWELL } }, schematic_devices = { { device_name = \"P\", optional_pins = { \"BULK\" }, ignore_pins = { \"BULK\" } } })
+Extracted 1 unique 4-terminal "P" devices.
+   Check Time=0:00:00  User=0.03 Sys=0.01 Mem=0.032 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: nmos
+  Inputs: ngate_hv.polygonlayer.0008, ndiff_hv.polygonlayer.0006, ndiff_hv.polygonlayer.0006, psub.polygonlayer.0006, ngate_hv.polygonlayer.0005
+nmos(matrix = all_devices, device_name = \"N25\", gate = ngate_hv, source = ndiff_hv, drain = ndiff_hv, optional_pins = { { psub } }, property_function = width_length_fn, schematic_devices = { { \"N25\" } })
+Input layer "ngate_hv.polygonlayer.0008" is empty.
+Extracted 0 unique 4-terminal "N25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: pmos
+  Inputs: pgate_hv.polygonlayer.0007, pdiff_hv.polygonlayer.0006, pdiff_hv.polygonlayer.0006, NWELL.polygonlayer.0009, pgate_hv.polygonlayer.0004
+pmos(matrix = all_devices, device_name = \"P25\", gate = pgate_hv, source = pdiff_hv, drain = pdiff_hv, optional_pins = { { NWELL } }, schematic_devices = { { \"P25\" } })
+Input layer "pgate_hv.polygonlayer.0007" is empty.
+Extracted 0 unique 4-terminal "P25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: resistor
+  Inputs: rnpoly_body.polygonlayer.0007, rnpoly_term.polygonlayer.0006, rnpoly_term.polygonlayer.0006, polyres_bulk.polygonlayer.0006, rnpoly_body.polygonlayer.0004
+resistor(all_devices, \"rnpoly\", rnpoly_body, rnpoly_term, rnpoly_term, { { polyres_bulk } }, resistor_value = 154.0, x_card = true, bulk_relationship = INTERACT, schematic_devices = { { device_name = \"rnpoly\", terminal_a = \"PLUS\", terminal_b = \"MINUS\", optional_pins = { \"BULK\" } } })
+Input layer "rnpoly_body.polygonlayer.0007" is empty.
+Extracted 0 unique 4-terminal "rnpoly" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: capacitor
+  Inputs: varn_body_core.polygonlayer.0005, varn_term1.polygonlayer.0006, varn_term2.polygonlayer.0006, varn_body_core.polygonlayer.0002, ndiff_cap.polygonlayer.0003, varn_gate_body.polygonlayer.0002, varn_nsd.polygonlayer.0002
+capacitor(all_devices, \"nmoscap\", varn_body_core, varn_term1, varn_term2, processing_layer_hash = { \"ndiff_cap\" => { ndiff_cap }, \"varn_gate_body\" => { varn_gate_body }, \"varn_nsd\" => { varn_nsd } }, area_capval = 1.234e-15, x_card = true, properties = { { \"lr\", DOUBLE, MICRO }, { \"wr\", DOUBLE, MICRO }, { \"nrep\", DOUBLE }, { \"nf\", DOUBLE }, { \"cval\", DOUBLE } }, property_function = cap_len_wid_fn, schematic_devices = { { device_name = \"nmoscap\", terminal_a = \"PLUS\", terminal_b = \"MINUS\" } })
+Input layer "varn_body_core.polygonlayer.0005" is empty.
+Extracted 0 unique 3-terminal "nmoscap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: capacitor
+  Inputs: varn_body_hv.polygonlayer.0005, varn_term1.polygonlayer.0006, varn_term2.polygonlayer.0006, varn_body_hv.polygonlayer.0002, ndiff_cap_hv.polygonlayer.0002, varn_gate_body_hv.polygonlayer.0002, varn_nsd_hv.polygonlayer.0002
+capacitor(all_devices, \"nmoscaph\", varn_body_hv, varn_term1, varn_term2, processing_layer_hash = { \"ndiff_cap_hv\" => { ndiff_cap_hv }, \"varn_gate_body_hv\" => { varn_gate_body_hv }, \"varn_nsd_hv\" => { varn_nsd_hv } }, area_capval = 0.623e-15, x_card = true, properties = { { \"lr\", DOUBLE, MICRO }, { \"wr\", DOUBLE, MICRO }, { \"nrep\", DOUBLE }, { \"nf\", DOUBLE }, { \"cval\", DOUBLE } }, property_function = cap_len_wid_fn_hv, schematic_devices = { { device_name = \"nmoscaph\", terminal_a = \"PLUS\", terminal_b = \"MINUS\" } })
+Input layer "varn_body_hv.polygonlayer.0005" is empty.
+Extracted 0 unique 3-terminal "nmoscaph" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+  Function: extract_devices
+Connecting devices ...
+   Device Connect Time=0:00:00  User=0.00 Sys=0.02 Mem=0.017 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+Generating inverter.acct file ...
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.026 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+Writing VUE info.
+Normal flow: Use inlib resolution as output resolution. working resolution =0.000500, inlib_resolution = 0.001000
+.Input layer "metal2.polygonlayer.0001" is empty.
+Input layer "M2PIN.polygonlayer.0002" is empty.
+Input layer "metal3.polygonlayer.0001" is empty.
+Input layer "M3PIN.polygonlayer.0002" is empty.
+Input layer "metal4.polygonlayer.0001" is empty.
+Input layer "M4PIN.polygonlayer.0002" is empty.
+Input layer "metal5.polygonlayer.0001" is empty.
+Input layer "M5PIN.polygonlayer.0002" is empty.
+Input layer "metal6.polygonlayer.0001" is empty.
+Input layer "M6PIN.polygonlayer.0002" is empty.
+Input layer "metal7.polygonlayer.0001" is empty.
+Input layer "M7PIN.polygonlayer.0002" is empty.
+Input layer "metal8.polygonlayer.0001" is empty.
+Input layer "M8PIN.polygonlayer.0002" is empty.
+Input layer "metal9.polygonlayer.0001" is empty.
+Input layer "M9PIN.polygonlayer.0002" is empty.
+Input layer "metal10.polygonlayer.0001" is empty.
+Input layer "M10PIN.polygonlayer.0002" is empty.
+Input layer "POLY_PIN.polygonlayer.0002" is empty.
+Input layer "V1S.polygonlayer.0002" is empty.
+Input layer "V2S.polygonlayer.0002" is empty.
+Input layer "V3S.polygonlayer.0002" is empty.
+Input layer "V4S.polygonlayer.0002" is empty.
+Input layer "V5S.polygonlayer.0002" is empty.
+Input layer "V6S.polygonlayer.0002" is empty.
+Input layer "V7S.polygonlayer.0002" is empty.
+Input layer "V8S.polygonlayer.0002" is empty.
+Input layer "V9S.polygonlayer.0002" is empty.
+Input layer "ndiff_hv.polygonlayer.0001" is empty.
+Input layer "ndiff_hv.polygonlayer.0006" is empty.
+Input layer "pdiff_hv.polygonlayer.0001" is empty.
+Input layer "pdiff_hv.polygonlayer.0006" is empty.
+Input layer "varn_term1.polygonlayer.0001" is empty.
+Input layer "varn_term1.polygonlayer.0006" is empty.
+Input layer "varn_term2.polygonlayer.0001" is empty.
+Input layer "varn_term2.polygonlayer.0006" is empty.
+Input layer "rnpoly_term.polygonlayer.0001" is empty.
+Input layer "rnpoly_term.polygonlayer.0006" is empty.
+Input layer "ngate_hv.polygonlayer.0004" is empty.
+Input layer "ngate_hv.polygonlayer.0008" is empty.
+Input layer "pgate_hv.polygonlayer.0003" is empty.
+Input layer "pgate_hv.polygonlayer.0007" is empty.
+Input layer "polyres_bulk.polygonlayer.0002" is empty.
+Input layer "polyres_bulk.polygonlayer.0006" is empty.
+Input layer "poly_psub_via.polygonlayer.0001" is empty.
+Input layer "poly_nw_via.polygonlayer.0001" is empty.
+Input layer "ngate.polygonlayer.0007" is empty.
+Input layer "ndiff.polygonlayer.0005" is empty.
+Input layer "pgate.polygonlayer.0008" is empty.
+Input layer "pdiff.polygonlayer.0005" is empty.
+Input layer "NWELL.polygonlayer.0008" is empty.
+Input layer "ngate_hv.polygonlayer.0007" is empty.
+Input layer "ndiff_hv.polygonlayer.0005" is empty.
+Input layer "pgate_hv.polygonlayer.0006" is empty.
+Input layer "pdiff_hv.polygonlayer.0005" is empty.
+Input layer "rnpoly_term.polygonlayer.0005" is empty.
+Input layer "polyres_bulk.polygonlayer.0005" is empty.
+Input layer "varn_term1.polygonlayer.0005" is empty.
+Input layer "varn_term2.polygonlayer.0005" is empty.
+Input layer "rnpoly_body.polygonlayer.0007" is empty.
+Input layer "varn_body_core.polygonlayer.0005" is empty.
+Input layer "varn_body_hv.polygonlayer.0005" is empty.
+Creating VUE info directory.
+Running with cell_thread_count = 8, region_thread_count = 8
+   Check Time=0:00:04  User=0.01 Sys=0.38 Mem=0.036 GB
+
+extract_devices() at reference40nm_lvs.rs:424
+devices_db = extract_devices(all_devices)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+netlist() at reference40nm_lvs.rs:425
+layout_netlist = netlist(devices_db)
+
+Generating micron-based NDB ...
+
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.023 GB
+
+netlist() at reference40nm_lvs.rs:425
+layout_netlist = netlist(devices_db)
+
+Generating micron-based ICV netlist...
+
+       ***************************************************
+       *      NOTICE: SOFTWARE EXPIRES IN 3 DAYS.        *
+       ***************************************************
+
+
+                                  ICV_Netlist 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 1996 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ Generating NETLIST file "inverter.net.gz".
+
+ Netlisting Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+netlist() at reference40nm_lvs.rs:425
+layout_netlist = netlist(devices_db)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+compare() at reference40nm_lvs.rs:506
+xref_db = compare(state = my_compare_settings, schematic = schematic_netlist, layout = layout_netlist, action_on_error = EXPLODE, push_down_pins = true, push_down_devices = true, remove_dangling_net = ALL, write_equiv_netlists = ALL, print_messages = { all_merged_device_list = true }, user_functions_file = "/home/dkits/synopsys/m3a" + "/icv/lvs/func.rs")
+Creating schematic netlist view.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+compare() at reference40nm_lvs.rs:506
+xref_db = compare(state = my_compare_settings, schematic = schematic_netlist, layout = layout_netlist, action_on_error = EXPLODE, push_down_pins = true, push_down_devices = true, remove_dangling_net = ALL, write_equiv_netlists = ALL, print_messages = { all_merged_device_list = true }, user_functions_file = "/home/dkits/synopsys/m3a" + "/icv/lvs/func.rs")
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+compare() at reference40nm_lvs.rs:506
+xref_db = compare(state = my_compare_settings, schematic = schematic_netlist, layout = layout_netlist, action_on_error = EXPLODE, push_down_pins = true, push_down_devices = true, remove_dangling_net = ALL, write_equiv_netlists = ALL, print_messages = { all_merged_device_list = true }, user_functions_file = "/home/dkits/synopsys/m3a" + "/icv/lvs/func.rs")
+Comparing schematic and layout netlists.
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=0.015 GB
+
+pex_generate_results() at reference40nm_lvs.rs:586
+pex_generate_results(pex_layer_matrix, xtr_out, pex_rcxt_map_file_h, pex_runset_file, precision = 6, pex_lpp_map_file = pex_lpp_map_file_h)
+  Function: pex_generate_results
+  Inputs: metal1.polygonlayer.0001, M1PIN.polygonlayer.0003, metal2.polygonlayer.0001, M2PIN.polygonlayer.0002, metal3.polygonlayer.0001, M3PIN.polygonlayer.0002, metal4.polygonlayer.0001, M4PIN.polygonlayer.0002, metal5.polygonlayer.0001, M5PIN.polygonlayer.0002, metal6.polygonlayer.0001, M6PIN.polygonlayer.0002, metal7.polygonlayer.0001, M7PIN.polygonlayer.0002, metal8.polygonlayer.0001, M8PIN.polygonlayer.0002, metal9.polygonlayer.0001, M9PIN.polygonlayer.0002, metal10.polygonlayer.0001, M10PIN.polygonlayer.0002, POLY.polygonlayer.0003, POLY_PIN.polygonlayer.0002, poly.polygonlayer.0002, V1S.polygonlayer.0002, V2S.polygonlayer.0002, V3S.polygonlayer.0002, V4S.polygonlayer.0002, V5S.polygonlayer.0002, V6S.polygonlayer.0002, V7S.polygonlayer.0002, V8S.polygonlayer.0002, V9S.polygonlayer.0002, ndiff.polygonlayer.0006, pdiff.polygonlayer.0006, welltie.polygonlayer.0002, subtie.polygonlayer.0002, diffCont.polygonlayer.0001, ndiff_hv.polygonlayer.0006, pdiff_hv.polygonlayer.0006, varn_term1.polygonlayer.0006, varn_term2.polygonlayer.0006, rnpoly_term.polygonlayer.0006, polyCont.polygonlayer.0001, ngate.polygonlayer.0008, pgate.polygonlayer.0009, ngate_hv.polygonlayer.0008, pgate_hv.polygonlayer.0007, psub.polygonlayer.0006, NWELL.polygonlayer.0009, polyres_bulk.polygonlayer.0006, poly_psub_via.polygonlayer.0001, poly_nw_via.polygonlayer.0001, rnpoly_body.polygonlayer.0007, varn_body_core.polygonlayer.0005, varn_body_hv.polygonlayer.0005
+Input layer "metal2.polygonlayer.0001" is empty.
+Input layer "M2PIN.polygonlayer.0002" is empty.
+Input layer "metal3.polygonlayer.0001" is empty.
+Input layer "M3PIN.polygonlayer.0002" is empty.
+Input layer "metal4.polygonlayer.0001" is empty.
+Input layer "M4PIN.polygonlayer.0002" is empty.
+Input layer "metal5.polygonlayer.0001" is empty.
+Input layer "M5PIN.polygonlayer.0002" is empty.
+Input layer "metal6.polygonlayer.0001" is empty.
+Input layer "M6PIN.polygonlayer.0002" is empty.
+Input layer "metal7.polygonlayer.0001" is empty.
+Input layer "M7PIN.polygonlayer.0002" is empty.
+Input layer "metal8.polygonlayer.0001" is empty.
+Input layer "M8PIN.polygonlayer.0002" is empty.
+Input layer "metal9.polygonlayer.0001" is empty.
+Input layer "M9PIN.polygonlayer.0002" is empty.
+Input layer "metal10.polygonlayer.0001" is empty.
+Input layer "M10PIN.polygonlayer.0002" is empty.
+Input layer "POLY_PIN.polygonlayer.0002" is empty.
+Input layer "V1S.polygonlayer.0002" is empty.
+Input layer "V2S.polygonlayer.0002" is empty.
+Input layer "V3S.polygonlayer.0002" is empty.
+Input layer "V4S.polygonlayer.0002" is empty.
+Input layer "V5S.polygonlayer.0002" is empty.
+Input layer "V6S.polygonlayer.0002" is empty.
+Input layer "V7S.polygonlayer.0002" is empty.
+Input layer "V8S.polygonlayer.0002" is empty.
+Input layer "V9S.polygonlayer.0002" is empty.
+Input layer "ndiff_hv.polygonlayer.0006" is empty.
+Input layer "pdiff_hv.polygonlayer.0006" is empty.
+Input layer "varn_term1.polygonlayer.0006" is empty.
+Input layer "varn_term2.polygonlayer.0006" is empty.
+Input layer "rnpoly_term.polygonlayer.0006" is empty.
+Input layer "ngate_hv.polygonlayer.0008" is empty.
+Input layer "pgate_hv.polygonlayer.0007" is empty.
+Input layer "polyres_bulk.polygonlayer.0006" is empty.
+Input layer "poly_psub_via.polygonlayer.0001" is empty.
+Input layer "poly_nw_via.polygonlayer.0001" is empty.
+Input layer "rnpoly_body.polygonlayer.0007" is empty.
+Input layer "varn_body_core.polygonlayer.0005" is empty.
+Input layer "varn_body_hv.polygonlayer.0005" is empty.
+Using default technology file "hx2mw.tf" to create extract view library
+Start to load technology file hx2mw.tf.
+Technology file hx2mw.tf has been loaded successfully.
+Set "N" cell flag to Standard Cell
+Set "P" cell flag to Standard Cell
+Set "inverter" cell flag to Standard Cell
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              18432K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     3
+Current number of cache blocks:     1
+Current number of cache pages:   4096
+========================================
+
+
+Milkyway db session terminated successfully!
+
+
+ Milkyway memory usage: 0.078 GB
+   Check Time=0:00:04  User=0.11 Sys=0.11 Mem=0.125 GB
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+
+IC Validator Machine Memory Report
+localhost    : Average = 4.337 GB, Peak = 4.337 GB
+
+Overall Disk Usage Disk=0.011 GB
+Network Disk Usage Peak=0.010 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:12 Highest command Mem=4.339 GB
+
+Overall Master Mem=0.907 GB

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Jul 10 20:11:28 2024-->
+<file-format version="1.0" name="stateData">
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="lab03/opamp_tb/schematic" name="design" type="dmCellView"/>
+ <attribute value="1" name="enabled" type="giBoolean"/>
+ <attribute value="0" name="enabledJobClass" type="giBoolean"/>
+ <attribute value="PrimeSim" name="migratedSimulator" type="giString"/>
+ <attribute value="HSPICE_default" name="name" type="giString"/>
+ <attribute value="lab03/opamp_tb/HSPICE_default" name="openaccessState" type="dmCellView"/>
+ <attribute value="HSPICE" name="simulator" type="giString"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <integration version="1"/>
+</file-format>

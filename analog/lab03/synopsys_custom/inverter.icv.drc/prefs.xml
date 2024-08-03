@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version T-2022.06-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVLoadRunset" value="true"/>
+	<pref name="xtDRCICVOptions" value="-lic_apex"/>
+	<pref name="xtDRCLayCell" value="inverter"/>
+	<pref name="xtDRCLayLCV" value="lab03/inverter/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/inverter.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.drc/inverter.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

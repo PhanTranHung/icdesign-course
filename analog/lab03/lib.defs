@@ -1,0 +1,3 @@
+INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
+INCLUDE /home/dkits/synopsys/m3a/lib.defs
+DEFINE lab03 ./lab03

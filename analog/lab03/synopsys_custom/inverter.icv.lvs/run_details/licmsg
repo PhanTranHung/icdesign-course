@@ -1,0 +1,37 @@
+07/19/2024 16:15:49 (icv) Licensing related command line arguments:
+
+  -lic_apex
+
+07/19/2024 16:15:49 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@192.168.10.99"
+
+07/19/2024 16:15:49 License manager initialized. (Time=0:00:00)
+07/19/2024 16:15:49 Using license file: 27020@192.168.10.99
+07/19/2024 16:15:49 (icv) Pre-Checking (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:15:50 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:01)
+07/19/2024 16:15:53 Requesting (ICValidator-Manager-Apex/2022.12)
+07/19/2024 16:15:53   27020@192.168.10.99: ICValidator-Manager-Apex license obtained. (Time=0:00:00)
+07/19/2024 16:15:53        ***************************************************
+       *      NOTICE: SOFTWARE EXPIRES IN 3 DAYS.        *
+       ***************************************************
+
+07/19/2024 16:15:53 
+07/19/2024 16:15:53 Obtained 1 total ICValidator-Manager-Apex license.
+07/19/2024 16:15:53 This will allow up to 4 engine processes to run.
+
+07/19/2024 16:15:53 (pydb_server) ICValidator2-GeometryEngine license is available.  (Cached)
+07/19/2024 16:15:54 (icv_engine 1) Requesting (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:15:54 (icv_engine 1)   27020@192.168.10.99: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+07/19/2024 16:15:54 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:15:54 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:15:54 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:15:54 (icv_nettran) ICValidator2-GeometryEngine license is available.  (Cached)
+07/19/2024 16:15:55 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:16:01 (icv_compare) Requesting (ICValidator2-CompareEngine/2022.12)
+07/19/2024 16:16:01 (icv_compare)   27020@192.168.10.99: ICValidator2-CompareEngine license obtained. (Time=0:00:00)
+07/19/2024 16:16:01 (icv_netlist) ICValidator2-GeometryEngine license is available.  (Cached)
+07/19/2024 16:16:01 (icv_compare) Releasing (ICValidator2-CompareEngine/2022.12)
+07/19/2024 16:16:01 (icv_compare)   27020@192.168.10.99: ICValidator2-CompareEngine/2022.12 released. (Time=0:00:00)
+07/19/2024 16:16:02 Releasing all licenses
+07/19/2024 16:16:02 License manager shutting down. (Time=0:00:00)

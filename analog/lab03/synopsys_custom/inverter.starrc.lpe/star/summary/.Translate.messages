@@ -1,0 +1,28 @@
+run_in_same_process: start time = 1721380575
+WARNING: HALF_NODE_SCALE_FACTOR detected in nxtgrd file, setting NETLIST_UNSCALED_RES_PROP:YES for
+         unshrunk coordinates. (SX-0291)
+WARNING: DANGLING_NET '6' is removed from netlist. (SX-0726)
+WARNING: DANGLING_NET '7' is removed from netlist. (SX-0726)
+WARNING: Removed 2 FLOATING_NETS from the netlist (see cells.sum/translate.sum). (SX-0727)
+create_xin_writer; sort_xin_in_memory YES cut_trap YES track_fill_detection NO
+Cells not flattened due to FLATTEN_CACHE_TOTAL_FLAT_COUNT_THRESHOLD: (15000000K)
+Cell     FlatCount   Accumulated     
+Cells not flattened due to FLATTEN_CACHE_TOTAL_FLAT_COUNT_THRESHOLD: (15000000K)
+Cell     FlatCount   Accumulated     
+Cells not flattened due to FLATTEN_CACHE_TOTAL_FLAT_COUNT_THRESHOLD: (15000000K)
+Cell     FlatCount   Accumulated     
+Cells not flattened due to FLATTEN_CACHE_TOTAL_FLAT_COUNT_THRESHOLD: (15000000K)
+Cell     FlatCount   Accumulated     
+
+SKIP_CELLS:
+N	P	
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+PlaceText     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=671.1 

@@ -1,0 +1,41 @@
+[10146:2024-07-19 16:12:52.143] Starting service 'mapper' (Node ID=0, Host Name=localhost.localdomain)
+[10146:2024-07-19 16:12:52.147] Launched Redis process 10147 on address 127.0.0.1:35077 (Connect flow: false) (cluster  - 0). Attempting to connect...
+10147:C 19 Jul 2024 16:12:52.149 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+10147:C 19 Jul 2024 16:12:52.149 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=10147, just started
+10147:C 19 Jul 2024 16:12:52.149 # Configuration loaded
+10147:M 19 Jul 2024 16:12:52.150 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+10147:M 19 Jul 2024 16:12:52.150 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+10147:M 19 Jul 2024 16:12:52.150 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+10147:M 19 Jul 2024 16:12:52.151 * Running mode=standalone, port=35077.
+10147:M 19 Jul 2024 16:12:52.151 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+10147:M 19 Jul 2024 16:12:52.151 # Server initialized
+10147:M 19 Jul 2024 16:12:52.151 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+10147:M 19 Jul 2024 16:12:52.151 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+10147:M 19 Jul 2024 16:12:52.151 * Ready to accept connections
+10147:M 19 Jul 2024 16:12:52.151 * The server is now ready to accept connections at /tmp/icv_63memc/mapper
+[10146:2024-07-19 16:12:52.157] Successfully connected to Redis at 127.0.0.1:35077
+[10146:2024-07-19 16:12:52.157] Successfully connected to local Redis instance at localhost:35077
+[10146:2024-07-19 16:12:52.158] Wrote service info file to run_details/dp_work/service_info
+[10145:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.188] Service 'launcher:0' registered on localhost:59824
+[10155:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.197] Service 'license_manager' registered on localhost:60628
+[10158:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.197] Service 'lock_manager' registered on localhost:37318
+[10156:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.202] Service 'cluster' registered on localhost:33708
+[10157:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.203] Service 'hdb' registered on localhost:37593
+[10166:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.932] Service 'memory_manager' registered on localhost:60657
+[10167:2024-07-19 16:12:58.178] [2024-07-19 16:12:52.933] Service 'cleanup' registered on localhost:46336
+[10186:2024-07-19 16:12:58.178] [2024-07-19 16:12:55.908] Per-host service 'worker_pool' registered on localhost:37072
+[10186:2024-07-19 16:12:58.178] [2024-07-19 16:12:55.908] Per-host service 'host_stats' registered on localhost:43273
+[10161:2024-07-19 16:12:58.178] [2024-07-19 16:12:55.910] Service 'add_host' registered on localhost:39483
+[10166:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.140] Removing service 'memory_manager'
+[10161:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.160] Removing service 'add_host'
+[10145:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.176] Removing service 'launcher:0'
+[10156:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.176] Removing service 'cluster'
+[10157:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.176] Removing service 'hdb'
+[10158:2024-07-19 16:12:58.178] [2024-07-19 16:12:58.176] Removing service 'lock_manager'
+[10155:2024-07-19 16:12:58.179] [2024-07-19 16:12:58.177] Removing service 'license_manager'
+[10186:2024-07-19 16:12:58.179] [2024-07-19 16:12:58.177] Removing service 'worker_pool:localhost'
+[10186:2024-07-19 16:12:58.179] [2024-07-19 16:12:58.178] Removing service 'host_stats:localhost'
+[10146:2024-07-19 16:12:58.179] Received signal 15 (Terminated). Exiting.
+10147:M 19 Jul 2024 16:12:58.179 # User requested shutdown...
+10147:M 19 Jul 2024 16:12:58.179 * Removing the unix socket file.
+10147:M 19 Jul 2024 16:12:58.179 # Redis is now ready to exit, bye bye...

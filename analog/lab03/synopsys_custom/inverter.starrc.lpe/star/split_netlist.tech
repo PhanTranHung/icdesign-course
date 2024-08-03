@@ -1,0 +1,29 @@
+-stage_id 2
+-just_split
+-ground_tiny_fs_coupling
+-retain_non_fs_net_total_cap
+-i xout
+-skip_xtract_pp xout
+-num_cores 1
+-stitch_num_jobs 1
+-num_parts 0
+-message_suppression_limit  100
+-inter_pic_level_connections
+-xout_offset_file xout_offset
+-random_access_xout
+-local_nodeids
+-xout_nn_stitch 266
+-new_ip_handling
+-gpd_dir ../inverter.gpd
+-direct_gpd
+-output_form 8
+-is_xtor_level
+-hn_file xref.hn
+-xref_form 1
+-net_info_file netlist.netinfo
+-pin_file idx.pins
+-idx_nm_file idx.nm
+-rename_pin_ports _
+-rename_instance_ports _
+-layer_map_ext
+-layer_info layer_info

@@ -1,0 +1,31 @@
+07/19/2024 16:12:52 (icv) Licensing related command line arguments:
+
+  -lic_apex
+
+07/19/2024 16:12:52 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@192.168.10.99"
+
+07/19/2024 16:12:52 License manager initialized. (Time=0:00:00)
+07/19/2024 16:12:52 Using license file: 27020@192.168.10.99
+07/19/2024 16:12:52 (icv) Pre-Checking (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:52 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+07/19/2024 16:12:55 Requesting (ICValidator-Manager-Apex/2022.12)
+07/19/2024 16:12:55   27020@192.168.10.99: ICValidator-Manager-Apex license obtained. (Time=0:00:00)
+07/19/2024 16:12:55        ***************************************************
+       *      NOTICE: SOFTWARE EXPIRES IN 3 DAYS.        *
+       ***************************************************
+
+07/19/2024 16:12:55 
+07/19/2024 16:12:55 Obtained 1 total ICValidator-Manager-Apex license.
+07/19/2024 16:12:55 This will allow up to 4 engine processes to run.
+
+07/19/2024 16:12:55 (pydb_server) ICValidator2-GeometryEngine license is available.  (Cached)
+07/19/2024 16:12:56 (icv_engine 1) Requesting (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:56 (icv_engine 1)   27020@192.168.10.99: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+07/19/2024 16:12:56 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:56 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:56 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:56 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+07/19/2024 16:12:58 Releasing all licenses
+07/19/2024 16:12:58 License manager shutting down. (Time=0:00:00)

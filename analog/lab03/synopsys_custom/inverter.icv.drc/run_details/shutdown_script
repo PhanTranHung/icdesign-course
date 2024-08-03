@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep localhost > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 10161 
+else 
+ssh localhost kill 10161 
+ sleep 10 
+ssh localhost kill -9 10161 
+fi

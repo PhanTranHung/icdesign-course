@@ -1,0 +1,90 @@
+
+                                  PYDB_Server 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 2007 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Removing old database /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/pydb/PYDB_inverter
+Listening for connections on port 58683
+PYDB_Server Started on host localhost, Fri 07/19/2024 16:15:53
+Verified current licenses.
+Creating file:/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/pydb/PYDB_inverter?nolock=1
+SQLite page_size=65536
+SQLite cache_size=62921
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client localhost(12789):19 connected (1 total client)
+Client localhost(12849):20 connected (2 total clients)
+Client localhost(12851):21 connected (3 total clients)
+Client localhost(12851):21 connection closed
+Client localhost(12851):21 disconnected (2 clients remain)
+Client localhost(12851):21 connected (3 total clients)
+Client localhost(12849):20 connection closed
+Client localhost(12849):20 disconnected (2 clients remain)
+Client localhost(12849):20 connected (3 total clients)
+Client localhost(12851):21 connection closed
+Client localhost(12851):21 disconnected (2 clients remain)
+Client localhost(12851):21 connected (3 total clients)
+Client localhost(12851):21 connection closed
+Client localhost(12851):21 disconnected (2 clients remain)
+Client localhost(12849):20 connection closed
+Client localhost(12849):20 disconnected (1 client remains)
+Generating /home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/inverter.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client localhost(12789):19
+0 clients remain connected
+Client localhost(12789):19 connection closed
+Overall server Time=0:00:09  User=0.01 Sys=0.01 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+            Version U-2022.12 for linux64 - Nov 22, 2022 cl#8149069
+
+                    Copyright (c) 2007 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 47166
+PYDB_Server Started on host localhost, Fri 07/19/2024 16:16:02
+Client localhost(11502):6 connected (1 total client)
+Verified current licenses.
+Opening file:/home/users/hungpt/icdesign/analog/lab03/synopsys_custom/inverter.icv.lvs/run_details/pydb/PYDB_inverter?nolock=1 in read-write mode
+SQLite page_size=65536
+SQLite cache_size=62921
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client localhost(11502):6
+0 clients remain connected
+Client localhost(11502):6 connection closed
+Overall server Time=0:02:06  User=0.01 Sys=0.01 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB

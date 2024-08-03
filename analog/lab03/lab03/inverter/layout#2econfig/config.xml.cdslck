@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hungpt
+HostName                       localhost.localdomain
+ProcessIdentifier              3247
+ProcessCreationTime_UTC        1721378851
+ProcessCreationTime_Readable   Fri 19 Jul 2024 03:47:31 PM +07 +07
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/users/hungpt/icdesign/analog/lab03/lab03/inverter/layout#2econfig/config.xml.cdslck
+TimeEditLocked                 Fri 19 Jul 2024 03:48:25 PM +07 +07

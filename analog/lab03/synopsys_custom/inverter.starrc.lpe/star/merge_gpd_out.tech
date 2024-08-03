@@ -1,0 +1,5 @@
+-merge_gpd_out
+-merge_gpd_instance
+-o ../inverter.spf
+-output_form 8
+-num_netlist_parts 1

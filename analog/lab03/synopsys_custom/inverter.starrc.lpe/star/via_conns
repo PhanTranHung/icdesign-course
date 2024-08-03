@@ -1,0 +1,33 @@
+V1S
+UP: metal2
+DOWN: metal1
+V2S
+UP: metal3
+DOWN: metal2
+V3S
+UP: metal4
+DOWN: metal3
+V4S
+UP: metal5
+DOWN: metal4
+V5S
+UP: metal6
+DOWN: metal5
+V6S
+UP: metal7
+DOWN: metal6
+V7S
+UP: metal8
+DOWN: metal7
+V8S
+UP: metal9
+DOWN: metal8
+V9S
+UP: metal10
+DOWN: metal9
+diffCont
+UP: metal1
+DOWN: ndiff ndiff_hv pdiff pdiff_hv subtie welltie
+polyCont
+UP: metal1
+DOWN: poly rnpoly_term

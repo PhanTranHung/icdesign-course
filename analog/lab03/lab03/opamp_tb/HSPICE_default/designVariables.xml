@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Jul 10 20:11:28 2024-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="designVariables" type="saDesignVariables">
+  <attribute value="default" name="variableSet" type="giString"/>
+  <collection name="variableSets">
+   <object version="1" name="variableSets" type="saDesignVariableSet">
+    <collection name="designVariables">
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="vinn" name="name" type="giString"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="0.5" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="vinp" name="name" type="giString"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="0.5" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="vsup" name="name" type="giString"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1.2" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="amp" name="name" type="giString"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="0.005" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="freq" name="name" type="giString"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1M" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+    </collection>
+    <attribute value="default" name="name" type="giString"/>
+   </object>
+  </collection>
+ </object>
+</file-format>
