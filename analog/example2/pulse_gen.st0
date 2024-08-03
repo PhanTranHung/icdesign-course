@@ -1,0 +1,52 @@
+****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+Input File: pulse_gen.sp
+lic:
+lic: FLEXlm: SDK_12.10
+lic: USER:   hungpt               HOSTNAME: vku-truongsa
+lic: HOSTID: 7f0100               PID:      28366
+lic: Using FLEXlm license file:
+lic: 27020@192.168.10.99
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 22-jul-2024/2023.12
+lic: 1(in_use)/20(total) FLOATING license(s) on SERVER 27020@192.168.10.99
+lic:
+
+ init: begin read circuit files, cpu clock= 1.35E-01
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/ad
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/behave
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/bjt
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/burr_brn
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/comlinear
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/dio
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/fet
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/lin_tech
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/pci
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/signet
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/ti
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/tline
+       option search = /home/tools/synopsys/hspice/T-2022.06/hspice/parts/xilinx
+       option post
+ init: end read circuit files, cpu clock= 1.39E-01 peak memory=     485 mb
+ init: begin check errors, cpu clock= 1.39E-01
+ init: end check errors, cpu clock= 1.47E-01 peak memory=     485 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.47E-01
+       establish matrix -- done, cpu clock= 1.48E-01 peak memory=     485 mb
+       re-order matrix -- done, cpu clock= 1.48E-01 peak memory=     485 mb
+ init: end setup matrix, cpu clock= 1.49E-01 peak memory=     485 mb
+ dcop: begin dcop, cpu clock= 1.49E-01
+ dcop: end dcop, cpu clock= 1.51E-01 peak memory=     485 mb tot_iter=       1
+ output: pulse_gen.tr
+ sweep: tran tran0    begin, stop_t=  1.00E-02 #sweeps=1001 cpu clock= 1.53E-01
+ tran: time= 1.0000E-03 tot_iter=      52 conv_iter=      26 cpu clock= 1.57E-01
+ tran: time= 2.0000E-03 tot_iter=     104 conv_iter=      52 cpu clock= 1.59E-01
+ tran: time= 3.0000E-03 tot_iter=     156 conv_iter=      78 cpu clock= 1.61E-01
+ tran: time= 4.0000E-03 tot_iter=     208 conv_iter=     104 cpu clock= 1.63E-01
+ tran: time= 5.0000E-03 tot_iter=     260 conv_iter=     130 cpu clock= 1.66E-01
+ tran: time= 6.0000E-03 tot_iter=     312 conv_iter=     156 cpu clock= 1.68E-01
+ tran: time= 7.0000E-03 tot_iter=     364 conv_iter=     182 cpu clock= 1.70E-01
+ tran: time= 8.0000E-03 tot_iter=     416 conv_iter=     208 cpu clock= 1.73E-01
+ tran: time= 9.0000E-03 tot_iter=     468 conv_iter=     234 cpu clock= 1.75E-01
+ tran: time= 1.0000E-02 tot_iter=     522 conv_iter=     261 cpu clock= 1.77E-01
+ sweep: tran tran0    end, cpu clock= 1.77E-01 peak memory=     485 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
