@@ -96,6 +96,7 @@ clean:
 # Set default screen
 # To list all screens
 # w -oush
+# export DISPLAY=:0
 # To get current display id, run this command in that screen 
 # echo $DISPLAY
 # To run this command (setscr), open a terminal on screen's session to keep a place in screen list.
