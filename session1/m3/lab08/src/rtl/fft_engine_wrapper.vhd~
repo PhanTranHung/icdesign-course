@@ -1,0 +1,26 @@
+--use ieee.math_complex.all;
+library work;
+use work.fft_len.all;
+use work.icpx.all;
+use work.fft_support_pkg.all;
+
+entity fft_engine_wrapper is
+  --generic (
+  --  LOG2_FFT_LEN : integer := 4);       -- Defines order of FFT
+  port (
+    -- System interface
+    rst_n     : in  std_logic;
+    clk       : in  std_logic;
+    -- Input memory interface
+    din       : in  icpx_number;        -- data input
+    valid     : out std_logic;
+    saddr     : out unsigned(LOG2_FFT_LEN-2 downto 0);
+    saddr_rev : out unsigned(LOG2_FFT_LEN-2 downto 0);
+    sout0     : out icpx_number;        -- spectrum output
+    sout1     : out icpx_number         -- spectrum output
+    );
+
+end fft_engine_wrapper;
+
+architecture fft_engine_beh of fft_engine is
+

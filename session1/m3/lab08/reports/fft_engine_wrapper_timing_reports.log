@@ -1,0 +1,134 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'fft_engine_wrapper' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fft_engine_wrapper
+Version: T-2022.03-SP1
+Date   : Sat Jun 15 22:07:49 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: fft_engine_1/butterfly_1_1/stf_d0_reg[IM][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: fft_engine_1/butterfly_1_1/sout1r_b_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fft_engine_wrapper 1000000               saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fft_engine_1/butterfly_1_1/stf_d0_reg[IM][1]/CK (SAEDRVT14_FDP_V2_1)
+                                                          0.00 #     0.00 r
+  fft_engine_1/butterfly_1_1/stf_d0_reg[IM][1]/QN (SAEDRVT14_FDP_V2_1)
+                                                          0.64       0.64 f
+  fft_engine_1/butterfly_1_1/U54/X (SAEDRVT14_INV_S_1)
+                                                          0.81       1.46 r
+  fft_engine_1/butterfly_1_1/U146/X (SAEDRVT14_INV_S_1)
+                                                          0.67       2.12 f
+  fft_engine_1/butterfly_1_1/U147/X (SAEDRVT14_INV_S_1)
+                                                          0.47       2.59 r
+  fft_engine_1/butterfly_1_1/U711/X (SAEDRVT14_OAI22_1)
+                                                          0.74       3.34 f
+  fft_engine_1/butterfly_1_1/U113/X (SAEDRVT14_BUF_1P5)
+                                                          0.66       4.00 f
+  fft_engine_1/butterfly_1_1/U9/X (SAEDRVT14_INV_S_1)     0.14       4.14 r
+  fft_engine_1/butterfly_1_1/U1155/X (SAEDRVT14_AO221_1)
+                                                          0.65       4.79 r
+  fft_engine_1/butterfly_1_1/U6/X (SAEDRVT14_BUF_3)       0.74       5.53 r
+  fft_engine_1/butterfly_1_1/U1166/X (SAEDRVT14_OAI22_1)
+                                                          0.21       5.74 f
+  fft_engine_1/butterfly_1_1/U1225/S (SAEDRVT14_ADDH_1)
+                                                          0.06       5.79 f
+  fft_engine_1/butterfly_1_1/U1224/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       5.83 f
+  fft_engine_1/butterfly_1_1/U1298/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       5.87 f
+  fft_engine_1/butterfly_1_1/U1366/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       5.92 f
+  fft_engine_1/butterfly_1_1/U1448/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       5.96 f
+  fft_engine_1/butterfly_1_1/U1525/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.00 f
+  fft_engine_1/butterfly_1_1/U1608/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.04 f
+  fft_engine_1/butterfly_1_1/U1692/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.08 f
+  fft_engine_1/butterfly_1_1/U1769/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.12 f
+  fft_engine_1/butterfly_1_1/U1850/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.16 f
+  fft_engine_1/butterfly_1_1/U1924/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.20 f
+  fft_engine_1/butterfly_1_1/U2004/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.24 f
+  fft_engine_1/butterfly_1_1/U2086/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.29 f
+  fft_engine_1/butterfly_1_1/U2163/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.33 f
+  fft_engine_1/butterfly_1_1/U2233/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.37 f
+  fft_engine_1/butterfly_1_1/U2301/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.41 f
+  fft_engine_1/butterfly_1_1/U2359/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.45 f
+  fft_engine_1/butterfly_1_1/U2413/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.49 f
+  fft_engine_1/butterfly_1_1/U2457/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.53 f
+  fft_engine_1/butterfly_1_1/U2499/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.57 f
+  fft_engine_1/butterfly_1_1/U2533/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.61 f
+  fft_engine_1/butterfly_1_1/U2550/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.66 f
+  fft_engine_1/butterfly_1_1/U2579/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.70 f
+  fft_engine_1/butterfly_1_1/U2597/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.74 f
+  fft_engine_1/butterfly_1_1/U2611/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.78 f
+  fft_engine_1/butterfly_1_1/U2622/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.82 f
+  fft_engine_1/butterfly_1_1/U2635/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.86 f
+  fft_engine_1/butterfly_1_1/U2646/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.90 f
+  fft_engine_1/butterfly_1_1/U2654/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04       6.94 f
+  fft_engine_1/butterfly_1_1/U2656/X (SAEDRVT14_EN3_1)
+                                                          0.05       6.99 r
+  fft_engine_1/butterfly_1_1/U2657/X (SAEDRVT14_MUX2_MM_1)
+                                                          0.03       7.02 r
+  fft_engine_1/butterfly_1_1/sout1r_b_reg[31]/D (SAEDRVT14_FDP_V2_1)
+                                                          0.00       7.02 r
+  data arrival time                                                  7.02
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.30       9.70
+  fft_engine_1/butterfly_1_1/sout1r_b_reg[31]/CK (SAEDRVT14_FDP_V2_1)
+                                                          0.00       9.70 r
+  library setup time                                      0.00       9.70
+  data required time                                                 9.70
+  --------------------------------------------------------------------------
+  data required time                                                 9.70
+  data arrival time                                                 -7.02
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.68
+
+
+1

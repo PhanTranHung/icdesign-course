@@ -1,0 +1,25 @@
+sout0_im_io_0
+sout0_im_io_1
+sout0_im_io_2
+sout0_im_io_3
+sout0_im_io_4
+sout0_im_io_5
+sout0_im_io_6
+sout0_im_io_7
+sout0_im_io_8
+sout0_im_io_9
+sout0_im_io_10
+sout0_im_io_11
+sout0_im_io_12
+sout0_im_io_13
+sout0_im_io_14
+sout0_im_io_15
+sout0_re_io_0 sout0_re_io_1 sout0_re_io_2 sout0_re_io_3 sout0_re_io_4 sout0_re_io_5 sout0_re_io_6 sout0_re_io_7 sout0_re_io_8 sout0_re_io_9 sout0_re_io_10 sout0_re_io_11 sout0_re_io_12 sout0_re_io_13 sout0_re_io_14 sout0_re_io_15
+
+       sout0_re_io_0 sout0_re_io_1 sout0_re_io_2 sout0_re_io_3 sout0_re_io_4 sout0_re_io_5 sout0_re_io_6 sout0_re_io_7  sout0_re_io_8 sout0_re_io_9 sout0_re_io_10 sout0_re_io_11
+
+  sout0_re_io_12 sout0_re_io_13 sout0_re_io_14 sout0_re_io_15 sout0_im_io_0 sout0_im_io_1 sout0_im_io_2 sout0_im_io_3 sout0_im_io_4 sout0_im_io_5 sout0_im_io_6 sout0_im_io_7 
+       sout0_im_io_8 sout0_im_io_9 sout0_im_io_10 sout0_im_io_11 sout0_im_io_12 sout0_im_io_13 sout0_im_io_14 sout0_im_io_15
+
+set_signal_io_constraints -constraint {{order_only} sout1_re_io_0 sout1_re_io_1 sout1_re_io_2 sout1_re_io_3 sout1_re_io_4 sout1_re_io_5 sout1_re_io_6 sout1_re_io_7 sout1_re_io_8 sout1_re_io_9 sout1_re_io_10 sout1_re_io_11 sout1_re_io_12 sout1_re_io_13 sout1_re_io_14 sout1_re_io_15 sout1_im_io_0 sout1_im_io_1 sout1_im_io_2 sout1_im_io_3 sout1_im_io_4 sout1_im_io_5 sout1_im_io_6 sout1_im_io_7 sout1_im_io_8 sout1_im_io_9 sout1_im_io_10 sout1_im_io_11 sout1_im_io_12 sout1_im_io_13 sout1_im_io_14 sout1_im_io_15} -io_guide_object {_default_io_ring1.bottom}
+

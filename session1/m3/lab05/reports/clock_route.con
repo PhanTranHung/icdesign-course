@@ -1,0 +1,57 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : i2c_master_top
+Version: U-2022.12
+Date   : Fri May 24 15:47:26 2024
+****************************************
+
+   late_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+byte_controller/bit_controller/c_state_reg[16]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                   0.13 f         0.13           0.00    -0.00   master_clk
+                                                                                          func_fast
+wb_dat_o_reg_5_/D (SAEDRVT14_FDP_V2LP_1)
+                                   0.13 f         0.13           0.00    -0.00   master_clk
+                                                                                          func_fast
+byte_controller/bit_controller/c_state_reg[9]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                   0.13 f         0.13           0.00    -0.00   master_clk
+                                                                                          func_fast
+byte_controller/bit_controller/fSDA_reg[1]/D (SAEDRVT14_FDPSBQ_1)
+                                   0.12 r         0.12           0.00    -0.00   master_clk
+                                                                                          func_fast
+
+   Mode: func Corner: fast
+   Scenario: func_fast
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: func Corner: fast
+   Scenario: func_fast
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 0
+
+
+   Mode: func Corner: fast
+   Scenario: func_fast
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 0
+1

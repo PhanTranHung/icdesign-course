@@ -1,0 +1,51 @@
+Loading db file '/home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Fri May 24 03:42:30 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+i2c_master_top         8000              saed14rvt_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+i2c_master_top                            4.432   84.692 1.27e+05   89.251 100.0
+  byte_controller (i2c_master_byte_ctrl)
+                                          2.559   55.455 8.54e+04   58.100  65.1
+    bit_controller (i2c_master_bit_ctrl)
+                                          2.335   41.837 6.37e+04   44.236  49.6
+      sub_226 (i2c_master_bit_ctrl_DW01_dec_1_DW01_dec_2)
+                                          0.314 5.73e-02 4.08e+03    0.376   0.4
+      sub_258 (i2c_master_bit_ctrl_DW01_dec_0_DW01_dec_1)
+                                       5.09e-03 7.64e-04 3.83e+03 9.68e-03   0.0
+1

@@ -1,0 +1,85 @@
+#@ # 
+#@ # Running fm_shell Version T-2022.03-SP5 for linux64 -- Oct 18, 2022
+#@ # Date:   Tue May 28 14:26:16 2024
+#@ # Run by: admin@vku-truongsa
+#@ 
+
+source /home/tools/synopsys/fm/T-2022.03-SP5/admin/setup/.synopsys_fm.setup
+#@ # -- Starting source /home/tools/synopsys/fm/T-2022.03-SP5/admin/setup/.synopsys_fm.setup
+
+#@ #
+#@ # .synopsys_fm.setup: Initialization File for Formality
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" || \
+#@      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ 
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ # -- End source /home/tools/synopsys/fm/T-2022.03-SP5/admin/setup/.synopsys_fm.setup
+
+source -echo -verbose scripts/fm_post_syn.tcl
+#@ # -- Starting source scripts/fm_post_syn.tcl
+
+#@ set_svf -append { ../syn/fft_engine.svf } 
+#@ 
+#@ read_vhdl -container r -libname work ../src/rtl/fft_len.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/icpx_pkg.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/fft_support.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/dpram_rbw_inf.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/icpxram_rbw.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/butterfly_d3.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/icpx_mul_d3.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/dpram_inf.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/fft_data_switch.vhd
+#@ read_vhdl -container r -libname work ../src/rtl/fft_engine.vhd
+#@ set_mismatch_message_filter -warn FMR_ELAB-149
+#@ set_mismatch_message_filter -warn FMR_ELAB-147
+#@ set_mismatch_message_filter -warn FMR_ELAB-153
+#@ set_mismatch_message_filter -warn FMR_ELAB-154
+#@ 
+#@ set_top r:/work/fft_engine
+#@ 
+#@ read_db -container i { /home/dkits/synopsys/SAED32nm/lib/stdcell_rvt/db_nldm/saed32rvt_tt1p05v25c.db } 
+#@ read_verilog -container i -libname WORK -01 { ../syn/results/fft_engine.mapped.v } 
+#@ set_top i:/work/fft_engine
+#@ 
+#@ match 
+#@ 
+#@ verify 
+#@ 
+#@ file mkdir results
+#@ 
+#@ save_session -replace results/fm_post_syn
+#@ 
+#@ exit

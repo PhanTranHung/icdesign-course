@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : fft_engine_wrapper
+Version: T-2022.03-SP1
+Date   : Sat Jun 15 22:07:49 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/dkits/synopsys/SAED14nm_EDK/stdcell_rvt/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+    saed14io_wb_tt0p8v25c_1p8v (File: /home/dkits/synopsys/SAED14nm_EDK/io_std/db_nldm/saed14io_wb_tt0p8v25c_1p8v.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fft_engine_wrapper     1000000           saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+fft_engine_wrapper                       69.108    0.799 6.85e+10  138.418 100.0
+  fft_engine_1/icpx_mul_1 (icpx_mul_MULT_LATENCY3_1)
+                                       4.76e-02 4.11e-02 2.25e+05 8.88e-02   0.1
+  fft_engine_1/icpx_mul_2 (icpx_mul_MULT_LATENCY3_0)
+                                       3.58e-02 3.90e-02 2.28e+05 7.50e-02   0.1
+  fft_engine_1/butterfly_1_0 (butterfly_LATENCY3_3)
+                                          0.351    0.109 6.38e+05    0.461   0.3
+  fft_engine_1/butterfly_1_1 (butterfly_LATENCY3_2)
+                                          0.468    0.120 6.21e+05    0.588   0.4
+  fft_engine_1/butterfly_1_2 (butterfly_LATENCY3_1)
+                                          0.103 6.16e-02 2.10e+05    0.165   0.1
+  fft_engine_1/butterfly_1_3 (butterfly_LATENCY3_0)
+                                       4.41e-02 4.36e-02 1.27e+05 8.78e-02   0.1
+1

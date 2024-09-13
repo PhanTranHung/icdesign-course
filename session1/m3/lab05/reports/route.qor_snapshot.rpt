@@ -1,0 +1,270 @@
+--- Snapshot Timing Progress ---
+------------------------------------------------------------------------------------------------------------------------ 
+Snapshot                   WNS       TNS      Hold  Cell Cnt      Area   Buf/Inv      Util    CPU(s)   Mem(Mb)      Host 
+------------------------------------------------------------------------------------------------------------------------ 
+place_qor_snp.ss.sum.full     1.2673    0.0000   -0.0786       680   323.498       157    0.1989        90       928 vku-truongsa 
+clock_pre_route.ss.sum.full     1.2750    0.0000   -0.0776       685   325.852       162    0.2004       137      1607 vku-truongsa 
+clock.ss.sum.full       1.2234    0.0000   -0.0038      1099   482.095       576    0.2968       289      1607 vku-truongsa 
+route.ss.sum.full       1.2321    0.0000   -0.0156      1099   482.095       576    0.2968       575      1607 vku-truongsa 
+
+
+
+***********************************************
+Report          : create_qor_snapshot (place_qor_snp)
+Design          : i2c_master_top
+Version         : U-2022.12
+Date            : Fri May 24 15:44:04 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /home/admin/icdesign/Labs/m3/lab05/pnr/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+REGIN                                       1.2673         - 
+master_clk                                  1.6443    1.7375 
+REGOUT                                      1.3627         - 
+------------------------------------------------------------------------
+Setup WNS:                                  1.2673    1.7375      1.2673 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                  -0.0786    0.0217     -0.0786 
+Hold TNS:                                  -9.4247    0.0000     -9.4247 
+Number of hold violations:                     151         0         151 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            323.498
+Cell count:                                                          680
+Buf/inv cell count:                                                  157
+Std cell utilization:                                             0.1989
+CPU(s):                                                               90
+Mem(Mb):                                                             928
+Host name:                                                  vku-truongsa
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:       151    0 
+  -0.06 ~ above  ---   73    0 
+  -0.05 ~ -0.06  ---   52    0 
+  -0.04 ~ -0.05  ---    5    0 
+  -0.03 ~ -0.04  ---    1    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (clock_pre_route)
+Design          : i2c_master_top
+Version         : U-2022.12
+Date            : Fri May 24 15:44:53 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /home/admin/icdesign/Labs/m3/lab05/pnr/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+REGIN                                       1.2750         - 
+master_clk                                  1.6397    1.7333 
+REGOUT                                      1.3502         - 
+------------------------------------------------------------------------
+Setup WNS:                                  1.2750    1.7333      1.2750 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                  -0.0776    0.0230     -0.0776 
+Hold TNS:                                  -9.2538    0.0000     -9.2538 
+Number of hold violations:                     151         0         151 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            325.852
+Cell count:                                                          685
+Buf/inv cell count:                                                  162
+Std cell utilization:                                             0.2004
+CPU(s):                                                              137
+Mem(Mb):                                                            1607
+Host name:                                                  vku-truongsa
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:       151    0 
+  -0.06 ~ above  ---   94    0 
+  -0.05 ~ -0.06  ---   48    0 
+  -0.04 ~ -0.05  ---    3    0 
+  -0.03 ~ -0.04  ---    1    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (clock)
+Design          : i2c_master_top
+Version         : U-2022.12
+Date            : Fri May 24 15:47:26 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /home/admin/icdesign/Labs/m3/lab05/pnr/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+REGIN                                       1.2234         - 
+master_clk                                  1.5576    1.6452 
+REGOUT                                      1.3257         - 
+------------------------------------------------------------------------
+Setup WNS:                                  1.2234    1.6452      1.2234 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                  -0.0038    0.0975     -0.0038 
+Hold TNS:                                  -0.0070    0.0000     -0.0070 
+Number of hold violations:                       4         0           4 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            482.095
+Cell count:                                                         1099
+Buf/inv cell count:                                                  576
+Std cell utilization:                                             0.2968
+CPU(s):                                                              289
+Mem(Mb):                                                            1607
+Host name:                                                  vku-truongsa
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         4    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    4    0 
+------------------------------------------------------------------------
+
+
+
+***********************************************
+Report          : create_qor_snapshot (route)
+Design          : i2c_master_top
+Version         : U-2022.12
+Date            : Fri May 24 15:52:10 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /home/admin/icdesign/Labs/m3/lab05/pnr/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+REGIN                                       1.2321         - 
+master_clk                                  1.5779    1.6648 
+REGOUT                                      1.3483         - 
+------------------------------------------------------------------------
+Setup WNS:                                  1.2321    1.6648      1.2321 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                  -0.0156    0.0860     -0.0156 
+Hold TNS:                                  -0.8051    0.0000     -0.8051 
+Number of hold violations:                     126         0         126 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            482.095
+Cell count:                                                         1099
+Buf/inv cell count:                                                  576
+Std cell utilization:                                             0.2968
+CPU(s):                                                              575
+Mem(Mb):                                                            1607
+Host name:                                                  vku-truongsa
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:       126    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---   15    0 
+      0 ~ -0.01  ---  111    0 
+------------------------------------------------------------------------
+Snapshot report (index) is created and can be viewed using file "/home/admin/icdesign/Labs/m3/lab05/pnr/.//index.html"
+true

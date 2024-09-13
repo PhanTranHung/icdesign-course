@@ -1,0 +1,17 @@
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+architecture_netlist:          2          0          0          0          2
+change_names        :         47          0          0          0         47
+constant            :         50          0          0          0         50
+environment         :          9          0          0          0          9
+hier_map            :         12          0          0          0         12
+mark                :         18          0          0          0         18
+multiplier          :          8          0          0          0          8
+reg_constant        :       1294        406          0          0       1700
+replace             :          4          2          0          0          6
+ungroup             :         13          0          0          0         13
+uniquify            :         10          0          0          0         10
+ununiquify          :          1          0          0          0          1
+----------------------------------------------------------------------------
+Total               :       1468        408          0          0       1876

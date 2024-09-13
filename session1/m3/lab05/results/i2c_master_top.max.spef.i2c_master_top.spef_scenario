@@ -1,0 +1,3 @@
+../results/i2c_master_top.max.spef.i2c_master_top.tlup_max_25.spef.gz for scenarios: 
+	 scenario: func_slow, corner type: late/early
+

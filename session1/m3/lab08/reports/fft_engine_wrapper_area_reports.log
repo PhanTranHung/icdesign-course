@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : area
+Design : fft_engine_wrapper
+Version: T-2022.03-SP1
+Date   : Sat Jun 15 22:07:49 2024
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/dkits/synopsys/SAED14nm_EDK/stdcell_rvt/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+    saed14io_wb_tt0p8v25c_1p8v (File: /home/dkits/synopsys/SAED14nm_EDK/io_std/db_nldm/saed14io_wb_tt0p8v25c_1p8v.db)
+
+Number of ports:                          949
+Number of nets:                         15710
+Number of cells:                        12409
+Number of combinational cells:           9750
+Number of sequential cells:              2653
+Number of macros/black boxes:               0
+Number of buf/inv:                       1496
+Number of references:                      61
+
+Combinational area:             259405.811852
+Buf/Inv area:                      303.473997
+Noncombinational area:          534924.905988
+Macro/Black Box area:                0.000000
+Net Interconnect area:           34546.725658
+
+Total cell area:                794330.717840
+Total area:                     828877.443499
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  -------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes   Design
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------
+fft_engine_wrapper                794330.7178    100.0  255648.9060  533646.6744  0.0000  fft_engine_wrapper
+fft_engine_1/butterfly_1_0          1539.7032      0.2    1245.9972     293.7060  0.0000  butterfly_LATENCY3_3
+fft_engine_1/butterfly_1_1          1507.4688      0.2    1216.6932     290.7756  0.0000  butterfly_LATENCY3_2
+fft_engine_1/butterfly_1_2           513.7524      0.1     299.1672     214.5852  0.0000  butterfly_LATENCY3_1
+fft_engine_1/butterfly_1_3           326.9616      0.0     158.9520     168.0096  0.0000  butterfly_LATENCY3_0
+fft_engine_1/icpx_mul_1              572.2716      0.1     416.6940     155.5776  0.0000  icpx_mul_MULT_LATENCY3_1
+fft_engine_1/icpx_mul_2              574.9800      0.1     419.4024     155.5776  0.0000  icpx_mul_MULT_LATENCY3_0
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------
+Total                                                   259405.8119  534924.9060  0.0000
+
+1

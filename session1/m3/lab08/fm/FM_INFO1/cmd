@@ -1,0 +1,6 @@
+/home/tools/synopsys/fm/T-2022.03-SP5/linux64/fm/bin/fm_shell_exec -r /home/tools/synopsys/fm/T-2022.03-SP5 -f scripts/fm_post_syn.tcl 
+
+Version    = T-2022.03-SP5
+Build      = T-2022.03-SP5-formality_t2022.03_sp5_rel-7850460
+Build date = Oct 18, 2022
+Run date   = Tue May 28 14:26:16 2024 +07
