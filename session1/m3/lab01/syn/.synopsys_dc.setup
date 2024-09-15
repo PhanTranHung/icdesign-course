@@ -1,0 +1,4 @@
+
+set target_library  {../ref/db_nldm/saed14rvt_tt0p8v25c.db   }
+set link_library    {* ../ref/db_nldm/saed14rvt_tt0p8v25c.db }
+

@@ -5,7 +5,7 @@ set target_library  {../ref/db_nldm/saed14rvt_tt0p8v25c.db   }
 set link_library    {* ../ref/db_nldm/saed14rvt_tt0p8v25c.db }
 
 
-# read command can also invok elaborate
+# read command can also invoke elaborate
 #read_verilog  ../src/johnson.v
 
 ## read command can be replaced with:

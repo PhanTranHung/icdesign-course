@@ -4,7 +4,7 @@
 # 500 MHz -> 2ns
 
 create_clock [get_ports clk]  -period 2  -waveform {0 1}
-set_clock_uncertainty 0.3  [get_clocks clk]
+set_clock_uncertainty 0.1  [get_clocks clk]
 
 #set_propagated_clock [get_clocks clk]
 
