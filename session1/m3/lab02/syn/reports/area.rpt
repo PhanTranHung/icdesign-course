@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Sun Sep 22 20:38:28 2024
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/dkits/synopsys/SAED14nm/stdcell_rvt/db_nldm/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                           35
+Number of nets:                           686
+Number of cells:                          666
+Number of combinational cells:            513
+Number of sequential cells:               153
+Number of macros/black boxes:               0
+Number of buf/inv:                        144
+Number of references:                      32
+
+Combinational area:                139.460399
+Buf/Inv area:                       26.728800
+Noncombinational area:             163.658405
+Macro/Black Box area:                0.000000
+Net Interconnect area:             489.083518
+
+Total cell area:                   303.118804
+Total area:                        792.202322
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+i2c_master_top                     303.1188    100.0  139.4604   163.6584  0.0000  i2c_master_top
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 139.4604   163.6584  0.0000
+
+1

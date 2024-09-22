@@ -1,0 +1,78 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Sun Sep 22 20:38:28 2024
+****************************************
+
+Operating Conditions: ss0p6v125c   Library: saed14rvt_ss0p6v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: byte_controller/bit_controller/filter_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: byte_controller/bit_controller/filter_cnt_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  i2c_master_top     8000                  saed14rvt_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  byte_controller/bit_controller/filter_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                          0.00       0.00 r
+  byte_controller/bit_controller/filter_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                          0.10       0.10 f
+  U786/X (SAEDRVT14_OR3_0P5)                              0.03       0.13 f
+  U787/X (SAEDRVT14_NR2_1)                                0.02       0.14 r
+  U788/X (SAEDRVT14_INV_0P5)                              0.01       0.15 f
+  U789/X (SAEDRVT14_NR2_1)                                0.02       0.17 r
+  U790/X (SAEDRVT14_INV_0P5)                              0.01       0.18 f
+  U791/X (SAEDRVT14_NR2_1)                                0.02       0.20 r
+  U792/X (SAEDRVT14_INV_0P5)                              0.01       0.21 f
+  U793/X (SAEDRVT14_NR2_1)                                0.02       0.22 r
+  U794/X (SAEDRVT14_INV_0P5)                              0.01       0.23 f
+  U795/X (SAEDRVT14_NR2_1)                                0.02       0.25 r
+  U796/X (SAEDRVT14_INV_0P5)                              0.01       0.26 f
+  U797/X (SAEDRVT14_NR2_1)                                0.02       0.28 r
+  U798/X (SAEDRVT14_INV_0P5)                              0.01       0.29 f
+  U799/X (SAEDRVT14_NR2_1)                                0.02       0.30 r
+  U800/X (SAEDRVT14_INV_0P5)                              0.01       0.31 f
+  U801/X (SAEDRVT14_NR2_1)                                0.02       0.33 r
+  U802/X (SAEDRVT14_INV_0P5)                              0.01       0.34 f
+  U803/X (SAEDRVT14_NR2_1)                                0.02       0.36 r
+  U804/X (SAEDRVT14_INV_0P5)                              0.01       0.37 f
+  U805/X (SAEDRVT14_NR2_1)                                0.02       0.38 r
+  U806/X (SAEDRVT14_INV_0P5)                              0.01       0.40 f
+  U807/X (SAEDRVT14_OR2_MM_0P5)                           0.02       0.41 f
+  U808/X (SAEDRVT14_NR2_1)                                0.02       0.44 r
+  U819/X (SAEDRVT14_ND2_CDC_1)                            0.04       0.47 f
+  U845/X (SAEDRVT14_OAI22_0P5)                            0.03       0.50 r
+  byte_controller/bit_controller/filter_cnt_reg[0]/D (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                          0.01       0.51 r
+  data arrival time                                                  0.51
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.30       1.70
+  byte_controller/bit_controller/filter_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)
+                                                          0.00       1.70 r
+  library setup time                                      0.02       1.72
+  data required time                                                 1.72
+  --------------------------------------------------------------------------
+  data required time                                                 1.72
+  data arrival time                                                 -0.51
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.21
+
+
+1
