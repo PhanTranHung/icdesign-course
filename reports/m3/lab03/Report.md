@@ -481,7 +481,7 @@ Explain the concepts:
 
 - Floating terminals indicate that there are pins or terminals that are not connected to the respective power or ground nets. This can affect the overall functionality of the design, especially if these terminals are meant to connect to external power or ground sources.
 
-**Issues:** Both VDD and VSS have a considerable number of floating wires and vias, indicating that there are connections that are not properly tied to the power or ground nets.
+**Issues:** Both VDD and VSS have a considerable number of floating wires and vias, indicating that there are connections that are not properly tied to the power or ground nets. I don't known the way to fix it for now.
 
 1. Question 1:
 
