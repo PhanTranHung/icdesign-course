@@ -1,0 +1,61 @@
+***********************************************
+Report          : create_qor_snapshot (clock_pre_route)
+Design          : i2c_master_top
+Version         : U-2022.12
+Date            : Tue Oct  8 10:54:48 2024
+Time unit       : 1.00ns
+Resistance unit : 1.00MOhm
+Capacitance unit: 1.00fF
+Voltage unit    : 1.00V
+Current unit    : 1.00uA
+Power unit      : 1.00pW
+Location        : /home/users/hungpt/icdesign/session1/m3/lab04/pnr/./
+***********************************************
+No. of scenario = 2
+s1 = func_fast
+s2 = func_slow
+------------------------------------------------------------------------
+WNS of each timing group:                       s1        s2 
+------------------------------------------------------------------------
+wb_clk_i                                    1.4486    1.4427 
+------------------------------------------------------------------------
+Setup WNS:                                  1.4486    1.4427      1.4427 
+Setup TNS:                                  0.0000    0.0000      0.0000
+Number of setup violations:                      0         0           0 
+Hold WNS:                                   0.0235    0.0229      0.0229 
+Hold TNS:                                   0.0000    0.0000      0.0000 
+Number of hold violations:                       0         0           0 
+Number of max trans violations:                  0         0           0 
+Number of max cap violations:                    0         0           0 
+Number of min pulse width violations:            0         0           0 
+------------------------------------------------------------------------
+Area:                                                            319.902
+Cell count:                                                          693
+Buf/inv cell count:                                                  145
+Std cell utilization:                                             0.1977
+CPU(s):                                                             8012
+Mem(Mb):                                                            1810
+Host name:                                                  vku-truongsa
+------------------------------------------------------------------------
+Histogram:             s1   s2 
+------------------------------------------------------------------------
+Max violations:         0    0 
+   above ~ -0.7  ---    0    0 
+    -0.6 ~ -0.7  ---    0    0 
+    -0.5 ~ -0.6  ---    0    0 
+    -0.4 ~ -0.5  ---    0    0 
+    -0.3 ~ -0.4  ---    0    0 
+    -0.2 ~ -0.3  ---    0    0 
+    -0.1 ~ -0.2  ---    0    0 
+       0 ~ -0.1  ---    0    0 
+------------------------------------------------------------------------
+Min violations:         0    0 
+  -0.06 ~ above  ---    0    0 
+  -0.05 ~ -0.06  ---    0    0 
+  -0.04 ~ -0.05  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    0    0 
+  -0.01 ~ -0.02  ---    0    0 
+      0 ~ -0.01  ---    0    0 
+------------------------------------------------------------------------
+Snapshot report (index) is created and can be viewed using file "/home/users/hungpt/icdesign/session1/m3/lab04/pnr/.//index.html"
