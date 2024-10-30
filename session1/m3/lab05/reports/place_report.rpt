@@ -41,7 +41,7 @@ Information: The following app options are used in cellmap
         cts.placement.cell_spacing_rule_style : maximum
 Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
 Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
-Total 0.4800 seconds to build cellmap data
+Total 0.4300 seconds to build cellmap data
 Information: Creating classic rule checker.
 Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
 Warning: Routing direction of metal layer M8 is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)

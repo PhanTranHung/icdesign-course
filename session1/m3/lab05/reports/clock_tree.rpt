@@ -4,8 +4,8 @@ Information: The value of option cts.compile.enable_cell_relocation has been ove
 Report : clock qor
         -type summary
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:47:22 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:20:44 2024
 ****************************************
 
 Attributes
@@ -21,15 +21,15 @@ D Default Skew Group
 ==== Summary Reporting for Corner fast ====
 ===========================================
 
-============================================================ Summary Table for Corner fast =============================================================
+======================================================= Summary Table for Corner fast ========================================================
 Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
 Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
                                                                 Count      Area      Area
---------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 ### Mode: func, Scenario: func_fast
-master_clk                              M,D       153      3        5      1.64      1.64      0.02      0.00         0         0    376.90
---------------------------------------------------------------------------------------------------------------------------------------------------------
-All Clocks                                        153      3        5      1.64      1.64      0.02      0.00         0         0    376.90
+master_clk                              M,D       153      2        4      1.95      1.95      0.02      0.00         0         0    379.90
+----------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        153      2        4      1.95      1.95      0.02      0.00         0         0    379.90
 
 
 Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
@@ -37,15 +37,15 @@ Warning: Please use -largest / -smallest / -all switches with -show_verbose_path
 ==== Summary Reporting for Corner slow ====
 ===========================================
 
-============================================================ Summary Table for Corner slow =============================================================
+======================================================= Summary Table for Corner slow ========================================================
 Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
 Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
                                                                 Count      Area      Area
---------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 ### Mode: func, Scenario: func_slow
-master_clk                              M,D       153      3        5      1.64      1.64      0.02      0.00         0         0    376.90
---------------------------------------------------------------------------------------------------------------------------------------------------------
-All Clocks                                        153      3        5      1.64      1.64      0.02      0.00         0         0    376.90
+master_clk                              M,D       153      2        4      1.95      1.95      0.02      0.00         0         0    379.90
+----------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        153      2        4      1.95      1.95      0.02      0.00         0         0    379.90
 
 
 Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)

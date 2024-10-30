@@ -9,8 +9,8 @@ Report : timing
         -transition_time
         -capacitance
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:44:53 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:18:59 2024
 ****************************************
 
   Startpoint: wb_adr_i[1] (input port clocked by master_clk)
@@ -24,25 +24,25 @@ Date   : Fri May 24 15:44:53 2024
   Point                                          Fanout    Cap      Trans      Incr      Path  
   ----------------------------------------------------------------------------------------------------
   clock master_clk (rise edge)                                                 0.00      0.00
-  clock network delay (propagated)                                             0.01      0.01
-  input external delay                                                         0.50      0.51 r
-  wb_adr_i[1] (in)                                                   0.00      0.00      0.51 r
-  wb_adr_i[1] (net)                                 4      5.30
-  U212/A (SAEDRVT14_INV_S_1)                                         0.00      0.00      0.51 r
+  clock network delay (propagated)                                             0.02      0.02
+  input external delay                                                         0.50      0.52 r
+  wb_adr_i[1] (in)                                                   0.00      0.00      0.52 r
+  wb_adr_i[1] (net)                                 4      5.31
+  U212/A (SAEDRVT14_INV_S_1)                                         0.00      0.00      0.52 r
   U212/X (SAEDRVT14_INV_S_1)                                         0.01      0.00      0.52 f
-  n166 (net)                                        4      2.06
+  n166 (net)                                        4      2.02
   U211/A3 (SAEDRVT14_OR3_1)                                          0.01      0.00      0.52 f
   U211/X (SAEDRVT14_OR3_1)                                           0.02      0.03      0.55 f
-  n64 (net)                                         9      6.00
+  n64 (net)                                         9      5.83
   U168/A2 (SAEDRVT14_OAI21_1)                                        0.02      0.00      0.55 f
   U168/X (SAEDRVT14_OAI21_1)                                         0.04      0.03      0.58 r
-  n62 (net)                                         9      5.94
+  n62 (net)                                         9      5.81
   U169/A2 (SAEDRVT14_ND2_CDC_1)                                      0.04      0.00      0.58 r
   U169/X (SAEDRVT14_ND2_CDC_1)                                       0.03      0.04      0.62 f
-  n63 (net)                                         8      5.85
+  n63 (net)                                         8      5.74
   U174/B2 (SAEDRVT14_OAI22_1)                                        0.03      0.00      0.62 f
   U174/X (SAEDRVT14_OAI22_1)                                         0.01      0.02      0.64 r
-  n120 (net)                                        1      0.62
+  n120 (net)                                        1      0.55
   ctr_reg_4_/D (SAEDRVT14_FDPRBQ_V2LP_1)                             0.01      0.00      0.64 r
   data arrival time                                                                      0.64
 

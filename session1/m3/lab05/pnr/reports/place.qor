@@ -1,31 +1,31 @@
 ****************************************
 Report : qor
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:47:26 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:18:16 2024
 ****************************************
 
 
 Scenario           'func_fast'
 Timing Path Group  'master_clk'
 ----------------------------------------
-Levels of Logic:                     11
-Critical Path Length:              0.34
-Critical Path Slack:               1.56
+Levels of Logic:                     16
+Critical Path Length:              0.24
+Critical Path Slack:               1.65
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
-Worst Hold Violation:             -0.00
-Total Hold Violation:             -0.01
-No. of Hold Violations:               4
+Worst Hold Violation:             -0.08
+Total Hold Violation:             -9.74
+No. of Hold Violations:             151
 ----------------------------------------
 
 Scenario           'func_fast'
 Timing Path Group  'REGOUT'
 ----------------------------------------
-Levels of Logic:                      1
-Critical Path Length:              0.07
-Critical Path Slack:               1.33
+Levels of Logic:                      0
+Critical Path Length:              0.03
+Critical Path Slack:               1.37
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -38,8 +38,8 @@ Scenario           'func_fast'
 Timing Path Group  'REGIN'
 ----------------------------------------
 Levels of Logic:                      5
-Critical Path Length:              0.68
-Critical Path Slack:               1.22
+Critical Path Length:              0.62
+Critical Path Slack:               1.26
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -51,9 +51,9 @@ No. of Hold Violations:               0
 Scenario           'func_slow'
 Timing Path Group  'master_clk'
 ----------------------------------------
-Levels of Logic:                     11
-Critical Path Length:              0.35
-Critical Path Slack:               1.65
+Levels of Logic:                     16
+Critical Path Length:              0.25
+Critical Path Slack:               1.75
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -66,13 +66,13 @@ No. of Hold Violations:               0
 Cell Count
 ----------------------------------------
 Hierarchical Cell Count:              4
-Hierarchical Port Count:            164
-Leaf Cell Count:                   1099
-Buf/Inv Cell Count:                 576
-Buf Cell Count:                     418
-Inv Cell Count:                     158
+Hierarchical Port Count:            160
+Leaf Cell Count:                    681
+Buf/Inv Cell Count:                 157
+Buf Cell Count:                       4
+Inv Cell Count:                     153
 CT Buf/Inv Cell Count:                0
-Combinational Cell Count:           946
+Combinational Cell Count:           528
    Single-bit Isolation Cell Count:                        0
    Multi-bit Isolation Cell Count:                         0
    Isolation Cell Banking Ratio:                           0.00%
@@ -95,24 +95,24 @@ Macro Count:                          0
 
 Area
 ----------------------------------------
-Combinational Area:              318.66
-Noncombinational Area:           163.44
-Buf/Inv Area:                    182.93
-Total Buffer Area:               151.45
-Total Inverter Area:              31.48
+Combinational Area:              160.55
+Noncombinational Area:           163.53
+Buf/Inv Area:                     28.37
+Total Buffer Area:                 1.20
+Total Inverter Area:              27.17
 Macro/Black Box Area:              0.00
 Net Area:                             0
-Net XLength:                    3151.31
-Net YLength:                    3438.95
+Net XLength:                    1952.31
+Net YLength:                    2167.99
 ----------------------------------------
-Cell Area (netlist):                            482.10
-Cell Area (netlist and physical only):          482.10
-Net Length:                     6590.26
+Cell Area (netlist):                            324.08
+Cell Area (netlist and physical only):          324.08
+Net Length:                     4120.29
 
 
 Design Rules
 ----------------------------------------
-Total Number of Nets:              1122
+Total Number of Nets:               702
 Nets with Violations:                 0
 Max Trans Violations:                 0
 Max Cap Violations:                   0

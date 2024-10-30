@@ -1,8 +1,8 @@
 ****************************************
 Report : qor
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:44:53 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:18:59 2024
 ****************************************
 
 
@@ -10,13 +10,13 @@ Scenario           'func_fast'
 Timing Path Group  'master_clk'
 ----------------------------------------
 Levels of Logic:                     16
-Critical Path Length:              0.26
+Critical Path Length:              0.25
 Critical Path Slack:               1.64
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
 Worst Hold Violation:             -0.08
-Total Hold Violation:             -9.25
+Total Hold Violation:             -9.36
 No. of Hold Violations:             151
 ----------------------------------------
 
@@ -25,7 +25,7 @@ Timing Path Group  'REGOUT'
 ----------------------------------------
 Levels of Logic:                      0
 Critical Path Length:              0.04
-Critical Path Slack:               1.35
+Critical Path Slack:               1.36
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -53,7 +53,7 @@ Timing Path Group  'master_clk'
 ----------------------------------------
 Levels of Logic:                     16
 Critical Path Length:              0.26
-Critical Path Slack:               1.73
+Critical Path Slack:               1.74
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -66,11 +66,11 @@ No. of Hold Violations:               0
 Cell Count
 ----------------------------------------
 Hierarchical Cell Count:              4
-Hierarchical Port Count:            164
+Hierarchical Port Count:            165
 Leaf Cell Count:                    685
-Buf/Inv Cell Count:                 162
-Buf Cell Count:                       4
-Inv Cell Count:                     158
+Buf/Inv Cell Count:                 161
+Buf Cell Count:                       8
+Inv Cell Count:                     153
 CT Buf/Inv Cell Count:                0
 Combinational Cell Count:           532
    Single-bit Isolation Cell Count:                        0
@@ -95,19 +95,19 @@ Macro Count:                          0
 
 Area
 ----------------------------------------
-Combinational Area:              162.42
-Noncombinational Area:           163.44
-Buf/Inv Area:                     30.64
-Total Buffer Area:                 1.11
-Total Inverter Area:              29.53
+Combinational Area:              162.55
+Noncombinational Area:           163.53
+Buf/Inv Area:                     30.37
+Total Buffer Area:                 3.20
+Total Inverter Area:              27.17
 Macro/Black Box Area:              0.00
 Net Area:                             0
-Net XLength:                    2105.59
-Net YLength:                    2312.12
+Net XLength:                    2170.78
+Net YLength:                    2341.75
 ----------------------------------------
-Cell Area (netlist):                            325.85
-Cell Area (netlist and physical only):          325.85
-Net Length:                     4417.71
+Cell Area (netlist):                            326.07
+Cell Area (netlist and physical only):          326.07
+Net Length:                     4512.53
 
 
 Design Rules

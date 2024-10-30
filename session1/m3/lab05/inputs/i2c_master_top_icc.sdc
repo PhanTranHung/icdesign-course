@@ -7,13 +7,10 @@ set_clock_transition -rise 0.02 [get_clocks master_clk]
 set_clock_transition -fall 0.02 [get_clocks master_clk]
 
 
-set ports_clock_root [filter_collection \
-	[get_attribute [get_clocks] sources] object_class==port]
+set ports_clock_root [filter_collection [get_attribute [get_clocks] sources] object_class==port]
 group_path -name REGOUT -to [all_outputs]
-group_path -name REGIN -from [remove_from_collection \
-	[all_inputs] ${ports_clock_root}]
-group_path -name FEEDTHROUGH -from [remove_from_collection \
-	[all_inputs] ${ports_clock_root}] -to [all_outputs]
+group_path -name REGIN -from [remove_from_collection [all_inputs] ${ports_clock_root}]
+group_path -name FEEDTHROUGH -from [remove_from_collection [all_inputs] ${ports_clock_root}] -to [all_outputs]
 
 set_false_path -from [list [get_ports wb_rst_i]]
 
@@ -27,6 +24,4 @@ set_driving_cell -lib_cell SAEDRVT14_FDPRBQ_V2_0P5 -pin Q [get_ports wb_rst_i]
 set_load -pin_load 0.0004 [all_outputs]
 
 set_max_transition 0.5 [current_design]
-
-
 

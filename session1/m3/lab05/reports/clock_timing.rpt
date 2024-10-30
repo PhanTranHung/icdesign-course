@@ -4,8 +4,8 @@ Report : clock timing
         -nworst 1
         -setup
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:47:22 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:20:44 2024
 ****************************************
 
   Mode: func
@@ -13,8 +13,8 @@ Date   : Fri May 24 15:47:22 2024
 
   Clock Pin                                          Latency      Skew             Corner
 ---------------------------------------------------------------------------------------------------
-  prer_reg_1_/CK                                        0.02              rp-+       slow
-  wb_dat_o_reg_1_/CK                                    0.02      0.00    rp-+       slow
+  prer_reg_2_/CK                                        0.02              rp-+       slow
+  byte_controller/bit_controller/cnt_reg[2]/CK          0.02      0.00    rp-+       slow
 
 ---------------------------------------------------------------------------------------------------
 1

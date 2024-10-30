@@ -1,15 +1,15 @@
 ***********************************************
 Report          : create_qor_snapshot (clock_pre_route)
 Design          : i2c_master_top
-Version         : U-2022.12
-Date            : Fri May 24 15:44:53 2024
+Version         : T-2022.03-SP1
+Date            : Fri Oct 18 15:18:59 2024
 Time unit       : 1.00ns
 Resistance unit : 1.00MOhm
 Capacitance unit: 1.00fF
 Voltage unit    : 1.00V
 Current unit    : 1.00uA
 Power unit      : 1.00pW
-Location        : /home/admin/icdesign/Labs/m3/lab05/pnr/./
+Location        : /home/users/hungpt/icdesign/session1/m3/lab05/pnr/./
 ***********************************************
 No. of scenario = 2
 s1 = func_fast
@@ -17,26 +17,26 @@ s2 = func_slow
 ------------------------------------------------------------------------
 WNS of each timing group:                       s1        s2 
 ------------------------------------------------------------------------
-REGIN                                       1.2750         - 
-master_clk                                  1.6397    1.7333 
-REGOUT                                      1.3502         - 
+REGIN                                       1.2708         - 
+master_clk                                  1.6447    1.7385 
+REGOUT                                      1.3572         - 
 ------------------------------------------------------------------------
-Setup WNS:                                  1.2750    1.7333      1.2750 
+Setup WNS:                                  1.2708    1.7385      1.2708 
 Setup TNS:                                  0.0000    0.0000      0.0000
 Number of setup violations:                      0         0           0 
-Hold WNS:                                  -0.0776    0.0230     -0.0776 
-Hold TNS:                                  -9.2538    0.0000     -9.2538 
+Hold WNS:                                  -0.0780    0.0225     -0.0780 
+Hold TNS:                                  -9.3588    0.0000     -9.3588 
 Number of hold violations:                     151         0         151 
 Number of max trans violations:                  0         0           0 
 Number of max cap violations:                    0         0           0 
 Number of min pulse width violations:            0         0           0 
 ------------------------------------------------------------------------
-Area:                                                            325.852
+Area:                                                            326.074
 Cell count:                                                          685
-Buf/inv cell count:                                                  162
-Std cell utilization:                                             0.2004
-CPU(s):                                                              137
-Mem(Mb):                                                            1607
+Buf/inv cell count:                                                  161
+Std cell utilization:                                             0.2005
+CPU(s):                                                              133
+Mem(Mb):                                                            1402
 Host name:                                                  vku-truongsa
 ------------------------------------------------------------------------
 Histogram:             s1   s2 
@@ -52,12 +52,12 @@ Max violations:         0    0
        0 ~ -0.1  ---    0    0 
 ------------------------------------------------------------------------
 Min violations:       151    0 
-  -0.06 ~ above  ---   94    0 
-  -0.05 ~ -0.06  ---   48    0 
+  -0.06 ~ above  ---  104    0 
+  -0.05 ~ -0.06  ---   38    0 
   -0.04 ~ -0.05  ---    3    0 
-  -0.03 ~ -0.04  ---    1    0 
-  -0.02 ~ -0.03  ---    0    0 
+  -0.03 ~ -0.04  ---    0    0 
+  -0.02 ~ -0.03  ---    1    0 
   -0.01 ~ -0.02  ---    0    0 
       0 ~ -0.01  ---    0    0 
 ------------------------------------------------------------------------
-Snapshot report (index) is created and can be viewed using file "/home/admin/icdesign/Labs/m3/lab05/pnr/.//index.html"
+Snapshot report (index) is created and can be viewed using file "/home/users/hungpt/icdesign/session1/m3/lab05/pnr/.//index.html"

@@ -1,0 +1,42 @@
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Building multi voltage information for entire design. (MV-022)
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : i2c_master_top
+Version: U-2022.12-SP2
+Date   : Wed Oct 30 17:52:56 2024
+****************************************
+
+
+
+
+   min_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   wb_dat_o_reg_0_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_1_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_2_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_3_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_4_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_5_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_6_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_7_/QN         0.1500         0.0000        -0.1500  (VIOLATED)
+   wb_dat_o_reg_0_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_1_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_2_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_3_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_4_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_5_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_6_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_dat_o_reg_7_/Q          0.1500         0.0047        -0.1453  (VIOLATED)
+   wb_inta_o_reg/Q            0.1500         0.0047        -0.1453  (VIOLATED)
+
+
+1

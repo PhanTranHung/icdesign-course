@@ -3,7 +3,7 @@
 Report : qor
 Design : i2c_master_top
 Version: T-2022.03-SP1
-Date   : Fri May 24 03:42:26 2024
+Date   : Fri Oct 18 09:46:23 2024
 ****************************************
 
 
@@ -41,9 +41,9 @@ Date   : Fri May 24 03:42:26 2024
   Critical Path Clk Period:      2.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
-  Worst Hold Violation:         -0.07
-  Total Hold Violation:         -7.00
-  No. of Hold Violations:      151.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
   -----------------------------------
 
 
@@ -89,19 +89,19 @@ Date   : Fri May 24 03:42:26 2024
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.68
-  Logic Optimization:                  5.93
-  Mapping Optimization:                0.63
+  Resource Sharing:                    0.54
+  Logic Optimization:                  4.98
+  Mapping Optimization:                0.68
   -----------------------------------------
-  Overall Compile Time:               15.12
-  Overall Compile Wall Clock Time:    16.74
+  Overall Compile Time:               12.96
+  Overall Compile Wall Clock Time:    14.22
 
   --------------------------------------------------------------------
 
   Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
 
 
-  Design (Hold)  WNS: 0.07  TNS: 7.00  Number of Violating Paths: 151
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
 
   --------------------------------------------------------------------
 

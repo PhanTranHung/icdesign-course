@@ -9,12 +9,12 @@ Report : timing
         -transition_time
         -capacitance
 Design : i2c_master_top
-Version: U-2022.12
-Date   : Fri May 24 15:47:26 2024
+Version: T-2022.03-SP1
+Date   : Fri Oct 18 15:20:47 2024
 ****************************************
 
-  Startpoint: wb_adr_i[0] (input port clocked by master_clk)
-  Endpoint: prer_reg_9_ (rising edge-triggered flip-flop clocked by master_clk)
+  Startpoint: wb_adr_i[1] (input port clocked by master_clk)
+  Endpoint: ctr_reg_5_ (rising edge-triggered flip-flop clocked by master_clk)
   Mode: func
   Corner: fast
   Scenario: func_fast
@@ -24,36 +24,36 @@ Date   : Fri May 24 15:47:26 2024
   Point                                          Fanout    Cap      Trans      Incr      Path  
   ----------------------------------------------------------------------------------------------------
   clock master_clk (rise edge)                                                 0.00      0.00
-  clock network delay (propagated)                                             0.01      0.01
-  input external delay                                                         0.50      0.51 r
-  wb_adr_i[0] (in)                                                   0.00      0.00      0.51 r
-  wb_adr_i[0] (net)                                 4      7.29
-  U213/A (SAEDRVT14_INV_S_1)                                         0.00      0.00      0.51 r
-  U213/X (SAEDRVT14_INV_S_1)                                         0.01      0.01      0.52 f
-  n167 (net)                                        4      2.86
-  U248/A3 (SAEDRVT14_OR3_1)                                          0.01      0.00      0.52 f
-  U248/X (SAEDRVT14_OR3_1)                                           0.02      0.03      0.55 f
-  n68 (net)                                         9      7.90
-  U204/A1 (SAEDRVT14_NR2_1)                                          0.02      0.00      0.55 f
-  U204/X (SAEDRVT14_NR2_1)                                           0.06      0.06      0.61 r
-  n67 (net)                                         9      8.53
-  U165/A (SAEDRVT14_INV_S_1)                                         0.06      0.00      0.61 r
-  U165/X (SAEDRVT14_INV_S_1)                                         0.03      0.05      0.65 f
-  n161 (net)                                        8      8.48
-  U241/B2 (SAEDRVT14_AO221_1)                                        0.03      0.00      0.65 f
-  U241/X (SAEDRVT14_AO221_1)                                         0.01      0.04      0.69 f
-  n133 (net)                                        1      1.85
-  prer_reg_9_/D (SAEDRVT14_FDPSBQ_1)                                 0.01      0.00      0.69 f
+  clock network delay (propagated)                                             0.02      0.02
+  input external delay                                                         0.50      0.52 r
+  wb_adr_i[1] (in)                                                   0.00      0.00      0.52 r
+  wb_adr_i[1] (net)                                 4      7.00
+  U212/A (SAEDRVT14_INV_S_1)                                         0.00      0.00      0.52 r
+  U212/X (SAEDRVT14_INV_S_1)                                         0.01      0.01      0.53 f
+  n166 (net)                                        4      2.51
+  U211/A3 (SAEDRVT14_OR3_1)                                          0.01      0.00      0.53 f
+  U211/X (SAEDRVT14_OR3_1)                                           0.02      0.03      0.56 f
+  n64 (net)                                         9      7.49
+  U168/A2 (SAEDRVT14_OAI21_1)                                        0.02      0.00      0.56 f
+  U168/X (SAEDRVT14_OAI21_1)                                         0.06      0.04      0.60 r
+  n62 (net)                                         9      9.60
+  U169/A2 (SAEDRVT14_ND2_CDC_1)                                      0.06      0.00      0.60 r
+  U169/X (SAEDRVT14_ND2_CDC_1)                                       0.05      0.06      0.66 f
+  n63 (net)                                         8      9.50
+  U175/B2 (SAEDRVT14_OAI22_1)                                        0.05      0.00      0.66 f
+  U175/X (SAEDRVT14_OAI22_1)                                         0.02      0.02      0.69 r
+  n121 (net)                                        1      0.76
+  ctr_reg_5_/D (SAEDRVT14_FDPRBQ_V2LP_1)                             0.02      0.00      0.69 r
   data arrival time                                                                      0.69
 
   clock master_clk (rise edge)                                                 2.00      2.00
   clock network delay (propagated)                                             0.02      2.02
-  prer_reg_9_/CK (SAEDRVT14_FDPSBQ_1)                                0.02      0.00      2.02 r
+  ctr_reg_5_/CK (SAEDRVT14_FDPRBQ_V2LP_1)                            0.02      0.00      2.02 r
   clock uncertainty                                                           -0.10      1.92
-  library setup time                                                          -0.01      1.92
-  data required time                                                                     1.92
+  library setup time                                                          -0.01      1.90
+  data required time                                                                     1.90
   ----------------------------------------------------------------------------------------------------
-  data required time                                                                     1.92
+  data required time                                                                     1.90
   data arrival time                                                                     -0.69
   ----------------------------------------------------------------------------------------------------
   slack (MET)                                                                            1.22
