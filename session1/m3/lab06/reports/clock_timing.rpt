@@ -1,0 +1,20 @@
+****************************************
+Report : clock timing
+        -type skew
+        -nworst 1
+        -setup
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Fri Nov  1 11:08:57 2024
+****************************************
+
+  Mode: func
+  Clock: master_clk
+
+  Clock Pin                                          Latency      Skew             Corner
+---------------------------------------------------------------------------------------------------
+  prer_reg_2_/CK                                        0.02              rp-+       slow
+  byte_controller/bit_controller/cnt_reg[2]/CK          0.02      0.00    rp-+       slow
+
+---------------------------------------------------------------------------------------------------
+1

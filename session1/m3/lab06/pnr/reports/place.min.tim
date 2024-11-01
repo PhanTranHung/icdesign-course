@@ -1,0 +1,54 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+        -input_pins
+        -nets
+        -transition_time
+        -capacitance
+Design : i2c_master_top
+Version: T-2022.03-SP1
+Date   : Fri Nov  1 11:06:03 2024
+****************************************
+
+  Startpoint: byte_controller/bit_controller/dout_reg (rising edge-triggered flip-flop clocked by master_clk)
+  Endpoint: byte_controller/bit_controller/dout_reg (rising edge-triggered flip-flop clocked by master_clk)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: master_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock master_clk (rise edge)                                                 0.00      0.00
+  clock network delay (ideal)                                                  0.50      0.50
+
+  byte_controller/bit_controller/dout_reg/CK (SAEDRVT14_FDP_V2LP_1)
+                                                                     0.00      0.00      0.50 r
+  byte_controller/bit_controller/dout_reg/QN (SAEDRVT14_FDP_V2LP_1)
+                                                                     0.00      0.02      0.52 r
+  byte_controller/bit_controller/n151 (net)         1      0.62
+  byte_controller/bit_controller/U209/A1 (SAEDRVT14_OAI22_1)         0.00      0.00      0.52 r
+  byte_controller/bit_controller/U209/X (SAEDRVT14_OAI22_1)          0.00      0.00      0.52 f
+  byte_controller/bit_controller/n152 (net)         1      0.40
+  byte_controller/bit_controller/dout_reg/D (SAEDRVT14_FDP_V2LP_1)   0.00      0.00      0.52 f
+  data arrival time                                                                      0.52
+
+  clock master_clk (rise edge)                                                 0.00      0.00
+  clock network delay (ideal)                                                  0.50      0.50
+  byte_controller/bit_controller/dout_reg/CK (SAEDRVT14_FDP_V2LP_1)
+                                                                     0.00      0.00      0.50 r
+  clock uncertainty                                                            0.10      0.60
+  library hold time                                                           -0.00      0.60
+  data required time                                                                     0.60
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.60
+  data arrival time                                                                     -0.52
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.08
+
+
+1
